@@ -4,7 +4,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 from matplotlib.colors import TwoSlopeNorm
+from matplotlib import rcParams
 import random
+
+
+# Set global Matplotlib parameters
+rcParams['pdf.fonttype'] = 42  # Ensure TrueType fonts are embedded
+rcParams['ps.fonttype'] = 42
+rcParams['font.family'] = 'arial'  # Use serif fonts like Times New Roman or Palatino
+rcParams['font.size'] = 10
+rcParams['axes.labelsize'] = 10
+rcParams['legend.fontsize'] = 9
+rcParams['xtick.labelsize'] = 9
+rcParams['ytick.labelsize'] = 9
+rcParams['axes.titlesize'] = 12
 
 
 def plot_multilca_impacts(df, colors=None, save_path=None):
@@ -412,9 +425,9 @@ def heatmap_db_comparison(df1, df2, title=None, save_path=None):
 
 
 def pie_charts_technosphere_contribution(df, activity_col='Activity', method_col='LCIA Method',
-                                           flow_name_col='Flow Name', location_col='Flow Location',
-                                           value_col='Absolute Contribution', legend_size=10,
-                                           percentage_threshold=5, save_path=None):
+                                         flow_name_col='Flow Name', location_col='Flow Location',
+                                         value_col='Absolute Contribution', legend_size=10,
+                                         percentage_threshold=5, save_path=None):
     """
     Generate interactive pie charts for each combination of activity and LCIA method.
     Contributions < percentage_threshold% are aggregated into an 'Other' category.
@@ -478,10 +491,13 @@ def pie_charts_technosphere_contribution(df, activity_col='Activity', method_col
             fig.update_layout(
                 legend=dict(font=dict(size=legend_size)),
                 title=dict(font=dict(size=14)),
+                font=dict(family="Arial", size=12, color="black"),
+                paper_bgcolor="white",
+                plot_bgcolor="white"
             )
 
             # Show plot
-            fig.show()
+            #fig.show()
 
             # Save as HTML if a path is provided
             if save_path:

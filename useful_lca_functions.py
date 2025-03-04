@@ -28,6 +28,60 @@ def search_activity(database_name, activity_name, ref_product, location):
             f"No match found in {database_name} for activity '{activity_name}', product '{ref_product}', location '{location}'")
 
 
+def filter_ecoinvent_activities(databases_to_include, products_to_include, locations_to_include=None):
+    """
+    Extracts activities from Ecoinvent databases based on product and location filters.
+
+    Parameters:
+    - databases_to_include (list): List of Ecoinvent databases to search.
+    - products_to_include (list): List of product/activity keywords to match.
+    - locations_to_include (list, optional): List of locations to filter (default: None, includes all locations).
+
+    Returns:
+    - pd.DataFrame: DataFrame with filtered Ecoinvent activities.
+    """
+    data = []
+
+    for db_name in databases_to_include:
+        if db_name in bw.databases:  # Check if the database exists
+            db = bw.Database(db_name)
+            for activity in db:
+                product_name = activity.get('reference product', None)
+                activity_name = activity['name']
+                location = activity.get('location', None)
+
+                # Match product keyword in either 'reference product' or 'activity name'
+                matched_metal = next(
+                    (p for p in products_to_include if
+                     (product_name and re.search(rf'\b{p}\b', product_name, re.IGNORECASE)) or
+                     (activity_name and re.search(rf'\b{p}\b', activity_name, re.IGNORECASE))
+                    ),
+                    None
+                )
+
+                # Apply location filter if specified
+                if matched_metal and (locations_to_include is None or location in locations_to_include):
+                    data.append({
+                        'metal': matched_metal,  # Add the identified metal name
+                        'database': db_name,
+                        'name': activity_name,
+                        'product': product_name,
+                        'location': location,  # Keep it for reference
+                        'unit': activity['unit'],
+                        'description': activity.get('comment', None),
+                        'categories': activity.get('categories', None),
+                        'activity type': activity.get('activity type', None),
+                        'production amount': activity.get('production amount', None),
+                        'parameters': activity.get('parameters', None),
+                        'authors': activity.get('authors', None),
+                        'data quality': activity.get('data quality', None)
+                    })
+        else:
+            print(f"⚠️ Database '{db_name}' not found in the current project.")
+
+    return pd.DataFrame(data)
+
+
 def get_inventory_dataset(inventories, database_names):
     """
     Function to find the dataset in the specified databases.
@@ -158,6 +212,69 @@ def multi_lcia(lca, activity, lcia_methods, amount=1):
     return results
 
 
+def multi_lcia(activity, amount, lcia_methods):
+    """
+    Run LCA for a single activity across multiple LCIA methods.
+
+    Parameters:
+    - activity (object): The activity being assessed.
+    - amount (float): The functional unit for assessment.
+    - lcia_methods (dict): Dictionary of impact categories and their corresponding methods.
+
+    Returns:
+    - dict: LCA results with impact category names as keys.
+    """
+
+    lca = bw.LCA({activity.key: amount})  # Initialize LCA object
+    lca.lci()
+
+    multi_lcia_results = {}
+
+    for impact_name, method in lcia_methods.items():
+        lca.switch_method(method)
+        lca.lcia()
+
+        # Retrieve method unit
+        method_obj = bw.Method(method)
+        unit = method_obj.metadata.get("unit", "Unknown unit")
+
+        # Store results with unit in the key
+        multi_lcia_results[f"{impact_name} ({unit})"] = lca.score
+
+    return multi_lcia_results
+
+
+def run_multi_lcia_for_lcis(inventories, amount, lcia_methods):
+    """
+    Run LCA for multiple inventories across multiple LCIA methods.
+
+    Parameters:
+    - inventories (dict): Dictionary with inventory names as keys and activity objects as values.
+    - amount (float): Functional unit for all assessments.
+    - lcia_methods (dict or list): Dictionary of impact categories and corresponding methods OR a list of method tuples.
+
+    Returns:
+    - pd.DataFrame: DataFrame with LCA results.
+    """
+
+    # Convert list of tuples to dictionary if necessary
+    if isinstance(lcia_methods, list):
+        lcia_methods = {method[2]: method for method in lcia_methods}
+
+    # Ensure lcia_methods is now a dictionary
+    if not isinstance(lcia_methods, dict):
+        raise TypeError(f"Expected lcia_methods to be a dictionary or list of tuples, but got {type(lcia_methods)}")
+
+    # Compute LCA results
+    lca_results = {rm: multi_lcia(activity, amount, lcia_methods) for rm, activity in inventories.items()}
+
+    # Convert results to DataFrame
+    df_results = pd.DataFrame(lca_results).T
+    df_results = df_results.reset_index().rename(columns={'index': 'Commodity'})
+
+    return df_results
+
+
 def direct_technosphere_contribution(lca, activities, lcia_methods, amount=1):
     """
     Calculate the contribution of direct technosphere flows to the total impact of multiple activities
@@ -215,32 +332,30 @@ def direct_technosphere_contribution(lca, activities, lcia_methods, amount=1):
     return df
 
 
-def direct_technosphere_contribution_multi_activities_fixed(lca, activities, lcia_methods, amount=1):
+def contribution_analysis_technosphere(activities, lcia_methods, amount=1):
     """
     Calculate the contribution of direct technosphere flows to the total impact of multiple activities
     for multiple LCIA methods and return results as a pandas DataFrame.
 
     Parameters:
-    - lca: LCA object
-    - activities (dict): A dictionary where keys are activity names and values are Brightway activity objects.
-    - lcia_methods (dict): A dictionary with LCIA method names as keys and method tuples as values.
+    - activities (dict): Dictionary where keys are activity names, and values are Brightway activity objects.
+    - lcia_methods (dict): Dictionary with LCIA method names as keys and method tuples as values.
     - amount (float): The functional unit of the activities.
 
     Returns:
-    - df (pd.DataFrame): A DataFrame with columns for activity name, technosphere flow name, LCIA method,
-                         absolute contribution, percentage contribution, and units.
+    - pd.DataFrame: A DataFrame with columns for activity name, technosphere flow name, LCIA method,
+                     absolute contribution, percentage contribution, and units.
     """
-
     rows = []
 
     for activity_name, activity in activities.items():
         for impact_name, method in lcia_methods.items():
-            # Initialize a new LCA object for the current method and activity
+            # Initialize LCA for the current activity and method
             lca = bw.LCA({activity.key: amount}, method=method)
             lca.lci()
             lca.lcia()
 
-            # Total impact for the activity and method
+            # Total impact of the activity for the given LCIA method
             total_impact = lca.score
             if total_impact == 0:
                 continue  # Skip this method if total impact is zero
@@ -248,30 +363,48 @@ def direct_technosphere_contribution_multi_activities_fixed(lca, activities, lci
             method_obj = bw.Method(method)
             unit = method_obj.metadata.get("unit", "Unknown unit")
 
-            # Analyze direct technosphere flows
+            # Store individual flow contributions
+            flow_contributions = []
+
             for exc in activity.technosphere():
-                # Load the technosphere exchange key
+                # Get exchange details
                 flow_key = exc.input.key
                 flow_name = exc.input['name']
-                flow_location = exc.input['location']
-                flow_amount = exc['amount'] * amount  # Scale to the functional unit
+                flow_location = exc.input.get('location', 'Unknown')
+                flow_amount = exc['amount'] * amount  # Scale to functional unit
 
-                # Calculate the impact of this flow
+                # Calculate impact contribution
                 lca.redo_lci({flow_key: flow_amount})
                 lca.lcia()
+                flow_impact = lca.score
 
-                # Append the data to rows
+                # Store raw contributions
+                flow_contributions.append((flow_name, flow_location, flow_impact))
+
+            # Normalize percentage contributions
+            total_flow_impact = sum(f[2] for f in flow_contributions)  # Sum of all flow impacts
+            total_percentage = 0
+
+            for flow_name, flow_location, flow_impact in flow_contributions:
+                percent_contribution = (flow_impact / total_flow_impact) * 100 if total_flow_impact else 0
+                total_percentage += percent_contribution
+
+                # Append row to results
                 rows.append({
                     "Activity": activity_name,
                     "Flow Name": flow_name,
                     "Flow Location": flow_location,
                     "LCIA Method": impact_name,
                     "Unit": unit,
-                    "Absolute Contribution": lca.score,
-                    "Percentage Contribution": (lca.score / total_impact) * 100,  # Correct percentage
+                    "Absolute Contribution": flow_impact,
+                    "Percentage Contribution": percent_contribution,  # Corrected percentage calculation
                 })
 
-    # Create a DataFrame
+            # 🔹 Print a warning if the total percentage is not 100%
+            if not (99.9 <= total_percentage <= 100.1):  # Allowing minor rounding errors
+                print(f"⚠️ Warning: Total percentage for {activity_name} - {impact_name} = {total_percentage:.2f}% (Expected: 100%)")
+
+    # Convert to DataFrame & sort results
     df = pd.DataFrame(rows)
     return df.sort_values(by=["Activity", "LCIA Method", "Percentage Contribution"], ascending=[True, True, False]).reset_index(drop=True)
 

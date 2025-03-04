@@ -1,0 +1,508 @@
+Activity,Flow Name,Flow Location,LCIA Method,Unit,Absolute Contribution,Percentage Contribution
+Aluminium primary ingot,"aluminium production, primary, liquid, prebake",CA,Total EQ,PDF.m2.yr,7.977868448404632,97.75610074473622
+Aluminium primary ingot,"market for silicon, metallurgical grade",GLO,Total EQ,PDF.m2.yr,0.11287874319863547,1.3831496299329993
+Aluminium primary ingot,"market for heat, district or industrial, natural gas",CA-QC,Total EQ,PDF.m2.yr,0.018267848487927677,0.22384345501868336
+Aluminium primary ingot,"heat production, light fuel oil, at industrial furnace 1MW",CA-QC,Total EQ,PDF.m2.yr,0.016770944681098774,0.2055012774944591
+Aluminium primary ingot,market for aluminium casting facility,GLO,Total EQ,PDF.m2.yr,0.012354573692637457,0.15138566878691148
+Aluminium primary ingot,market for dross from Al electrolysis,CA,Total EQ,PDF.m2.yr,0.012290839600754076,0.15060470876640977
+Aluminium primary ingot,"market for argon, liquid",RoW,Total EQ,PDF.m2.yr,0.0032635746746317814,0.03998992171211758
+Aluminium primary ingot,"market for electricity, medium voltage, aluminium industry",CA,Total EQ,PDF.m2.yr,0.0021416022782047646,0.026241932844255803
+Aluminium primary ingot,market for corrugated board box,CA-QC,Total EQ,PDF.m2.yr,0.00188685282213714,0.023120383065255184
+Aluminium primary ingot,market for cryolite,GLO,Total EQ,PDF.m2.yr,0.001250810476120499,0.01532669480663832
+Aluminium primary ingot,market for filter dust from Al electrolysis,RoW,Total EQ,PDF.m2.yr,0.0008990362196547327,0.011016260274297937
+Aluminium primary ingot,"market for refractory, fireclay, packed",GLO,Total EQ,PDF.m2.yr,0.0005289548951397514,0.00648150171353644
+Aluminium primary ingot,"market for nitrogen, liquid",RoW,Total EQ,PDF.m2.yr,0.00023262012668220792,0.002850390011600986
+Aluminium primary ingot,market for stone wool,GLO,Total EQ,PDF.m2.yr,0.00017327922409881338,0.0021232615450510104
+Aluminium primary ingot,"market for palm oil, crude",GLO,Total EQ,PDF.m2.yr,0.0001571579056320552,0.0019257204045362727
+Aluminium primary ingot,"market for inert waste, for final disposal",RoW,Total EQ,PDF.m2.yr,1.756998364942917e-05,0.00021529223035263715
+Aluminium primary ingot,"market for chlorine, liquid",RoW,Total EQ,PDF.m2.yr,1.005080601764699e-05,0.00012315665669109655
+Aluminium primary ingot,"aluminium production, primary, liquid, prebake",CA,Total HH,DALY,7.670708817250713e-05,98.04807902735307
+Aluminium primary ingot,"market for silicon, metallurgical grade",GLO,Total HH,DALY,1.084228213814076e-06,1.3858757531332038
+Aluminium primary ingot,"market for heat, district or industrial, natural gas",CA-QC,Total HH,DALY,1.706223049979755e-07,0.2180918301402374
+Aluminium primary ingot,"heat production, light fuel oil, at industrial furnace 1MW",CA-QC,Total HH,DALY,1.4497187038310913e-07,0.18530508382875674
+Aluminium primary ingot,"market for electricity, medium voltage, aluminium industry",CA,Total HH,DALY,3.4592919940387725e-08,0.04421715683528826
+Aluminium primary ingot,"market for argon, liquid",RoW,Total HH,DALY,3.3370786837377704e-08,0.04265500911308052
+Aluminium primary ingot,market for aluminium casting facility,GLO,Total HH,DALY,2.3106920210821786e-08,0.029535590424372468
+Aluminium primary ingot,market for cryolite,GLO,Total HH,DALY,1.1018193956084401e-08,0.014083610491319185
+Aluminium primary ingot,market for corrugated board box,CA-QC,Total HH,DALY,1.0387174071719757e-08,0.013277031999500082
+Aluminium primary ingot,"market for refractory, fireclay, packed",GLO,Total HH,DALY,4.837439807731502e-09,0.006183283603359593
+Aluminium primary ingot,market for filter dust from Al electrolysis,RoW,Total HH,DALY,2.4033409127745336e-09,0.003071984158953461
+Aluminium primary ingot,"market for nitrogen, liquid",RoW,Total HH,DALY,2.350952534980931e-09,0.0030050205975877854
+Aluminium primary ingot,"market for palm oil, crude",GLO,Total HH,DALY,1.7177734652781254e-09,0.0021956822046993742
+Aluminium primary ingot,market for dross from Al electrolysis,CA,Total HH,DALY,1.6618035768963497e-09,0.002124140706124079
+Aluminium primary ingot,market for stone wool,GLO,Total HH,DALY,1.5787913144048508e-09,0.002018033264596621
+Aluminium primary ingot,"market for inert waste, for final disposal",RoW,Total HH,DALY,1.2587018295909975e-10,0.00016088903828817872
+Aluminium primary ingot,"market for chlorine, liquid",RoW,Total HH,DALY,9.456405685987187e-11,0.00012087310757113282
+Aluminium primary liquid,"market for aluminium oxide, metallurgical",RoW,Total EQ,PDF.m2.yr,4.872097845602255,76.54947306267475
+Aluminium primary liquid,"market for electricity, medium voltage, aluminium industry",CA,Total EQ,PDF.m2.yr,0.9886941270001226,15.534173746189428
+Aluminium primary liquid,"market for anode, prebake, for aluminium electrolysis",GLO,Total EQ,PDF.m2.yr,0.29739528259366865,4.6726180169841145
+Aluminium primary liquid,market for blasting,GLO,Total EQ,PDF.m2.yr,0.0680711444438338,1.0695208518137989
+Aluminium primary liquid,"market for cathode, for aluminium electrolysis",GLO,Total EQ,PDF.m2.yr,0.05808051429889521,0.9125499745048711
+Aluminium primary liquid,market for aluminium fluoride,GLO,Total EQ,PDF.m2.yr,0.023143893302465843,0.36363244193088007
+Aluminium primary liquid,market for reinforcing steel,GLO,Total EQ,PDF.m2.yr,0.015534570654508535,0.2440762143007665
+Aluminium primary liquid,market for aluminium electrolysis facility,GLO,Total EQ,PDF.m2.yr,0.014440180783511504,0.2268813691632515
+Aluminium primary liquid,market for coke,RoW,Total EQ,PDF.m2.yr,0.007248324529983521,0.1138842939819717
+Aluminium primary liquid,market for refractory spent pot liner from Al electrolysis,CA,Total EQ,PDF.m2.yr,0.006075581977702554,0.0954583864447664
+Aluminium primary liquid,"market for refractory, fireclay, packed",GLO,Total EQ,PDF.m2.yr,0.005780721354027284,0.09082559250577615
+Aluminium primary liquid,market for cryolite,GLO,Total EQ,PDF.m2.yr,0.005003241904481996,0.07860998352873737
+Aluminium primary liquid,market for cast iron,GLO,Total EQ,PDF.m2.yr,0.0015410070167609252,0.024212008637185204
+Aluminium primary liquid,market for pitch,RoW,Total EQ,PDF.m2.yr,0.0011146554324331722,0.017513253777574688
+Aluminium primary liquid,market for waste asphalt,RoW,Total EQ,PDF.m2.yr,0.00024771095703703767,0.0038919873602604404
+Aluminium primary liquid,market for scrap steel,RoW,Total EQ,PDF.m2.yr,0.00016155587368321979,0.002538335105850444
+Aluminium primary liquid,"market for inert waste, for final disposal",RoW,Total EQ,PDF.m2.yr,6.86643039173092e-06,0.00010788404604455632
+Aluminium primary liquid,market for inert waste,RoW,Total EQ,PDF.m2.yr,2.074684653178264e-06,3.259704997824864e-05
+Aluminium primary liquid,"market for aluminium oxide, metallurgical",RoW,Total HH,DALY,4.0029870311495796e-05,67.41886264539094
+Aluminium primary liquid,"market for electricity, medium voltage, aluminium industry",CA,Total HH,DALY,1.5970200036180895e-05,26.897232348751633
+Aluminium primary liquid,"market for anode, prebake, for aluminium electrolysis",GLO,Total HH,DALY,2.4219889258633953e-06,4.079147332999207
+Aluminium primary liquid,"market for cathode, for aluminium electrolysis",GLO,Total HH,DALY,2.420432753684163e-07,0.4076526406236571
+Aluminium primary liquid,market for aluminium fluoride,GLO,Total HH,DALY,2.0080996438871103e-07,0.33820692651758105
+Aluminium primary liquid,market for reinforcing steel,GLO,Total HH,DALY,1.5558028222013908e-07,0.26203046864027607
+Aluminium primary liquid,market for coke,RoW,Total HH,DALY,1.3622895841391734e-07,0.22943870075429618
+Aluminium primary liquid,"market for refractory, fireclay, packed",GLO,Total HH,DALY,5.28663064702086e-08,0.08903816641795544
+Aluminium primary liquid,market for cryolite,GLO,Total HH,DALY,4.4072775824337604e-08,0.07422798017031831
+Aluminium primary liquid,market for aluminium electrolysis facility,GLO,Total HH,DALY,3.884017238395335e-08,0.06541515689909837
+Aluminium primary liquid,market for refractory spent pot liner from Al electrolysis,CA,Total HH,DALY,2.6029139736855536e-08,0.043838638073048934
+Aluminium primary liquid,market for blasting,GLO,Total HH,DALY,2.3787767641243146e-08,0.040063688110048234
+Aluminium primary liquid,market for cast iron,GLO,Total HH,DALY,2.258195883307541e-08,0.03803284819520802
+Aluminium primary liquid,market for pitch,RoW,Total HH,DALY,8.175358240922892e-09,0.013769051711450566
+Aluminium primary liquid,market for scrap steel,RoW,Total HH,DALY,1.1593854373142343e-09,0.0019526530299276933
+Aluminium primary liquid,market for waste asphalt,RoW,Total HH,DALY,5.951534910268612e-10,0.001002365762172901
+Aluminium primary liquid,"market for inert waste, for final disposal",RoW,Total HH,DALY,4.9190646213899224e-11,8.28475684464182e-05
+Aluminium primary liquid,market for inert waste,RoW,Total HH,DALY,3.2895969163958756e-12,5.540384741179239e-06
+Cadmium,market for cadmium sludge from zinc electrolysis,GLO,Total EQ,PDF.m2.yr,6.374146912066827,96.09158776894515
+Cadmium,"market for chemical factory, organics",GLO,Total EQ,PDF.m2.yr,0.18088400310216793,2.7268638925132898
+Cadmium,"market for electricity, medium voltage",CA-QC,Total EQ,PDF.m2.yr,0.061240165390580734,0.9232082047675292
+Cadmium,market for sulfuric acid,RoW,Total EQ,PDF.m2.yr,0.0171367546753227,0.25834013377402815
+Cadmium,market for cadmium sludge from zinc electrolysis,GLO,Total HH,DALY,7.3003275149731e-05,96.5225581862745
+Cadmium,"market for chemical factory, organics",GLO,Total HH,DALY,1.34195206718869e-06,1.774285416958981
+Cadmium,"market for electricity, medium voltage",CA-QC,Total HH,DALY,1.1498857413770385e-06,1.52034156210102
+Cadmium,market for sulfuric acid,RoW,Total HH,DALY,1.3826904225624033e-07,0.1828148346655045
+Copper concentrate CA,market for blasting,GLO,Total EQ,PDF.m2.yr,8.543412459541937,75.49818062494583
+Copper concentrate CA,"market for non-sulfidic tailing, off-site",GLO,Total EQ,PDF.m2.yr,1.311796208758139,11.592349963313273
+Copper concentrate CA,"market for steel, chromium steel 18/8, hot rolled",GLO,Total EQ,PDF.m2.yr,0.5934056269828181,5.243928631792884
+Copper concentrate CA,"market group for electricity, high voltage",CA,Total EQ,PDF.m2.yr,0.19714588571387748,1.7421792240017027
+Copper concentrate CA,"market for mine infrastructure, open cast, non-ferrous metal",GLO,Total EQ,PDF.m2.yr,0.1706642168990468,1.5081605780683567
+Copper concentrate CA,"market for sulfidic tailings, from copper mine operation",CA,Total EQ,PDF.m2.yr,0.11142825247758709,0.9846920504088583
+Copper concentrate CA,market for aluminium hydroxide factory,GLO,Total EQ,PDF.m2.yr,0.08423308098156541,0.7443681775470411
+Copper concentrate CA,"market for chemical, inorganic",GLO,Total EQ,PDF.m2.yr,0.07644906797533006,0.6755808138659958
+Copper concentrate CA,"market for mine infrastructure, underground, non-ferrous metal",GLO,Total EQ,PDF.m2.yr,0.07436346391684956,0.6571503198842359
+Copper concentrate CA,"market group for electricity, medium voltage",CA,Total EQ,PDF.m2.yr,0.07426040108625812,0.6562395531108232
+Copper concentrate CA,"market for chemical, organic",GLO,Total EQ,PDF.m2.yr,0.051572908026261584,0.455750058183329
+Copper concentrate CA,market for sodium cyanide,RoW,Total EQ,PDF.m2.yr,0.010453296293559438,0.09237583406332944
+Copper concentrate CA,market for conveyor belt,GLO,Total EQ,PDF.m2.yr,0.010309430963108154,0.09110449538507712
+Copper concentrate CA,"market for lime, packed",RoW,Total EQ,PDF.m2.yr,0.006237762605358455,0.055123140794742245
+Copper concentrate CA,"market for diesel, burned in building machine",GLO,Total EQ,PDF.m2.yr,0.00029901950503123854,0.0026424369311604965
+Copper concentrate CA,market for copper sulfate,GLO,Total EQ,PDF.m2.yr,1.3624787237655198e-05,0.00012040231613728045
+Copper concentrate CA,market for dithiocarbamate-compound,GLO,Total EQ,PDF.m2.yr,3.5487877624742886e-06,3.1360656032899335e-05
+Copper concentrate CA,market for synthetic rubber,GLO,Total EQ,PDF.m2.yr,1.4873376984166418e-06,1.314361102628673e-05
+Copper concentrate CA,market for iron pellet,GLO,Total EQ,PDF.m2.yr,3.439120622946886e-07,3.03915269468497e-06
+Copper concentrate CA,market for carbon disulfide,GLO,Total EQ,PDF.m2.yr,3.172311587458093e-07,2.803373410363954e-06
+Copper concentrate CA,"market for aluminium sulfate, powder",RoW,Total EQ,PDF.m2.yr,2.1062756579269518e-07,1.8613169014272505e-06
+Copper concentrate CA,market for diesel,RoW,Total EQ,PDF.m2.yr,1.5845054801688115e-07,1.4002283222249508e-06
+Copper concentrate CA,market for potassium carbonate,GLO,Total EQ,PDF.m2.yr,9.850488197060416e-09,8.70488157592052e-08
+Copper concentrate CA,"market for steel, chromium steel 18/8, hot rolled",GLO,Total HH,DALY,3.6248983713070104e-06,27.22002872517671
+Copper concentrate CA,market for blasting,GLO,Total HH,DALY,2.9855339161892206e-06,22.418923410908796
+Copper concentrate CA,"market group for electricity, high voltage",CA,Total HH,DALY,2.5277680637806786e-06,18.981475412201807
+Copper concentrate CA,"market for mine infrastructure, open cast, non-ferrous metal",GLO,Total HH,DALY,1.1609918682645023e-06,8.71810152086048
+Copper concentrate CA,"market group for electricity, medium voltage",CA,Total HH,DALY,9.467598525477995e-07,7.109393903615323
+Copper concentrate CA,"market for chemical, inorganic",GLO,Total HH,DALY,6.555959400035163e-07,4.922990520302654
+Copper concentrate CA,"market for mine infrastructure, underground, non-ferrous metal",GLO,Total HH,DALY,4.7490404885152536e-07,3.5661418686285153
+Copper concentrate CA,"market for chemical, organic",GLO,Total HH,DALY,4.6440054920646633e-07,3.4872691575157067
+Copper concentrate CA,market for aluminium hydroxide factory,GLO,Total HH,DALY,2.3359932953287878e-07,1.754140339601935
+Copper concentrate CA,market for conveyor belt,GLO,Total HH,DALY,1.0385144308668505e-07,0.7798395911859353
+Copper concentrate CA,market for sodium cyanide,RoW,Total HH,DALY,9.78430557417719e-08,0.7347215052790042
+Copper concentrate CA,"market for lime, packed",RoW,Total HH,DALY,3.7960027829525884e-08,0.2850488322947493
+Copper concentrate CA,"market for diesel, burned in building machine",GLO,Total HH,DALY,2.8194401656042452e-09,0.02117169488230174
+Copper concentrate CA,market for copper sulfate,GLO,Total HH,DALY,5.1127724338771885e-11,0.0003839274877801581
+Copper concentrate CA,market for dithiocarbamate-compound,GLO,Total HH,DALY,2.7316142184769322e-11,0.0002051219368840776
+Copper concentrate CA,market for synthetic rubber,GLO,Total HH,DALY,1.4242601025857268e-11,0.00010695031124563114
+Copper concentrate CA,market for carbon disulfide,GLO,Total HH,DALY,2.5714866107324286e-12,1.9309766023952265e-05
+Copper concentrate CA,market for iron pellet,GLO,Total HH,DALY,2.056607633931466e-12,1.544344506735715e-05
+Copper concentrate CA,"market for aluminium sulfate, powder",RoW,Total HH,DALY,1.7789112239958933e-12,1.3358171638684648e-05
+Copper concentrate CA,market for diesel,RoW,Total HH,DALY,1.1636536679394487e-12,8.738089464298074e-06
+Copper concentrate CA,market for potassium carbonate,GLO,Total HH,DALY,8.900278747830561e-14,6.68338304587213e-07
+Copper concentrate CA,"market for sulfidic tailings, from copper mine operation",CA,Total HH,DALY,0.0,0.0
+Copper concentrate CA,"market for non-sulfidic tailing, off-site",GLO,Total HH,DALY,-4.364438077209814e-20,-3.2773368426345983e-13
+Copper concentrate CA (gold),"market for cement, Portland",CA-QC,Total EQ,PDF.m2.yr,0.20465994694022904,17.736970927608162
+Copper concentrate CA (gold),"market for electricity, high voltage",CA-QC,Total EQ,PDF.m2.yr,0.15378938599751987,13.328244774779316
+Copper concentrate CA (gold),"market for diesel, burned in building machine",GLO,Total EQ,PDF.m2.yr,0.13634950278213734,11.81680735775281
+Copper concentrate CA (gold),market for chromium,GLO,Total EQ,PDF.m2.yr,0.1299736378180421,11.264239387335325
+Copper concentrate CA (gold),"market for heat, district or industrial, natural gas",CA-QC,Total EQ,PDF.m2.yr,0.07091839745005721,6.146183328052893
+Copper concentrate CA (gold),market for copper sulfate,GLO,Total EQ,PDF.m2.yr,0.06939415061992837,6.014083607923533
+Copper concentrate CA (gold),"market for hydrogen peroxide, without water, in 50% solution state",RoW,Total EQ,PDF.m2.yr,0.05846329268726886,5.066754576210163
+Copper concentrate CA (gold),"market for steel, unalloyed",GLO,Total EQ,PDF.m2.yr,0.05112029208544611,4.430369244624122
+Copper concentrate CA (gold),market for sodium cyanide,RoW,Total EQ,PDF.m2.yr,0.049788764545233274,4.314971651576948
+Copper concentrate CA (gold),"market for mine infrastructure, underground, non-ferrous metal",GLO,Total EQ,PDF.m2.yr,0.03395886942246269,2.9430647700527954
+Copper concentrate CA (gold),"market for quicklime, milled, loose",RoW,Total EQ,PDF.m2.yr,0.03383114610311281,2.9319955557978536
+Copper concentrate CA (gold),"market for sulfidic tailings, generic",GLO,Total EQ,PDF.m2.yr,0.01859729621621384,1.6117452742985305
+Copper concentrate CA (gold),"market for sodium silicate, spray powder, 80%",RoW,Total EQ,PDF.m2.yr,0.018403860914499595,1.594981093645827
+Copper concentrate CA (gold),"market for carboxymethyl cellulose, powder",GLO,Total EQ,PDF.m2.yr,0.017649706899810064,1.529621906206021
+Copper concentrate CA (gold),"market for oxygen, liquid",RoW,Total EQ,PDF.m2.yr,0.017263874383072503,1.4961835112752404
+Copper concentrate CA (gold),"market for soda ash, dense",GLO,Total EQ,PDF.m2.yr,0.013279636946736834,1.150887303426557
+Copper concentrate CA (gold),market for ammonium nitrate,RNA,Total EQ,PDF.m2.yr,0.013023968904837459,1.1287296868822114
+Copper concentrate CA (gold),market for zinc,GLO,Total EQ,PDF.m2.yr,0.011831804988134546,1.0254101216832692
+Copper concentrate CA (gold),"market for lime, hydrated, loose weight",RoW,Total EQ,PDF.m2.yr,0.010785271752770241,0.9347117224705815
+Copper concentrate CA (gold),"market for sulfur dioxide, liquid",RoW,Total EQ,PDF.m2.yr,0.00874506210385448,0.7578957906282217
+Copper concentrate CA (gold),market for zinc monosulfate,RoW,Total EQ,PDF.m2.yr,0.007480821614028829,0.6483296681465641
+Copper concentrate CA (gold),market for soap,GLO,Total EQ,PDF.m2.yr,0.004228875357496834,0.36649789269370747
+Copper concentrate CA (gold),"market for transport, passenger car, large size, petrol, EURO 3",GLO,Total EQ,PDF.m2.yr,0.0026399170599761402,0.22878991636682386
+Copper concentrate CA (gold),"market for borax, anhydrous, powder",GLO,Total EQ,PDF.m2.yr,0.0024433077156507687,0.21175065550249036
+Copper concentrate CA (gold),market for waste mineral oil,RoW,Total EQ,PDF.m2.yr,0.0023921012811478,0.20731282067616316
+Copper concentrate CA (gold),"market for chemical, inorganic",GLO,Total EQ,PDF.m2.yr,0.0018700107779172344,0.16206554969897807
+Copper concentrate CA (gold),market for sodium nitrate,GLO,Total EQ,PDF.m2.yr,0.0015767250396687461,0.1366477740639889
+Copper concentrate CA (gold),market for manganese dioxide,GLO,Total EQ,PDF.m2.yr,0.0015436395836590981,0.13378040416507472
+Copper concentrate CA (gold),"market for aluminium sulfate, powder",RoW,Total EQ,PDF.m2.yr,0.0013405743559573582,0.11618164048902536
+Copper concentrate CA (gold),"treatment of municipal solid waste, sanitary landfill",RoW,Total EQ,PDF.m2.yr,0.0013168827977514416,0.11412839809641007
+Copper concentrate CA (gold),"market for carbon dioxide, liquid",RoW,Total EQ,PDF.m2.yr,0.001097989289909417,0.09515786750221397
+Copper concentrate CA (gold),market for iron sulfate,RoW,Total EQ,PDF.m2.yr,0.0010890127434578527,0.0943799099886795
+Copper concentrate CA (gold),market for fatty alcohol,GLO,Total EQ,PDF.m2.yr,0.0009371331615898176,0.08121717947708912
+Copper concentrate CA (gold),market for polyacrylamide,GLO,Total EQ,PDF.m2.yr,0.0004968659982817672,0.04306117488154397
+Copper concentrate CA (gold),"market for phosphoric acid, industrial grade, without water, in 85% solution state",GLO,Total EQ,PDF.m2.yr,0.00047982489724719766,0.041584298149464745
+Copper concentrate CA (gold),"market for polycarboxylates, 40% active substance",RoW,Total EQ,PDF.m2.yr,0.0004436767546620948,0.03845149877320841
+Copper concentrate CA (gold),"market for diesel, low-sulfur",RoW,Total EQ,PDF.m2.yr,0.0003898455332998199,0.03378618529797742
+Copper concentrate CA (gold),"market for waste wood, untreated",RoW,Total EQ,PDF.m2.yr,0.00014299482876244183,0.012392728320693172
+Copper concentrate CA (gold),"market for waste plastic, mixture",RoW,Total EQ,PDF.m2.yr,3.0069722618959753e-05,0.0026060096460862195
+Copper concentrate CA (gold),market for lubricating oil,RoW,Total EQ,PDF.m2.yr,2.9669453965691095e-05,0.002571320135156499
+Copper concentrate CA (gold),market for synthetic rubber,GLO,Total EQ,PDF.m2.yr,2.7276541289549462e-05,0.0023639369944708196
+Copper concentrate CA (gold),market for silica sand,GLO,Total EQ,PDF.m2.yr,2.4780266816683768e-05,0.0021475959447710457
+Copper concentrate CA (gold),market for scrap aluminium,RoW,Total EQ,PDF.m2.yr,1.0892246605270806e-05,0.0009439827590224567
+Copper concentrate CA (gold),"electronics scrap, Recycled Content cut-off",GLO,Total EQ,PDF.m2.yr,0.0,0.0
+Copper concentrate CA (gold),"iron scrap, sorted, pressed, Recycled Content cut-off",GLO,Total EQ,PDF.m2.yr,0.0,0.0
+Copper concentrate CA (gold),"market for electricity, high voltage",CA-QC,Total HH,DALY,2.8926147716094863e-06,25.560859780592715
+Copper concentrate CA (gold),"market for cement, Portland",CA-QC,Total HH,DALY,1.8245328873672163e-06,16.122654754032176
+Copper concentrate CA (gold),"market for diesel, burned in building machine",GLO,Total HH,DALY,1.2856327371151392e-06,11.360613395628528
+Copper concentrate CA (gold),market for chromium,GLO,Total HH,DALY,1.0936426530693216e-06,9.66407514043985
+Copper concentrate CA (gold),"market for heat, district or industrial, natural gas",CA-QC,Total HH,DALY,6.623801619379356e-07,5.853183979739289
+Copper concentrate CA (gold),"market for steel, unalloyed",GLO,Total HH,DALY,5.011972626820123e-07,4.428876281615472
+Copper concentrate CA (gold),market for sodium cyanide,RoW,Total HH,DALY,4.660238003312401e-07,4.118062706309765
+Copper concentrate CA (gold),"market for hydrogen peroxide, without water, in 50% solution state",RoW,Total HH,DALY,4.6504268381092704e-07,4.109392978819509
+Copper concentrate CA (gold),"market for quicklime, milled, loose",RoW,Total HH,DALY,3.2806076514372387e-07,2.898939499187747
+Copper concentrate CA (gold),market for copper sulfate,GLO,Total HH,DALY,2.604051675620706e-07,2.3010945112792385
+Copper concentrate CA (gold),"market for mine infrastructure, underground, non-ferrous metal",GLO,Total HH,DALY,2.1687000219866715e-07,1.916391968686711
+Copper concentrate CA (gold),"market for oxygen, liquid",RoW,Total HH,DALY,1.7470589756864022e-07,1.5438049319335645
+Copper concentrate CA (gold),"market for sodium silicate, spray powder, 80%",RoW,Total HH,DALY,1.6565453418401917e-07,1.4638217165506333
+Copper concentrate CA (gold),market for zinc,GLO,Total HH,DALY,1.49348651643687e-07,1.319733267130064
+Copper concentrate CA (gold),"market for carboxymethyl cellulose, powder",GLO,Total HH,DALY,1.4816835486502254e-07,1.3093034647398407
+Copper concentrate CA (gold),market for ammonium nitrate,RNA,Total HH,DALY,1.3252874717158377e-07,1.1711026150452803
+Copper concentrate CA (gold),"market for soda ash, dense",GLO,Total HH,DALY,1.208380547601578e-07,1.0677967229509007
+Copper concentrate CA (gold),"market for lime, hydrated, loose weight",RoW,Total HH,DALY,1.0399912114153525e-07,0.9189979180409644
+Copper concentrate CA (gold),market for zinc monosulfate,RoW,Total HH,DALY,7.036104638119091e-08,0.621751938148577
+Copper concentrate CA (gold),"market for sulfur dioxide, liquid",RoW,Total HH,DALY,6.500107863332823e-08,0.5743880840411094
+Copper concentrate CA (gold),market for waste mineral oil,RoW,Total HH,DALY,2.4540541020396074e-08,0.21685477586536797
+Copper concentrate CA (gold),"market for transport, passenger car, large size, petrol, EURO 3",GLO,Total HH,DALY,2.4050017355773838e-08,0.21252021782689987
+Copper concentrate CA (gold),"market for borax, anhydrous, powder",GLO,Total HH,DALY,2.1279339187984378e-08,0.18803686220031907
+Copper concentrate CA (gold),"market for chemical, inorganic",GLO,Total HH,DALY,1.6036447614521032e-08,0.1417075626096994
+Copper concentrate CA (gold),market for sodium nitrate,GLO,Total HH,DALY,1.4923266666098497e-08,0.13187083550302575
+Copper concentrate CA (gold),market for manganese dioxide,GLO,Total HH,DALY,1.3730219223558258e-08,0.1213283606841622
+Copper concentrate CA (gold),market for soap,GLO,Total HH,DALY,1.2723954797816892e-08,0.11243641138589382
+Copper concentrate CA (gold),"market for aluminium sulfate, powder",RoW,Total HH,DALY,1.1322177889862249e-08,0.10004947920965908
+Copper concentrate CA (gold),"market for carbon dioxide, liquid",RoW,Total HH,DALY,1.0274360344688979e-08,0.09079034190223381
+Copper concentrate CA (gold),market for fatty alcohol,GLO,Total HH,DALY,9.281711144106245e-09,0.082018704808887
+Copper concentrate CA (gold),market for iron sulfate,RoW,Total HH,DALY,9.269126893353085e-09,0.08190750290530051
+Copper concentrate CA (gold),"market for phosphoric acid, industrial grade, without water, in 85% solution state",GLO,Total HH,DALY,4.525795882301084e-09,0.03999261674195017
+Copper concentrate CA (gold),market for polyacrylamide,GLO,Total HH,DALY,4.462385132587084e-09,0.039432281747491166
+Copper concentrate CA (gold),"market for polycarboxylates, 40% active substance",RoW,Total HH,DALY,4.2904369786245985e-09,0.03791284587372588
+Copper concentrate CA (gold),"treatment of municipal solid waste, sanitary landfill",RoW,Total HH,DALY,2.9850223449659083e-09,0.026377427907261747
+Copper concentrate CA (gold),"market for diesel, low-sulfur",RoW,Total HH,DALY,2.920856112861281e-09,0.025810417022309816
+Copper concentrate CA (gold),"market for waste wood, untreated",RoW,Total HH,DALY,1.974716038336413e-09,0.01744976215215808
+Copper concentrate CA (gold),market for synthetic rubber,GLO,Total HH,DALY,2.61197504350175e-10,0.0023080960690872536
+Copper concentrate CA (gold),market for lubricating oil,RoW,Total HH,DALY,2.441158414900892e-10,0.0021571523646329374
+Copper concentrate CA (gold),"market for waste plastic, mixture",RoW,Total HH,DALY,2.23607689456385e-10,0.001975930169531958
+Copper concentrate CA (gold),market for silica sand,GLO,Total HH,DALY,1.904417183477841e-10,0.0016828559775190206
+Copper concentrate CA (gold),market for scrap aluminium,RoW,Total HH,DALY,6.041968367908834e-11,0.0005339041609227598
+Copper concentrate CA (gold),"electronics scrap, Recycled Content cut-off",GLO,Total HH,DALY,0.0,0.0
+Copper concentrate CA (gold),"iron scrap, sorted, pressed, Recycled Content cut-off",GLO,Total HH,DALY,0.0,0.0
+Copper concentrate CA (gold),"market for sulfidic tailings, generic",GLO,Total HH,DALY,-1.6194637697902738e-21,-1.4310542401166903e-14
+Gold mining and beneficiation,"market for cement, Portland",CA-QC,Total EQ,PDF.m2.yr,569.4539314342275,17.73697092760819
+Gold mining and beneficiation,"market for electricity, high voltage",CA-QC,Total EQ,PDF.m2.yr,427.9096705459431,13.328244774779332
+Gold mining and beneficiation,"market for diesel, burned in building machine",GLO,Total EQ,PDF.m2.yr,379.38424967473685,11.81680735775283
+Gold mining and beneficiation,market for chromium,GLO,Total EQ,PDF.m2.yr,361.643790809289,11.26423938733533
+Gold mining and beneficiation,"market for heat, district or industrial, natural gas",CA-QC,Total EQ,PDF.m2.yr,197.32615415337955,6.146183328052896
+Gold mining and beneficiation,market for copper sulfate,GLO,Total EQ,PDF.m2.yr,193.0850294835558,6.014083607923534
+Gold mining and beneficiation,"market for hydrogen peroxide, without water, in 50% solution state",RoW,Total EQ,PDF.m2.yr,162.67057801533653,5.06675457621017
+Gold mining and beneficiation,"market for steel, unalloyed",GLO,Total EQ,PDF.m2.yr,142.2391226976379,4.430369244624127
+Gold mining and beneficiation,market for sodium cyanide,RoW,Total EQ,PDF.m2.yr,138.53422780284626,4.314971651576948
+Gold mining and beneficiation,"market for mine infrastructure, underground, non-ferrous metal",GLO,Total EQ,PDF.m2.yr,94.4885014815851,2.9430647700528016
+Gold mining and beneficiation,"market for quicklime, milled, loose",RoW,Total EQ,PDF.m2.yr,94.13311906588993,2.9319955557978528
+Gold mining and beneficiation,"market for sulfidic tailings, generic",GLO,Total EQ,PDF.m2.yr,51.74585258473826,1.611745274298471
+Gold mining and beneficiation,"market for sodium silicate, spray powder, 80%",RoW,Total EQ,PDF.m2.yr,51.2076305501596,1.5949810936458304
+Gold mining and beneficiation,"market for carboxymethyl cellulose, powder",GLO,Total EQ,PDF.m2.yr,49.10924259007035,1.529621906206021
+Gold mining and beneficiation,"market for oxygen, liquid",RoW,Total EQ,PDF.m2.yr,48.035686934378155,1.496183511275243
+Gold mining and beneficiation,"market for soda ash, dense",GLO,Total EQ,PDF.m2.yr,36.94978709999875,1.1508873034265579
+Gold mining and beneficiation,market for ammonium nitrate,RNA,Total EQ,PDF.m2.yr,36.23840622758894,1.1287296868822128
+Gold mining and beneficiation,market for zinc,GLO,Total EQ,PDF.m2.yr,32.921282191204874,1.0254101216832674
+Gold mining and beneficiation,"market for lime, hydrated, loose weight",RoW,Total EQ,PDF.m2.yr,30.009366722816615,0.9347117224705812
+Gold mining and beneficiation,"market for sulfur dioxide, liquid",RoW,Total EQ,PDF.m2.yr,24.33260669773744,0.7578957906282223
+Gold mining and beneficiation,market for zinc monosulfate,RoW,Total EQ,PDF.m2.yr,20.814933953398256,0.6483296681465651
+Gold mining and beneficiation,market for soap,GLO,Total EQ,PDF.m2.yr,11.766590062564543,0.3664978926937064
+Gold mining and beneficiation,"market for transport, passenger car, large size, petrol, EURO 3",GLO,Total EQ,PDF.m2.yr,7.345409646288748,0.22878991636682447
+Gold mining and beneficiation,"market for borax, anhydrous, powder",GLO,Total EQ,PDF.m2.yr,6.798356030001593,0.21175065550249078
+Gold mining and beneficiation,market for waste mineral oil,RoW,Total EQ,PDF.m2.yr,6.65587722123419,0.2073128206761637
+Gold mining and beneficiation,"market for chemical, inorganic",GLO,Total EQ,PDF.m2.yr,5.203191954409841,0.162065549698978
+Gold mining and beneficiation,market for sodium nitrate,GLO,Total EQ,PDF.m2.yr,4.387142115757411,0.13664777406398915
+Gold mining and beneficiation,market for manganese dioxide,GLO,Total EQ,PDF.m2.yr,4.295083834302414,0.13378040416507495
+Gold mining and beneficiation,"market for aluminium sulfate, powder",RoW,Total EQ,PDF.m2.yr,3.730067112754479,0.11618164048902554
+Gold mining and beneficiation,"treatment of municipal solid waste, sanitary landfill",RoW,Total EQ,PDF.m2.yr,3.664146784112437,0.11412839809641011
+Gold mining and beneficiation,"market for carbon dioxide, liquid",RoW,Total EQ,PDF.m2.yr,3.0550888298343857,0.09515786750221392
+Gold mining and beneficiation,market for iron sulfate,RoW,Total EQ,PDF.m2.yr,3.030112131931509,0.0943799099886795
+Gold mining and beneficiation,market for fatty alcohol,GLO,Total EQ,PDF.m2.yr,2.6075163759353597,0.08121717947708927
+Gold mining and beneficiation,market for polyacrylamide,GLO,Total EQ,PDF.m2.yr,1.382499606531109,0.04306117488154402
+Gold mining and beneficiation,"market for phosphoric acid, industrial grade, without water, in 85% solution state",GLO,Total EQ,PDF.m2.yr,1.3350837729731242,0.041584298149464724
+Gold mining and beneficiation,"market for polycarboxylates, 40% active substance",RoW,Total EQ,PDF.m2.yr,1.2345037512498565,0.038451498773208505
+Gold mining and beneficiation,"market for diesel, low-sulfur",RoW,Total EQ,PDF.m2.yr,1.0847216317049577,0.03378618529797745
+Gold mining and beneficiation,"market for waste wood, untreated",RoW,Total EQ,PDF.m2.yr,0.39787446752987715,0.012392728320693176
+Gold mining and beneficiation,"market for waste plastic, mixture",RoW,Total EQ,PDF.m2.yr,0.08366718558519028,0.0026060096460862226
+Gold mining and beneficiation,market for lubricating oil,RoW,Total EQ,PDF.m2.yr,0.08255346225221065,0.0025713201351565042
+Gold mining and beneficiation,market for synthetic rubber,GLO,Total EQ,PDF.m2.yr,0.07589532737345173,0.0023639369944708187
+Gold mining and beneficiation,market for silica sand,GLO,Total EQ,PDF.m2.yr,0.06894959454314294,0.0021475959447710856
+Gold mining and beneficiation,market for scrap aluminium,RoW,Total EQ,PDF.m2.yr,0.030307017783670207,0.0009439827590224497
+Gold mining and beneficiation,"electronics scrap, Recycled Content cut-off",GLO,Total EQ,PDF.m2.yr,0.0,0.0
+Gold mining and beneficiation,"iron scrap, sorted, pressed, Recycled Content cut-off",GLO,Total EQ,PDF.m2.yr,0.0,0.0
+Gold mining and beneficiation,"market for electricity, high voltage",CA-QC,Total HH,DALY,0.008048525754287272,25.56085978061536
+Gold mining and beneficiation,"market for cement, Portland",CA-QC,Total HH,DALY,0.005076652472922556,16.12265475402939
+Gold mining and beneficiation,"market for diesel, burned in building machine",GLO,Total HH,DALY,0.0035771953793410013,11.360613395626453
+Gold mining and beneficiation,market for chromium,GLO,Total HH,DALY,0.003042994575561786,9.664075140428722
+Gold mining and beneficiation,"market for heat, district or industrial, natural gas",CA-QC,Total HH,DALY,0.001843032762193384,5.85318397973829
+Gold mining and beneficiation,"market for steel, unalloyed",GLO,Total HH,DALY,0.0013945510879160928,4.428876281614685
+Gold mining and beneficiation,market for sodium cyanide,RoW,Total HH,DALY,0.0012966830550290818,4.118062706309047
+Gold mining and beneficiation,"market for hydrogen peroxide, without water, in 50% solution state",RoW,Total HH,DALY,0.0012939531576160925,4.109392978818678
+Gold mining and beneficiation,"market for quicklime, milled, loose",RoW,Total HH,DALY,0.0009128092489683482,2.898939499187192
+Gold mining and beneficiation,market for copper sulfate,GLO,Total HH,DALY,0.0007245616382247893,2.3010945112788352
+Gold mining and beneficiation,"market for mine infrastructure, underground, non-ferrous metal",GLO,Total HH,DALY,0.0006034276721387441,1.9163919686863744
+Gold mining and beneficiation,"market for oxygen, liquid",RoW,Total HH,DALY,0.00048610859966786296,1.5438049319333815
+Gold mining and beneficiation,"market for sodium silicate, spray powder, 80%",RoW,Total HH,DALY,0.00046092372817115555,1.4638217165504592
+Gold mining and beneficiation,market for zinc,GLO,Total HH,DALY,0.00041555359563214943,1.3197332671298032
+Gold mining and beneficiation,"market for carboxymethyl cellulose, powder",GLO,Total HH,DALY,0.00041226949119004767,1.309303464739627
+Gold mining and beneficiation,market for ammonium nitrate,RNA,Total HH,DALY,0.0003687532281387259,1.1711026150450474
+Gold mining and beneficiation,"market for soda ash, dense",GLO,Total HH,DALY,0.00033622458316248834,1.067796722950694
+Gold mining and beneficiation,"market for lime, hydrated, loose weight",RoW,Total HH,DALY,0.0002893712682191115,0.9189979180407729
+Gold mining and beneficiation,market for zinc monosulfate,RoW,Total HH,DALY,0.00019577535849405261,0.6217519381484942
+Gold mining and beneficiation,"market for sulfur dioxide, liquid",RoW,Total HH,DALY,0.000180861572225589,0.5743880840410257
+Gold mining and beneficiation,market for waste mineral oil,RoW,Total HH,DALY,6.828257200549762e-05,0.21685477586532922
+Gold mining and beneficiation,"market for transport, passenger car, large size, petrol, EURO 3",GLO,Total HH,DALY,6.691771955900385e-05,0.21252021782686192
+Gold mining and beneficiation,"market for borax, anhydrous, powder",GLO,Total HH,DALY,5.920847503424224e-05,0.18803686220028132
+Gold mining and beneficiation,"market for chemical, inorganic",GLO,Total HH,DALY,4.4620446144232224e-05,0.14170756260967174
+Gold mining and beneficiation,market for sodium nitrate,GLO,Total HH,DALY,4.152308744286449e-05,0.1318708355030017
+Gold mining and beneficiation,market for manganese dioxide,GLO,Total HH,DALY,3.820350504924158e-05,0.12132836068413239
+Gold mining and beneficiation,market for soap,GLO,Total HH,DALY,3.540363510953412e-05,0.11243641138587734
+Gold mining and beneficiation,"market for aluminium sulfate, powder",RoW,Total HH,DALY,3.150327559531079e-05,0.10004947920964054
+Gold mining and beneficiation,"market for carbon dioxide, liquid",RoW,Total HH,DALY,2.8587786612511187e-05,0.09079034190221835
+Gold mining and beneficiation,market for fatty alcohol,GLO,Total HH,DALY,2.58258002138145e-05,0.08201870480887286
+Gold mining and beneficiation,market for iron sulfate,RoW,Total HH,DALY,2.5790785296764826e-05,0.08190750290528699
+Gold mining and beneficiation,"market for phosphoric acid, industrial grade, without water, in 85% solution state",GLO,Total HH,DALY,1.2592753475099022e-05,0.03999261674194229
+Gold mining and beneficiation,market for polyacrylamide,GLO,Total HH,DALY,1.2416316896962743e-05,0.03943228174748561
+Gold mining and beneficiation,"market for polycarboxylates, 40% active substance",RoW,Total HH,DALY,1.193788155218328e-05,0.037912845873719035
+Gold mining and beneficiation,"treatment of municipal solid waste, sanitary landfill",RoW,Total HH,DALY,8.30564424145129e-06,0.026377427907256754
+Gold mining and beneficiation,"market for diesel, low-sulfur",RoW,Total HH,DALY,8.127105579228559e-06,0.02581041702230519
+Gold mining and beneficiation,"market for waste wood, untreated",RoW,Total HH,DALY,5.494528012485557e-06,0.01744976215215496
+Gold mining and beneficiation,market for synthetic rubber,GLO,Total HH,DALY,7.26766267443914e-07,0.0023080960690868946
+Gold mining and beneficiation,market for lubricating oil,RoW,Total HH,DALY,6.792375730582513e-07,0.002157152364632634
+Gold mining and beneficiation,"market for waste plastic, mixture",RoW,Total HH,DALY,6.221748796653905e-07,0.0019759301695315974
+Gold mining and beneficiation,market for silica sand,GLO,Total HH,DALY,5.298925698144063e-07,0.001682855977518754
+Gold mining and beneficiation,market for scrap aluminium,RoW,Total HH,DALY,1.6811411769357365e-07,0.0005339041609226772
+Gold mining and beneficiation,"electronics scrap, Recycled Content cut-off",GLO,Total HH,DALY,0.0,0.0
+Gold mining and beneficiation,"iron scrap, sorted, pressed, Recycled Content cut-off",GLO,Total HH,DALY,0.0,0.0
+Gold mining and beneficiation,"market for sulfidic tailings, generic",GLO,Total HH,DALY,-1.8925588327545164e-17,-6.010471038728395e-14
+Gold operation refinery,"market for diesel, burned in building machine",GLO,Total EQ,PDF.m2.yr,7453.658172015017,29.230828538215103
+Gold operation refinery,market for chromium,GLO,Total EQ,PDF.m2.yr,4245.496614909783,16.649460002866153
+Gold operation refinery,"market for steel, unalloyed",GLO,Total EQ,PDF.m2.yr,1809.7079309341875,7.09708723053562
+Gold operation refinery,"market for electricity, high voltage",CA-QC,Total EQ,PDF.m2.yr,1774.1539399580015,6.957656015675766
+Gold operation refinery,"market for hydrogen peroxide, without water, in 50% solution state",RoW,Total EQ,PDF.m2.yr,1542.8588088800095,6.050591569971916
+Gold operation refinery,market for copper sulfate,GLO,Total EQ,PDF.m2.yr,1324.503415761289,5.194272577425149
+Gold operation refinery,market for sodium cyanide,RoW,Total EQ,PDF.m2.yr,1163.193335939153,4.561666791655403
+Gold operation refinery,market for ammonium nitrate,RNA,Total EQ,PDF.m2.yr,1133.0138337777416,4.443312577833115
+Gold operation refinery,"market for sulfidic tailings, from gold mine operation",CA,Total EQ,PDF.m2.yr,1023.6359481262882,4.014368004904599
+Gold operation refinery,"market for quicklime, milled, loose",RoW,Total EQ,PDF.m2.yr,844.2031892957996,3.3106909531174225
+Gold operation refinery,"market for sodium silicate, spray powder, 80%",RoW,Total EQ,PDF.m2.yr,467.24222721867216,1.8323723887582684
+Gold operation refinery,market for iron sulfate,RoW,Total EQ,PDF.m2.yr,440.9965341547732,1.7294452976424104
+Gold operation refinery,"market for heat, district or industrial, natural gas",CA-QC,Total EQ,PDF.m2.yr,440.73054587314016,1.728402177918624
+Gold operation refinery,"market for soda ash, dense",GLO,Total EQ,PDF.m2.yr,324.0768319857837,1.2709241677531145
+Gold operation refinery,market for synthetic rubber,GLO,Total EQ,PDF.m2.yr,321.6229437938913,1.2613008145842683
+Gold operation refinery,"market for lime, hydrated, loose weight",RoW,Total EQ,PDF.m2.yr,273.77249965279304,1.0736469007762306
+Gold operation refinery,"market for propane, burned in building machine",GLO,Total EQ,PDF.m2.yr,163.2855290045027,0.6403528564031326
+Gold operation refinery,market for polyacrylamide,GLO,Total EQ,PDF.m2.yr,115.77362686711999,0.454026594472229
+Gold operation refinery,"market for mine infrastructure, gold and silver",GLO,Total EQ,PDF.m2.yr,115.67631167412371,0.4536449558653879
+Gold operation refinery,"market for oxygen, liquid",RoW,Total EQ,PDF.m2.yr,89.54414961696335,0.3511630965156181
+Gold operation refinery,"market for sulfur dioxide, liquid",RoW,Total EQ,PDF.m2.yr,73.42682504776626,0.2879561798440425
+Gold operation refinery,"market for chemical, inorganic",GLO,Total EQ,PDF.m2.yr,72.24568914532203,0.28332414812915857
+Gold operation refinery,market for charcoal,GLO,Total EQ,PDF.m2.yr,48.127771077576305,0.18874150005658005
+Gold operation refinery,"market for sodium hydroxide, without water, in 50% solution state",RoW,Total EQ,PDF.m2.yr,39.82477487309711,0.1561798433766669
+Gold operation refinery,market for lubricating oil,RoW,Total EQ,PDF.m2.yr,37.57156283240028,0.14734347695069686
+Gold operation refinery,"market for aluminium sulfate, powder",RoW,Total EQ,PDF.m2.yr,34.05926515181134,0.13356938523531156
+Gold operation refinery,"market for diesel, low-sulfur",RoW,Total EQ,PDF.m2.yr,33.911296457350815,0.1329891000334709
+Gold operation refinery,"market for polycarboxylates, 40% active substance",RoW,Total EQ,PDF.m2.yr,32.94483884075299,0.12919896688968255
+Gold operation refinery,"market for carbon dioxide, liquid",RoW,Total EQ,PDF.m2.yr,27.88921874186521,0.10937246547863216
+Gold operation refinery,"market for phosphoric acid, industrial grade, without water, in 85% solution state",GLO,Total EQ,PDF.m2.yr,12.185986823488406,0.04778948580493348
+Gold operation refinery,"market for nitric acid, without water, in 50% solution state",RNA,Total EQ,PDF.m2.yr,6.599412007921407,0.0258807522970212
+Gold operation refinery,market for ethylene glycol,RoW,Total EQ,PDF.m2.yr,4.0630020581300235,0.015933775573116597
+Gold operation refinery,market for fatty alcohol,GLO,Total EQ,PDF.m2.yr,3.801781493864741,0.014909353289658159
+Gold operation refinery,"market for waste wood, untreated",RoW,Total EQ,PDF.m2.yr,1.7734546323592972,0.006954913558208377
+Gold operation refinery,"market for hydrochloric acid, without water, in 30% solution state",RoW,Total EQ,PDF.m2.yr,1.561226426984143,0.006122623407636963
+Gold operation refinery,market for sodium nitrate,GLO,Total EQ,PDF.m2.yr,0.9607510830025177,0.0037677539708745418
+Gold operation refinery,"market for borax, anhydrous, powder",GLO,Total EQ,PDF.m2.yr,0.636688742108565,0.002496886632481034
+Gold operation refinery,market for precious metal refinery,GLO,Total EQ,PDF.m2.yr,0.3668384924166747,0.0014386215232285455
+Gold operation refinery,"market for electricity, high voltage",CA-ON,Total EQ,PDF.m2.yr,0.17160289588886118,0.0006729708702260531
+Gold operation refinery,market for manganese dioxide,GLO,Total EQ,PDF.m2.yr,0.030016891810842626,0.00011771650879660517
+Gold operation refinery,market for silica sand,GLO,Total EQ,PDF.m2.yr,0.006774573806912767,2.6567680030303283e-05
+Gold operation refinery,"iron scrap, unsorted, Recycled Content cut-off",GLO,Total EQ,PDF.m2.yr,0.0,0.0
+Gold operation refinery,"market for diesel, burned in building machine",GLO,Total HH,DALY,0.0702801752971534,30.1442979159156
+Gold operation refinery,market for chromium,GLO,Total HH,DALY,0.035723060918130045,15.322195572669974
+Gold operation refinery,"market for electricity, high voltage",CA-QC,Total HH,DALY,0.033369948521148274,14.31290780660594
+Gold operation refinery,"market for steel, unalloyed",GLO,Total HH,DALY,0.01774286930368285,7.6102021076636825
+Gold operation refinery,"market for hydrogen peroxide, without water, in 50% solution state",RoW,Total HH,DALY,0.01227257597448217,5.263905287747382
+Gold operation refinery,market for ammonium nitrate,RNA,Total HH,DALY,0.01152927383471114,4.945091041083103
+Gold operation refinery,market for sodium cyanide,RoW,Total HH,DALY,0.010887512150294265,4.66982912939482
+Gold operation refinery,"market for quicklime, milled, loose",RoW,Total HH,DALY,0.008186241854563375,3.511210839078411
+Gold operation refinery,market for copper sulfate,GLO,Total HH,DALY,0.004970268111024287,2.1318279589829032
+Gold operation refinery,"market for sodium silicate, spray powder, 80%",RoW,Total HH,DALY,0.00420568237613847,1.8038848359441813
+Gold operation refinery,"market for heat, district or industrial, natural gas",CA-QC,Total HH,DALY,0.004116437776982112,1.7656063915182652
+Gold operation refinery,market for iron sulfate,RoW,Total HH,DALY,0.003753539946309767,1.609953673314676
+Gold operation refinery,market for synthetic rubber,GLO,Total HH,DALY,0.0030798300037002888,1.3209886396751385
+Gold operation refinery,"market for soda ash, dense",GLO,Total HH,DALY,0.0029489370927131414,1.264846564229322
+Gold operation refinery,"market for lime, hydrated, loose weight",RoW,Total HH,DALY,0.0026399056054658837,1.1322979873711605
+Gold operation refinery,"market for propane, burned in building machine",GLO,Total HH,DALY,0.001575644426858546,0.675819245070948
+Gold operation refinery,market for polyacrylamide,GLO,Total HH,DALY,0.0010397703064087358,0.44597421318294994
+Gold operation refinery,"market for oxygen, liquid",RoW,Total HH,DALY,0.0009061633955232892,0.3886680595154702
+Gold operation refinery,"market for chemical, inorganic",GLO,Total HH,DALY,0.0006195494822999505,0.26573474083035514
+Gold operation refinery,"market for sulfur dioxide, liquid",RoW,Total HH,DALY,0.0005457734630176974,0.23409101918493336
+Gold operation refinery,"market for mine infrastructure, gold and silver",GLO,Total HH,DALY,0.0004213286637176992,0.18071464258478262
+Gold operation refinery,"market for sodium hydroxide, without water, in 50% solution state",RoW,Total HH,DALY,0.0003737635004018615,0.16031317876729173
+Gold operation refinery,"market for polycarboxylates, 40% active substance",RoW,Total HH,DALY,0.00031858273694064694,0.13664526152079198
+Gold operation refinery,market for lubricating oil,RoW,Total HH,DALY,0.00030913321450187336,0.1325922093143463
+Gold operation refinery,"market for aluminium sulfate, powder",RoW,Total HH,DALY,0.000287656598183539,0.12338054304020271
+Gold operation refinery,"market for carbon dioxide, liquid",RoW,Total HH,DALY,0.000260971473692073,0.11193486381141701
+Gold operation refinery,"market for diesel, low-sulfur",RoW,Total HH,DALY,0.0002540750350891628,0.10897687033849283
+Gold operation refinery,market for charcoal,GLO,Total HH,DALY,0.00020642700784408315,0.08853986484856032
+Gold operation refinery,"market for phosphoric acid, industrial grade, without water, in 85% solution state",GLO,Total HH,DALY,0.00011494044870102686,0.049299807713671207
+Gold operation refinery,"market for nitric acid, without water, in 50% solution state",RNA,Total HH,DALY,7.141964663173275e-05,0.03063303550416116
+Gold operation refinery,market for fatty alcohol,GLO,Total HH,DALY,3.7654240726257506e-05,0.016150509662941643
+Gold operation refinery,market for ethylene glycol,RoW,Total HH,DALY,3.705774407817067e-05,0.01589466265360012
+Gold operation refinery,"market for waste wood, untreated",RoW,Total HH,DALY,2.44908807968149e-05,0.010504532805174533
+Gold operation refinery,"market for hydrochloric acid, without water, in 30% solution state",RoW,Total HH,DALY,1.4274476121035114e-05,0.006122552468982447
+Gold operation refinery,market for sodium nitrate,GLO,Total HH,DALY,9.093243432222936e-06,0.00390023840839756
+Gold operation refinery,"market for borax, anhydrous, powder",GLO,Total HH,DALY,5.545071385693325e-06,0.002378370331442938
+Gold operation refinery,"market for electricity, high voltage",CA-ON,Total HH,DALY,3.2160589981707196e-06,0.0013794194471786684
+Gold operation refinery,market for precious metal refinery,GLO,Total HH,DALY,2.7267799070303864e-06,0.0011695597730244404
+Gold operation refinery,market for manganese dioxide,GLO,Total HH,DALY,2.6699140740853585e-07,0.00011451691023654125
+Gold operation refinery,market for silica sand,GLO,Total HH,DALY,5.206406720341426e-08,2.2331116077303497e-05
+Gold operation refinery,"iron scrap, unsorted, Recycled Content cut-off",GLO,Total HH,DALY,0.0,0.0
+Gold operation refinery,"market for sulfidic tailings, from gold mine operation",CA,Total HH,DALY,0.0,0.0
+Gold production,"market group for electricity, medium voltage",CA,Total EQ,PDF.m2.yr,3834.3681930131243,29.24881920742018
+Gold production,"market for heat, district or industrial, natural gas",CA-QC,Total EQ,PDF.m2.yr,3545.548381494861,27.04568220403801
+Gold production,market for blasting,GLO,Total EQ,PDF.m2.yr,2684.576925404333,20.47813386378529
+Gold production,"mine construction, gold",CA,Total EQ,PDF.m2.yr,1041.9405077299753,7.947992472661669
+Gold production,"market for diesel, burned in building machine",GLO,Total EQ,PDF.m2.yr,918.3038069380198,7.004883379629029
+Gold production,market for sodium cyanide,RoW,Total EQ,PDF.m2.yr,804.8739210472665,6.139632559120361
+Gold production,"market for sulfidic tailings, from gold mine operation",CA,Total EQ,PDF.m2.yr,144.6204685894723,1.103174689163552
+Gold production,"market for diesel, burned in diesel-electric generating set, 10MW",GLO,Total EQ,PDF.m2.yr,67.82079882700239,0.5173416280179899
+Gold production,market for charcoal,GLO,Total EQ,PDF.m2.yr,22.269139545520527,0.1698704985240085
+Gold production,"market for sodium hydroxide, without water, in 50% solution state",RoW,Total EQ,PDF.m2.yr,15.902869524741055,0.12130816139563966
+Gold production,"market for hydrochloric acid, without water, in 30% solution state",RoW,Total EQ,PDF.m2.yr,12.854487945696219,0.09805490109497783
+Gold production,market for zinc,GLO,Total EQ,PDF.m2.yr,9.812199306136055,0.0748481181476786
+Gold production,"market for lime, packed",RoW,Total EQ,PDF.m2.yr,6.022365485936479,0.04593901013995824
+Gold production,market for sulfuric acid,RoW,Total EQ,PDF.m2.yr,0.3167586295444447,0.002416256191780886
+Gold production,market for precious metal refinery,GLO,Total EQ,PDF.m2.yr,0.24948005273401203,0.0019030506698785865
+Gold production,"market group for electricity, medium voltage",CA,Total HH,DALY,0.04888508292346483,47.90637667637065
+Gold production,"market for heat, district or industrial, natural gas",CA-QC,Total HH,DALY,0.033115538358678254,32.45254706707571
+Gold production,"market for diesel, burned in building machine",GLO,Total HH,DALY,0.00865864130581667,8.48529054459125
+Gold production,market for sodium cyanide,RoW,Total HH,DALY,0.007533635487845497,7.382807961852988
+Gold production,"mine construction, gold",CA,Total HH,DALY,0.0018454291675461844,1.8084826606194198
+Gold production,market for blasting,GLO,Total HH,DALY,0.0009381374830454469,0.9193554546559836
+Gold production,"market for diesel, burned in diesel-electric generating set, 10MW",GLO,Total HH,DALY,0.0005392787571020096,0.5284820997796267
+Gold production,"market for sodium hydroxide, without water, in 50% solution state",RoW,Total HH,DALY,0.0001492516203529439,0.14626352082456529
+Gold production,market for zinc,GLO,Total HH,DALY,0.00012385588990860988,0.1213762268714673
+Gold production,"market for hydrochloric acid, without water, in 30% solution state",RoW,Total HH,DALY,0.00011753008920265375,0.1151770721748569
+Gold production,market for charcoal,GLO,Total HH,DALY,9.551557740403941e-05,0.09360330301050923
+Gold production,"market for lime, packed",RoW,Total HH,DALY,3.6649224394854404e-05,0.03591548676526794
+Gold production,market for sulfuric acid,RoW,Total HH,DALY,2.555788021904781e-06,0.0025046197400139052
+Gold production,market for precious metal refinery,GLO,Total HH,DALY,1.8544324247938548e-06,0.0018173056677051687
+Gold production,"market for sulfidic tailings, from gold mine operation",CA,Total HH,DALY,0.0,0.0
+Molybdenite CA,market for blasting,GLO,Total EQ,PDF.m2.yr,59.39876952194066,75.49818062494576
+Molybdenite CA,"market for non-sulfidic tailing, off-site",GLO,Total EQ,PDF.m2.yr,9.120369762407426,11.592349963313394
+Molybdenite CA,"market for steel, chromium steel 18/8, hot rolled",GLO,Total EQ,PDF.m2.yr,4.125700852802445,5.243928631792894
+Molybdenite CA,"market group for electricity, high voltage",CA,Total EQ,PDF.m2.yr,1.37067279417589,1.7421792240017004
+Molybdenite CA,"market for mine infrastructure, open cast, non-ferrous metal",GLO,Total EQ,PDF.m2.yr,1.1865568393466612,1.5081605780683542
+Molybdenite CA,"market for sulfidic tailings, from copper mine operation",CA,Total EQ,PDF.m2.yr,0.7747139820876304,0.9846920504088577
+Molybdenite CA,market for aluminium hydroxide factory,GLO,Total EQ,PDF.m2.yr,0.5856373418748904,0.7443681775470392
+Molybdenite CA,"market for chemical, inorganic",GLO,Total EQ,PDF.m2.yr,0.5315183587750225,0.6755808138659957
+Molybdenite CA,"market for mine infrastructure, underground, non-ferrous metal",GLO,Total EQ,PDF.m2.yr,0.5170180270433667,0.657150319884234
+Molybdenite CA,"market group for electricity, medium voltage",CA,Total EQ,PDF.m2.yr,0.5163014743368735,0.6562395531108223
+Molybdenite CA,"market for chemical, organic",GLO,Total EQ,PDF.m2.yr,0.3585648348285878,0.4557500581833283
+Molybdenite CA,market for sodium cyanide,RoW,Total EQ,PDF.m2.yr,0.07267739211071447,0.09237583406332923
+Molybdenite CA,market for conveyor belt,GLO,Total EQ,PDF.m2.yr,0.07167715670757305,0.09110449538507695
+Molybdenite CA,"market for lime, packed",RoW,Total EQ,PDF.m2.yr,0.04336855151063753,0.0551231407947422
+Molybdenite CA,"market for diesel, burned in building machine",GLO,Total EQ,PDF.m2.yr,0.002078957412629429,0.002642436931160497
+Molybdenite CA,market for copper sulfate,GLO,Total EQ,PDF.m2.yr,9.472744067402219e-05,0.00012040231613728049
+Molybdenite CA,market for dithiocarbamate-compound,GLO,Total EQ,PDF.m2.yr,2.4673235359257832e-05,3.136065603289935e-05
+Molybdenite CA,market for synthetic rubber,GLO,Total EQ,PDF.m2.yr,1.0340836237032209e-05,1.3143611026286708e-05
+Molybdenite CA,market for iron pellet,GLO,Total EQ,PDF.m2.yr,2.3910765658097214e-06,3.0391526946849686e-06
+Molybdenite CA,market for carbon disulfide,GLO,Total EQ,PDF.m2.yr,2.205575415298489e-06,2.80337341036395e-06
+Molybdenite CA,"market for aluminium sulfate, powder",RoW,Total EQ,PDF.m2.yr,1.464405270696539e-06,1.8613169014272488e-06
+Molybdenite CA,market for diesel,RoW,Total EQ,PDF.m2.yr,1.1016403137329662e-06,1.4002283222249486e-06
+Molybdenite CA,market for potassium carbonate,GLO,Total EQ,PDF.m2.yr,6.848631982438063e-08,8.704881575920497e-08
+Molybdenite CA,"market for steel, chromium steel 18/8, hot rolled",GLO,Total HH,DALY,2.5202400553333767e-05,27.220028725175098
+Molybdenite CA,market for blasting,GLO,Total HH,DALY,2.0757167212452778e-05,22.418923410908487
+Molybdenite CA,"market group for electricity, high voltage",CA,Total HH,DALY,1.7574512916996004e-05,18.981475412202837
+Molybdenite CA,"market for mine infrastructure, open cast, non-ferrous metal",GLO,Total HH,DALY,8.071890327953287e-06,8.718101520860378
+Molybdenite CA,"market group for electricity, medium voltage",CA,Total HH,DALY,6.582424826196776e-06,7.109393903616887
+Molybdenite CA,"market for chemical, inorganic",GLO,Total HH,DALY,4.558084058823005e-06,4.922990520302354
+Molybdenite CA,"market for mine infrastructure, underground, non-ferrous metal",GLO,Total HH,DALY,3.3018089991971084e-06,3.566141868628393
+Molybdenite CA,"market for chemical, organic",GLO,Total HH,DALY,3.2287825642046984e-06,3.4872691575156587
+Molybdenite CA,market for aluminium hydroxide factory,GLO,Total HH,DALY,1.6241183252138544e-06,1.7541403396017567
+Molybdenite CA,market for conveyor belt,GLO,Total HH,DALY,7.220355989645645e-07,0.7798395911858742
+Molybdenite CA,market for sodium cyanide,RoW,Total HH,DALY,6.802617975955077e-07,0.7347215052789714
+Molybdenite CA,"market for lime, packed",RoW,Total HH,DALY,2.639201788242887e-07,0.28504883229467604
+Molybdenite CA,"market for diesel, burned in building machine",GLO,Total HH,DALY,1.9602386911635505e-08,0.02117169488230094
+Molybdenite CA,market for copper sulfate,GLO,Total HH,DALY,3.554696590573966e-10,0.0003839274877801516
+Molybdenite CA,market for dithiocarbamate-compound,GLO,Total HH,DALY,1.899176987585911e-10,0.00020512193688407084
+Molybdenite CA,market for synthetic rubber,GLO,Total HH,DALY,9.90228412515625e-11,0.00010695031124562606
+Molybdenite CA,market for carbon disulfide,GLO,Total HH,DALY,1.787846966806134e-11,1.9309766023952316e-05
+Molybdenite CA,market for iron pellet,GLO,Total HH,DALY,1.4298731733186751e-11,1.5443445067356143e-05
+Molybdenite CA,"market for aluminium sulfate, powder",RoW,Total HH,DALY,1.2368024872321721e-11,1.3358171638683218e-05
+Molybdenite CA,market for diesel,RoW,Total HH,DALY,8.090396706540634e-12,8.73808946429777e-06
+Molybdenite CA,market for potassium carbonate,GLO,Total HH,DALY,6.187991139687622e-13,6.683383045872004e-07
+Molybdenite CA,"market for sulfidic tailings, from copper mine operation",CA,Total HH,DALY,0.0,0.0
+Molybdenite CA,"market for non-sulfidic tailing, off-site",GLO,Total HH,DALY,-7.464194497088738e-20,-8.06175539473256e-14
+Nickel concentrate CA,"market for diesel, burned in building machine",GLO,Total EQ,PDF.m2.yr,0.1762834428608992,36.50095100203329
+Nickel concentrate CA,"market for cement, CEM II/B",RoW,Total EQ,PDF.m2.yr,0.13628210581829578,28.21834192819075
+Nickel concentrate CA,market for sand,RoW,Total EQ,PDF.m2.yr,0.06721716442531442,13.917872179975541
+Nickel concentrate CA,"market for soda ash, dense",GLO,Total EQ,PDF.m2.yr,0.03166474784204417,6.55644903864398
+Nickel concentrate CA,"market for mine infrastructure, underground, non-ferrous metal",GLO,Total EQ,PDF.m2.yr,0.02216001741034304,4.588415659304931
+Nickel concentrate CA,"market for diesel, burned in diesel-electric generating set, 10MW",GLO,Total EQ,PDF.m2.yr,0.015294702178795447,3.1668951193528825
+Nickel concentrate CA,market for ammonium nitrate,RNA,Total EQ,PDF.m2.yr,0.009087894711812957,1.881724081423072
+Nickel concentrate CA,"market for carboxymethyl cellulose, powder",GLO,Total EQ,PDF.m2.yr,0.00902698991320821,1.8691132370148724
+Nickel concentrate CA,"market for sulfidic tailings, from nickel mine operation",CA,Total EQ,PDF.m2.yr,0.008631034541833055,1.7871273886844612
+Nickel concentrate CA,"market for chemical, inorganic",GLO,Total EQ,PDF.m2.yr,0.004156917695197453,0.8607243349088366
+Nickel concentrate CA,market for polyacrylamide,GLO,Total EQ,PDF.m2.yr,0.0012659764595650044,0.26213094077571664
+Nickel concentrate CA,market for foaming agent,GLO,Total EQ,PDF.m2.yr,0.0009839297615752342,0.2037308293612069
+Nickel concentrate CA,"market for lime, hydrated, packed",RoW,Total EQ,PDF.m2.yr,0.0003489772830104709,0.07225864494851703
+Nickel concentrate CA,market for lubricating oil,RoW,Total EQ,PDF.m2.yr,0.00027584000121587133,0.05711496329650233
+Nickel concentrate CA,"market for diesel, low-sulfur",RoW,Total EQ,PDF.m2.yr,0.0002719724001127915,0.056314144364968746
+Nickel concentrate CA,market for ethylene glycol,RoW,Total EQ,PDF.m2.yr,4.039962162532223e-06,0.000836507720472739
+Nickel concentrate CA,"market for diesel, burned in building machine",GLO,Total HH,DALY,1.6621678886168174e-06,39.91618049506908
+Nickel concentrate CA,"market for cement, CEM II/B",RoW,Total HH,DALY,1.2869085402304349e-06,30.90450364507431
+Nickel concentrate CA,market for sand,RoW,Total HH,DALY,4.3096753360988876e-07,10.349482730894467
+Nickel concentrate CA,"market for soda ash, dense",GLO,Total HH,DALY,2.8813336908609843e-07,6.919387413183538
+Nickel concentrate CA,"market for mine infrastructure, underground, non-ferrous metal",GLO,Total HH,DALY,1.4151952365424658e-07,3.3985248352137796
+Nickel concentrate CA,"market for diesel, burned in diesel-electric generating set, 10MW",GLO,Total HH,DALY,1.216162021663222e-07,2.92055592581288
+Nickel concentrate CA,market for ammonium nitrate,RNA,Total HH,DALY,9.247621131347034e-08,2.2207727435766826
+Nickel concentrate CA,"market for carboxymethyl cellulose, powder",GLO,Total HH,DALY,7.57811023387355e-08,1.819847549566999
+Nickel concentrate CA,"market for chemical, inorganic",GLO,Total HH,DALY,3.56480260136031e-08,0.856070587331585
+Nickel concentrate CA,market for polyacrylamide,GLO,Total HH,DALY,1.1369815102873057e-08,0.2730407649852438
+Nickel concentrate CA,market for foaming agent,GLO,Total HH,DALY,9.976353362649936e-09,0.23957743633075693
+Nickel concentrate CA,"market for lime, hydrated, packed",RoW,Total HH,DALY,3.2369434341783316e-09,0.07773367495296213
+Nickel concentrate CA,market for lubricating oil,RoW,Total HH,DALY,2.2695703834425657e-09,0.054502665881208744
+Nickel concentrate CA,"market for diesel, low-sulfur",RoW,Total HH,DALY,2.037710271232106e-09,0.048934654279022605
+Nickel concentrate CA,market for ethylene glycol,RoW,Total HH,DALY,3.6847602280939054e-11,0.0008848778474961576
+Nickel concentrate CA,"market for sulfidic tailings, from nickel mine operation",CA,Total HH,DALY,0.0,0.0
+Sulfidic market tailings gold CA,"treatment of sulfidic tailings, from gold mine operation, tailings impoundment",CA,Total EQ,PDF.m2.yr,0.0012351222870396472,100.0
+Tellurium,market for copper telluride cement,GLO,Total EQ,PDF.m2.yr,9.25840921041702,93.0577611846422
+Tellurium,"market for electricity, medium voltage",CA-QC,Total EQ,PDF.m2.yr,0.53332835235349,5.360569112722803
+Tellurium,"market for chemical factory, organics",GLO,Total EQ,PDF.m2.yr,0.09044200155108396,0.9090471149117334
+Tellurium,"market for wastewater, average",CA-QC,Total EQ,PDF.m2.yr,0.04906910408607867,0.493201463211301
+Tellurium,market for sulfuric acid,RoW,Total EQ,PDF.m2.yr,0.017850786120127807,0.17942112451196757
+Tellurium,market for copper telluride cement,GLO,Total HH,DALY,7.404561025570135e-05,87.80086567681563
+Tellurium,"market for electricity, medium voltage",CA-QC,Total HH,DALY,1.0014124944518737e-05,11.874422212042452
+Tellurium,"market for chemical factory, organics",GLO,Total HH,DALY,6.70976033594345e-07,0.7956214608069019
+Tellurium,market for sulfuric acid,RoW,Total HH,DALY,1.4403025235025073e-07,0.1707863679741705
+Tellurium,"market for wastewater, average",CA-QC,Total HH,DALY,-5.411649491698333e-07,-0.6416957176391529
