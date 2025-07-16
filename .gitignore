@@ -1,0 +1,8 @@
+# Ignore raw data and company reports
+not_in_github
+OLD
+
+# Ignore system/desktop files
+.DS_Store
+Thumbs.db
+desktop.ini
