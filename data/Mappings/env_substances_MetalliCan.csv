@@ -1,0 +1,425 @@
+compartment_id,substance_id,substance_name,compartment_name,release_pathway,flow_direction
+compb30db82f,95-63-6,"1,2,4-Trimethylbenzene",Air,Other,Emission
+comp7d3e3488,57-97-6,"7,12-Dimethylbenz[a]anthracene",Air,Fugitive Emissions,Emission
+compa50ae012,194-59-2,"7H-Dibenzo[c,g]carbazole",Air,Stack Emissions,Emission
+comp7d3e3488,83-32-9,Acenaphthene,Air,Fugitive Emissions,Emission
+compa50ae012,83-32-9,Acenaphthene,Air,Stack Emissions,Emission
+comp7d3e3488,208-96-8,Acenaphthylene,Air,Fugitive Emissions,Emission
+compa50ae012,208-96-8,Acenaphthylene,Air,Stack Emissions,Emission
+compa50ae012,75-07-0,Acetaldehyde,Air,Stack Emissions,Emission
+compa50ae012,7429-90-5,Aluminum (fume or dust only),Air,Stack Emissions,Emission
+comp82641eec,7664-41-7,Ammonia,Air,Unspecified,Emission
+comp7d3e3488,NA - 16,Ammonia (total),Air,Fugitive Emissions,Emission
+compa50ae012,NA - 16,Ammonia (total),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 16,Ammonia (total),Air,Storage / Handling,Emission
+comp7d3e3488,120-12-7,Anthracene,Air,Fugitive Emissions,Emission
+compb30db82f,120-12-7,Anthracene,Air,Other,Emission
+compa50ae012,120-12-7,Anthracene,Air,Stack Emissions,Emission
+comp7d3e3488,NA - 01,Antimony (and its compounds),Air,Fugitive Emissions,Emission
+compa50ae012,NA - 01,Antimony (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 01,Antimony (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,NA - 02,Arsenic,Air,Fugitive Emissions,Emission
+compb30db82f,NA - 02,Arsenic,Air,Other,Emission
+compa50ae012,NA - 02,Arsenic,Air,Stack Emissions,Emission
+comp1dcc546c,NA - 02,Arsenic,Air,Storage / Handling,Emission
+comp82641eec,NA - 02,Arsenic,Air,Unspecified,Emission
+comp7d3e3488,NA - 02,Arsenic (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 02,Arsenic (and its compounds),Air,Other,Emission
+compa50ae012,NA - 02,Arsenic (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 02,Arsenic (and its compounds),Air,Storage / Handling,Emission
+comp82641eec,NA - 02,Arsenic (and its compounds),Air,Unspecified,Emission
+comp7d3e3488,56-55-3,Benz[a]anthracene,Air,Fugitive Emissions,Emission
+compb30db82f,56-55-3,Benz[a]anthracene,Air,Other,Emission
+compa50ae012,56-55-3,Benz[a]anthracene,Air,Stack Emissions,Emission
+comp7d3e3488,71-43-2,Benzene,Air,Fugitive Emissions,Emission
+compa50ae012,71-43-2,Benzene,Air,Stack Emissions,Emission
+comp1dcc546c,71-43-2,Benzene,Air,Storage / Handling,Emission
+comp7d3e3488,50-32-8,Benzo[a]pyrene,Air,Fugitive Emissions,Emission
+compb30db82f,50-32-8,Benzo[a]pyrene,Air,Other,Emission
+compa50ae012,50-32-8,Benzo[a]pyrene,Air,Stack Emissions,Emission
+comp7d3e3488,205-99-2,Benzo[b]fluoranthene,Air,Fugitive Emissions,Emission
+compb30db82f,205-99-2,Benzo[b]fluoranthene,Air,Other,Emission
+compa50ae012,205-99-2,Benzo[b]fluoranthene,Air,Stack Emissions,Emission
+comp7d3e3488,192-97-2,Benzo[e]pyrene,Air,Fugitive Emissions,Emission
+compb30db82f,192-97-2,Benzo[e]pyrene,Air,Other,Emission
+compa50ae012,192-97-2,Benzo[e]pyrene,Air,Stack Emissions,Emission
+comp7d3e3488,191-24-2,Benzo[ghi]perylene,Air,Fugitive Emissions,Emission
+compb30db82f,191-24-2,Benzo[ghi]perylene,Air,Other,Emission
+compa50ae012,191-24-2,Benzo[ghi]perylene,Air,Stack Emissions,Emission
+comp7d3e3488,205-82-3,Benzo[j]fluoranthene,Air,Fugitive Emissions,Emission
+compb30db82f,205-82-3,Benzo[j]fluoranthene,Air,Other,Emission
+compa50ae012,205-82-3,Benzo[j]fluoranthene,Air,Stack Emissions,Emission
+comp7d3e3488,207-08-9,Benzo[k]fluoranthene,Air,Fugitive Emissions,Emission
+compb30db82f,207-08-9,Benzo[k]fluoranthene,Air,Other,Emission
+compa50ae012,207-08-9,Benzo[k]fluoranthene,Air,Stack Emissions,Emission
+comp82641eec,124-38-9,Biogenic CO2,Air,Unspecified,Emission
+comp82641eec,74-82-8,CH4,Air,Unspecified,Emission
+comp7d3e3488,630-08-0,CO,Air,Fugitive Emissions,Emission
+compb30db82f,630-08-0,CO,Air,Other,Emission
+comp3ca42ad5,630-08-0,CO,Air,Spills,Emission
+compa50ae012,630-08-0,CO,Air,Stack Emissions,Emission
+comp82641eec,630-08-0,CO,Air,Unspecified,Emission
+comp82641eec,124-38-9,CO2,Air,Unspecified,Emission
+comp7d3e3488,NA - 03,Cadmium (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 03,Cadmium (and its compounds),Air,Other,Emission
+compa50ae012,NA - 03,Cadmium (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 03,Cadmium (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,7789-75-5,Calcium fluoride,Air,Fugitive Emissions,Emission
+compb30db82f,7789-75-5,Calcium fluoride,Air,Other,Emission
+compa50ae012,7789-75-5,Calcium fluoride,Air,Stack Emissions,Emission
+comp7d3e3488,75-15-0,Carbon disulphide,Air,Fugitive Emissions,Emission
+compa50ae012,75-15-0,Carbon disulphide,Air,Stack Emissions,Emission
+comp7d3e3488,630-08-0,Carbon monoxide,Air,Fugitive Emissions,Emission
+compb30db82f,630-08-0,Carbon monoxide,Air,Other,Emission
+comp3ca42ad5,630-08-0,Carbon monoxide,Air,Spills,Emission
+compa50ae012,630-08-0,Carbon monoxide,Air,Stack Emissions,Emission
+comp82641eec,630-08-0,Carbon monoxide,Air,Unspecified,Emission
+comp7d3e3488,463-58-1,Carbonyl sulphide,Air,Fugitive Emissions,Emission
+compa50ae012,463-58-1,Carbonyl sulphide,Air,Stack Emissions,Emission
+compa50ae012,7782-50-5,Chlorine,Air,Stack Emissions,Emission
+comp7d3e3488,NA - 04,Chromium (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 04,Chromium (and its compounds),Air,Other,Emission
+compa50ae012,NA - 04,Chromium (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 04,Chromium (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,218-01-9,Chrysene,Air,Fugitive Emissions,Emission
+compb30db82f,218-01-9,Chrysene,Air,Other,Emission
+compa50ae012,218-01-9,Chrysene,Air,Stack Emissions,Emission
+comp7d3e3488,NA - 05,Cobalt (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 05,Cobalt (and its compounds),Air,Other,Emission
+compa50ae012,NA - 05,Cobalt (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 05,Cobalt (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,NA - 06,Copper (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 06,Copper (and its compounds),Air,Other,Emission
+compa50ae012,NA - 06,Copper (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 06,Copper (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,NA - 07,Cyanides (ionic),Air,Fugitive Emissions,Emission
+compa50ae012,NA - 07,Cyanides (ionic),Air,Stack Emissions,Emission
+comp7d3e3488,226-36-8,"Dibenz[a,h]acridine",Air,Fugitive Emissions,Emission
+comp7d3e3488,53-70-3,"Dibenz[a,h]anthracene",Air,Fugitive Emissions,Emission
+compb30db82f,53-70-3,"Dibenz[a,h]anthracene",Air,Other,Emission
+compa50ae012,53-70-3,"Dibenz[a,h]anthracene",Air,Stack Emissions,Emission
+comp7d3e3488,224-42-0,"Dibenz[a,j]acridine",Air,Fugitive Emissions,Emission
+comp7d3e3488,5385-75-1,"Dibenzo[a,e]fluoranthene",Air,Fugitive Emissions,Emission
+compa50ae012,5385-75-1,"Dibenzo[a,e]fluoranthene",Air,Stack Emissions,Emission
+comp7d3e3488,192-65-4,"Dibenzo[a,e]pyrene",Air,Fugitive Emissions,Emission
+compa50ae012,192-65-4,"Dibenzo[a,e]pyrene",Air,Stack Emissions,Emission
+comp7d3e3488,189-64-0,"Dibenzo[a,h]pyrene",Air,Fugitive Emissions,Emission
+comp7d3e3488,189-55-9,"Dibenzo[a,i]pyrene",Air,Fugitive Emissions,Emission
+compb30db82f,189-55-9,"Dibenzo[a,i]pyrene",Air,Other,Emission
+compa50ae012,189-55-9,"Dibenzo[a,i]pyrene",Air,Stack Emissions,Emission
+comp7d3e3488,NA - D/F,Dioxins and furans - total,Air,Fugitive Emissions,Emission
+compa50ae012,NA - D/F,Dioxins and furans - total,Air,Stack Emissions,Emission
+comp82641eec,Direct dust emissions,Direct dust emissions,Air,Unspecified,Emission
+comp7d3e3488,100-41-4,Ethylbenzene,Air,Fugitive Emissions,Emission
+compb30db82f,100-41-4,Ethylbenzene,Air,Other,Emission
+compa50ae012,100-41-4,Ethylbenzene,Air,Stack Emissions,Emission
+comp7d3e3488,74-85-1,Ethylene,Air,Fugitive Emissions,Emission
+compa50ae012,74-85-1,Ethylene,Air,Stack Emissions,Emission
+comp7d3e3488,107-21-1,Ethylene glycol,Air,Fugitive Emissions,Emission
+compb30db82f,107-21-1,Ethylene glycol,Air,Other,Emission
+comp7d3e3488,206-44-0,Fluoranthene,Air,Fugitive Emissions,Emission
+compb30db82f,206-44-0,Fluoranthene,Air,Other,Emission
+compa50ae012,206-44-0,Fluoranthene,Air,Stack Emissions,Emission
+comp7d3e3488,86-73-7,Fluorene,Air,Fugitive Emissions,Emission
+compa50ae012,86-73-7,Fluorene,Air,Stack Emissions,Emission
+comp82641eec,Direct dust emissions,Fluoride emissions,Air,Unspecified,Emission
+compa50ae012,7782-41-4,Fluorine,Air,Stack Emissions,Emission
+comp82641eec,NA - GHG,GHG,Air,Unspecified,Emission
+comp7d3e3488,118-74-1,Hexachlorobenzene,Air,Fugitive Emissions,Emission
+compa50ae012,118-74-1,Hexachlorobenzene,Air,Stack Emissions,Emission
+comp7d3e3488,NA - 19,Hexavalent chromium (and its compounds),Air,Fugitive Emissions,Emission
+compa50ae012,NA - 19,Hexavalent chromium (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 19,Hexavalent chromium (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,7647-01-0,Hydrochloric acid,Air,Fugitive Emissions,Emission
+compa50ae012,7647-01-0,Hydrochloric acid,Air,Stack Emissions,Emission
+comp1dcc546c,7647-01-0,Hydrochloric acid,Air,Storage / Handling,Emission
+comp7d3e3488,74-90-8,Hydrogen cyanide,Air,Fugitive Emissions,Emission
+compa50ae012,74-90-8,Hydrogen cyanide,Air,Stack Emissions,Emission
+comp7d3e3488,7664-39-3,Hydrogen fluoride,Air,Fugitive Emissions,Emission
+compa50ae012,7664-39-3,Hydrogen fluoride,Air,Stack Emissions,Emission
+comp1dcc546c,7664-39-3,Hydrogen fluoride,Air,Storage / Handling,Emission
+comp82641eec,7664-39-3,Hydrogen fluoride,Air,Unspecified,Emission
+comp7d3e3488,7783-06-4,Hydrogen sulphide,Air,Fugitive Emissions,Emission
+compa50ae012,7783-06-4,Hydrogen sulphide,Air,Stack Emissions,Emission
+comp1dcc546c,7783-06-4,Hydrogen sulphide,Air,Storage / Handling,Emission
+comp7d3e3488,193-39-5,"Indeno[1,2,3-cd]pyrene",Air,Fugitive Emissions,Emission
+compb30db82f,193-39-5,"Indeno[1,2,3-cd]pyrene",Air,Other,Emission
+compa50ae012,193-39-5,"Indeno[1,2,3-cd]pyrene",Air,Stack Emissions,Emission
+comp7d3e3488,67-63-0,Isopropyl alcohol,Air,Fugitive Emissions,Emission
+comp7d3e3488,NA - 08,Lead,Air,Fugitive Emissions,Emission
+compb30db82f,NA - 08,Lead,Air,Other,Emission
+compa50ae012,NA - 08,Lead,Air,Stack Emissions,Emission
+comp1dcc546c,NA - 08,Lead,Air,Storage / Handling,Emission
+comp82641eec,NA - 08,Lead,Air,Unspecified,Emission
+comp7d3e3488,NA - 08,Lead (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 08,Lead (and its compounds),Air,Other,Emission
+compa50ae012,NA - 08,Lead (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 08,Lead (and its compounds),Air,Storage / Handling,Emission
+comp82641eec,NA - 08,Lead (and its compounds),Air,Unspecified,Emission
+comp7d3e3488,NA - 09,Manganese,Air,Fugitive Emissions,Emission
+compb30db82f,NA - 09,Manganese,Air,Other,Emission
+compa50ae012,NA - 09,Manganese,Air,Stack Emissions,Emission
+comp1dcc546c,NA - 09,Manganese,Air,Storage / Handling,Emission
+comp82641eec,NA - 09,Manganese,Air,Unspecified,Emission
+comp7d3e3488,NA - 09,Manganese (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 09,Manganese (and its compounds),Air,Other,Emission
+compa50ae012,NA - 09,Manganese (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 09,Manganese (and its compounds),Air,Storage / Handling,Emission
+comp82641eec,NA - 09,Manganese (and its compounds),Air,Unspecified,Emission
+comp7d3e3488,NA - 10,Mercury,Air,Fugitive Emissions,Emission
+compb30db82f,NA - 10,Mercury,Air,Other,Emission
+compa50ae012,NA - 10,Mercury,Air,Stack Emissions,Emission
+comp1dcc546c,NA - 10,Mercury,Air,Storage / Handling,Emission
+comp82641eec,NA - 10,Mercury,Air,Unspecified,Emission
+comp7d3e3488,NA - 10,Mercury (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 10,Mercury (and its compounds),Air,Other,Emission
+compa50ae012,NA - 10,Mercury (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 10,Mercury (and its compounds),Air,Storage / Handling,Emission
+comp82641eec,NA - 10,Mercury (and its compounds),Air,Unspecified,Emission
+comp7d3e3488,67-56-1,Methanol,Air,Fugitive Emissions,Emission
+compb30db82f,67-56-1,Methanol,Air,Other,Emission
+compa50ae012,67-56-1,Methanol,Air,Stack Emissions,Emission
+comp82641eec,10024-97-2,N2O,Air,Unspecified,Emission
+comp82641eec,10102-44-0,NO2,Air,Unspecified,Emission
+comp82641eec,NA - NOx,NOx,Air,Unspecified,Emission
+comp82641eec,NA - NOx,NOx (excluding NO2),Air,Unspecified,Emission
+comp7d3e3488,91-20-3,Naphthalene,Air,Fugitive Emissions,Emission
+compb30db82f,91-20-3,Naphthalene,Air,Other,Emission
+compa50ae012,91-20-3,Naphthalene,Air,Stack Emissions,Emission
+comp1dcc546c,91-20-3,Naphthalene,Air,Storage / Handling,Emission
+comp7d3e3488,NA - 11,Nickel (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 11,Nickel (and its compounds),Air,Other,Emission
+compa50ae012,NA - 11,Nickel (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 11,Nickel (and its compounds),Air,Storage / Handling,Emission
+compa50ae012,NA - 17,Nitrate ion in solution at pH >= 6.0,Air,Stack Emissions,Emission
+compa50ae012,7697-37-2,Nitric acid,Air,Stack Emissions,Emission
+comp7d3e3488,11104-93-1,Nitrogen oxides (expressed as nitrogen dioxide),Air,Fugitive Emissions,Emission
+compb30db82f,11104-93-1,Nitrogen oxides (expressed as nitrogen dioxide),Air,Other,Emission
+comp3ca42ad5,11104-93-1,Nitrogen oxides (expressed as nitrogen dioxide),Air,Spills,Emission
+compa50ae012,11104-93-1,Nitrogen oxides (expressed as nitrogen dioxide),Air,Stack Emissions,Emission
+comp1dcc546c,11104-93-1,Nitrogen oxides (expressed as nitrogen dioxide),Air,Storage / Handling,Emission
+compa50ae012,NA - P/H,"PAHs, total unspeciated",Air,Stack Emissions,Emission
+comp82641eec,NA - PFCs,PFCs,Air,Unspecified,Emission
+comp82641eec,NA - PM,PM,Air,Unspecified,Emission
+comp82641eec,NA - PM10,PM10,Air,Unspecified,Emission
+comp7d3e3488,NA - M09,PM10 - Particulate Matter <= 10 Micrometers,Air,Fugitive Emissions,Emission
+compb30db82f,NA - M09,PM10 - Particulate Matter <= 10 Micrometers,Air,Other,Emission
+comp3ca42ad5,NA - M09,PM10 - Particulate Matter <= 10 Micrometers,Air,Spills,Emission
+compa50ae012,NA - M09,PM10 - Particulate Matter <= 10 Micrometers,Air,Stack Emissions,Emission
+comp1dcc546c,NA - M09,PM10 - Particulate Matter <= 10 Micrometers,Air,Storage / Handling,Emission
+comp82641eec,NA - PM2.5,PM2.5,Air,Unspecified,Emission
+comp7d3e3488,NA - M10,PM2.5 - Particulate Matter <= 2.5 Micrometers,Air,Fugitive Emissions,Emission
+compb30db82f,NA - M10,PM2.5 - Particulate Matter <= 2.5 Micrometers,Air,Other,Emission
+comp3ca42ad5,NA - M10,PM2.5 - Particulate Matter <= 2.5 Micrometers,Air,Spills,Emission
+compa50ae012,NA - M10,PM2.5 - Particulate Matter <= 2.5 Micrometers,Air,Stack Emissions,Emission
+comp1dcc546c,NA - M10,PM2.5 - Particulate Matter <= 2.5 Micrometers,Air,Storage / Handling,Emission
+comp82641eec,NA - Particulate,Particulate,Air,Unspecified,Emission
+comp7d3e3488,198-55-0,Perylene,Air,Fugitive Emissions,Emission
+compb30db82f,198-55-0,Perylene,Air,Other,Emission
+compa50ae012,198-55-0,Perylene,Air,Stack Emissions,Emission
+comp7d3e3488,85-01-8,Phenanthrene,Air,Fugitive Emissions,Emission
+compb30db82f,85-01-8,Phenanthrene,Air,Other,Emission
+compa50ae012,85-01-8,Phenanthrene,Air,Stack Emissions,Emission
+comp7d3e3488,108-95-2,Phenol (and its salts),Air,Fugitive Emissions,Emission
+compa50ae012,108-95-2,Phenol (and its salts),Air,Stack Emissions,Emission
+comp7d3e3488,NA - 22,Phosphorus (total),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 22,Phosphorus (total),Air,Other,Emission
+compa50ae012,NA - 22,Phosphorus (total),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 22,Phosphorus (total),Air,Storage / Handling,Emission
+comp82641eec,NA - PAH,Polycyclic aromatic hydrocarbons (PAH),Air,Unspecified,Emission
+comp7d3e3488,115-07-1,Propylene,Air,Fugitive Emissions,Emission
+compa50ae012,115-07-1,Propylene,Air,Stack Emissions,Emission
+comp7d3e3488,129-00-0,Pyrene,Air,Fugitive Emissions,Emission
+compb30db82f,129-00-0,Pyrene,Air,Other,Emission
+compa50ae012,129-00-0,Pyrene,Air,Stack Emissions,Emission
+compa50ae012,91-22-5,Quinoline,Air,Stack Emissions,Emission
+comp82641eec,2025884,SO2,Air,Unspecified,Emission
+comp82641eec,NA - SOx,SOx,Air,Unspecified,Emission
+comp7d3e3488,NA - 12,Selenium,Air,Fugitive Emissions,Emission
+compb30db82f,NA - 12,Selenium,Air,Other,Emission
+compa50ae012,NA - 12,Selenium,Air,Stack Emissions,Emission
+comp1dcc546c,NA - 12,Selenium,Air,Storage / Handling,Emission
+comp82641eec,NA - 12,Selenium,Air,Unspecified,Emission
+comp7d3e3488,NA - 12,Selenium (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 12,Selenium (and its compounds),Air,Other,Emission
+compa50ae012,NA - 12,Selenium (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 12,Selenium (and its compounds),Air,Storage / Handling,Emission
+comp82641eec,NA - 12,Selenium (and its compounds),Air,Unspecified,Emission
+comp7d3e3488,NA - 13,Silver (and its compounds),Air,Fugitive Emissions,Emission
+compa50ae012,NA - 13,Silver (and its compounds),Air,Stack Emissions,Emission
+comp7d3e3488,71-43-2,Speciated VOC - Benzene,Air,Fugitive Emissions,Emission
+compa50ae012,71-43-2,Speciated VOC - Benzene,Air,Stack Emissions,Emission
+comp1dcc546c,71-43-2,Speciated VOC - Benzene,Air,Storage / Handling,Emission
+comp7d3e3488,100-42-5,Styrene,Air,Fugitive Emissions,Emission
+compa50ae012,100-42-5,Styrene,Air,Stack Emissions,Emission
+comp7d3e3488,7446-09-5,Sulphur dioxide,Air,Fugitive Emissions,Emission
+compb30db82f,7446-09-5,Sulphur dioxide,Air,Other,Emission
+comp3ca42ad5,7446-09-5,Sulphur dioxide,Air,Spills,Emission
+compa50ae012,7446-09-5,Sulphur dioxide,Air,Stack Emissions,Emission
+comp7d3e3488,7664-93-9,Sulphuric acid,Air,Fugitive Emissions,Emission
+compa50ae012,7664-93-9,Sulphuric acid,Air,Stack Emissions,Emission
+comp1dcc546c,7664-93-9,Sulphuric acid,Air,Storage / Handling,Emission
+comp7d3e3488,NA - 37,Thallium (and its compounds),Air,Fugitive Emissions,Emission
+compa50ae012,NA - 37,Thallium (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 37,Thallium (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,108-88-3,Toluene,Air,Fugitive Emissions,Emission
+compb30db82f,108-88-3,Toluene,Air,Other,Emission
+compa50ae012,108-88-3,Toluene,Air,Stack Emissions,Emission
+comp1dcc546c,108-88-3,Toluene,Air,Storage / Handling,Emission
+comp7d3e3488,NA - M08,Total particulate matter,Air,Fugitive Emissions,Emission
+compb30db82f,NA - M08,Total particulate matter,Air,Other,Emission
+comp3ca42ad5,NA - M08,Total particulate matter,Air,Spills,Emission
+compa50ae012,NA - M08,Total particulate matter,Air,Stack Emissions,Emission
+comp1dcc546c,NA - M08,Total particulate matter,Air,Storage / Handling,Emission
+comp7d3e3488,NA - M14,Total reduced sulphur (expressed as hydrogen sulphide),Air,Fugitive Emissions,Emission
+compa50ae012,NA - M14,Total reduced sulphur (expressed as hydrogen sulphide),Air,Stack Emissions,Emission
+comp1dcc546c,NA - M14,Total reduced sulphur (expressed as hydrogen sulphide),Air,Storage / Handling,Emission
+comp82641eec,7440-61-1,Uranium,Air,Unspecified,Emission
+comp7d3e3488,NA - M16,VOCs,Air,Fugitive Emissions,Emission
+compb30db82f,NA - M16,VOCs,Air,Other,Emission
+comp3ca42ad5,NA - M16,VOCs,Air,Spills,Emission
+compa50ae012,NA - M16,VOCs,Air,Stack Emissions,Emission
+comp1dcc546c,NA - M16,VOCs,Air,Storage / Handling,Emission
+comp82641eec,NA - M16,VOCs,Air,Unspecified,Emission
+comp7d3e3488,NA - 40,Vanadium (and its compounds),Air,Fugitive Emissions,Emission
+compa50ae012,NA - 40,Vanadium (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 40,Vanadium (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,NA - M16,Volatile Organic Compounds (Total),Air,Fugitive Emissions,Emission
+compb30db82f,NA - M16,Volatile Organic Compounds (Total),Air,Other,Emission
+comp3ca42ad5,NA - M16,Volatile Organic Compounds (Total),Air,Spills,Emission
+compa50ae012,NA - M16,Volatile Organic Compounds (Total),Air,Stack Emissions,Emission
+comp1dcc546c,NA - M16,Volatile Organic Compounds (Total),Air,Storage / Handling,Emission
+comp82641eec,NA - M16,Volatile Organic Compounds (Total),Air,Unspecified,Emission
+comp7d3e3488,1330-20-7,Xylene (all isomers),Air,Fugitive Emissions,Emission
+compb30db82f,1330-20-7,Xylene (all isomers),Air,Other,Emission
+compa50ae012,1330-20-7,Xylene (all isomers),Air,Stack Emissions,Emission
+comp1dcc546c,1330-20-7,Xylene (all isomers),Air,Storage / Handling,Emission
+comp7d3e3488,NA - 14,Zinc (and its compounds),Air,Fugitive Emissions,Emission
+compb30db82f,NA - 14,Zinc (and its compounds),Air,Other,Emission
+compa50ae012,NA - 14,Zinc (and its compounds),Air,Stack Emissions,Emission
+comp1dcc546c,NA - 14,Zinc (and its compounds),Air,Storage / Handling,Emission
+comp7d3e3488,78-83-1,i-Butyl alcohol,Air,Fugitive Emissions,Emission
+compa50ae012,78-83-1,i-Butyl alcohol,Air,Stack Emissions,Emission
+comp7d3e3488,110-54-3,n-Hexane,Air,Fugitive Emissions,Emission
+compa50ae012,110-54-3,n-Hexane,Air,Stack Emissions,Emission
+comp4fceff4c,NA - 16,Ammonia (total),Land,Spills,Emission
+comp3af7aa38,NA - 02,Arsenic,Land,Other,Emission
+comp4fceff4c,NA - 02,Arsenic,Land,Spills,Emission
+comp3af7aa38,NA - 02,Arsenic (and its compounds),Land,Other,Emission
+comp4fceff4c,NA - 02,Arsenic (and its compounds),Land,Spills,Emission
+comp3af7aa38,NA - 03,Cadmium (and its compounds),Land,Other,Emission
+comp4fceff4c,NA - 03,Cadmium (and its compounds),Land,Spills,Emission
+comp3af7aa38,NA - 05,Cobalt (and its compounds),Land,Other,Emission
+comp4fceff4c,NA - 05,Cobalt (and its compounds),Land,Spills,Emission
+comp3af7aa38,107-21-1,Ethylene glycol,Land,Other,Emission
+comp4fceff4c,107-21-1,Ethylene glycol,Land,Spills,Emission
+comp3af7aa38,NA - 08,Lead,Land,Other,Emission
+comp4fceff4c,NA - 08,Lead,Land,Spills,Emission
+comp3af7aa38,NA - 08,Lead (and its compounds),Land,Other,Emission
+comp4fceff4c,NA - 08,Lead (and its compounds),Land,Spills,Emission
+comp3af7aa38,NA - 09,Manganese,Land,Other,Emission
+comp3af7aa38,NA - 09,Manganese (and its compounds),Land,Other,Emission
+comp4fceff4c,NA - 10,Mercury,Land,Spills,Emission
+comp4fceff4c,NA - 10,Mercury (and its compounds),Land,Spills,Emission
+comp3af7aa38,NA - 12,Selenium,Land,Other,Emission
+comp4fceff4c,NA - 12,Selenium,Land,Spills,Emission
+comp3af7aa38,NA - 12,Selenium (and its compounds),Land,Other,Emission
+comp4fceff4c,NA - 12,Selenium (and its compounds),Land,Spills,Emission
+comp4fceff4c,7664-93-9,Sulphuric acid,Land,Spills,Emission
+comp4fceff4c,NA - 37,Thallium (and its compounds),Land,Spills,Emission
+comp3af7aa38,NA - 14,Zinc (and its compounds),Land,Other,Emission
+comp4fceff4c,NA - 14,Zinc (and its compounds),Land,Spills,Emission
+compde27e9f6,,,Land,Unspecified,Occupation and transformation
+comp567d1198,NA - 16,Ammonia (total),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 16,Ammonia (total),Water,Waterbody,Emission
+comp567d1198,NA - 01,Antimony (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 01,Antimony (and its compounds),Water,Waterbody,Emission
+comp567d1198,NA - 02,Arsenic,Water,Direct Discharge,Emission
+compb4e31bc7,NA - 02,Arsenic,Water,Waterbody,Emission
+comp567d1198,NA - 02,Arsenic (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 02,Arsenic (and its compounds),Water,Waterbody,Emission
+comp567d1198,56-55-3,Benz[a]anthracene,Water,Direct Discharge,Emission
+compb4e31bc7,56-55-3,Benz[a]anthracene,Water,Waterbody,Emission
+comp567d1198,71-43-2,Benzene,Water,Direct Discharge,Emission
+compb4e31bc7,71-43-2,Benzene,Water,Waterbody,Emission
+comp567d1198,50-32-8,Benzo[a]pyrene,Water,Direct Discharge,Emission
+compb4e31bc7,50-32-8,Benzo[a]pyrene,Water,Waterbody,Emission
+comp567d1198,205-99-2,Benzo[b]fluoranthene,Water,Direct Discharge,Emission
+compb4e31bc7,205-99-2,Benzo[b]fluoranthene,Water,Waterbody,Emission
+comp567d1198,191-24-2,Benzo[ghi]perylene,Water,Direct Discharge,Emission
+compb4e31bc7,191-24-2,Benzo[ghi]perylene,Water,Waterbody,Emission
+comp567d1198,205-82-3,Benzo[j]fluoranthene,Water,Direct Discharge,Emission
+compb4e31bc7,205-82-3,Benzo[j]fluoranthene,Water,Waterbody,Emission
+comp567d1198,207-08-9,Benzo[k]fluoranthene,Water,Direct Discharge,Emission
+compb4e31bc7,207-08-9,Benzo[k]fluoranthene,Water,Waterbody,Emission
+comp567d1198,NA - 03,Cadmium (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 03,Cadmium (and its compounds),Water,Waterbody,Emission
+comp567d1198,7789-75-5,Calcium fluoride,Water,Direct Discharge,Emission
+compb4e31bc7,7789-75-5,Calcium fluoride,Water,Waterbody,Emission
+comp567d1198,NA - 04,Chromium (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 04,Chromium (and its compounds),Water,Waterbody,Emission
+comp567d1198,218-01-9,Chrysene,Water,Direct Discharge,Emission
+compb4e31bc7,218-01-9,Chrysene,Water,Waterbody,Emission
+comp567d1198,NA - 05,Cobalt (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 05,Cobalt (and its compounds),Water,Waterbody,Emission
+comp567d1198,NA - 06,Copper (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 06,Copper (and its compounds),Water,Waterbody,Emission
+comp567d1198,NA - 07,Cyanides (ionic),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 07,Cyanides (ionic),Water,Waterbody,Emission
+comp567d1198,53-70-3,"Dibenz[a,h]anthracene",Water,Direct Discharge,Emission
+compb4e31bc7,53-70-3,"Dibenz[a,h]anthracene",Water,Waterbody,Emission
+comp567d1198,189-55-9,"Dibenzo[a,i]pyrene",Water,Direct Discharge,Emission
+compb4e31bc7,189-55-9,"Dibenzo[a,i]pyrene",Water,Waterbody,Emission
+comp567d1198,206-44-0,Fluoranthene,Water,Direct Discharge,Emission
+compb4e31bc7,206-44-0,Fluoranthene,Water,Waterbody,Emission
+comp567d1198,7782-41-4,Fluorine,Water,Direct Discharge,Emission
+compb4e31bc7,7782-41-4,Fluorine,Water,Waterbody,Emission
+comp567d1198,NA - 19,Hexavalent chromium (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 19,Hexavalent chromium (and its compounds),Water,Waterbody,Emission
+comp567d1198,193-39-5,"Indeno[1,2,3-cd]pyrene",Water,Direct Discharge,Emission
+compb4e31bc7,193-39-5,"Indeno[1,2,3-cd]pyrene",Water,Waterbody,Emission
+comp567d1198,NA - 08,Lead,Water,Direct Discharge,Emission
+compb4e31bc7,NA - 08,Lead,Water,Waterbody,Emission
+comp567d1198,NA - 08,Lead (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 08,Lead (and its compounds),Water,Waterbody,Emission
+comp567d1198,NA - 09,Manganese,Water,Direct Discharge,Emission
+compb4e31bc7,NA - 09,Manganese,Water,Waterbody,Emission
+comp567d1198,NA - 09,Manganese (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 09,Manganese (and its compounds),Water,Waterbody,Emission
+comp567d1198,NA - 10,Mercury,Water,Direct Discharge,Emission
+compb4e31bc7,NA - 10,Mercury,Water,Waterbody,Emission
+comp567d1198,NA - 10,Mercury (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 10,Mercury (and its compounds),Water,Waterbody,Emission
+comp567d1198,91-20-3,Naphthalene,Water,Direct Discharge,Emission
+compb4e31bc7,91-20-3,Naphthalene,Water,Waterbody,Emission
+comp567d1198,NA - 11,Nickel (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 11,Nickel (and its compounds),Water,Waterbody,Emission
+comp567d1198,NA - 17,Nitrate ion in solution at pH >= 6.0,Water,Direct Discharge,Emission
+compb4e31bc7,NA - 17,Nitrate ion in solution at pH >= 6.0,Water,Waterbody,Emission
+comp567d1198,198-55-0,Perylene,Water,Direct Discharge,Emission
+compb4e31bc7,198-55-0,Perylene,Water,Waterbody,Emission
+comp567d1198,85-01-8,Phenanthrene,Water,Direct Discharge,Emission
+compb4e31bc7,85-01-8,Phenanthrene,Water,Waterbody,Emission
+comp567d1198,108-95-2,Phenol (and its salts),Water,Direct Discharge,Emission
+compb4e31bc7,108-95-2,Phenol (and its salts),Water,Waterbody,Emission
+comp567d1198,NA - 22,Phosphorus (total),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 22,Phosphorus (total),Water,Waterbody,Emission
+comp567d1198,129-00-0,Pyrene,Water,Direct Discharge,Emission
+compb4e31bc7,129-00-0,Pyrene,Water,Waterbody,Emission
+comp567d1198,NA - 12,Selenium,Water,Direct Discharge,Emission
+compb4e31bc7,NA - 12,Selenium,Water,Waterbody,Emission
+comp567d1198,NA - 12,Selenium (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 12,Selenium (and its compounds),Water,Waterbody,Emission
+comp567d1198,NA - 13,Silver (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 13,Silver (and its compounds),Water,Waterbody,Emission
+comp567d1198,71-43-2,Speciated VOC - Benzene,Water,Direct Discharge,Emission
+compb4e31bc7,71-43-2,Speciated VOC - Benzene,Water,Waterbody,Emission
+comp567d1198,NA - 37,Thallium (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 37,Thallium (and its compounds),Water,Waterbody,Emission
+comp567d1198,NA - 40,Vanadium (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 40,Vanadium (and its compounds),Water,Waterbody,Emission
+comp93f08204,7732-18-5,Water,Water,Unspecified,Consumption
+compc80509fb,7732-18-5,Water,Water,Unspecified,Discharged
+comp412a1227,7732-18-5,Water,Water,Unspecified,Withdrawal
+comp567d1198,NA - 14,Zinc (and its compounds),Water,Direct Discharge,Emission
+compb4e31bc7,NA - 14,Zinc (and its compounds),Water,Waterbody,Emission
