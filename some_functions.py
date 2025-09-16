@@ -1,5 +1,8 @@
 from typing import List, Tuple
 import pandas as pd
+import pandas as pd
+import plotly.graph_objects as go
+import io
 
 
 def merge_without_suffixes(
@@ -95,10 +98,6 @@ def get_info_for_ids(df, id_pairs):
     filtered_df = df[mask]
     return filtered_df
 
-
-import pandas as pd
-import plotly.graph_objects as go
-import io
 
 def create_sankey_diagram(data):
     """
@@ -202,3 +201,44 @@ def create_sankey_diagram(data):
 
     return fig
 
+
+def get_production_data(production_df, reference_priority=None):
+    """
+    Filters the production DataFrame to keep only the highest priority reference_point per group.
+
+    Args:
+        production_df (pd.DataFrame): Input DataFrame containing production data.
+        reference_priority (dict): Dictionary mapping reference_point to priority.
+                                   Defaults to {"Crude ore": 0, "Total extraction": 1}.
+
+    Returns:
+        pd.DataFrame: Filtered DataFrame with only the highest priority reference_point per group.
+    """
+    if reference_priority is None:
+        reference_priority = {"Crude ore": 0, "Total extraction": 1}
+
+    # Keep only relevant rows
+    df = production_df[
+        (production_df['prod_id'].str.startswith('PROD')) &
+        (production_df['reference_point'].isin(reference_priority.keys()))
+    ].copy()
+
+    # Assign priority score
+    df["priority"] = df["reference_point"].map(reference_priority)
+
+    # Sort and keep only the best reference_point per group
+    df = df.sort_values(["main_id", "facility_group_id", "priority"])
+    result = df.drop_duplicates(subset=["main_id", "facility_group_id"], keep="first").drop(columns="priority")
+
+    return result
+
+
+# Add the MDO_URL column to the archetypes_table with a merge from the main_id and facility_group_id columns
+def add_mdo_url(archetypes_df, main_df):
+    merged_df = pd.merge(
+        archetypes_df,
+        main_df[['main_id', 'facility_group_id', 'MDO_URL']],
+        on=['main_id', 'facility_group_id'],
+        how='left'
+    )
+    return merged_df

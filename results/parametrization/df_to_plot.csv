@@ -1,0 +1,115 @@
+main_id,facility_group_id,facility_name,facility_group_name,mining_method,commodities,province,energy_subflow,normalized_energy,head_grade,strip_ratio
+BC-MAIN-599152a0,nan,Copper Mountain,,"Open-pit, concentrator","Copper, gold, silver",British Columbia,Diesel,11.79804819,0.116714,3.82
+BC-MAIN-599152a0,nan,Copper Mountain,,"Open-pit, concentrator","Copper, gold, silver",British Columbia,Electricity,286.7904995,0.116714,3.82
+BC-MAIN-599152a0,nan,Copper Mountain,,"Open-pit, concentrator","Copper, gold, silver",British Columbia,Gasoline,0.053627492,0.116714,3.82
+BC-MAIN-599152a0,nan,Copper Mountain,,"Open-pit, concentrator","Copper, gold, silver",British Columbia,LPG-Propane,1.474756024,0.116714,3.82
+BC-MAIN-6b4800fe,nan,Gibraltar,,"Open-pit, concentrator","Copper, molybdenum, silver",British Columbia,Diesel,56.12176667,0.25,1.3
+BC-MAIN-6b4800fe,nan,Gibraltar,,"Open-pit, concentrator","Copper, molybdenum, silver",British Columbia,Electricity,56.52216667,0.25,1.3
+BC-MAIN-6b4800fe,nan,Gibraltar,,"Open-pit, concentrator","Copper, molybdenum, silver",British Columbia,Gasoline,1.293033333,0.25,1.3
+BC-MAIN-6b4800fe,nan,Gibraltar,,"Open-pit, concentrator","Copper, molybdenum, silver",British Columbia,LPG-Propane,0.0151,0.25,1.3
+BC-MAIN-6b4800fe,nan,Gibraltar,,"Open-pit, concentrator","Copper, molybdenum, silver",British Columbia,Natural gas,6.232566667,0.25,1.3
+BC-MAIN-857b7b89,nan,Brucejack,,"Underground, concentrator","Gold, silver",British Columbia,Aviation fuel,106.2966773,0.2000138,
+BC-MAIN-857b7b89,nan,Brucejack,,"Underground, concentrator","Gold, silver",British Columbia,Diesel,1195.534555,0.2000138,
+BC-MAIN-857b7b89,nan,Brucejack,,"Underground, concentrator","Gold, silver",British Columbia,Electricity,1123.89193,0.2000138,
+BC-MAIN-857b7b89,nan,Brucejack,,"Underground, concentrator","Gold, silver",British Columbia,Gasoline,21.99364355,0.2000138,
+BC-MAIN-857b7b89,nan,Brucejack,,"Underground, concentrator","Gold, silver",British Columbia,LPG-Propane,70.51377155,0.2000138,
+BC-MAIN-8eb8be0d,nan,Red Chris,,"Open-pit, concentrator","Gold, copper, silver",British Columbia,Aviation fuel,26.90002825,0.0005701,0.682114786
+BC-MAIN-8eb8be0d,nan,Red Chris,,"Open-pit, concentrator","Gold, copper, silver",British Columbia,Diesel,311.6586586,0.0005701,0.682114786
+BC-MAIN-8eb8be0d,nan,Red Chris,,"Open-pit, concentrator","Gold, copper, silver",British Columbia,Electricity,501.1495956,0.0005701,0.682114786
+BC-MAIN-8eb8be0d,nan,Red Chris,,"Open-pit, concentrator","Gold, copper, silver",British Columbia,Gasoline,5.28952821,0.0005701,0.682114786
+BC-MAIN-8eb8be0d,nan,Red Chris,,"Open-pit, concentrator","Gold, copper, silver",British Columbia,LPG-Propane,223.6302227,0.0005701,0.682114786
+BC-MAIN-aa76f6f2,nan,New Afton,,"Underground, concentrator","Gold, copper, silver",British Columbia,Diesel,59.966644,0.385036,0.187133442
+BC-MAIN-aa76f6f2,nan,New Afton,,"Underground, concentrator","Gold, copper, silver",British Columbia,Electricity,74.51859706,0.385036,0.187133442
+BC-MAIN-aa76f6f2,nan,New Afton,,"Underground, concentrator","Gold, copper, silver",British Columbia,Explosives,0.682022838,0.385036,0.187133442
+BC-MAIN-aa76f6f2,nan,New Afton,,"Underground, concentrator","Gold, copper, silver",British Columbia,Gasoline,1.332498949,0.385036,0.187133442
+BC-MAIN-aa76f6f2,nan,New Afton,,"Underground, concentrator","Gold, copper, silver",British Columbia,LPG-Propane,0.256297667,0.385036,0.187133442
+BC-MAIN-aa76f6f2,nan,New Afton,,"Underground, concentrator","Gold, copper, silver",British Columbia,Natural gas,19.3141925,0.385036,0.187133442
+NU-MAIN-8b0264c9,nan,Meliadine,,"Open-pit, underground, concentrator",Gold,Nunavut,Diesel,44.8417938,0.000611,3.148293949
+NU-MAIN-8b0264c9,nan,Meliadine,,"Open-pit, underground, concentrator",Gold,Nunavut,Electricity,223.1155165,0.000611,3.148293949
+NU-MAIN-8b0264c9,nan,Meliadine,,"Open-pit, underground, concentrator",Gold,Nunavut,Explosives,3.826559779,0.000611,3.148293949
+NU-MAIN-8b0264c9,nan,Meliadine,,"Open-pit, underground, concentrator",Gold,Nunavut,Gasoline,0.466586043,0.000611,3.148293949
+NU-MAIN-8b0264c9,nan,Meliadine,,"Open-pit, underground, concentrator",Gold,Nunavut,Natural gas,29.8705129,0.000611,3.148293949
+ON-MAIN-0aadf28f,nan,Rainy River,,"Open-pit, underground, concentrator","Gold, silver",Ontario,Diesel,186.649489,9.90E-05,3.472589913
+ON-MAIN-0aadf28f,nan,Rainy River,,"Open-pit, underground, concentrator","Gold, silver",Ontario,Electricity,333.0924236,9.90E-05,3.472589913
+ON-MAIN-0aadf28f,nan,Rainy River,,"Open-pit, underground, concentrator","Gold, silver",Ontario,Explosives,6.757474669,9.90E-05,3.472589913
+ON-MAIN-0aadf28f,nan,Rainy River,,"Open-pit, underground, concentrator","Gold, silver",Ontario,Gasoline,4.476711709,9.90E-05,3.472589913
+ON-MAIN-0aadf28f,nan,Rainy River,,"Open-pit, underground, concentrator","Gold, silver",Ontario,LPG-Propane,10.65640656,9.90E-05,3.472589913
+ON-MAIN-687b8c8d,nan,Island,,"Underground, concentrator",Gold,Ontario,Diesel,48.67884367,0.00022,0.156803242
+ON-MAIN-687b8c8d,nan,Island,,"Underground, concentrator",Gold,Ontario,Electricity,333.9844693,0.00022,0.156803242
+ON-MAIN-687b8c8d,nan,Island,,"Underground, concentrator",Gold,Ontario,Gasoline,0.738000457,0.00022,0.156803242
+ON-MAIN-687b8c8d,nan,Island,,"Underground, concentrator",Gold,Ontario,Naphtha,2.20427255,0.00022,0.156803242
+ON-MAIN-687b8c8d,nan,Island,,"Underground, concentrator",Gold,Ontario,Natural gas,77.0008273,0.00022,0.156803242
+ON-MAIN-6e9be24e,nan,Hemlo (Williams),,"Open-pit, underground, concentrator",Gold,Ontario,Diesel,237.7550239,,1.208526954
+ON-MAIN-6e9be24e,nan,Hemlo (Williams),,"Open-pit, underground, concentrator",Gold,Ontario,Electricity,488.9380723,,1.208526954
+ON-MAIN-7607a50e,nan,Young-Davidson,,"Underground, concentrator",Gold,Ontario,Diesel,481.3306363,0.0009455,0.16768246
+ON-MAIN-7607a50e,nan,Young-Davidson,,"Underground, concentrator",Gold,Ontario,Electricity,762.8471463,0.0009455,0.16768246
+ON-MAIN-7607a50e,nan,Young-Davidson,,"Underground, concentrator",Gold,Ontario,Gasoline,32.81489176,0.0009455,0.16768246
+ON-MAIN-7607a50e,nan,Young-Davidson,,"Underground, concentrator",Gold,Ontario,LPG-Propane,164.0311794,0.0009455,0.16768246
+ON-MAIN-7f050560,nan,Red Lake,,"Underground, concentrator","Gold, silver",Ontario,Diesel,143.0428702,,1.181059453
+ON-MAIN-7f050560,nan,Red Lake,,"Underground, concentrator","Gold, silver",Ontario,Electricity,1062.871724,,1.181059453
+ON-MAIN-7f050560,nan,Red Lake,,"Underground, concentrator","Gold, silver",Ontario,Gasoline,6.166227467,,1.181059453
+ON-MAIN-7f050560,nan,Red Lake,,"Underground, concentrator","Gold, silver",Ontario,LPG-Propane,19.27366033,,1.181059453
+ON-MAIN-7f050560,nan,Red Lake,,"Underground, concentrator","Gold, silver",Ontario,Natural gas,365.3186683,,1.181059453
+ON-MAIN-a3c56a83,nan,Lac des Iles,,"Open-pit, underground, concentrator","PGMs, gold, nickel, copper, cobalt",Ontario,Diesel,52.16348556,0.000388,
+ON-MAIN-a3c56a83,nan,Lac des Iles,,"Open-pit, underground, concentrator","PGMs, gold, nickel, copper, cobalt",Ontario,Electricity,114.5199063,0.000388,
+ON-MAIN-a3c56a83,nan,Lac des Iles,,"Open-pit, underground, concentrator","PGMs, gold, nickel, copper, cobalt",Ontario,Gasoline,1.408313817,0.000388,
+ON-MAIN-aeafbb59,nan,Detour Lake,,"Open-pit, concentrator",Gold,Ontario,Diesel,76.43676815,,4.327581403
+ON-MAIN-aeafbb59,nan,Detour Lake,,"Open-pit, concentrator",Gold,Ontario,Electricity,37.5670128,,4.327581403
+ON-MAIN-aeafbb59,nan,Detour Lake,,"Open-pit, concentrator",Gold,Ontario,Explosives,0.715474929,,4.327581403
+ON-MAIN-aeafbb59,nan,Detour Lake,,"Open-pit, concentrator",Gold,Ontario,Gasoline,0.207982326,,4.327581403
+ON-MAIN-c5fefb01,nan,Mishi,,Open-pit,Gold,Ontario,Diesel,239.9020654,0.00059,0.848295562
+ON-MAIN-c5fefb01,nan,Mishi,,Open-pit,Gold,Ontario,Electricity,804.909285,0.00059,0.848295562
+ON-MAIN-c5fefb01,nan,Mishi,,Open-pit,Gold,Ontario,Explosives,10.58865382,0.00059,0.848295562
+ON-MAIN-c5fefb01,nan,Mishi,,Open-pit,Gold,Ontario,Gasoline,6.441082303,0.00059,0.848295562
+ON-MAIN-c5fefb01,nan,Mishi,,Open-pit,Gold,Ontario,Natural gas,179.8606316,0.00059,0.848295562
+ON-MAIN-fefeaee4,nan,Musselwhite,,"Underground, concentrator","Gold, silver",Ontario,Aviation fuel,437.8078963,0.0005685,
+ON-MAIN-fefeaee4,nan,Musselwhite,,"Underground, concentrator","Gold, silver",Ontario,Diesel,1729.171369,0.0005685,
+ON-MAIN-fefeaee4,nan,Musselwhite,,"Underground, concentrator","Gold, silver",Ontario,Electricity,3947.197001,0.0005685,
+ON-MAIN-fefeaee4,nan,Musselwhite,,"Underground, concentrator","Gold, silver",Ontario,Gasoline,81.7376506,0.0005685,
+ON-MAIN-fefeaee4,nan,Musselwhite,,"Underground, concentrator","Gold, silver",Ontario,LPG-Propane,253.5513069,0.0005685,
+ON-MAIN-fefeaee4,nan,Musselwhite,,"Underground, concentrator","Gold, silver",Ontario,Other,14.12062892,0.0005685,
+QC-MAIN-02884fb5,nan,Westwood-Doyon,,"Underground, concentrator","Gold, silver",Quebec,Diesel,200.1411992,0.000311,2.343911025
+QC-MAIN-02884fb5,nan,Westwood-Doyon,,"Underground, concentrator","Gold, silver",Quebec,Electricity,508.6525145,0.000311,2.343911025
+QC-MAIN-02884fb5,nan,Westwood-Doyon,,"Underground, concentrator","Gold, silver",Quebec,Explosives,11.33955513,0.000311,2.343911025
+QC-MAIN-02884fb5,nan,Westwood-Doyon,,"Underground, concentrator","Gold, silver",Quebec,Gasoline,3.240618956,0.000311,2.343911025
+QC-MAIN-02884fb5,nan,Westwood-Doyon,,"Underground, concentrator","Gold, silver",Quebec,LPG-Propane,0.031914894,0.000311,2.343911025
+QC-MAIN-02884fb5,nan,Westwood-Doyon,,"Underground, concentrator","Gold, silver",Quebec,Natural gas,61.85522244,0.000311,2.343911025
+QC-MAIN-9de9bb0d,nan,Kiena,,"Open-pit, concentrator",Gold,Quebec,Diesel,490.5038472,0.00126,0.649377659
+QC-MAIN-9de9bb0d,nan,Kiena,,"Open-pit, concentrator",Gold,Quebec,Electricity,1176.342492,0.00126,0.649377659
+QC-MAIN-9de9bb0d,nan,Kiena,,"Open-pit, concentrator",Gold,Quebec,Explosives,21.75836713,0.00126,0.649377659
+QC-MAIN-9de9bb0d,nan,Kiena,,"Open-pit, concentrator",Gold,Quebec,Gasoline,56.68584673,0.00126,0.649377659
+QC-MAIN-9de9bb0d,nan,Kiena,,"Open-pit, concentrator",Gold,Quebec,LPG-Propane,287.2895022,0.00126,0.649377659
+QC-MAIN-b86f7d07,nan,Casa Berardi,,"Open-pit, underground, concentrator","Gold, silver",Quebec,Diesel,470.3406135,1.181466667,
+QC-MAIN-b86f7d07,nan,Casa Berardi,,"Open-pit, underground, concentrator","Gold, silver",Quebec,Electricity,497.5641308,1.181466667,
+QC-MAIN-b86f7d07,nan,Casa Berardi,,"Open-pit, underground, concentrator","Gold, silver",Quebec,Gasoline,68.2943068,1.181466667,
+QC-MAIN-b86f7d07,nan,Casa Berardi,,"Open-pit, underground, concentrator","Gold, silver",Quebec,LPG-Propane,317.9305311,1.181466667,
+QC-MAIN-e7e6a960,nan,Canadian Malartic,,"Open-pit, concentrator","Gold, silver",Quebec,Diesel,201.4300844,0.000117,1.000140598
+QC-MAIN-e7e6a960,nan,Canadian Malartic,,"Open-pit, concentrator","Gold, silver",Quebec,Electricity,152.6646167,0.000117,1.000140598
+QC-MAIN-e7e6a960,nan,Canadian Malartic,,"Open-pit, concentrator","Gold, silver",Quebec,Explosives,3.320961424,0.000117,1.000140598
+QC-MAIN-e7e6a960,nan,Canadian Malartic,,"Open-pit, concentrator","Gold, silver",Quebec,Gasoline,3.669521011,0.000117,1.000140598
+QC-MAIN-e7e6a960,nan,Canadian Malartic,,"Open-pit, concentrator","Gold, silver",Quebec,LPG-Propane,9.312001555,0.000117,1.000140598
+QC-MAIN-f9e41c2a,nan,Lamaque,,"Underground, concentrator",Gold,Quebec,Diesel,228.779405,0.000676,
+QC-MAIN-f9e41c2a,nan,Lamaque,,"Underground, concentrator",Gold,Quebec,Electricity,330.0414232,0.000676,
+QC-MAIN-f9e41c2a,nan,Lamaque,,"Underground, concentrator",Gold,Quebec,Gasoline,4.232967049,0.000676,
+QC-MAIN-f9e41c2a,nan,Lamaque,,"Underground, concentrator",Gold,Quebec,LPG-Propane,0.276711286,0.000676,
+QC-MAIN-f9e41c2a,nan,Lamaque,,"Underground, concentrator",Gold,Quebec,Natural gas,91.72502054,0.000676,
+nan,GRP-0a2c0d69,,Meadowbank complex,"Open-pit, underground, concentrator",Gold,Nunavut,Diesel,934.4821748,0.000386,9.553804692
+nan,GRP-0a2c0d69,,Meadowbank complex,"Open-pit, underground, concentrator",Gold,Nunavut,Electricity,309.1380501,0.000386,9.553804692
+nan,GRP-0a2c0d69,,Meadowbank complex,"Open-pit, underground, concentrator",Gold,Nunavut,Explosives,11.79342686,0.000386,9.553804692
+nan,GRP-0a2c0d69,,Meadowbank complex,"Open-pit, underground, concentrator",Gold,Nunavut,Gasoline,13.31399249,0.000386,9.553804692
+nan,GRP-0a2c0d69,,Meadowbank complex,"Open-pit, underground, concentrator",Gold,Nunavut,LPG-Propane,0.061155729,0.000386,9.553804692
+nan,GRP-0a2c0d69,,Meadowbank complex,"Open-pit, underground, concentrator",Gold,Nunavut,Lubricants,1.902593755,0.000386,9.553804692
+nan,GRP-0d911886,,Porcupine complex,"Open-pit, underground",Gold,Ontario,Diesel,222.1045363,0.0003015,
+nan,GRP-0d911886,,Porcupine complex,"Open-pit, underground",Gold,Ontario,Electricity,279.9700042,0.0003015,
+nan,GRP-0d911886,,Porcupine complex,"Open-pit, underground",Gold,Ontario,Gasoline,5.907195637,0.0003015,
+nan,GRP-0d911886,,Porcupine complex,"Open-pit, underground",Gold,Ontario,LPG-Propane,2.176591573,0.0003015,
+nan,GRP-0d911886,,Porcupine complex,"Open-pit, underground",Gold,Ontario,Natural gas,57.26726211,0.0003015,
+nan,GRP-147b3123,,Timmins Operation,"Underground, concentrator",Gold,Ontario,Diesel,244.1459975,0.00027,
+nan,GRP-147b3123,,Timmins Operation,"Underground, concentrator",Gold,Ontario,Electricity,670.6888971,0.00027,
+nan,GRP-147b3123,,Timmins Operation,"Underground, concentrator",Gold,Ontario,Explosives,4.407115629,0.00027,
+nan,GRP-147b3123,,Timmins Operation,"Underground, concentrator",Gold,Ontario,Gasoline,1.871728081,0.00027,
+nan,GRP-147b3123,,Timmins Operation,"Underground, concentrator",Gold,Ontario,Natural gas,101.2233792,0.00027,
+nan,GRP-14bfbb82,,Seabee Gold Operation,"Underground, concentrator",Gold,Saskatchewan,Diesel,1079.139344,0.00027,
+nan,GRP-14bfbb82,,Seabee Gold Operation,"Underground, concentrator",Gold,Saskatchewan,Electricity,1597.17243,0.001014,
+nan,GRP-14bfbb82,,Seabee Gold Operation,"Underground, concentrator",Gold,Saskatchewan,LPG-Propane,329.3196721,0.001014,
+nan,GRP-14bfbb82,,Seabee Gold Operation,"Underground, concentrator",Gold,Saskatchewan,Other,84.23770492,0.001014,
