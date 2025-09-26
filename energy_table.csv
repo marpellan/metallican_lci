@@ -1,0 +1,33 @@
+main_id,facility_name,facility_group_id,facility_group_name,facility_type,province,mining_processing_type,commodities,energy_MJ,energy_GJ
+BC-MAIN-599152a0,Copper Mountain,,,mining,British Columbia,"Open-pit, concentrator","Copper, gold, silver",300.11693124838973,0.30011693124838973
+BC-MAIN-6b4800fe,Gibraltar,,,mining,British Columbia,"Open-pit, concentrator","Copper, molybdenum, silver",120.18463333333332,0.12018463333333332
+BC-MAIN-857b7b89,Brucejack,,,mining,British Columbia,"Underground, concentrator","Gold, silver",6463.585852815602,6.463585852815602
+BC-MAIN-8eb8be0d,Red Chris,,,mining,British Columbia,"Open-pit, concentrator","Gold, copper, silver",2518.230577524144,2.518230577524144
+BC-MAIN-aa76f6f2,New Afton,,,mining,British Columbia,"Underground, concentrator","Gold, copper, silver",156.0702530146819,0.1560702530146819
+NL-MAIN-b64bae7a,Scully,,,mining,Newfoundland and Labrador,"Open-pit, concentrator",Iron,768.5393258426966,0.7685393258426966
+NL-MAIN-dd723db4,Carol Lake,,,mining,Newfoundland and Labrador,"Open-pit, concentrator",Iron,834.5637583892617,0.8345637583892617
+NU-MAIN-8b0264c9,Meliadine,,,mining,Nunavut,"Open-pit, underground, concentrator",Gold,1274.8797840411276,1.2748797840411275
+ON-MAIN-0aadf28f,Rainy River,,,mining,Ontario,"Open-pit, underground, concentrator","Gold, silver",541.6325054706755,0.5416325054706754
+ON-MAIN-1f126a43,Macassa,,,mining,Ontario,"Underground, concentrator","Gold, silver",2639.074911455927,2.639074911455927
+ON-MAIN-687b8c8d,Island,,,mining,Ontario,"Underground, concentrator",Gold,1441.02385377943,1.44102385377943
+ON-MAIN-6e9be24e,Hemlo (Williams),,,mining,Ontario,"Open-pit, underground, concentrator",Gold,726.6930961786212,0.7266930961786212
+ON-MAIN-7607a50e,Young-Davidson,,,mining,Ontario,"Underground, concentrator",Gold,462.60641330735746,0.46260641330735747
+ON-MAIN-7f050560,Red Lake,,,mining,Ontario,"Underground, concentrator","Gold, silver",1596.673150072057,1.596673150072057
+ON-MAIN-a3c56a83,Lac des Iles,,,mining,Ontario,"Open-pit, underground, concentrator","Platinum group metals, gold, nickel, copper, cobalt",168.0917056986729,0.1680917056986729
+ON-MAIN-aeafbb59,Detour Lake,,,mining,Ontario,"Open-pit, concentrator",Gold,285.35278068381535,0.28535278068381537
+ON-MAIN-cb85213a,Eagle River,,,mining,Ontario,"Underground, concentrator",Gold,2032.5800554290358,2.032580055429036
+ON-MAIN-fefeaee4,Musselwhite,,,mining,Ontario,"Underground, concentrator","Gold, silver",1068.6280333869693,1.0686280333869693
+QC-MAIN-02884fb5,Westwood-Doyon,,,mining,Quebec,"Underground, concentrator","Gold, silver",785.2610251450677,0.7852610251450677
+QC-MAIN-6dc537e6,Éléonore,,,mining,Quebec,"Underground, concentrator",Gold,876.0760057615895,0.8760760057615895
+QC-MAIN-9de9bb0d,Kiena,,,mining,Quebec,"Open-pit, concentrator",Gold,1241.7017180404712,1.2417017180404712
+QC-MAIN-b86f7d07,Casa Berardi,,,mining,Quebec,"Open-pit, underground, concentrator","Gold, silver",711.4666582532234,0.7114666582532234
+QC-MAIN-c0660aec,Goldex,,,mining,Quebec,"Underground, concentrator","Gold, silver",302.1209690046151,0.3021209690046151
+QC-MAIN-e51eda66,LaRonde,,,mining,Quebec,"Underground, concentrator","Gold, zinc, copper, silver, cadmium",899.934795852997,0.899934795852997
+QC-MAIN-e7e6a960,Canadian Malartic,,,mining,Quebec,"Open-pit, concentrator","Gold, silver",265.0288584357135,0.2650288584357135
+QC-MAIN-f9e41c2a,Lamaque,,,mining,Quebec,"Underground, concentrator",Gold,655.0555271290369,0.6550555271290369
+YT-MAIN-44857446,Keno Hill Silver District,,,mining,Yukon,"Underground, concentrator","Silver, zinc, lead",1354.1295821174563,1.3541295821174564
+,,GRP-0a2c0d69,Meadowbank complex,mining,Nunavut,"Open-pit, underground",Gold,1116.1223687114932,1.1161223687114932
+,,GRP-0d911886,Porcupine complex,mining,Ontario,"Open-pit, underground",Gold,567.4255898721149,0.5674255898721149
+,,GRP-147b3123,Timmins Operation,mining,Ontario,"Underground, concentrator",Gold,820.6614351016517,0.8206614351016517
+,,GRP-14bfbb82,Seabee Gold Operation,mining,Saskatchewan,Underground,Gold,3089.869150819672,3.089869150819672
+,,GRP-a13779f8,Snow Lake,mining,Manitoba,Underground,"Gold, zinc, copper, silver",388.8893204989758,0.3888893204989758
