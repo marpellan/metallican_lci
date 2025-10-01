@@ -176,3 +176,77 @@ ALIASES = {
     'polyfrothh57': 'polyfroth h57',
     'antiscalant': 'anti-scalant',
 }
+
+
+metal_map = {
+    # Base/industrial metals
+    "Aluminium": "Al",
+    "Copper": "Cu",
+    "Iron": "Fe",
+    "Lead": "Pb",
+    "Nickel": "Ni",
+    "Tin": "Sn",
+    "Zinc": "Zn",
+    "Chromium": "Cr",
+    "Manganese": "Mn",
+    "Titanium": "Ti",
+    "Cobalt": "Co",
+    "Magnesium": "Mg",
+    "Vanadium": "V",
+    "Molybdenum": "Mo",
+    "Tungsten": "W",
+    "Mercury": "Hg",
+    "Cadmium": "Cd",
+    "Antimony": "Sb",
+    "Bismuth": "Bi",
+    "Arsenic": "As",
+    "Cesium": "Cs",
+    "Uranium": "U",
+
+    # Precious metals
+    "Gold": "Au",
+    "Silver": "Ag",
+    "Platinum": "Pt",
+    "Palladium": "Pd",
+    "Rhodium": "Rh",
+    "Ruthenium": "Ru",
+    "Iridium": "Ir",
+    "Osmium": "Os",
+
+    # Rare earth elements (REEs)
+    "Lanthanum": "La",
+    "Cerium": "Ce",
+    "Praseodymium": "Pr",
+    "Neodymium": "Nd",
+    "Promethium": "Pm",
+    "Samarium": "Sm",
+    "Europium": "Eu",
+    "Gadolinium": "Gd",
+    "Terbium": "Tb",
+    "Dysprosium": "Dy",
+    "Holmium": "Ho",
+    "Erbium": "Er",
+    "Thulium": "Tm",
+    "Ytterbium": "Yb",
+    "Lutetium": "Lu",
+    "Yttrium": "Y",
+
+    # Other minor metals
+    "Beryllium": "Be",
+    "Gallium": "Ga",
+    "Indium": "In",
+    "Tantalum": "Ta",
+    "Niobium": "Nb",
+    "Rhenium": "Re",
+    "Scandium": "Sc",
+    "Zirconium": "Zr",
+    "Hafnium": "Hf",
+    "Tellurium": "Te",
+    "Selenium": "Se",
+    "Lithium": "Li",
+    "Strontium": "Sr",
+    "Boron": "B",
+
+    # Custom
+    "Platinum group metals": "PGMs",
+}
