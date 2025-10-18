@@ -1,6 +1,6 @@
 # Ignore raw data and company reports
 not_in_github
-OLD
+not_in_github/OLD
 
 
 # Ignore system/desktop files
