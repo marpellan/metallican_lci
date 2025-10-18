@@ -5,6 +5,10 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 from matplotlib.colors import TwoSlopeNorm
 from matplotlib import rcParams
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+import plotly.graph_objects as go
 import random
 
 
@@ -180,6 +184,391 @@ def heatmap_db_comparison(df_ei, df_ri, title=None, save_path=None):
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
 
     plt.show()
+
+
+def plot_2axes_by_commodity(
+    df,
+    x_col='commodities',
+    y_col='energy_MJ',
+    color_col='province',
+    symbol_col='mining_processing_type',
+    hover_name_cols=['facility_name', 'facility_group_name'],
+    x_label=None,
+    y_label=None,
+    font_color="#333333",
+    export_path=None,
+    export_format="png",
+    export_scale=3
+):
+    """
+    Interactive scatter plot for energy by commodity.
+    - Province = color
+    - Mining/processing type = symbol
+    - Separate legends for color and symbols
+    - Hover shows original info (not marker_color/symbol)
+    """
+
+    df = df.copy()
+
+    # Build hover_name
+    if hover_name_cols and all(col in df.columns for col in hover_name_cols):
+        df['hover_name'] = (
+            df[hover_name_cols[0]].astype(str)
+            + " (" + df[hover_name_cols[1]].astype(str) + ")"
+        )
+    else:
+        df['hover_name'] = df[hover_name_cols[0]] if hover_name_cols else None
+
+    # Unique categories
+    unique_colors = df[color_col].dropna().unique()
+    unique_symbols = df[symbol_col].dropna().unique()
+
+    # Assign colors and symbols
+    color_map = {col: px.colors.qualitative.Plotly[i % len(px.colors.qualitative.Plotly)]
+                 for i, col in enumerate(unique_colors)}
+
+    symbol_list = [
+        "circle", "square", "diamond", "cross", "x",
+        "triangle-up", "triangle-down", "triangle-left", "triangle-right",
+        "star", "hexagon", "pentagon"
+    ]
+    symbol_map = {sym: symbol_list[i % len(symbol_list)] for i, sym in enumerate(unique_symbols)}
+
+    # Initialize figure
+    fig = go.Figure()
+
+    # Add scatter points for all data
+    for color in unique_colors:
+        for sym in unique_symbols:
+            df_sub = df[(df[color_col] == color) & (df[symbol_col] == sym)]
+            if df_sub.empty:
+                continue
+            fig.add_trace(
+                go.Scatter(
+                    x=df_sub[x_col],
+                    y=df_sub[y_col],
+                    mode='markers',
+                    marker=dict(
+                        size=10,
+                        color=color_map[color],
+                        symbol=symbol_map[sym],
+                        line=dict(width=1, color='DarkSlateGrey')
+                    ),
+                    text=df_sub['hover_name'],
+                    hovertemplate='%{text}<br>' + color_col + ': ' + color + '<br>' +
+                                  symbol_col + ': ' + sym + '<br>' + y_col + ': %{y:.2f}<extra></extra>',
+                    name=f"{color} - {sym}",
+                    showlegend=False  # Legend handled separately
+                )
+            )
+
+    # --- Color legend ---
+    for color in unique_colors:
+        fig.add_trace(
+            go.Scatter(
+                x=[None], y=[None],
+                mode='markers',
+                marker=dict(symbol='circle', size=10, color=color_map[color]),
+                legendgroup='Color',
+                showlegend=True,
+                name=str(color)
+            )
+        )
+
+    # --- Symbol legend ---
+    for sym in unique_symbols:
+        fig.add_trace(
+            go.Scatter(
+                x=[None], y=[None],
+                mode='markers',
+                marker=dict(symbol=symbol_map[sym], size=10, color='grey'),
+                legendgroup='Symbol',
+                showlegend=True,
+                name=str(sym)
+            )
+        )
+
+    # Layout
+    fig.update_layout(
+        font=dict(color=font_color, size=14),
+        xaxis_title=x_label if x_label else x_col.replace('_', ' ').title(),
+        yaxis_title=y_label if y_label else y_col.replace('_', ' ').title(),
+        xaxis=dict(tickangle=90),
+        legend=dict(tracegroupgap=20, itemsizing='constant'),
+        template='plotly_white',
+    )
+
+    # Export
+    if export_path:
+        if export_format.lower() in ["png", "svg"]:
+            fig.write_image(export_path, format=export_format, scale=export_scale)
+        elif export_format.lower() == "html":
+            fig.write_html(export_path, include_plotlyjs="cdn")
+        else:
+            raise ValueError("export_format must be 'png', 'svg', or 'html'")
+
+    fig.show()
+    return fig
+
+
+def plot_biosphere(
+    biosphere_df,
+    x_col='commodities',
+    y_col='value_normalized',
+    color_col='province',
+    symbol_col='mining_processing_type',
+    hover_name_cols=['facility_name', 'facility_group_name'],
+    y_unit_col='unit_normalized',
+    save_path=None
+):
+    """
+    Interactive scatter plot with dropdown to select substance_name.
+    Color = province
+    Symbol = mining/processing type
+    Hover = facility_name (facility_group_name)
+    Aggregates values per substance_name + main_id + color + symbol + hover_name + unit.
+    """
+    df = biosphere_df.copy()
+
+    # Build hover_name
+    if hover_name_cols and all(col in df.columns for col in hover_name_cols):
+        df['hover_name'] = (
+            df[hover_name_cols[0]].astype(str)
+            + " (" + df[hover_name_cols[1]].astype(str) + ")"
+        )
+    else:
+        df['hover_name'] = df[hover_name_cols[0]] if hover_name_cols else None
+
+    # --- Aggregate values to avoid duplicate points ---
+    agg_cols = ['substance_name', x_col, color_col, symbol_col, 'hover_name', y_unit_col]
+    df_agg = df.groupby(agg_cols, as_index=False)[y_col].sum()
+
+    substances = df_agg['substance_name'].unique()
+
+    # Prepare color and symbol sequences
+    color_sequence = px.colors.qualitative.Plotly
+    symbol_sequence = [
+        "circle", "square", "diamond", "cross", "x",
+        "triangle-up", "triangle-down", "triangle-left", "triangle-right",
+        "star", "hexagon", "pentagon"
+    ]
+
+    # Initialize figure
+    fig = go.Figure()
+
+    # --- Add traces per substance (only first visible) ---
+    for i, substance in enumerate(substances):
+        df_sub = df_agg[df_agg['substance_name'] == substance]
+        visible = True if i == 0 else False
+
+        fig.add_trace(
+            go.Scatter(
+                x=df_sub[x_col],
+                y=df_sub[y_col],
+                mode='markers',
+                marker=dict(
+                    size=10,
+                    color=[color_sequence[j % len(color_sequence)] for j in range(len(df_sub))],
+                    symbol=[symbol_sequence[j % len(symbol_sequence)] for j in range(len(df_sub))]
+                ),
+                text=df_sub['hover_name'],
+                hovertemplate='%{text}<br>%{y:.10f} ' + df_sub[y_unit_col].iloc[0] + '<extra></extra>',
+                name=substance,        # not shown in legend
+                visible=visible,
+                showlegend=False       # hide substance legend
+            )
+        )
+
+    # --- Add dummy traces for color legend ---
+    unique_colors = df_agg[color_col].dropna().unique()
+    for i, col in enumerate(unique_colors):
+        fig.add_trace(
+            go.Scatter(
+                x=[None], y=[None], mode='markers',
+                marker=dict(symbol="circle", size=10, color=color_sequence[i % len(color_sequence)]),
+                legendgroup="Color",
+                showlegend=True,
+                name=str(col)
+            )
+        )
+
+    # --- Add dummy traces for symbol legend ---
+    unique_symbols = df_agg[symbol_col].dropna().unique()
+    for i, sym in enumerate(unique_symbols):
+        fig.add_trace(
+            go.Scatter(
+                x=[None], y=[None], mode='markers',
+                marker=dict(symbol=symbol_sequence[i % len(symbol_sequence)], size=10, color="grey"),
+                legendgroup="Symbol",
+                showlegend=True,
+                name=str(sym)
+            )
+        )
+
+    # --- Dropdown buttons ---
+    buttons = []
+    for i, substance in enumerate(substances):
+        visibility = [False]*len(substances) + [True]*(len(unique_colors)+len(unique_symbols))
+        visibility[i] = True
+        y_unit = df_agg[df_agg['substance_name']==substance][y_unit_col].iloc[0]
+        buttons.append(
+            dict(
+                label=substance,
+                method="update",
+                args=[{"visible": visibility},
+                      {"title": f"Impacts for {substance}",
+                       "yaxis": {"title": f"Impact ({y_unit})"}}]
+            )
+        )
+
+    fig.update_layout(
+        updatemenus=[dict(buttons=buttons, direction="down", showactive=True)],
+        title=f"Impacts for {substances[0]}",
+        xaxis_title=x_col.replace('_', ' ').title(),
+        yaxis_title=f"Impact ({df_agg[df_agg['substance_name']==substances[0]][y_unit_col].iloc[0]})",
+        xaxis=dict(tickangle=45),
+        height=600,
+        template="plotly_white",
+        legend=dict(tracegroupgap=20, itemsizing='constant')
+    )
+
+    if save_path:
+        fig.write_html(save_path, include_plotlyjs='cdn')
+
+    fig.show()
+    return fig
+
+
+def plot_stacked_energy_by_site(
+    df,
+    x_col='facility_name',  # or a combined site-commodity column
+    y_col='value_normalized_sum',
+    color_col='subflow_type_agg',  # e.g., 'electricity', 'diesel', etc.
+    symbol_col='',  # optional, for legend
+    hover_name_cols=['facility_name', 'commodity'],
+    x_label=None,
+    y_label='MJ/t ore processed',
+    font_color="#333333",
+    export_path=None,
+    export_format="html",
+    export_scale=3
+):
+    """
+    Stacked bar plot for energy types by site.
+    - Site (and commodity) = x-axis
+    - Energy type = color (stacked)
+    - Mining/processing type = legend (optional)
+    - Hover shows site, commodity, and energy breakdown
+    """
+    df = df.copy()
+    # Build hover_name
+    if hover_name_cols and all(col in df.columns for col in hover_name_cols):
+        df['hover_name'] = (
+            df[hover_name_cols[0]].astype(str)
+            + " (" + df[hover_name_cols[1]].astype(str) + ")"
+        )
+    else:
+        df['hover_name'] = df[hover_name_cols[0]] if hover_name_cols else None
+
+    # Create the stacked bar plot
+    fig = px.bar(
+        df,
+        x=x_col,
+        y=y_col,
+        color=color_col,
+        barmode='stack',
+        title="",
+        labels={x_col: x_label if x_label else x_col.replace('_', ' ').title(),
+                y_col: y_label if y_label else y_col.replace('_', ' ').title()},
+        hover_data=['hover_name'],
+        hover_name='hover_name',
+    )
+
+    # Customize layout
+    fig.update_layout(
+        font=dict(color=font_color, size=14),
+        xaxis_title=x_label if x_label else x_col.replace('_', ' ').title(),
+        yaxis_title=y_label if y_label else y_col.replace('_', ' ').title(),
+        xaxis=dict(tickangle=90),
+        legend=dict(title=color_col.replace('_', ' ').title()),
+        template='plotly_white',
+    )
+
+    # Optional: Add symbol legend (if needed)
+    if symbol_col in df.columns:
+        unique_symbols = df[symbol_col].dropna().unique()
+        symbol_list = [
+            "circle", "square", "diamond", "cross", "x",
+            "triangle-up", "triangle-down", "triangle-left", "triangle-right",
+            "star", "hexagon", "pentagon"
+        ]
+        symbol_map = {sym: symbol_list[i % len(symbol_list)] for i, sym in enumerate(unique_symbols)}
+        for sym in unique_symbols:
+            fig.add_trace(
+                go.Scatter(
+                    x=[None], y=[None],
+                    mode='markers',
+                    marker=dict(symbol=symbol_map[sym], size=10, color='grey'),
+                    legendgroup='Symbol',
+                    showlegend=True,
+                    name=str(sym)
+                )
+            )
+
+    # Export
+    if export_path:
+        if export_format.lower() in ["png", "svg"]:
+            fig.write_image(export_path, format=export_format, scale=export_scale)
+        elif export_format.lower() == "html":
+            fig.write_html(export_path, include_plotlyjs="cdn")
+        else:
+            raise ValueError("export_format must be 'png', 'svg', or 'html'")
+
+    fig.show()
+    return fig
+
+
+def plot_relative_difference_heatmap(df_ei, df_ri, title, output_png=None, output_pdf=None):
+    """
+    Génère une heatmap de la différence relative en pourcentage entre deux DataFrames.
+    Rouge : Regionvent > Ecoinvent
+    Bleu : Ecoinvent > Regionvent
+
+    :param df_ei: DataFrame Ecoinvent.
+    :param df_ri: DataFrame Regionvent.
+    :param title: Titre de la heatmap.
+    :param output_png: Chemin pour enregistrer le PNG (optionnel).
+    :param output_pdf: Chemin pour enregistrer le PDF (optionnel).
+    """
+    # S'assurer que les colonnes sont les mêmes
+    common_columns = df_ei.columns.intersection(df_ri.columns)
+    df_ei = df_ei[common_columns]
+    df_ri = df_ri[common_columns]
+
+    # Calculer la différence relative en pourcentage
+    difference = ((df_ri.set_index('Commodity') - df_ei.set_index('Commodity')) / df_ri.set_index('Commodity')) * 100
+
+    # Générer la heatmap avec une palette plus contrastée
+    plt.figure(figsize=(16, 12))
+    sns.set(font_scale=1.2)
+    ax = sns.heatmap(difference, cmap='RdBu_r', center=0, annot=False, fmt=".1f",
+                     linewidths=.5, cbar_kws={'label': 'Relative Difference with Ecoinvent values (%)'})
+
+
+    plt.title(title, fontsize=16)
+    plt.xticks(rotation=90, ha='right', fontsize=14)
+    ax.set_ylabel('')
+    plt.yticks(fontsize=14)
+    plt.tight_layout()
+
+    # Enregistrer si des chemins sont fournis
+    if output_png:
+        plt.savefig(output_png, dpi=300, bbox_inches='tight')
+    if output_pdf:
+        plt.savefig(output_pdf, bbox_inches='tight')
+
+    plt.show()
+
 
 #
 # def plot_multilca_impacts(df, colors=None, save_path=None):

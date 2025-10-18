@@ -32,7 +32,6 @@ IMPACT_METHODS_MP_EQ = {
 }
 
 
-
 ## Aggregation for EQ
 agg_mapping_eq = {'Freshwater ecotoxicity, long term': 'Freshwater ecotoxicity',
  'Freshwater ecotoxicity, short term': 'Freshwater ecotoxicity',
@@ -177,6 +176,51 @@ ALIASES = {
     'antiscalant': 'anti-scalant',
 }
 
+
+nrj_subflow = {
+    # electricity
+    'Electricity consumption|Generated on-site': 'Electricity',
+    'Electricity consumption': 'Electricity',
+    'Electricity consumption|Grid electricity': 'Electricity',
+    'Electricity consumption|Not specified': 'Electricity',
+    'Electricity consumption|Non-renewable electricity use': 'Electricity',
+    'Solar': 'Electricity',
+
+    # Fuels
+    'Diesel': 'Diesel',
+    'Diesel|Mobile equipment': 'Diesel',
+    'Diesel|Stationary equipment': 'Diesel',
+    'Gasoline': 'Gasoline',
+    'Gasoline|Mobile equipment': 'Gasoline',
+    'Petrol': 'Gasoline',
+    'Oil': 'Gasoline',  # usually refers to gasoline
+    'Light Fuel & Gasoline': 'Gasoline',
+    'Lubricating Oils & Greases': 'Lubricants',
+    'Biodiesel': 'Diesel',
+    'Propane': 'LPG-Propane',
+    'LPG': 'LPG-Propane',
+    'LPG|Mobile equipment': 'LPG-Propane',
+    'LPG|Stationary equipment': 'LPG-Propane',
+    'Acetylene': 'LPG-Propane',
+    'Natural gas': 'Natural gas',
+    'Naphta': 'Naphtha',  # spelling
+    'Aviation fuel': 'Aviation fuel',
+    'Non-renewable fuel use': 'Diesel',
+
+    # Explosives
+    'Explosives': 'Explosives',
+    'Total blasting agents used e.g. anfo': 'Explosives',
+    'ANFO': 'Explosives',
+    'Emulsion ANFO': 'Explosives',
+    'Emulsions': 'Explosives',
+    'Emulsion': 'Explosives',
+    'Dynamite': 'Explosives',
+    'Ammonium nitrate': 'Explosives',  # (treat as energy only if you ANFO-equivalize)
+
+    # Others
+    'Used oil': 'Other',  # usually MATERIAL (lubricants); map to energy only if burned
+    'Other': 'Other',
+}
 
 metal_map = {
     # Base/industrial metals
