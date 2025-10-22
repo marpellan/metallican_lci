@@ -22,7 +22,7 @@ VOLUME_TO_L = {
 
 CUBIC_M_TO_M3 = {'m3': 1.0, 'm^3': 1.0, 'cubicmeter': 1.0, 'cubicmeters': 1.0}
 
-# --- Default LHVs (edit with site/company data whenever you can) ---
+# --- Default LHVs for common fuels/substances ---
 DEFAULT_LHV = {
     'diesel':      {'MJ/kg': 43.0, 'MJ/L': 38.6, 'density_kg_per_L': 0.835},
     'gasoline':    {'MJ/kg': 44.0, 'MJ/L': 34.2, 'density_kg_per_L': 0.745},
@@ -36,7 +36,7 @@ DEFAULT_LHV = {
     'wood':        {'MJ/kg': 16.0},
 }
 
-# Default densities (kg/L) – please override with site-specific values when you have them
+# --- Default densities (kg/L) for common liquids where LHV is not defined ---
 DEFAULT_DENSITY = {
     # Oils & lubricants family
     'lubricants': 0.88,
@@ -71,18 +71,6 @@ SUBFLOW_ALIASES = {
     'polyfrothh57': 'polyfroth h57',
     'antiscalant': 'anti-scalant',
 }
-
-# # Canonicalize names (left part before '|', lowercased)
-# ALIASES = {
-#     'petrol': 'gasoline',
-#     'grindingmedia': 'grinding media',
-#     '3/4\'\'balls': 'grinding media',
-#     '2\'\'balls': 'grinding media',
-#     '2.5\'\'balls': 'grinding media',
-#     '5.5\'\'balls': 'grinding media',
-#     'polyfrothh57': 'polyfroth h57',
-#     'antiscalant': 'anti-scalant',
-# }
 
 
 nrj_subflow = {

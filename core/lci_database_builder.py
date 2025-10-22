@@ -30,28 +30,8 @@ class LCIDatabaseBuilder:
         # Container for the LCI entries
         self.lcis = {}
 
-    def build_lci_entries(self, df, facility_col, site_id_col): # Method of the LCIDatabaseBuilder
-        """
-        Initialize LCI activities from a DataFrame.
-        Each activity automatically gets a production exchange (its reference product).
-        """
-        # self.lcis = {}
-        #
-        # for _, row in df.iterrows():
-        #     name = f"{row['mining_processing_type']} {row['commodities']}, {row[facility_col]}".strip()
-        #     location = CA_provinces.get(row['province'], 'CA')
-        #     site_id = row[site_id_col]
-        #     key = (self.db_name, name)
-        #     self.lcis[key] = {
-        #         'name': name,
-        #         'unit': 'kilogram',
-        #         'location': location,
-        #         'exchanges': [],
-        #         'type': 'process',
-        #         'description': f"This is a site-specific LCI drawn from the MetalliCan database. Site ID is {site_id}."
-        #     }
-        # return self.lcis
 
+    def build_lci_entries(self, df, facility_col, site_id_col): # Method of the LCIDatabaseBuilder
         """
         Initialize LCI activities from a DataFrame.
         Each activity automatically gets a production exchange (its reference product).
@@ -67,13 +47,14 @@ class LCIDatabaseBuilder:
             key = (self.db_name, name)
 
             # Reference product definition
-            product = row.get('commodities', 'metal concentrate')
+            product = row.get('commodities')
 
             # Create process entry
             self.lcis[key] = {
                 'name': name,
                 'unit': 'kilogram',
                 'location': location,
+                'reference product': product,
                 'exchanges': [
                     {
                         'input': key,  # self-reference
@@ -81,11 +62,13 @@ class LCIDatabaseBuilder:
                         'unit': 'kilogram',
                         'type': 'production',
                         'name': product,
-                        'product': product
+                        'product': product,
+                        'reference product': product,
                     }
                 ],
                 'type': 'process',
-                'description': (
+                ## Create a unique code??
+                'comment': (
                     f"This is a site-specific LCI drawn from the MetalliCan database. "
                     f"Site ID is {site_id}."
                 )
@@ -101,6 +84,7 @@ class LCIDatabaseBuilder:
         structured like Brightway technosphere exports.
         Expected columns: ['main_id', 'Activity', 'Product', 'Database', 'Amount', 'Unit']
         """
+        print("Populating biosphere exchanges")
 
         # --- 1. Build lookup dictionaries once per database
         db_lookup = {}
@@ -120,7 +104,7 @@ class LCIDatabaseBuilder:
         missing_keys = []
         count = 0
         for key, process in self.lcis.items():
-            site_id = process['description'].split('Site ID is ')[-1].strip('. ')
+            site_id = process['comment'].split('Site ID is ')[-1].strip('. ')
             site_exchanges = technosphere_df[technosphere_df[site_id_column] == site_id]
 
             for _, row in site_exchanges.iterrows():
@@ -157,37 +141,14 @@ class LCIDatabaseBuilder:
                 print(f"   ... and {len(missing_keys) - 10} more.")
 
 
-        # for key, process in self.lcis.items():
-        #     # Extract the site ID from description
-        #     site_id = process['description'].split('Site ID is ')[-1].strip('. ')
-        #     # Filter the technosphere flows for this site
-        #     site_exchanges = technosphere_df[technosphere_df[site_id_column] == site_id]
-        #
-        #     for _, row in site_exchanges.iterrows():
-        #         # Build the Brightway input key as a tuple
-        #         input_key = (row['Database'], row['Activity'])
-        #
-        #         exchange = {
-        #             'input': input_key,
-        #             'amount': float(row['Amount']),
-        #             'unit': row['Unit'],
-        #             'type': 'technosphere',
-        #             # optional metadata
-        #             'name': row['Activity'],
-        #             'product': row.get('Product', None),
-        #             'location': row.get('Location', None)
-        #         }
-        #         process['exchanges'].append(exchange)
-
-
     def populate_biosphere_exchanges(self, biosphere_df, site_id_column="main_id"):
         """
         Efficiently populate biosphere exchanges for all activities.
-
         Expected columns in biosphere_df:
         ['main_id', 'Flow Name', 'Compartments', 'Database', 'Amount', 'Unit']
         """
-        print("🌱 Populating biosphere exchanges (optimized)...")
+
+        print("🌱 Populating biosphere exchanges")
 
         # --- 1️⃣ Build lookup cache for biosphere databases
         db_lookup = {}
@@ -209,7 +170,7 @@ class LCIDatabaseBuilder:
         added = 0
 
         for key, process in self.lcis.items():
-            site_id = process['description'].split('Site ID is ')[-1].strip('. ')
+            site_id = process['comment'].split('Site ID is ')[-1].strip('. ')
             site_exchanges = biosphere_df[biosphere_df[site_id_column] == site_id]
 
             for _, row in site_exchanges.iterrows():
@@ -248,6 +209,51 @@ class LCIDatabaseBuilder:
                 print(f"   ... and {len(missing_keys) - 10} more.")
 
 
+    def consolidate_exchanges(self, by=("input", "unit", "type")):
+        """
+        Merge duplicate exchanges per activity by summing amounts.
+
+        Parameters
+        ----------
+        by : tuple[str]
+            Fields to group by when consolidating. Defaults to ('input','unit','type').
+            You can add 'name' if you want to keep distinct labels separate.
+
+        Notes
+        -----
+        - Assumes amounts are in the same unit. If not, normalize units before calling.
+        - Keeps metadata from the first occurrence in each group.
+        """
+        total_before = 0
+        total_after = 0
+        for key, act_data in self.lcis.items():
+            exchs = act_data.get("exchanges", [])
+            total_before += len(exchs)
+            buckets = {}
+            first_meta = {}
+
+            for exc in exchs:
+                # build grouping key safely
+                gk = tuple(exc.get(field) for field in by)
+                amt = float(exc.get("amount", 0.0))
+
+                buckets[gk] = buckets.get(gk, 0.0) + amt
+                if gk not in first_meta:
+                    first_meta[gk] = exc  # keep the first metadata exemplar
+
+            # rebuild consolidated list
+            new_exchs = []
+            for gk, summed_amt in buckets.items():
+                base = first_meta[gk].copy()
+                base["amount"] = summed_amt
+                new_exchs.append(base)
+
+            act_data["exchanges"] = new_exchs
+            total_after += len(new_exchs)
+
+        print(f"🧮 Consolidation: {total_before} → {total_after} exchanges (summed duplicates).")
+
+
     def write_to_database(self, overwrite=True):
         """
         Write all activities and exchanges to the Brightway2 database.
@@ -280,43 +286,6 @@ class LCIDatabaseBuilder:
             print(f"✅ Database '{self.db_name}' processed successfully with {len(self.db)} activities.")
         except Exception as e:
             print(f"⚠️ Processing failed: {e}")
-
-        # for key, act_data in self.lcis.items():
-        #     code = key[1]
-        #
-        #     # 🧹 Remove existing activity if overwrite is enabled
-        #     if overwrite and (self.db_name, code) in self.db:
-        #         existing = self.db.get(code=code)
-        #         existing.delete()
-        #         print(f"♻️ Overwrote existing activity: {code}")
-        #
-        #     # Create new activity
-        #     act = self.db.new_activity(
-        #         code=code,
-        #         **{k: v for k, v in act_data.items() if k != 'exchanges'}
-        #     )
-        #     act.save()
-        #
-        #     for exc in act_data['exchanges']:
-        #         act.new_exchange(**exc).save()
-        #
-        # self.db.process()
-        #
-        # print(f"📦 Database '{self.db_name}' now contains {len(self.db)} activities.")
-
-
-        # for key, act_data in self.lcis.items():
-        #
-        #     act = self.db.new_activity(
-        #         code=key[1],
-        #         **{k: v for k, v in act_data.items() if k != 'exchanges'}
-        #     )
-        #     act.save()
-        #     for exc in act_data['exchanges']:
-        #         act.new_exchange(**exc).save()
-        # self.db.process()
-        # print(f"Database '{self.db_name}' has {len(self.db)} activities.")
-
 
 
     def verify_database(self):

@@ -1,9 +1,4 @@
-from typing import List, Tuple
 import pandas as pd
-import pandas as pd
-import plotly.graph_objects as go
-import io
-
 
 
 def merge_main_and_group(df, main_df,
@@ -70,52 +65,52 @@ def merge_main_and_group(df, main_df,
     return df_out
 
 
-def merge_without_suffixes(
-    left: pd.DataFrame,
-    right: pd.DataFrame,
-    keys: Tuple[str, str] = ("main_id", "facility_group_id"),
-    how: str = "left",
-    right_prefix: str = ""  # leave empty to add only non-overlapping cols
-) -> pd.DataFrame:
-    """
-    Merge two DataFrames on keys, adding only *new* columns from right to avoid _x/_y.
-    - Ensures right has unique keys to prevent row multiplication.
-    - Drops overlapping non-key columns from right before merge.
-    - Returns a clean merged DataFrame with no suffixes.
-    """
-    key_cols = list(keys)
-
-    # Ensure key types align
-    for k in key_cols:
-        if k in left.columns and k in right.columns:
-            # Cast to string to be robust to mixed types; change to category/int if you prefer
-            left[k] = left[k].astype(str)
-            right[k] = right[k].astype(str)
-
-    # Deduplicate right on keys (keep first occurrence)
-    if not right.duplicated(subset=key_cols, keep=False).any():
-        right_dedup = right.copy()
-    else:
-        # If duplicates exist, keep the first row per keys (you can change strategy if needed)
-        right_dedup = right.drop_duplicates(subset=key_cols, keep="first")
-
-    # Determine overlapping non-key columns and drop them from right
-    overlap = [c for c in right_dedup.columns if c in left.columns and c not in key_cols]
-    right_cols_to_use = [c for c in right_dedup.columns if c not in overlap]
-
-    # Optionally add a prefix to new columns from right (disabled by default to keep names clean)
-    if right_prefix:
-        rename_map = {
-            c: f"{right_prefix}{c}" for c in right_cols_to_use if c not in key_cols
-        }
-        right_dedup = right_dedup[right_cols_to_use].rename(columns=rename_map)
-    else:
-        right_dedup = right_dedup[right_cols_to_use]
-
-    # Perform merge
-    merged = left.merge(right_dedup, on=key_cols, how=how, validate=None)
-
-    return merged
+# def merge_without_suffixes(
+#     left: pd.DataFrame,
+#     right: pd.DataFrame,
+#     keys: Tuple[str, str] = ("main_id", "facility_group_id"),
+#     how: str = "left",
+#     right_prefix: str = ""  # leave empty to add only non-overlapping cols
+# ) -> pd.DataFrame:
+#     """
+#     Merge two DataFrames on keys, adding only *new* columns from right to avoid _x/_y.
+#     - Ensures right has unique keys to prevent row multiplication.
+#     - Drops overlapping non-key columns from right before merge.
+#     - Returns a clean merged DataFrame with no suffixes.
+#     """
+#     key_cols = list(keys)
+#
+#     # Ensure key types align
+#     for k in key_cols:
+#         if k in left.columns and k in right.columns:
+#             # Cast to string to be robust to mixed types; change to category/int if you prefer
+#             left[k] = left[k].astype(str)
+#             right[k] = right[k].astype(str)
+#
+#     # Deduplicate right on keys (keep first occurrence)
+#     if not right.duplicated(subset=key_cols, keep=False).any():
+#         right_dedup = right.copy()
+#     else:
+#         # If duplicates exist, keep the first row per keys (you can change strategy if needed)
+#         right_dedup = right.drop_duplicates(subset=key_cols, keep="first")
+#
+#     # Determine overlapping non-key columns and drop them from right
+#     overlap = [c for c in right_dedup.columns if c in left.columns and c not in key_cols]
+#     right_cols_to_use = [c for c in right_dedup.columns if c not in overlap]
+#
+#     # Optionally add a prefix to new columns from right (disabled by default to keep names clean)
+#     if right_prefix:
+#         rename_map = {
+#             c: f"{right_prefix}{c}" for c in right_cols_to_use if c not in key_cols
+#         }
+#         right_dedup = right_dedup[right_cols_to_use].rename(columns=rename_map)
+#     else:
+#         right_dedup = right_dedup[right_cols_to_use]
+#
+#     # Perform merge
+#     merged = left.merge(right_dedup, on=key_cols, how=how, validate=None)
+#
+#     return merged
 
 def prepare_normalization_data(df):
     '''
