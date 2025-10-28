@@ -107,11 +107,6 @@ def plot_midpoint_contributions(df, category, threshold=0.05, combine_terms=True
         plt.show()
 
 
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-from matplotlib.colors import TwoSlopeNorm
-
 def heatmap_db_comparison(df_ei, df_ri, title=None, save_path=None):
     """
     Plots a heatmap to show the percent differences in impacts between two databases.
@@ -671,6 +666,91 @@ def create_sankey_diagram(data):
     )
 
     return fig
+
+
+import os
+import pandas as pd
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+def plot_contribution_subplots(df, value_col="Share_%", label_col="Activity",
+                               commodity_col="Commodity", plot_type="pie",
+                               ncols=2, height_per_row=400,
+                               output_folder=None, filename=None):
+    """
+    Create interactive Plotly subplots for contribution analysis by metal.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame with columns including Commodity, Activity, and Share_%.
+    value_col : str, default 'Share_%'
+        Column used for size (share or impact).
+    label_col : str, default 'Activity'
+        Column used for labels.
+    commodity_col : str, default 'Commodity'
+        Column indicating the metal or commodity.
+    plot_type : {'pie', 'bar'}, default 'pie'
+        Type of chart to show for each metal.
+    ncols : int, default 2
+        Number of columns of subplots.
+    height_per_row : int, default 400
+        Height per subplot row.
+    output_folder : str, optional
+        Folder to save the figure. Created if it doesn’t exist.
+    filename : str, optional
+        File name for saving (e.g., "contribution.html").
+    """
+    commodities = df[commodity_col].unique()
+    nrows = (len(commodities) + ncols - 1) // ncols
+
+    specs = [[{"type": "domain"} if plot_type=="pie" else {"type": "xy"}
+              for _ in range(ncols)] for _ in range(nrows)]
+    fig = make_subplots(rows=nrows, cols=ncols, subplot_titles=commodities, specs=specs)
+
+    # Add one trace per metal
+    for i, commodity in enumerate(commodities):
+        r, c = divmod(i, ncols)
+        subset = df[df[commodity_col] == commodity].sort_values(by=value_col, ascending=False)
+
+        if plot_type == "pie":
+            fig.add_trace(
+                go.Pie(
+                    labels=subset[label_col],
+                    values=subset[value_col],
+                    hole=0.4,  # donut style
+                    hovertext=subset["Product"] + "<br>" +
+                              "Location: " + subset["Location"] + "<br>" +
+                              "Impact: " + subset["Impact_score"].astype(str),
+                    hoverinfo="label+percent+text",
+                    textinfo="none"),
+                row=r+1, col=c+1)
+        else:
+            fig.add_trace(
+                go.Bar(
+                    x=subset[label_col],
+                    y=subset[value_col],
+                    text=subset["Product"],
+                    hovertext=("Location: " + subset["Location"] +
+                               "<br>Impact: " + subset["Impact_score"].astype(str)),
+                    hoverinfo="text+x+y"),
+                row=r+1, col=c+1)
+
+    fig.update_layout(
+        title_text="First-tier Contribution Analysis by Metal",
+        showlegend=False,
+        height=nrows * height_per_row,
+        margin=dict(t=80, b=40)
+    )
+
+    # --- Optional saving ---
+    if output_folder and filename:
+        os.makedirs(output_folder, exist_ok=True)
+        save_path = os.path.join(output_folder, filename)
+        fig.write_html(save_path)
+        print(f"✅ Figure saved to: {save_path}")
+
+    fig.show()
 
 
 #

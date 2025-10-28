@@ -219,7 +219,7 @@ CA_provinces = {
     'British Columbia': 'CA-BC',
     'Manitoba': 'CA-MB',
     'New Brunswick': 'CA-NB',
-    'Newfoundland and Labrador': 'CA-NL',
+    'Newfoundland and Labrador': 'CA-NF',
     'Nova Scotia': 'CA-NS',
     'Ontario': 'CA-ON',
     'Prince Edward Island': 'CA-PE',
@@ -227,7 +227,7 @@ CA_provinces = {
     'Saskatchewan': 'CA-SK',
     'Northwest Territories': 'CA-NT',
     'Nunavut': 'CA-NU',
-    'Yukon': 'CA-YT'
+    'Yukon': 'CA-YK'
 }
 
 

@@ -1,0 +1,68 @@
+Commodity,Activity,Product,Location,Impact_score,Share_%
+Copper concentrate,"technology mix for diesel, burned in building machine","diesel, burned in building machine",CA,4.6271916058554434e-06,22.841319601394332
+Copper concentrate,"market group for electricity, high voltage","electricity, high voltage",CA,4.5975502399196595e-06,22.695000198518432
+Copper concentrate,"consumption market for cement, Portland","cement, Portland",CA,2.3100294676273577e-06,11.403055212138899
+Copper concentrate,consumption market for chromium,chromium,RoW,1.1264010164702085e-06,5.5602810101863
+Copper concentrate,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",CA,7.098508402983493e-07,3.5040541420534934
+Copper concentrate,"market for heat, district or industrial, natural gas","heat, district or industrial, natural gas",CA-QC,6.424513770534569e-07,3.171348515817727
+Copper concentrate,"consumption market for steel, unalloyed","steel, unalloyed",CA,4.870192792312067e-07,2.4040852327973004
+Copper concentrate,consumption market for sodium cyanide,sodium cyanide,CA,4.06058925678341e-07,2.0044386505803944
+Copper concentrate,"consumption market for hydrogen peroxide, without water, in 50% solution state","hydrogen peroxide, without water, in 50% solution state",CA,3.4264119083424913e-07,1.6913881280696486
+Copper concentrate,"consumption market for quicklime, milled, loose","quicklime, milled, loose",CA,3.280684320433492e-07,1.6194522608374042
+Copper concentrate,consumption market for copper sulfate,copper sulfate,CA,2.8172135925253484e-07,1.3906680667996112
+Copper concentrate,"technology mix for mine infrastructure, underground, non-ferrous metal","mine infrastructure, underground, non-ferrous metal",CA,2.318793040777309e-07,1.1446315053575966
+Gold-silver ingot,"technology mix for diesel, burned in building machine","diesel, burned in building machine",CA,0.012874880946897642,22.841319834276327
+Gold-silver ingot,"market group for electricity, high voltage","electricity, high voltage",CA,0.01279240563789083,22.695000429908607
+Gold-silver ingot,"consumption market for cement, Portland","cement, Portland",CA,0.006427517361047164,11.403055328400406
+Gold-silver ingot,consumption market for chromium,chromium,RoW,0.0031341427416073774,5.560281066876953
+Gold-silver ingot,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",CA,0.0019751170553065733,3.504054177779587
+Gold-silver ingot,"market for heat, district or industrial, natural gas","heat, district or industrial, natural gas",CA-QC,0.001787582122872677,3.1713485481516717
+Gold-silver ingot,"consumption market for steel, unalloyed","steel, unalloyed",CA,0.0013551017059701962,2.404085257308501
+Gold-silver ingot,consumption market for sodium cyanide,sodium cyanide,CA,0.0011298344159593725,2.0044386710169397
+Gold-silver ingot,"consumption market for hydrogen peroxide, without water, in 50% solution state","hydrogen peroxide, without water, in 50% solution state",CA,0.0009533784021201412,1.6913881453144424
+Gold-silver ingot,"consumption market for quicklime, milled, loose","quicklime, milled, loose",CA,0.000912830581653129,1.6194522773487652
+Gold-silver ingot,consumption market for copper sulfate,copper sulfate,CA,0.0007838726531195821,1.3906680809783696
+Gold-silver ingot,"technology mix for mine infrastructure, underground, non-ferrous metal","mine infrastructure, underground, non-ferrous metal",CA,0.0006451901473611742,1.1446315170278534
+Lead concentrate,"technology mix for diesel, burned in building machine","diesel, burned in building machine",CA,2.0707252725974743e-06,22.841320199908626
+Lead concentrate,"market group for electricity, high voltage","electricity, high voltage",CA,2.057460396018802e-06,22.695000793198698
+Lead concentrate,"consumption market for cement, Portland","cement, Portland",CA,1.0337666572976351e-06,11.40305551093475
+Lead concentrate,consumption market for chromium,chromium,RoW,5.040783374807176e-07,5.5602811558831196
+Lead concentrate,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",CA,3.176669997672593e-07,3.504054233870715
+Lead concentrate,"market for heat, district or industrial, natural gas","heat, district or industrial, natural gas",CA-QC,2.8750490928367294e-07,3.171348598917016
+Lead concentrate,"consumption market for steel, unalloyed","steel, unalloyed",CA,2.1794712984655496e-07,2.404085295791882
+Lead concentrate,consumption market for sodium cyanide,sodium cyanide,CA,1.8171637381557532e-07,2.0044387031029807
+Lead concentrate,"consumption market for hydrogen peroxide, without water, in 50% solution state","hydrogen peroxide, without water, in 50% solution state",CA,1.5333615586515206e-07,1.691388172389328
+Lead concentrate,"consumption market for quicklime, milled, loose","quicklime, milled, loose",CA,1.4681466670062358e-07,1.619452303272138
+Lead concentrate,consumption market for copper sulfate,copper sulfate,CA,1.2607378041067462e-07,1.390668103239481
+Lead concentrate,"technology mix for mine infrastructure, underground, non-ferrous metal","mine infrastructure, underground, non-ferrous metal",CA,1.0376884642910814e-07,1.1446315353505359
+Zinc concentrate,"technology mix for diesel, burned in building machine","diesel, burned in building machine",CA,2.092754264859149e-06,22.841320234842392
+Zinc concentrate,"market group for electricity, high voltage","electricity, high voltage",CA,2.0793482725721935e-06,22.695000827908686
+Zinc concentrate,"consumption market for cement, Portland","cement, Portland",CA,1.0447641749284612e-06,11.403055528374713
+Zinc concentrate,consumption market for chromium,chromium,RoW,5.094408729858318e-07,5.560281164387078
+Zinc concentrate,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",CA,3.210464359349961e-07,3.504054239229854
+Zinc concentrate,"market for heat, district or industrial, natural gas","heat, district or industrial, natural gas",CA-QC,2.905634721483929e-07,3.171348603767312
+Zinc concentrate,"consumption market for steel, unalloyed","steel, unalloyed",CA,2.2026571633428428e-07,2.4040852994687167
+Zinc concentrate,consumption market for sodium cyanide,sodium cyanide,CA,1.8364952672850695e-07,2.0044387061685915
+Zinc concentrate,"consumption market for hydrogen peroxide, without water, in 50% solution state","hydrogen peroxide, without water, in 50% solution state",CA,1.5496739156584517e-07,1.6913881749761561
+Zinc concentrate,"consumption market for quicklime, milled, loose","quicklime, milled, loose",CA,1.4837652485701322e-07,1.6194523057489467
+Zinc concentrate,consumption market for copper sulfate,copper sulfate,CA,1.2741499084057543e-07,1.3906681053663845
+Zinc concentrate,"technology mix for mine infrastructure, underground, non-ferrous metal","mine infrastructure, underground, non-ferrous metal",CA,1.0487277032729013e-07,1.144631537101148
+Gold refined,technology mix for blasting,blasting,CA,0.3181289316378424,54.20227040035973
+Gold refined,"technology mix for diesel, burned in building machine","diesel, burned in building machine",CA,0.2067180518114932,35.220272746766135
+Gold refined,"market for heat, district or industrial, natural gas","heat, district or industrial, natural gas",CA-QC,0.019135116524804402,3.260208855196325
+Gold refined,"market for heat, district or industrial, other than natural gas","heat, district or industrial, other than natural gas",CA-QC,0.008537986608883249,1.4546877470929507
+Silver refined,technology mix for blasting,blasting,CA,0.004106409051418525,54.20227100630955
+Silver refined,"technology mix for diesel, burned in building machine","diesel, burned in building machine",CA,0.002668317133811239,35.220273140508276
+Silver refined,"market for heat, district or industrial, natural gas","heat, district or industrial, natural gas",CA-QC,0.0002469961323318324,3.2602088916435608
+Silver refined,"market for heat, district or industrial, other than natural gas","heat, district or industrial, other than natural gas",CA-QC,0.00011020835266727993,1.4546877633555122
+Iron concentrate,"technology mix for diesel, burned in building machine","diesel, burned in building machine",CA,3.044357587220364e-07,65.87349177902297
+Iron concentrate,"market group for electricity, high voltage","electricity, high voltage",CA,5.784731233727408e-08,12.516941077106688
+Iron concentrate,consumption market for ammonium nitrate,ammonium nitrate,CA,3.642586388749715e-08,7.881790415848304
+Iron concentrate,"market for heat, district or industrial, other than natural gas","heat, district or industrial, other than natural gas",CA-QC,2.8628681875567888e-08,6.194644308838802
+Iron concentrate,"technology mix for transport, freight train","transport, freight train",CA,1.9749918842172065e-08,4.273466829085806
+Nickel concentrate,"technology mix for diesel, burned in building machine","diesel, burned in building machine",CA,5.982400011832768e-06,70.08448743134397
+Nickel concentrate,"consumption market for cement, CEM II/B","cement, CEM II/B",CA,1.532396685625575e-06,17.952199124287
+Nickel concentrate,consumption market for sand,sand,CA,2.597319757433239e-07,3.04278924068877
+Nickel concentrate,"consumption market for soda ash, dense","soda ash, dense",CA,2.176857627013922e-07,2.550213136843435
+Nickel concentrate,"technology mix for mine infrastructure, underground, non-ferrous metal","mine infrastructure, underground, non-ferrous metal",CA,1.5131391306159992e-07,1.772659470643505
+Nickel concentrate,"market for diesel, burned in diesel-electric generating set, 10MW","diesel, burned in diesel-electric generating set, 10MW",GLO,1.215237655154587e-07,1.4236645493500706

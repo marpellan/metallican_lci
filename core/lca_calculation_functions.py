@@ -294,6 +294,84 @@ def first_tier_contributions(activity, commodity_label, method_id,
     return df.sort_values("Share_%", ascending=False).reset_index(drop=True)
 
 
+
+def first_tier_contributions_batch(inventory_dict, method_id, amount=1, threshold=0.01):
+    """
+    Runs first-tier contribution analysis for multiple commodities at once.
+
+    Parameters
+    ----------
+    inventory_dict : dict
+        Mapping of commodity name → Brightway Activity
+        Example: {'Copper concentrate': activity1, 'Nickel concentrate': activity2}
+    method_id : tuple or str
+        LCIA method identifier (e.g., ('ReCiPe Endpoint (H,A)', 'total', 'human health'))
+    amount : float
+        Functional unit for each activity.
+    threshold : float
+        Minimum share (fraction of total) to include in output.
+
+    Returns
+    -------
+    pd.DataFrame
+        Combined results with columns:
+        ['Commodity', 'Activity', 'Product', 'Location', 'Impact_score', 'Share_%']
+    """
+    all_results = []
+
+    for commodity, activity in inventory_dict.items():
+        print(f"🔹 Processing {commodity} ...")
+
+        # Compute total impact for this activity
+        lca_main = bw.LCA({activity.key: amount})
+        lca_main.lci()
+        lca_main.switch_method(method_id)
+        lca_main.lcia()
+        total_score = lca_main.score or 1e-30
+
+        rows = []
+        # Loop over direct technosphere inputs
+        for exc in activity.technosphere():
+            provider = exc.input
+            unit_amt = getattr(exc, "amount", exc.get("amount", 1))
+
+            # Provider details
+            name     = provider.get("name", "<unknown>")
+            product  = provider.get("reference product", "<unknown>")
+            location = provider.get("location", "<unknown>")
+
+            # Provider's unit impact
+            lca_p = bw.LCA({provider.key: 1})
+            lca_p.lci()
+            lca_p.switch_method(method_id)
+            lca_p.lcia()
+            cf_unit = lca_p.score
+
+            # Contribution and share
+            contr = cf_unit * unit_amt * amount
+            share_frac = contr / total_score
+            share_pct = share_frac * 100
+
+            if share_frac >= threshold:
+                rows.append({
+                    "Commodity":     commodity,
+                    "Activity":      name,
+                    "Product":       product,
+                    "Location":      location,
+                    "Impact_score":  contr,
+                    "Share_%":       share_pct
+                })
+
+        df = pd.DataFrame(rows)
+        if not df.empty:
+            all_results.append(df.sort_values("Share_%", ascending=False))
+
+    if all_results:
+        return pd.concat(all_results, ignore_index=True)
+    else:
+        return pd.DataFrame(columns=["Commodity", "Activity", "Product", "Location", "Impact_score", "Share_%"])
+
+
 def process_contributions(activity, commodity_label, method_id,
                                      amount=1, threshold=0.05):
     """
@@ -358,60 +436,119 @@ def process_contributions(activity, commodity_label, method_id,
     return df.sort_values("Share_%", ascending=False).reset_index(drop=True)
 
 
+def export_activity_exchanges(inventory_ds, output_folder="exports"):
+    """
+    Export technosphere and biosphere flows for each activity in inventory_ds.
+    """
+    import os
+    os.makedirs(output_folder, exist_ok=True)
 
-# def create_pedigree_matrix(pedigree_scores: tuple, exc_amount: float):
-#     """
-#     Function from Istrate et al (2024)
-#
-#     This function returns a dict containing the pedigree matrix dict and loc and scale values
-#     that can be used to update exchanges in a dataset dict
-#
-#     The pedigree matrix dictionary is created using the scores provided in the LCI Excel file.
-#
-#     The code to calcualte the loc and scale values is based on https://github.com/brightway-lca/pedigree_matrix,
-#     which is published by Chris Mutel under an BSD 3-Clause License (2021).
-#
-#     :param pedigree_scores: tuple of pedigree scores
-#     :param exc_amount: exchange amount
-#     :return dict:
-#     """
-#
-#     VERSION_2 = {
-#         "reliability": (1.0, 1.54, 1.61, 1.69, 1.69),
-#         "completeness": (1.0, 1.03, 1.04, 1.08, 1.08),
-#         "temporal correlation": (1.0, 1.03, 1.1, 1.19, 1.29),
-#         "geographical correlation": (1.0, 1.04, 1.08, 1.11, 1.11),
-#         "further technological correlation": (1.0, 1.18, 1.65, 2.08, 2.8),
-#         "sample size": (1.0, 1.0, 1.0, 1.0, 1.0),
-#     }
-#
-#     pedigree_scores_dict = {
-#         'reliability': pedigree_scores[0],
-#         'completeness': pedigree_scores[1],
-#         'temporal correlation': pedigree_scores[2],
-#         'geographical correlation': pedigree_scores[3],
-#         'further technological correlation': pedigree_scores[4]
-#     }
-#
-#     assert len(pedigree_scores) in (5, 6), "Must provide either 5 or 6 factors"
-#     if len(pedigree_scores) == 5:
-#         pedigree_scores = pedigree_scores + (1,)
-#
-#     factors = [VERSION_2[key][index - 1] for key, index in pedigree_scores_dict.items()]
-#
-#     basic_uncertainty: float = 1.0
-#     values = [basic_uncertainty] + factors
-#
-#     scale = math.sqrt(sum([math.log(x) ** 2 for x in values])) / 2
-#     loc = math.log(abs(exc_amount))
-#
-#     pedigree_dict = {
-#         'uncertainty type': 2,
-#         'loc': loc,
-#         'scale': scale,
-#         "pedigree": pedigree_scores_dict,
-#     }
-#     return pedigree_dict
+    all_rows = []  # to combine all results if needed
+
+    for rm_name, act in inventory_ds.items():
+        tech_exchanges = []
+        bio_exchanges = []
+
+        # --- Technosphere ---
+        for exc in act.technosphere():
+            tech_exchanges.append({
+                "raw_material": rm_name,
+                "activity_name": act["name"],
+                "reference_product": act["reference product"],
+                "location": act["location"],
+                "exchange_type": "technosphere",
+                "input_name": exc.input["name"],
+                "input_database": exc.input["database"],
+                "input_code": exc.input["code"],
+                "amount": exc.amount,
+                "unit": exc.input.get("unit", None),
+                "comment": exc.get("comment", None)
+            })
+
+        # --- Biosphere ---
+        for exc in act.biosphere():
+            bio_exchanges.append({
+                "raw_material": rm_name,
+                "activity_name": act["name"],
+                "reference_product": act["reference product"],
+                "location": act["location"],
+                "exchange_type": "biosphere",
+                "input_name": exc.input["name"],
+                "input_database": exc.input["database"],
+                "input_code": exc.input["code"],
+                "amount": exc.amount,
+                "unit": exc.input.get("unit", None),
+                "comment": exc.get("comment", None)
+            })
+
+        # --- Export individual CSVs ---
+        pd.DataFrame(tech_exchanges).to_csv(
+            f"{output_folder}/{rm_name}_technosphere.csv", index=False
+        )
+        pd.DataFrame(bio_exchanges).to_csv(
+            f"{output_folder}/{rm_name}_biosphere.csv", index=False
+        )
+
+        all_rows.extend(tech_exchanges + bio_exchanges)
+
+    # --- Optional: export all combined ---
+    pd.DataFrame(all_rows).to_csv(f"{output_folder}/all_exchanges.csv", index=False)
+    print(f"✅ Export complete: CSVs saved in '{output_folder}/'")
+
+
+def create_pedigree_matrix(pedigree_scores: tuple, exc_amount: float):
+    """
+    Function from Istrate et al (2024)
+
+    This function returns a dict containing the pedigree matrix dict and loc and scale values
+    that can be used to update exchanges in a dataset dict
+
+    The pedigree matrix dictionary is created using the scores provided in the LCI Excel file.
+
+    The code to calcualte the loc and scale values is based on https://github.com/brightway-lca/pedigree_matrix,
+    which is published by Chris Mutel under an BSD 3-Clause License (2021).
+
+    :param pedigree_scores: tuple of pedigree scores
+    :param exc_amount: exchange amount
+    :return dict:
+    """
+
+    VERSION_2 = {
+        "reliability": (1.0, 1.54, 1.61, 1.69, 1.69),
+        "completeness": (1.0, 1.03, 1.04, 1.08, 1.08),
+        "temporal correlation": (1.0, 1.03, 1.1, 1.19, 1.29),
+        "geographical correlation": (1.0, 1.04, 1.08, 1.11, 1.11),
+        "further technological correlation": (1.0, 1.18, 1.65, 2.08, 2.8),
+        "sample size": (1.0, 1.0, 1.0, 1.0, 1.0),
+    }
+
+    pedigree_scores_dict = {
+        'reliability': pedigree_scores[0],
+        'completeness': pedigree_scores[1],
+        'temporal correlation': pedigree_scores[2],
+        'geographical correlation': pedigree_scores[3],
+        'further technological correlation': pedigree_scores[4]
+    }
+
+    assert len(pedigree_scores) in (5, 6), "Must provide either 5 or 6 factors"
+    if len(pedigree_scores) == 5:
+        pedigree_scores = pedigree_scores + (1,)
+
+    factors = [VERSION_2[key][index - 1] for key, index in pedigree_scores_dict.items()]
+
+    basic_uncertainty: float = 1.0
+    values = [basic_uncertainty] + factors
+
+    scale = math.sqrt(sum([math.log(x) ** 2 for x in values])) / 2
+    loc = math.log(abs(exc_amount))
+
+    pedigree_dict = {
+        'uncertainty type': 2,
+        'loc': loc,
+        'scale': scale,
+        "pedigree": pedigree_scores_dict,
+    }
+    return pedigree_dict
 
 
 ### Scale up ###

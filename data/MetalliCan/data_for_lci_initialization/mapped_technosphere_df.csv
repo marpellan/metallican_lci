@@ -1,0 +1,233 @@
+main_id,facility_group_id,Amount,Activity,Product,Unit,Location,Database
+BC-MAIN-857b7b89,,1.112991002891566e-07,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,,1.0157955831157578e-05,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,,4.021328764801654e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-857b7b89,,1.8409380766308478e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-857b7b89,,5.462069134295804e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,,1.412062891566265e-05,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,,0.000952158701485388,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-857b7b89,,0.0005194284180457832,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-e7e6a960,,3.4423444965937556e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e7e6a960,,3.035707256300155e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-e7e6a960,,4.923249563393176e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,,4.923249563393176e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,,2.3603771575249188e-07,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e7e6a960,,1.6097688844751574e-09,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,,6.951464814472087e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-b86f7d07,,3.0908924533729443e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-b86f7d07,,7.49570411447718e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,,0.00010112509246855751,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-599152a0,,2.7437321377818775e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-599152a0,,1.207826391529696e-09,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-599152a0,,3.178353500124481e-08,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,,7.966409138124601e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-aeafbb59,,3.267011550462462e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-aeafbb59,,3.608862292531379e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-aeafbb59,,8.528192753802409e-07,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,,8.528192753802409e-07,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,,6.367087820284105e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,,6.367087820284105e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,,1.5461068016870626e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,,1.1407066214936003e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-cb85213a,,7.252789044754978e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,,7.252789044754978e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,,1.2767082596887608e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-cb85213a,,6.191584098530045e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,,0.0005528809713107574,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-cb85213a,,0.00017318389433583533,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-6dc537e6,,3.0258934502598863e-07,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,,5.395009974378001e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-6dc537e6,,1.358418338567345e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-6dc537e6,,1.847572792537732e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,,0.00014921243297611223,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-6dc537e6,,2.1258921131848284e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-6b4800fe,,1.3051573643410853e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-6b4800fe,,2.9122372372372373e-08,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-6b4800fe,,1.7706155303030302e-07,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-6b4800fe,,3.2543103448275863e-10,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,,1.5700614412333333e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,,6.197658193788969e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,,1.04283241403222e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-c0660aec,,1.2755199262188896e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,,1.2755199262188896e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,,1.0508694672008572e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,,1.0508694672008572e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,,8.485941163393784e-07,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-6e9be24e,,0.0004889380723201809,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-6e9be24e,,0.00023775502385844016,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,,1.6332276404985786e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-687b8c8d,,0.00021144847989558278,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-687b8c8d,,1.1193735728924579e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-687b8c8d,,7.390741386477229e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-687b8c8d,,3.5351547281519964e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+YT-MAIN-44857446,,1.0938153801261226e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+YT-MAIN-44857446,,1.5381600630079367e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+YT-MAIN-44857446,,6.851951100511884e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+YT-MAIN-44857446,,0.0001382123691258957,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-9de9bb0d,,5.579117800355356e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-9de9bb0d,,3.5295512726613243e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,,3.5295512726613243e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,,1.4506942123239443e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-9de9bb0d,,5.109677032741882e-06,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-9de9bb0d,,0.00020122732123799362,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-9de9bb0d,,0.00016768956851654214,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-a3c56a83,,1.2131043153059927e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-a3c56a83,,1.4083138173302109e-06,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-a3c56a83,,3.181111053864168e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-f9e41c2a,,9.167824645433846e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-f9e41c2a,,5.315430756620358e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-f9e41c2a,,5.0205235396399585e-09,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-f9e41c2a,,9.533709569133384e-08,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-f9e41c2a,,5.3672447785653697e-08,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,,2.2303883857593871e-07,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,,2.6058244472903484e-06,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e51eda66,,0.00017650518107533558,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,,3.421769645999047e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-e51eda66,,7.874422638482669e-07,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,,7.874422638482669e-07,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,,7.05651426191278e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,,7.05651426191278e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,,3.1785550685940564e-06,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-1f126a43,,0.0004134052919095085,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-1f126a43,,4.8147057417089405e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-1f126a43,,6.233261169536612e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,,6.233261169536612e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,,3.2846237906158016e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,,3.2846237906158016e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,,2.1042984740197977e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-1f126a43,,3.211372248058965e-08,consumption market for propane,propane,kilogram,CA,Regioinvent
+,GRP-0a2c0d69,0.00015456902504356462,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-0a2c0d69,2.173214360081243e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-0a2c0d69,3.931142286865758e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+,GRP-0a2c0d69,3.931142286865758e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+,GRP-0a2c0d69,2.9986469569746024e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+,GRP-0a2c0d69,2.9986469569746024e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+,GRP-0a2c0d69,1.90259375475146e-06,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+,GRP-0a2c0d69,1.3180113939275279e-09,consumption market for propane,propane,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,,0.00024907201058523796,consumption market for diesel,diesel,kg,CA,Regioinvent
+NU-MAIN-8b0264c9,,2.357122318001632e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+NU-MAIN-8b0264c9,,3.162433666311636e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,,3.162433666311636e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,,6.211431793361817e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,,6.211431793361817e-08,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,,6.241305858242979e-07,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,,3.4908067997679317e-10,consumption market for biogas,biogas,cubic meter,CA,Regioinvent
+ON-MAIN-fefeaee4,,6.981601909804543e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-fefeaee4,,1.1913351824587234e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-fefeaee4,,4.819616868836375e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,,4.0077853073929965e-07,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-fefeaee4,,3.7052376284656905e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-fefeaee4,,0.00013777832033929962,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-aa76f6f2,,1.840609347471452e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-aa76f6f2,,1.5586819021919417e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-aa76f6f2,,1.3945731162790699e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-aa76f6f2,,2.2734094616639477e-07,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,2.2734094616639477e-07,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,3.0011237599753096e-08,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-aa76f6f2,,5.486986504523207e-07,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-aa76f6f2,,5.523656620914664e-09,consumption market for propane,propane,kilogram,CA,Regioinvent
+,GRP-0d911886,2.463802158556765e-10,consumption market for biogas,biogas,cubic meter,CA,Regioinvent
+,GRP-0d911886,4.9772863845717535e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-0d911886,3.126948892473899e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-0d911886,1.3304494678464106e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-0d911886,1.6269108553761592e-06,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+,GRP-0d911886,4.690930115184377e-08,consumption market for propane,propane,kilogram,CA,Regioinvent
+,GRP-0d911886,6.908353173534868e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-0aadf28f,,9.252574722911914e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-0aadf28f,,4.340685790166962e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-0aadf28f,,2.2524915563669557e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,2.2524915563669557e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,1.0082684029876526e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-0aadf28f,,2.2966393457413953e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,,4.853877699736613e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-8eb8be0d,,1.7559262510973998e-09,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,,2.4662802146222613e-06,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,,2.7803129189456277e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-8eb8be0d,,0.0003108441520991789,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-8eb8be0d,,4.953523321389871e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+BC-MAIN-8eb8be0d,,1.5196555092186132e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,,0.0002952423816853929,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-7f050560,,3.3265783779000634e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-7f050560,,1.3887899701128004e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-7f050560,,1.927366033293695e-05,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,,1.0378371257161386e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+NL-MAIN-b64bae7a,,2.8220538280637573e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+NL-MAIN-b64bae7a,,7.591861524445793e-08,consumption market for diesel,diesel,kg,CA,Regioinvent
+NL-MAIN-b64bae7a,,0.000297191011235955,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+NL-MAIN-b64bae7a,,6.053855094924449e-09,consumption market for propane,propane,kilogram,CA,Regioinvent
+NL-MAIN-b64bae7a,,9.620794213483146e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-NF,ecoinvent-3.10-cutoff regionalized
+,GRP-14bfbb82,2.5096263820053373e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-14bfbb82,1.3360573770491803e-05,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-14bfbb82,0.0004399480896631082,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-SK,ecoinvent-3.10-cutoff regionalized
+,GRP-14bfbb82,7.097406726964386e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+,GRP-a13779f8,0.00013582415635666144,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-MB,ecoinvent-3.10-cutoff regionalized
+,GRP-a13779f8,5.76305419963449e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-a13779f8,2.5369710338276314e-08,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-a13779f8,6.675951793757626e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
+,GRP-147b3123,0.0001302815527639136,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+,GRP-147b3123,1.31512071156289e-08,consumption market for ammonium nitrate,ammonium nitrate,kilogram,CA,Regioinvent
+,GRP-147b3123,5.6778138943884644e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-147b3123,3.106607369758576e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+,GRP-147b3123,3.479343384044781e-07,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+,GRP-147b3123,4.215603786760077e-08,consumption market for diesel,diesel,kg,CA,Regioinvent
+,GRP-147b3123,2.875664181623253e-06,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-02884fb5,,0.0001412924781746615,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-02884fb5,,6.437221427970734e-07,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,4.654446493635014e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-02884fb5,,1.7915230005886806e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,1.912830431979368e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,1.912830431979368e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,7.298691341244532e-08,consumption market for diesel,diesel,kg,CA,Regioinvent
+QC-MAIN-02884fb5,,1.7572506374186739e-06,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-02884fb5,,6.878209831254569e-10,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,,1.65042474983904e-07,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-7607a50e,,9.272769275275908e-05,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-7607a50e,,1.1320661319581372e-06,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-7607a50e,,1.6621631904495596e-08,consumption market for diesel,diesel,kg,CA,Regioinvent
+ON-MAIN-7607a50e,,4.909292984634331e-08,consumption market for naphtha,naphtha,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,,2.187523502759147e-06,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-6dc537e6,,1.64804334738109e-05,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,,1.3419626730885e-06,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,,2.0168847682109998e-07,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,,5.049969897652e-07,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,,1.45244170377e-07,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,,5.580763904074001e-07,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,,1.1077246883883e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,,1.1077246883883e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,,9.161089494163402e-06,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,,8.989114785992e-07,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,,2.8807245136179997e-07,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,,3.793803501945e-07,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,,9.79623962771858e-08,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,3.197389885807e-07,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,5.8401305057096244e-08,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,1.2398042414355628e-08,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,6.264274061990212e-08,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,8.887438825448001e-07,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,1.794453507340946e-08,consumption market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,,1.902120717781e-07,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+,GRP-0d911886,4.3208519409137e-06,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+,GRP-0d911886,1.4932741326004e-06,consumption market for lime,lime,kilogram,CA,Regioinvent
+,GRP-0d911886,1.872353418069e-07,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+,GRP-0d911886,2.523260048093e-07,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+,GRP-0d911886,2.1538425963159997e-07,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,6.819968051117999e-07,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,3.217012779552e-07,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,2.6385191693290736e-08,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,6.004221816522137e-08,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,2.589650844363e-07,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,1.7012779552715654e-08,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,,7.291647649475e-07,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,3.423597678916828e-08,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,5.841392649903288e-08,"consumption market for activated carbon, granular","activated carbon, granular",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,8.375241779497098e-08,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,1.4506769825918763e-09,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,3.861702127659e-07,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,4.4680851063829786e-08,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,4.3520309477756284e-09,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,1.9361702127649999e-07,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,4.902611218568601e-06,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,1.827852998065764e-08,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,5.212765957446e-07,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,,7.833655705996132e-09,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,,6.795233017389e-07,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent

@@ -5,6 +5,32 @@ from core.constants import *
 
 
 # ======================================================
+def ore_to_concentrate(
+    ore_processed_tonnes: float,
+    head_grade: float,
+    recovery_rate: float,
+    concentrate_grade: float
+):
+    """
+    Compute concentrate mass and related values.
+    All grades and recovery rates are fractions (e.g. 0.005 = 0.5%).
+    """
+    metal_in_ore = ore_processed_tonnes * head_grade
+    metal_in_concentrate = metal_in_ore * recovery_rate
+    concentrate_mass = metal_in_concentrate / concentrate_grade
+    yield_fraction = concentrate_mass / ore_processed_tonnes
+    tailings_grade = head_grade * (1 - recovery_rate)
+
+    return {
+        "M_concentrate_t": concentrate_mass,
+        "M_metal_in_ore_t": metal_in_ore,
+        "M_metal_in_concentrate_t": metal_in_concentrate,
+        "Yield_fraction": yield_fraction,
+        "Tailings_grade": tailings_grade
+    }
+
+
+# ======================================================
 # Needed for normalization
 # ======================================================
 def _norm_unit(x):
@@ -357,8 +383,9 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
     # Final selection and renaming
     result_df = merged_df[[
         "main_id",
-        "facility_name",
-        "commodities",
+        "facility_group_id",
+        #"facility_name",
+        #"commodities",
         "subflow_type",
         "Flow name",
         "Reference product",
@@ -438,7 +465,7 @@ def map_biosphere_to_ecoinvent(biosphere_df, mapping_df, ca_provinces_dict):
 
     def convert_value(row):
         val = row["value_normalized"]
-        original_unit = str(row["unit_normalized"]).strip().lower()
+        original_unit = str(row["unit"]).strip().lower()
         target_unit = str(row["Unit"]).strip().lower()
         key = (original_unit, target_unit)
         if pd.isna(val):
@@ -456,14 +483,16 @@ def map_biosphere_to_ecoinvent(biosphere_df, mapping_df, ca_provinces_dict):
     # --- 6️⃣ Final formatting
     result_df = merged_df[[
         "main_id",
-        "facility_name",
-        "commodities",
+        "facility_group_id",
+        #"facility_name",
+        #"commodities",
         "substance_name",
         "province",
         "Flow name",
         "Compartments",
         "value_converted",
-        "Unit",
+        "unit", # original unit
+        "Unit", # target unit
         "DB_to_map"
     ]].rename(columns={
         "value_converted": "Amount",

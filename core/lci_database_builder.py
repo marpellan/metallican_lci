@@ -1,4 +1,5 @@
 import brightway2 as bw
+import pandas as pd
 from core.constants import CA_provinces
 
 class LCIDatabaseBuilder:
@@ -31,7 +32,7 @@ class LCIDatabaseBuilder:
         self.lcis = {}
 
 
-    def build_lci_entries(self, df, facility_col, site_id_col): # Method of the LCIDatabaseBuilder
+    def build_lci_entries(self, df): # Method of the LCIDatabaseBuilder
         """
         Initialize LCI activities from a DataFrame.
         Each activity automatically gets a production exchange (its reference product).
@@ -40,11 +41,10 @@ class LCIDatabaseBuilder:
         self.lcis = {}
 
         for _, row in df.iterrows():
-            name = f"{row['mining_processing_type']} {row['commodities']}, {row[facility_col]}".strip()
+            site_id = row['site_id']
+            name = row['activity_name_lci']
             location = CA_provinces.get(row.get('province', ''), 'CA')
-            site_id = row[site_id_col]
-
-            key = (self.db_name, name)
+            key = (self.db_name, name) # Brightway key
 
             # Reference product definition
             product = row.get('commodities')
@@ -67,52 +67,54 @@ class LCIDatabaseBuilder:
                     }
                 ],
                 'type': 'process',
-                ## Create a unique code??
                 'comment': (
-                    f"This is a site-specific LCI drawn from the MetalliCan database. "
-                    f"Site ID is {site_id}."
+                    f"This is a site-specific LCI drawn from the MetalliCan database. Site ID is {site_id}."
                 )
             }
 
         print(f"✅ Created {len(self.lcis)} base LCI activities with production exchanges.")
         return self.lcis
 
-
-    def populate_technosphere_exchanges(self, technosphere_df, site_id_column='main_id'):
+    def populate_technosphere_exchanges(self, technosphere_df):
         """
-        Populate technosphere exchanges for all activities based on a DataFrame
-        structured like Brightway technosphere exports.
-        Expected columns: ['main_id', 'Activity', 'Product', 'Database', 'Amount', 'Unit']
-        """
-        print("Populating biosphere exchanges")
+        Populate technosphere exchanges for all activities using a DataFrame
+        that includes 'site_id' to match facilities.
 
-        # --- 1. Build lookup dictionaries once per database
+        Expected columns:
+            ['site_id', 'Database', 'Activity', 'Product',
+             'Amount', 'Unit', 'Location']
+        """
+        print("⚙️ Populating technosphere exchanges")
+
+        # --- 1️⃣ Build lookup cache for all referenced databases ---
         db_lookup = {}
-        for db_name in technosphere_df['Database'].unique():
+        for db_name in technosphere_df["Database"].dropna().unique():
             try:
                 db = bw.Database(db_name)
-                lookup = {}
-                for act in db:
-                    key = (act['name'], act.get('location', None))
-                    lookup[key] = act.key
+                lookup = {(act["name"], act.get("location", None)): act.key for act in db}
                 db_lookup[db_name] = lookup
                 print(f"   ✅ Cached {len(lookup)} activities from {db_name}")
             except Exception as e:
                 print(f"   ⚠️ Could not load database '{db_name}': {e}")
 
-        # --- 2. Populate exchanges
+        # --- 2️⃣ Loop through each activity and match its site_id ---
         missing_keys = []
-        count = 0
+        added = 0
+
         for key, process in self.lcis.items():
-            site_id = process['comment'].split('Site ID is ')[-1].strip('. ')
-            site_exchanges = technosphere_df[technosphere_df[site_id_column] == site_id]
+            # Extract site_id from the stored comment
+            site_id = process["comment"].split("Site ID is ")[-1].strip(". ")
 
+            # Filter the technosphere DF for this site
+            site_exchanges = technosphere_df[technosphere_df["site_id"].astype(str) == site_id]
+            if site_exchanges.empty:
+                continue
+
+            # --- Add each technosphere flow ---
             for _, row in site_exchanges.iterrows():
-                db_name = row['Database']
-                act_name = row['Activity']
-                loc = row.get('Location', None)
-
-                # Look up the pre-cached key
+                db_name = row["Database"]
+                act_name = row["Activity"]
+                loc = row.get("Location", None)
                 lookup = db_lookup.get(db_name, {})
                 input_key = lookup.get((act_name, loc)) or lookup.get((act_name, None))
 
@@ -121,66 +123,68 @@ class LCIDatabaseBuilder:
                     continue
 
                 exchange = {
-                    'input': input_key,
-                    'amount': float(row['Amount']),
-                    'unit': row['Unit'],
-                    'type': 'technosphere',
-                    'name': act_name,
-                    'product': row.get('Product', None),
-                    'location': loc
+                    "input": input_key,
+                    "amount": float(row["Amount"]),
+                    "unit": row["Unit"],
+                    "type": "technosphere",
+                    "name": act_name,
+                    "product": row.get("Product", None),
+                    "location": loc,
                 }
-                process['exchanges'].append(exchange)
-                count += 1
+                process["exchanges"].append(exchange)
+                added += 1
 
-        print(f"✅ Added {count} technosphere exchanges.")
+        print(f"✅ Added {added} technosphere exchanges.")
         if missing_keys:
             print(f"⚠️ {len(missing_keys)} exchanges could not be matched:")
-            for db, act, loc in missing_keys[:10]:  # show first 10 only
+            for db, act, loc in missing_keys[:10]:
                 print(f"   - {act} ({db}, {loc})")
             if len(missing_keys) > 10:
                 print(f"   ... and {len(missing_keys) - 10} more.")
 
-
-    def populate_biosphere_exchanges(self, biosphere_df, site_id_column="main_id"):
+    def populate_biosphere_exchanges(self, biosphere_df):
         """
-        Efficiently populate biosphere exchanges for all activities.
-        Expected columns in biosphere_df:
-        ['main_id', 'Flow Name', 'Compartments', 'Database', 'Amount', 'Unit']
-        """
+        Populate biosphere exchanges for all activities using a DataFrame
+        that includes 'site_id' to match facilities.
 
+        Expected columns:
+            ['site_id', 'Database', 'Flow Name', 'Compartments',
+             'Amount', 'Unit']
+        """
         print("🌱 Populating biosphere exchanges")
 
-        # --- 1️⃣ Build lookup cache for biosphere databases
+        # --- 1️⃣ Build lookup cache for biosphere databases ---
         db_lookup = {}
-        for db_name in biosphere_df['Database'].unique():
+        for db_name in biosphere_df["Database"].dropna().unique():
             try:
                 db = bw.Database(db_name)
                 lookup = {}
-                for act in db:
-                    # store by (flow name, compartment tuple)
-                    comp_tuple = tuple(act.get("categories", []))
-                    lookup[(act["name"], comp_tuple)] = act.key
+                for flow in db:
+                    comp_tuple = tuple(flow.get("categories", []))
+                    lookup[(flow["name"], comp_tuple)] = flow.key
                 db_lookup[db_name] = lookup
                 print(f"   ✅ Cached {len(lookup)} biosphere flows from {db_name}")
             except Exception as e:
                 print(f"   ⚠️ Could not load biosphere database '{db_name}': {e}")
 
-        # --- 2️⃣ Iterate through each activity in your LCI
+        # --- 2️⃣ Loop through activities and add flows ---
         missing_keys = []
         added = 0
 
         for key, process in self.lcis.items():
-            site_id = process['comment'].split('Site ID is ')[-1].strip('. ')
-            site_exchanges = biosphere_df[biosphere_df[site_id_column] == site_id]
+            site_id = process["comment"].split("Site ID is ")[-1].strip(". ")
+            site_exchanges = biosphere_df[biosphere_df["site_id"].astype(str) == site_id]
+            if site_exchanges.empty:
+                continue
 
             for _, row in site_exchanges.iterrows():
-                db_name = row['Database']
-                flow_name = row['Flow Name']
-                comps = row.get('Compartments', None)
-                comps_tuple = tuple(str(c).strip() for c in comps.split('/')) if isinstance(comps, str) else ()
-
+                db_name = row["Database"]
+                flow_name = row["Flow Name"]
+                comps = row.get("Compartments", None)
+                comps_tuple = tuple(str(c).strip() for c in comps.split("/")) if isinstance(comps, str) else ()
                 lookup = db_lookup.get(db_name, {})
-                # Try exact match, then fallback ignoring compartments
+
+                # Exact match or fallback ignoring compartments
                 input_key = lookup.get((flow_name, comps_tuple)) or next(
                     (v for (fname, _), v in lookup.items() if fname == flow_name),
                     None
@@ -191,18 +195,18 @@ class LCIDatabaseBuilder:
                     continue
 
                 exchange = {
-                    'input': input_key,
-                    'amount': float(row['Amount']),
-                    'unit': row['Unit'],
-                    'type': 'biosphere',
-                    'name': flow_name,
+                    "input": input_key,
+                    "amount": float(row["Amount"]),
+                    "unit": row["Unit"],
+                    "type": "biosphere",
+                    "name": flow_name,
                 }
-                process['exchanges'].append(exchange)
+                process["exchanges"].append(exchange)
                 added += 1
 
         print(f"✅ Added {added} biosphere exchanges.")
         if missing_keys:
-            print(f"⚠️ {len(missing_keys)} flows could not be matched to biosphere3:")
+            print(f"⚠️ {len(missing_keys)} biosphere flows could not be matched:")
             for db, name, comp in missing_keys[:10]:
                 print(f"   - {name} ({comp}, {db})")
             if len(missing_keys) > 10:

@@ -279,3 +279,72 @@ def get_production_data(production_df, reference_priority=None):
 #     return merged_df
 
 
+def aggregate_biosphere_facility_groups(df, remove_individuals=False):
+    """
+    Aggregate environmental flows by facility_group_id when multiple facilities exist.
+    Creates new rows (no main_id, no facility_name) with summed values and
+    aggregated lists of commodities and mining_processing_type.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Input dataframe containing environmental flows.
+    remove_individuals : bool, default=False
+        If True, removes individual facilities that belong to a facility group
+        after aggregation (to avoid double counting).
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with aggregated facility-group rows appended (or replacing individuals).
+    """
+    df = df.copy()
+
+    def concat_unique(series):
+        """Concatenate unique, non-null, case-insensitive values."""
+        vals = series.dropna().astype(str).unique()
+        # Split comma-separated entries, normalize case
+        split_vals = {v.strip().capitalize() for val in vals for v in val.split(',')}
+        return ', '.join(sorted(split_vals)) if split_vals else None
+
+    # Aggregate within each facility group
+    grouped = (
+        df[df["facility_group_id"].notna()]
+        .groupby(
+            [
+                "facility_group_id",
+                "year",
+                "compartment_name",
+                "substance_id",
+                "flow_direction",
+                "release_pathway",
+                "unit",
+                "source_id",
+            ],
+            dropna=False
+        )
+        .agg({
+            "value": "sum",
+            #"facility_group_name": "first",
+            "company_id": "first"
+            #"commodities": concat_unique,
+            #"mining_processing_type": concat_unique
+        })
+        .reset_index()
+    )
+
+    # Build aggregated rows
+    grouped["main_id"] = None
+    grouped["facility_name"] = ""  # leave blank
+    grouped["comment"] = "Aggregated value from multiple facilities"
+
+    # Reorder columns to align with original DataFrame
+    aggregated_df = grouped.reindex(columns=df.columns.intersection(grouped.columns), fill_value=None)
+
+    # Optionally remove individual facilities
+    if remove_individuals:
+        df = df[~df["facility_group_id"].isin(grouped["facility_group_id"].unique())]
+
+    # Combine original and aggregated
+    combined_df = pd.concat([df, aggregated_df], ignore_index=True)
+    return combined_df
