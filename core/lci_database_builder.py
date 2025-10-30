@@ -2,6 +2,99 @@ import brightway2 as bw
 import pandas as pd
 from core.constants import CA_provinces
 
+
+def normalize_flows(df, production_df, price_df=None, mode='ore',
+                    allocation='mass', value_col='value', prod_agg='sum'):
+    """
+    Normalize LCI flows by production reference (ore processed or final metal output).
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Flow dataframe containing at least 'main_id' and a numeric column (value_col).
+    production_df : pd.DataFrame
+        Production dataframe with columns like ['main_id', 'ore_processed_t', 'Au_t', 'Ag_t', ...].
+    price_df : pd.DataFrame, optional
+        Must contain ['commodity', 'price'] if allocation='economic'.
+    mode : {'ore', 'metal'}
+        - 'ore' divides by ore_processed_t.
+        - 'metal' divides by each metal_t and allocates among metals.
+    allocation : {'mass', 'economic'}
+        Allocation key when mode='metal'.
+    value_col : str, default 'value'
+        Column in df to normalize.
+    prod_agg : str, default 'sum'
+        Aggregation for production_df if multiple rows per main_id.
+
+    Returns
+    -------
+    pd.DataFrame
+        Normalized dataframe with:
+        - value_normalized
+        - Reference product
+        - allocation_factor (if mode='metal')
+        - normalization_key ('ore' or 'metal_mass' / 'metal_economic')
+    """
+
+    df = df.copy()
+    prod = production_df.copy()
+    df[value_col] = pd.to_numeric(df[value_col], errors='coerce')
+    prod = prod.groupby('main_id', as_index=False).agg(prod_agg)
+
+    # Identify metal columns (ending with _t except ore_processed_t)
+    metal_cols = [c for c in prod.columns if c.endswith('_t') and c != 'ore_processed_t']
+
+    if mode == 'ore':
+        out = df.merge(prod[['main_id', 'ore_processed_t']], on='main_id', how='left')
+        out['value_normalized'] = out[value_col] / out['ore_processed_t']
+        out['functional_unit'] = 'Ore processed'
+        out['allocation_factor'] = 1
+        out['normalization_key'] = 'ore'
+        return out
+
+    # ---- METAL-BASED NORMALIZATION ----
+    melted = prod.melt(id_vars=['main_id'], value_vars=metal_cols,
+                       var_name='metal', value_name='mass_t')
+    melted['metal'] = melted['metal'].str.replace('_t', '', regex=False)
+
+    # keep only nonzero, non-null metals
+    melted = melted[melted['mass_t'].notna() & (melted['mass_t'] > 0)].copy()
+
+    # ---- MASS ALLOCATION ----
+    if allocation == 'mass':
+        melted['allocation_factor'] = melted.groupby('main_id')['mass_t'] \
+                                            .transform(lambda x: x / x.sum())
+
+    # ---- ECONOMIC ALLOCATION ----
+    elif allocation == 'economic':
+        if price_df is None:
+            raise ValueError("price_df must be provided for economic allocation.")
+
+        # normalize price_df column names
+        price_df = price_df.rename(columns=lambda x: x.strip().lower())
+        if not {'commodity', 'price'}.issubset(price_df.columns):
+            raise ValueError("price_df must contain ['commodity', 'price'] columns.")
+
+        melted = melted.merge(price_df[['commodity', 'price']],
+                              left_on='metal', right_on='commodity', how='left')
+
+        melted['mass_value'] = melted['mass_t'] * melted['price']
+        melted['allocation_factor'] = melted.groupby('main_id')['mass_value'] \
+                                            .transform(lambda x: x / x.sum())
+    else:
+        raise ValueError("allocation must be 'mass' or 'economic'.")
+
+    # merge with flows
+    out = df.merge(melted[['main_id', 'metal', 'mass_t', 'allocation_factor']],
+                   on='main_id', how='inner')
+
+    out['value_normalized'] = (out[value_col] / out['mass_t']) * out['allocation_factor']
+    out['functional_unit'] = out['metal'] + ', usable ore'
+    out['normalization_key'] = f"metal_{allocation}"
+
+    return out
+
+
 class LCIDatabaseBuilder:
     """
     A class to build and populate Brightway2 LCI databases from DataFrames.
@@ -42,12 +135,16 @@ class LCIDatabaseBuilder:
 
         for _, row in df.iterrows():
             site_id = row['site_id']
-            name = row['activity_name_lci']
+            name = row['activity_name']
+            product = row['functional_unit'] # reference product definition
             location = CA_provinces.get(row.get('province', ''), 'CA')
-            key = (self.db_name, name) # Brightway key
 
-            # Reference product definition
-            product = row.get('commodities')
+            # Brightway activity key
+            unique_code = f'{site_id}_{product}'
+            key = (self.db_name, unique_code) # Brightway key
+
+            # Commodities given by NRCan (for use in the description
+            nrcan_commodities = row.get('commodities')
 
             # Create process entry
             self.lcis[key] = {
@@ -68,25 +165,24 @@ class LCIDatabaseBuilder:
                 ],
                 'type': 'process',
                 'comment': (
-                    f"This is a site-specific LCI drawn from the MetalliCan database. Site ID is {site_id}."
+                    f"This is a site-specific LCI drawn from the MetalliCan database. Site ID is {site_id}. NRCan reports for this list of commodities: {nrcan_commodities}. Production data were only found for: {product}."
                 )
             }
 
         print(f"✅ Created {len(self.lcis)} base LCI activities with production exchanges.")
         return self.lcis
 
+
     def populate_technosphere_exchanges(self, technosphere_df):
         """
-        Populate technosphere exchanges for all activities using a DataFrame
-        that includes 'site_id' to match facilities.
-
+        Populate technosphere exchanges per (site_id + functional_unit).
         Expected columns:
-            ['site_id', 'Database', 'Activity', 'Product',
-             'Amount', 'Unit', 'Location']
+            ['site_id', 'functional_unit', 'Database', 'Activity',
+             'Product', 'Amount', 'Unit', 'Location']
         """
         print("⚙️ Populating technosphere exchanges")
 
-        # --- 1️⃣ Build lookup cache for all referenced databases ---
+        # --- 1️⃣ Cache all databases ---
         db_lookup = {}
         for db_name in technosphere_df["Database"].dropna().unique():
             try:
@@ -97,20 +193,23 @@ class LCIDatabaseBuilder:
             except Exception as e:
                 print(f"   ⚠️ Could not load database '{db_name}': {e}")
 
-        # --- 2️⃣ Loop through each activity and match its site_id ---
-        missing_keys = []
-        added = 0
+        # --- 2️⃣ Populate ---
+        missing_keys, added = [], 0
 
         for key, process in self.lcis.items():
-            # Extract site_id from the stored comment
-            site_id = process["comment"].split("Site ID is ")[-1].strip(". ")
+            # Retrieve metadata from comment
+            comment = process["comment"]
+            site_id = comment.split("Site ID is ")[-1].split(". NRCan")[0].strip()
+            product = process.get("reference product")
 
-            # Filter the technosphere DF for this site
-            site_exchanges = technosphere_df[technosphere_df["site_id"].astype(str) == site_id]
+            # Filter for this (site_id + functional_unit)
+            site_exchanges = technosphere_df[
+                (technosphere_df["site_id"].astype(str) == site_id)
+                & (technosphere_df["functional_unit"].astype(str) == str(product))
+                ]
             if site_exchanges.empty:
                 continue
 
-            # --- Add each technosphere flow ---
             for _, row in site_exchanges.iterrows():
                 db_name = row["Database"]
                 act_name = row["Activity"]
@@ -144,16 +243,13 @@ class LCIDatabaseBuilder:
 
     def populate_biosphere_exchanges(self, biosphere_df):
         """
-        Populate biosphere exchanges for all activities using a DataFrame
-        that includes 'site_id' to match facilities.
-
+        Populate biosphere exchanges per (site_id + functional_unit).
         Expected columns:
-            ['site_id', 'Database', 'Flow Name', 'Compartments',
-             'Amount', 'Unit']
+            ['site_id', 'functional_unit', 'Database', 'Flow Name',
+             'Compartments', 'Amount', 'Unit']
         """
         print("🌱 Populating biosphere exchanges")
 
-        # --- 1️⃣ Build lookup cache for biosphere databases ---
         db_lookup = {}
         for db_name in biosphere_df["Database"].dropna().unique():
             try:
@@ -167,13 +263,17 @@ class LCIDatabaseBuilder:
             except Exception as e:
                 print(f"   ⚠️ Could not load biosphere database '{db_name}': {e}")
 
-        # --- 2️⃣ Loop through activities and add flows ---
-        missing_keys = []
-        added = 0
+        missing_keys, added = [], 0
 
         for key, process in self.lcis.items():
-            site_id = process["comment"].split("Site ID is ")[-1].strip(". ")
-            site_exchanges = biosphere_df[biosphere_df["site_id"].astype(str) == site_id]
+            comment = process["comment"]
+            site_id = comment.split("Site ID is ")[-1].split(". NRCan")[0].strip()
+            product = process.get("reference product")
+
+            site_exchanges = biosphere_df[
+                (biosphere_df["site_id"].astype(str) == site_id)
+                & (biosphere_df["functional_unit"].astype(str) == str(product))
+                ]
             if site_exchanges.empty:
                 continue
 
@@ -184,12 +284,10 @@ class LCIDatabaseBuilder:
                 comps_tuple = tuple(str(c).strip() for c in comps.split("/")) if isinstance(comps, str) else ()
                 lookup = db_lookup.get(db_name, {})
 
-                # Exact match or fallback ignoring compartments
                 input_key = lookup.get((flow_name, comps_tuple)) or next(
                     (v for (fname, _), v in lookup.items() if fname == flow_name),
                     None
                 )
-
                 if not input_key:
                     missing_keys.append((db_name, flow_name, comps))
                     continue

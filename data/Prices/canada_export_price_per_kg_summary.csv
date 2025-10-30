@@ -1,0 +1,53 @@
+Commodity,mean_price_per_kg,std_price_per_kg,n_records,start_date,end_date,date_range_comment
+"2601.11.10 - Iron ores concentrated, non-agglomerated, other than roasted iron pyrites",0.1351,0.097,194,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2601.11.90 - Iron ores not concentrated, non-agglomerated, other than roasted iron pyrites",0.175,0.1348,95,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2601.12.00 - Iron ores and concentrates, o/t roasted iron pyrites, agglomerated",0.1573,0.0519,250,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2601.20.00 - Roasted iron pyrites (pyrites cinders),0.2509,0.4451,6,2013-01-01,2019-01-01,2013-01-01 to 2019-01-01
+2602.00.00 - Manganese ores and conc etc,6.238,12.3893,15,2014-01-01,2024-01-01,2014-01-01 to 2024-01-01
+"2603.00.10 - Copper ores and concentrates, copper content",29.6705,300.3357,217,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2603.00.40 - Copper ores and concentrates, silver content",797.341,208.9266,83,2017-01-01,2024-01-01,2017-01-01 to 2024-01-01
+"2603.00.50 - Copper ores and concentrates, gold content",62894.6262,18776.4027,83,2017-01-01,2024-01-01,2017-01-01 to 2024-01-01
+"2603.00.90 - Copper ores and concentrates, nes",25.0965,22.8053,62,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2604.00.40 - Nickel ores and concentrates, nickel content",19.6335,8.2158,46,2014-01-01,2024-01-01,2014-01-01 to 2024-01-01
+"2604.00.90 - Nickel ores and concentrates, nes",6062.407,10575.3619,22,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2605.00.00 - Cobalt ores and concentrates,236.5782,571.4579,12,2014-01-01,2024-01-01,2014-01-01 to 2024-01-01
+2606.00.00 - Aluminium ores and concentrates,0.6097,0.5705,41,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2607.00.20 - Lead ores and concentrates, lead content",12.4082,42.6099,50,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2607.00.40 - Lead ores and concentrates, silver content",974.1125,230.3893,15,2017-01-01,2024-01-01,2017-01-01 to 2024-01-01
+"2607.00.50 - Lead ores and concentrates, gold content",86728.0527,15103.7723,6,2021-01-01,2024-01-01,2021-01-01 to 2024-01-01
+"2607.00.90 - Lead ores and concentrates, nes",202.157,737.7573,29,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2608.00.20 - Zinc ores and concentrates, lead content",2.0299,0.7582,15,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2608.00.30 - Zinc ores and concentrates, zinc content",3.551,16.4475,65,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2608.00.40 - Zinc ores and concentrates, silver content",1003.9428,475.6254,19,2018-01-01,2024-01-01,2018-01-01 to 2024-01-01
+"2608.00.90 - Zinc ores and concentrates, nes",3386.4626,9316.0951,25,2014-01-01,2024-01-01,2014-01-01 to 2024-01-01
+2609.00.00 - Tin ores and concentrates,1.4217,0.0046,7,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2610.00.00 - Chromium ores and concentrates,1.4352,2.0562,24,2013-01-01,2023-01-01,2013-01-01 to 2023-01-01
+2611.00.00 - Tungsten ores and concentrates,218.3194,865.9016,38,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2612.10.00 - Uranium ores and concentrates,118.9593,160.7207,17,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2612.20.00 - Thorium ores and concentrates,11.4845,10.0644,4,2014-01-01,2018-01-01,2014-01-01 to 2018-01-01
+"2613.10.00 - Molybdenum concentrates, roasted",194.5235,606.3752,13,2013-01-01,2023-01-01,2013-01-01 to 2023-01-01
+2613.90.00 - Molybdenum ores and concentrates nes,19.1012,11.3949,101,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2614.00.00 - Titanium ores and concentrates,14.9043,61.9672,43,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2615.10.00 - Zirconium ores and concentrates,7.3554,9.2792,65,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2615.90.00 - Niobium, tantalum and vanadium ores and concentrates",89.0338,328.2766,62,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2616.10.40 - Silver ores and concentrates, silver content",523.4822,266.8996,7,2017-01-01,2023-01-01,2017-01-01 to 2023-01-01
+"2616.10.90 - Silver ores and concentrates, nes",1315.5658,5879.9532,27,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2616.90.10 - Precious metal ores and concentrates, nes, gold content",161540.9037,959359.7388,75,2017-01-01,2024-01-01,2017-01-01 to 2024-01-01
+"2616.90.90 - Precious metal ores and concentrates, nes",25481.256,35165.7318,95,2017-01-01,2024-01-01,2017-01-01 to 2024-01-01
+"2616.90.90 - Precious metal ores and concentrates, other metals content, nes",142.4863,552.7608,24,2013-01-01,2016-01-01,2013-01-01 to 2016-01-01
+2617.10.00 - Antimony ores and concentrates,4.899,5.4191,22,2013-01-01,2023-01-01,2013-01-01 to 2023-01-01
+"2617.90.00 - Ores and concentrates, nes",49.2261,311.0447,332,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2618.00.00 - Granulated slag (slag sand) from the manufacture of iron or steel,0.511,0.7255,114,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2619.00.00 - Slag, dross, o/t granulated slag,scalings and other waste from mfr of iron/steel",6.4169,23.3516,144,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2620.11.00 - Ash and residues containing hard zinc spelter,2.5667,0.6346,54,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2620.19.00 - Ash and residues containing mainly zinc nes,645.452,3494.4143,181,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2620.21.00 - Lead gasoline sludges & lead anti-knock compound sludges, cont mainly lead",0.2758,,1,2024-01-01,2024-01-01,2024-01-01 to 2024-01-01
+"2620.29.00 - Ash & residues, containing mainly lead, o/t gas sludges, nes",109.13,757.8863,50,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2620.30.00 - Ash and residues containing mainly copper,5.7151,3.9102,100,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2620.40.00 - Ash and residues containing mainly aluminium,29.2743,225.9691,139,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+"2620.60.00 - Ash & residues cont arsenic,mercury, thallium/mixt,f extr of arsenic/mfr compds",3.1646,,1,2019-01-01,2019-01-01,2019-01-01 to 2019-01-01
+"2620.91.00 - Ash & residues cont antimony, beryllium, cadmium, chromium or their mixtures",193.0624,382.0151,15,2013-01-01,2023-01-01,2013-01-01 to 2023-01-01
+2620.99.10 - Ash and residues containing mainly vanadium,3.3131,3.966,17,2013-01-01,2021-01-01,2013-01-01 to 2021-01-01
+2620.99.90 - Ash and residues containing metals or metallic compounds nes,730.9084,7417.0728,220,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
+2621.10.00 - Ash and residues from the incineration of municipal waste,0.468,0.5321,5,2014-01-01,2021-01-01,2014-01-01 to 2021-01-01
+"2621.90.00 - Other ash and slag, including seaweed ash (kelp), nes",0.2646,0.3343,351,2013-01-01,2024-01-01,2013-01-01 to 2024-01-01
