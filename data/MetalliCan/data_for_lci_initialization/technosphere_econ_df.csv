@@ -1,308 +1,425 @@
 site_id,activity_name,functional_unit,Amount,Activity,Product,Unit,Location,Database
-BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack","Au, usable ore",0.020482948917490716,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
-BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack","Au, usable ore",1.8694211350781098,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
-BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack","Au, usable ore",7.400659255633993,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack","Au, usable ore",0.3387973531315865,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack","Au, usable ore",1.0052128253590524,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack","Au, usable ore",2.598692352507174,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack","Au, usable ore",175.23068913585445,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack","Au, usable ore",95.5930975675761,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Au, usable ore",31.490679590874766,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Ag, usable ore",0.4086609253024489,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Au, usable ore",2.777074887026433,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Ag, usable ore",0.036038663112728686,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Au, usable ore",0.04503804738315389,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Au, usable ore",0.04503804738315389,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Ag, usable ore",0.0005844678602220009,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Ag, usable ore",0.0005844678602220009,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Au, usable ore",0.21592807127464245,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Ag, usable ore",0.002802142302176252,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Au, usable ore",0.0014726218194177885,consumption market for propane,propane,kilogram,CA,Regioinvent
-QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic","Ag, usable ore",1.9110511527932772e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
-QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi","Au, usable ore",3.2564649686673173,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi","Ag, usable ore",0.04225980526937332,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi","Au, usable ore",0.1492001269682794,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi","Ag, usable ore",0.001936200257798444,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi","Au, usable ore",0.3413180602968983,consumption market for propane,propane,kilogram,CA,Regioinvent
-QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi","Ag, usable ore",0.004429353578758156,consumption market for propane,propane,kilogram,CA,Regioinvent
-QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi","Au, usable ore",50.92855887135359,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi","Ag, usable ore",0.6609102205186631,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Au, usable ore",0.6489707647294173,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Ag, usable ore",0.008421825017882838,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Cu, usable ore",8.645737078153272e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Au, usable ore",0.0028568532845377713,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Ag, usable ore",3.707396353081102e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Cu, usable ore",3.805965339481886e-07,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Au, usable ore",0.07517710906078919,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Ag, usable ore",0.0009755885661879367,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Cu, usable ore",1.0015266550662464e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Au, usable ore",188.42825650960629,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Ag, usable ore",2.4452716377914117,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain","Cu, usable ore",0.025102843647450256,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Au, usable ore",39.3766923008116,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Ag, usable ore",0.5109993090038768,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Au, usable ore",4.3496956730653125,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Ag, usable ore",0.056446881478354013,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Au, usable ore",1.0278874646187055,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Au, usable ore",1.0278874646187055,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Ag, usable ore",0.013339103755626509,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Ag, usable ore",0.013339103755626509,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Au, usable ore",0.07674134421596475,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Au, usable ore",0.07674134421596475,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Ag, usable ore",0.000995887962523921,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Ag, usable ore",0.000995887962523921,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Au, usable ore",0.18634942317729322,consumption market for propane,propane,kilogram,CA,Regioinvent
-ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake","Ag, usable ore",0.002418294196714566,consumption market for propane,propane,kilogram,CA,Regioinvent
-ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River","Au, usable ore",0.8682922605898001,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River","Au, usable ore",0.10013798596274073,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River","Au, usable ore",0.4581107636443382,consumption market for propane,propane,kilogram,CA,Regioinvent
-ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River","Au, usable ore",45.24347810455889,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River","Au, usable ore",14.172022800621122,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.06965078523818517,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",1.2418371210360875,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.03126841890451901,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.42527900568973187,consumption market for propane,propane,kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",34.34609742518754,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.4893432549724141,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Cu, usable ore",0.0006760040536600605,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Mo, usable ore",0.0028646896418869808,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Cu, usable ore",1.508388360959099e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Mo, usable ore",6.392068938325226e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Cu, usable ore",9.170873249928666e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Mo, usable ore",0.00038863236786654227,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Cu, usable ore",1.6855645495912754e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Mo, usable ore",7.142885134789695e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Cu, usable ore",0.008132106731090827,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar","Mo, usable ore",0.034461275480738525,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Au, usable ore",40.77710525892475,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Ag, usable ore",0.5291727515177657,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Zn, usable ore",0.0020307127664716956,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Au, usable ore",0.686125077969383,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Ag, usable ore",0.008903984063825475,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Zn, usable ore",3.4169246354824606e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Au, usable ore",0.8392203742924681,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Au, usable ore",0.8392203742924681,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Ag, usable ore",0.010890732723037451,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Ag, usable ore",0.010890732723037451,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Zn, usable ore",4.1793440636296125e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Zn, usable ore",4.1793440636296125e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Au, usable ore",0.00691413006938385,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Au, usable ore",0.00691413006938385,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Ag, usable ore",8.972606588759243e-05,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Ag, usable ore",8.972606588759243e-05,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Zn, usable ore",3.443258689352549e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Zn, usable ore",3.443258689352549e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Au, usable ore",0.5583272023415707,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Ag, usable ore",0.0072455251552129415,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex","Zn, usable ore",2.7804871642164977e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-ON-MAIN-6e9be24e,"Au, OP and UG mining and beneficiation at Hemlo (Williams)","Au, usable ore",141.09892078171083,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-6e9be24e,"Au, OP and UG mining and beneficiation at Hemlo (Williams)","Au, usable ore",68.61191462890947,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island","Au, usable ore",0.17543430818288006,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island","Au, usable ore",22.7128888018813,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island","Au, usable ore",1.2023830817523926,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island","Au, usable ore",0.07938817406368409,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island","Au, usable ore",0.37973115851961525,consumption market for propane,propane,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Ag, usable ore",0.023282582918819926,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Zn, usable ore",8.934745455822312e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Pb, usable ore",7.144789413167763e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Ag, usable ore",0.0033736799531348975,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Zn, usable ore",1.2946575444731045e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Pb, usable ore",1.035290323956731e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Ag, usable ore",0.01417679762559589,consumption market for propane,propane,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Zn, usable ore",5.4403791282546174e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Pb, usable ore",4.350472365594104e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Ag, usable ore",0.3162761311242004,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Zn, usable ore",0.001213717024094781,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
-YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District","Pb, usable ore",0.0009705651478501763,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena","Au, usable ore",0.8974554349646419,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena","Au, usable ore",0.024045757100165734,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena","Au, usable ore",0.0014923622788796536,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena","Au, usable ore",34.79899326757292,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena","Au, usable ore",28.999184255639612,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-a3c56a83,"Pt, OP and UG mining and beneficiation at Lac des Iles","Pt, usable ore",0.30177615518694495,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-a3c56a83,"Pt, OP and UG mining and beneficiation at Lac des Iles","Pt, usable ore",0.3609952026528939,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-ON-MAIN-a3c56a83,"Pt, OP and UG mining and beneficiation at Lac des Iles","Pt, usable ore",8.507422036063508,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque","Au, usable ore",13.956470855633938,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque","Au, usable ore",0.8091849190948573,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque","Au, usable ore",0.0007642902560958982,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque","Au, usable ore",0.014513469104577516,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque","Au, usable ore",0.00817072732345615,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
-QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque","Au, usable ore",0.03395391132191778,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
-QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque","Au, usable ore",0.39669293818375734,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Au, usable ore",42.93079380409319,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Ag, usable ore",0.5571216038485634,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Cu, usable ore",0.005719338619843016,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Zn, usable ore",0.002137967138647126,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Au, usable ore",0.8322661477840178,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Ag, usable ore",0.010800486317541347,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Cu, usable ore",0.00011087640127807908,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Zn, usable ore",4.144711795198651e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Au, usable ore",0.19152707731264554,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Au, usable ore",0.19152707731264554,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Ag, usable ore",0.002485485662803544,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Ag, usable ore",0.002485485662803544,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Cu, usable ore",2.5515675648080658e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Cu, usable ore",2.5515675648080658e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Zn, usable ore",9.5381091559626e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Zn, usable ore",9.5381091559626e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Au, usable ore",0.017163335201164406,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Au, usable ore",0.017163335201164406,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Ag, usable ore",0.00022273207614790326,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Ag, usable ore",0.00022273207614790326,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Cu, usable ore",2.286538802643139e-06,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Cu, usable ore",2.286538802643139e-06,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Zn, usable ore",8.547395330522949e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Zn, usable ore",8.547395330522949e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Au, usable ore",0.7731098396852388,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Ag, usable ore",0.010032802929338792,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Cu, usable ore",0.00010299546250344082,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde","Zn, usable ore",3.8501115058678374e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa","Au, usable ore",25.682146050418773,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa","Au, usable ore",0.29910593422066156,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa","Au, usable ore",3.8723143331577035,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa","Au, usable ore",3.8723143331577035,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa","Au, usable ore",0.020405202730143117,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa","Au, usable ore",0.020405202730143117,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa","Au, usable ore",1.30726194853063,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa","Au, usable ore",0.0019950139176003866,consumption market for propane,propane,kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Au, usable ore",42.14144067635227,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Ag, usable ore",0.5468780084811752,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Au, usable ore",3.988104889729388,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Ag, usable ore",0.051754444667885306,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Au, usable ore",0.5350641785427079,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Au, usable ore",0.5350641785427079,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Ag, usable ore",0.0069436361850641086,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Ag, usable ore",0.0069436361850641086,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Au, usable ore",0.010509357668094377,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Au, usable ore",0.010509357668094377,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Ag, usable ore",0.00013638206239989666,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine","Ag, usable ore",0.00013638206239989666,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.11460057946808024,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",6.409691996365958e-05,consumption market for biogas,biogas,cubic meter,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",1.2819362528474054,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.02187486166379217,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.8849604530329372,consumption market for propane,propane,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.07358949057180061,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.680342205515051,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",25.29835215200862,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",11.36999243566328,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",0.0015147364183704392,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",9.628442592597722,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",0.0012827231618422845,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.8013227407955746,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",0.00010675404976913378,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.1404352771422907,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.1404352771422907,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",1.8709109079452437e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",1.8709109079452437e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.017769094656472025,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",2.3672394638721323e-06,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.33894750744757385,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",4.515536279833726e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.003085102544275791,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",4.110044227966304e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",102.74441289196248,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",4.483545585855544,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",2.5012596972596093,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",2.5012596972596093,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.10731356299230785,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.2305859243834324,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Au, usable ore",8.652635058718012,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Cu, usable ore",0.0011527238485400486,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Au, usable ore",0.0031301548948366722,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Cu, usable ore",4.170064000638894e-07,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Au, usable ore",4.396448359385146,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Cu, usable ore",0.0005857049139766786,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Au, usable ore",49.56250347630508,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Cu, usable ore",0.006602830162462749,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Au, usable ore",554.1180010359096,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Cu, usable ore",0.0738208684828168,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Au, usable ore",0.8830265656912019,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Cu, usable ore",0.00011763882034306845,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Au, usable ore",2.708973185902986,consumption market for propane,propane,kilogram,CA,Regioinvent
-BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris","Cu, usable ore",0.0003608956087081927,consumption market for propane,propane,kilogram,CA,Regioinvent
-ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake","Au, usable ore",70.83395936117728,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake","Au, usable ore",0.7423833185162815,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake","Au, usable ore",0.03193612595277663,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake","Au, usable ore",4.180915570864529,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
-ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake","Au, usable ore",2.4899579920349586,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully","Fe, usable ore",1.1218213659022727e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully","Fe, usable ore",3.017912833696054e-07,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully","Fe, usable ore",0.0011813921578786573,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
-NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully","Fe, usable ore",2.4065253199731466e-08,consumption market for propane,propane,kilogram,CA,Regioinvent
-NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully","Fe, usable ore",0.0003824453098061356,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-NF,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",50.506511275863396,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.23010538199714206,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",1.6637818045988342,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.6403991054523636,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.026089954772392236,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.6281480817654786,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.00024586898530477733,consumption market for propane,propane,kilogram,CA,Regioinvent
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",0.08250455553245732,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",46.35447376115011,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",0.5659186403964392,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",0.008309135891462274,consumption market for diesel,diesel,kilogram,CA,Regioinvent
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",0.024541502768627797,consumption market for naphtha,naphtha,kilogram,CA,Regioinvent
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",1.0935406435800794,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
-ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River","Au, usable ore",0.445133879674055,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River","Au, usable ore",0.445133879674055,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",3.7935081039222216,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.42127147238668683,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.42127147238668683,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.3088963821013601,consumption market for lime,lime,kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.046425166698725,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.005561001007204533,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.11624149183787388,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",1.8858948682457798e-05,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
-QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore","Au, usable ore",0.03343267264470749,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
-ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island","Au, usable ore",0.05994617225216961,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
-ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island","Au, usable ore",0.11898703496420444,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island","Au, usable ore",0.11898703496420444,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena","Au, usable ore",0.45778387678391586,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena","Au, usable ore",0.45778387678391586,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",1.6821258057774848,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.12968726277678647,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.12968726277678647,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.012157974361584887,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.16505484377428048,consumption market for lime,lime,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.05289481176645,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.06966043478493845,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
-ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite","Au, usable ore",0.01798749754367533,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.1975123013769301,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",2.63130408981965e-05,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.0360762264759903,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",4.8061574701808e-06,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.007658640257472799,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",1.0203015858484e-06,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.038696287616704676,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",5.1552080127079e-06,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.5490035805619975,consumption market for lime,lime,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",7.31395136802933e-05,consumption market for lime,lime,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.011084874056868524,consumption market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",1.4767522953069e-06,consumption market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Au, usable ore",0.11749966500280637,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
-BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton","Cu, usable ore",1.56535743302536e-05,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.7573174325400723,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.35723039175528176,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.029299207093740436,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.06667335999827864,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.28756553020902925,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.0188916933842826,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
-ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River","Au, usable ore",0.8096946841242085,consumption market for lime,lime,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.012238016984915608,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.020880684347144143,"consumption market for activated carbon, granular","activated carbon, granular",kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.029938199742759644,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.0005185600417337122,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.13804068310951417,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.5128213106051925,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.5128213106051925,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.015971649285398334,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.0015556801252011362,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.06921048023672612,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",1.752490946373805,consumption market for lime,lime,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.006533856525844773,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.18633590832964725,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",kilogram,CA,Regioinvent
-QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon","Au, usable ore",0.002800224225362045,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",0.4515170360139427,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",0.4515170360139427,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
-ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson","Au, usable ore",0.3396929668522669,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack","Au, usable ore",0.00042672810244772324,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Au, usable ore",6.521156030909733e-05,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Cu, usable ore",8.687633334664362e-09,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Au, usable ore",0.004999863128532267,consumption market for ammonium nitrate,ammonium nitrate,kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Ag, usable ore",6.488423619424451e-05,consumption market for ammonium nitrate,ammonium nitrate,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.2289312744779292,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.002970887503041678,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack","Au, usable ore",1.8694211350781098,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.0696047065650076,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.0009032743706967834,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.11460057946808024,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Au, usable ore",4.396448359385146,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Cu, usable ore",0.0005857049139766786,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",6.409691996365958e-05,consumption market for biogas,biogas,cubic meter,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",8.868811552940175e-05,consumption market for biogas,biogas,cubic meter,CA,Regioinvent
+BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack","Au, usable ore",7.400659255633993,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Au, usable ore",2.777074887026433,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Ag, usable ore",0.036038663112728686,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Au, usable ore",0.6489707647294173,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Ag, usable ore",0.008421825017882838,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Cu, usable ore",8.645737078153272e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Au, usable ore",4.3496956730653125,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Ag, usable ore",0.056446881478354013,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River","Au, usable ore",0.8682922605898001,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",1.2410155623609873,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.016104910234332987,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Cu, usable ore",0.0006760040536600605,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Mo, usable ore",0.0028646896418869808,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Au, usable ore",0.686125077969383,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Ag, usable ore",0.008903984063825475,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Zn, usable ore",3.4169246354824606e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island","Au, usable ore",1.2023830817523926,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Au, usable ore",0.8965034136575823,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Ag, usable ore",0.01163410632358267,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-a3c56a83,"Pt, Open-pit and underground mining and beneficiation at Lac des Iles","Pt, usable ore",0.30177615518694495,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Au, usable ore",0.8322661477840178,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Ag, usable ore",0.010800486317541347,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Cu, usable ore",0.00011087640127807908,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Zn, usable ore",4.144711795198651e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa","Au, usable ore",0.29910593422066156,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Au, usable ore",6.196516110139934,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Ag, usable ore",0.08041344423557972,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Au, usable ore",3.988104889729388,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Ag, usable ore",0.051754444667885306,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",1.2819362528474054,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.8013227407955746,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",0.00010675404976913378,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",1.7916460879975633,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",4.483545585855544,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Au, usable ore",49.56250347630508,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Cu, usable ore",0.006602830162462749,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake","Au, usable ore",0.7423833185162815,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully","Fe, usable ore",1.1218213659022727e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation","Au, usable ore",2.539858295519319,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Au, usable ore",0.9462844187115653,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Ag, usable ore",0.012280124505855928,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Cu, usable ore",0.00012606617632066104,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Zn, usable ore",4.712526398303475e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Au, usable ore",2.15860735000396,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Ag, usable ore",0.028012684657110667,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",1.6552923954848253,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.021481064580802373,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",0.5659186403964392,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi","Au, usable ore",3.2564649686673173,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi","Ag, usable ore",0.04225980526937332,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Ag, usable ore",0.023282582918819926,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Zn, usable ore",8.934745455822312e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Pb, usable ore",7.144789413167763e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Au, usable ore",0.8048860179682876,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Ag, usable ore",0.010445168828977534,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Au, usable ore",0.0007602298637610632,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Ag, usable ore",9.865656873825528e-06,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Au, usable ore",1.1810787790288442,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Ag, usable ore",0.015327098460995977,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Au, usable ore",188.42825650960629,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Ag, usable ore",2.4452716377914117,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Cu, usable ore",0.025102843647450256,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",102.74441289196248,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Au, usable ore",22.302112455076998,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-MB,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Ag, usable ore",0.28941902907462347,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-MB,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Cu, usable ore",0.0029711384711512694,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-MB,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Zn, usable ore",0.0011106522690670884,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-MB,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack","Au, usable ore",2.2230952922692113,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River","Au, usable ore",1.0521739094083462,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.011372547012510718,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.00014758384530148304,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island","Au, usable ore",0.0040798676321600015,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Au, usable ore",0.808420429603747,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Ag, usable ore",0.010491035604420672,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Au, usable ore",1.0249413842273165,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Ag, usable ore",0.013300871873863324,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Au, usable ore",0.9800335041012155,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Ag, usable ore",0.012718093220492445,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.015821911756163976,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.26441842873635535,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",3.522642833419626e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.2617652082764794,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Au, usable ore",0.20122407113297702,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Cu, usable ore",2.680753136139648e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation","Au, usable ore",0.03144539609671895,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",0.0019187105937780772,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack","Au, usable ore",175.23068913585445,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Au, usable ore",31.490679590874766,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Ag, usable ore",0.4086609253024489,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Au, usable ore",39.3766923008116,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Ag, usable ore",0.5109993090038768,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River","Au, usable ore",14.172022800621122,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",34.32337517456583,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.44542138945790655,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Cu, usable ore",0.008132106731090827,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Mo, usable ore",0.034461275480738525,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Au, usable ore",40.77710525892475,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Ag, usable ore",0.5291727515177657,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Zn, usable ore",0.0020307127664716956,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island","Au, usable ore",22.7128888018813,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Au, usable ore",28.96842190218658,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Ag, usable ore",0.37592907656809477,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Au, usable ore",13.882325271765007,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Ag, usable ore",0.18015374595323133,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Au, usable ore",42.93079380409319,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Ag, usable ore",0.5571216038485634,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Cu, usable ore",0.005719338619843016,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Zn, usable ore",0.002137967138647126,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa","Au, usable ore",25.682146050418773,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",25.29835215200862,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",9.628442592597722,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",0.0012827231618422845,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",24.86761456249668,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Au, usable ore",554.1180010359096,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Cu, usable ore",0.0738208684828168,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake","Au, usable ore",70.83395936117728,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully","Fe, usable ore",0.0003824453098061356,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-NF,ecoinvent-3.10-cutoff regionalized
+GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation","Au, usable ore",44.52478716118095,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-SK,ecoinvent-3.10-cutoff regionalized
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Au, usable ore",49.53080932153423,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Ag, usable ore",0.6427713415934911,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",50.24880294177961,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.6520888901831935,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",46.35447376115011,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-6e9be24e,"Au, Open-pit and underground mining and beneficiation at Hemlo (Williams)","Au, usable ore",141.09892078171083,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi","Au, usable ore",50.92855887135359,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi","Ag, usable ore",0.6609102205186631,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Ag, usable ore",0.3162761311242004,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Zn, usable ore",0.001213717024094781,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Pb, usable ore",0.0009705651478501763,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-a3c56a83,"Pt, Open-pit and underground mining and beneficiation at Lac des Iles","Pt, usable ore",8.507422036063508,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.39605470593936604,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.005139682112369257,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Au, usable ore",0.13227866114825604,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Ag, usable ore",0.0017166069695834657,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Au, usable ore",1.0278874646187055,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Au, usable ore",1.0278874646187055,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Ag, usable ore",0.013339103755626509,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Ag, usable ore",0.013339103755626509,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Au, usable ore",0.8392203742924681,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Au, usable ore",0.8392203742924681,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Ag, usable ore",0.010890732723037451,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Ag, usable ore",0.010890732723037451,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Zn, usable ore",4.1793440636296125e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Zn, usable ore",4.1793440636296125e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Au, usable ore",0.19152707731264554,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Au, usable ore",0.19152707731264554,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Ag, usable ore",0.002485485662803544,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Ag, usable ore",0.002485485662803544,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Cu, usable ore",2.5515675648080658e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Cu, usable ore",2.5515675648080658e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Zn, usable ore",9.5381091559626e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Zn, usable ore",9.5381091559626e-06,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa","Au, usable ore",3.8723143331577035,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa","Au, usable ore",3.8723143331577035,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Au, usable ore",1.1208920279224255,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Au, usable ore",1.1208920279224255,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Ag, usable ore",0.014546042805238565,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Ag, usable ore",0.014546042805238565,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Au, usable ore",0.5350641785427079,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Au, usable ore",0.5350641785427079,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Ag, usable ore",0.0069436361850641086,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Ag, usable ore",0.0069436361850641086,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.1404352771422907,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.1404352771422907,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",1.8709109079452437e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",1.8709109079452437e-05,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",2.5012596972596093,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",2.5012596972596093,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack","Au, usable ore",0.3387973531315865,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Au, usable ore",0.0028568532845377713,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Ag, usable ore",3.707396353081102e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Cu, usable ore",3.805965339481886e-07,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River","Au, usable ore",0.10013798596274073,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.03124773274497962,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.0004055081548912447,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Cu, usable ore",1.508388360959099e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Mo, usable ore",6.392068938325226e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island","Au, usable ore",0.07938817406368409,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Au, usable ore",0.024020249345449607,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Ag, usable ore",0.0003117156393903755,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Au, usable ore",0.01443636439437865,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Ag, usable ore",0.00018734362382956203,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.02187486166379217,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.017769094656472025,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",2.3672394638721323e-06,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.04789144927915485,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.10731356299230785,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Au, usable ore",0.8830265656912019,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Cu, usable ore",0.00011763882034306845,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake","Au, usable ore",0.03193612595277663,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully","Fe, usable ore",3.017912833696054e-07,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Au, usable ore",0.004165666462387111,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Ag, usable ore",5.40586971490382e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Cu, usable ore",5.549596213952113e-07,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Zn, usable ore",2.0745151016282704e-07,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Au, usable ore",0.016027001744101616,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Ag, usable ore",0.00020798564679012032,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.025956831366897224,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.0003368470564029892,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",0.008309135891462274,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi","Au, usable ore",0.1492001269682794,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi","Ag, usable ore",0.001936200257798444,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Ag, usable ore",0.0033736799531348975,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Zn, usable ore",1.2946575444731045e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Pb, usable ore",1.035290323956731e-05,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Au, usable ore",0.04503804738315389,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Au, usable ore",0.04503804738315389,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Ag, usable ore",0.0005844678602220009,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Ag, usable ore",0.0005844678602220009,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Au, usable ore",0.07674134421596475,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Au, usable ore",0.07674134421596475,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Ag, usable ore",0.000995887962523921,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Ag, usable ore",0.000995887962523921,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Au, usable ore",0.00691413006938385,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Au, usable ore",0.00691413006938385,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Ag, usable ore",8.972606588759243e-05,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Ag, usable ore",8.972606588759243e-05,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Zn, usable ore",3.443258689352549e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Zn, usable ore",3.443258689352549e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Au, usable ore",0.017163335201164406,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Au, usable ore",0.017163335201164406,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Ag, usable ore",0.00022273207614790326,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Ag, usable ore",0.00022273207614790326,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Cu, usable ore",2.286538802643139e-06,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Cu, usable ore",2.286538802643139e-06,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Zn, usable ore",8.547395330522949e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Zn, usable ore",8.547395330522949e-07,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa","Au, usable ore",0.020405202730143117,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa","Au, usable ore",0.020405202730143117,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Au, usable ore",0.08550083470284348,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Au, usable ore",0.08550083470284348,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Ag, usable ore",0.0011095616441990272,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Ag, usable ore",0.0011095616441990272,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Au, usable ore",0.010509357668094377,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Au, usable ore",0.010509357668094377,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Ag, usable ore",0.00013638206239989666,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine","Ag, usable ore",0.00013638206239989666,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake","Au, usable ore",0.09069231173241928,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Au, usable ore",0.00017629759786887229,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Ag, usable ore",2.287849624387578e-06,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Au, usable ore",0.0007326144622550917,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Ag, usable ore",9.507286216899493e-06,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Au, usable ore",0.012704664734767133,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Ag, usable ore",0.00016487100671119893,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",0.024541502768627797,consumption market for naphtha,naphtha,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Au, usable ore",0.21592807127464245,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Ag, usable ore",0.002802142302176252,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Cu, usable ore",9.170873249928666e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Mo, usable ore",0.00038863236786654227,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Au, usable ore",0.5583272023415707,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Ag, usable ore",0.0072455251552129415,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex","Zn, usable ore",2.7804871642164977e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Au, usable ore",0.0014907791800070045,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Ag, usable ore",1.9346143272812272e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Au, usable ore",0.39458545486490365,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque","Ag, usable ore",0.005120615343681122,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Au, usable ore",0.7731098396852388,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Ag, usable ore",0.010032802929338792,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Cu, usable ore",0.00010299546250344082,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde","Zn, usable ore",3.8501115058678374e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa","Au, usable ore",1.30726194853063,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.33894750744757385,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",4.515536279833726e-05,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.5856300490545832,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake","Au, usable ore",2.4899579920349586,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Au, usable ore",1.0932781443805415,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation","Ag, usable ore",0.014187691847239862,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.6249429703527037,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.008110011465094028,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",1.0935406435800794,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-6e9be24e,"Au, Open-pit and underground mining and beneficiation at Hemlo (Williams)","Au, usable ore",1.595625921602546,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully","Fe, usable ore",2.7667263650554034e-05,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-a3c56a83,"Pt, Open-pit and underground mining and beneficiation at Lac des Iles","Pt, usable ore",0.008130522582272386,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack","Au, usable ore",1.0052128253590524,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Au, usable ore",0.0014726218194177885,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic","Ag, usable ore",1.9110511527932772e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi","Au, usable ore",0.3413180602968983,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi","Ag, usable ore",0.004429353578758156,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Au, usable ore",0.07517710906078919,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Ag, usable ore",0.0009755885661879367,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain","Cu, usable ore",1.0015266550662464e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Au, usable ore",0.18634942317729322,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake","Ag, usable ore",0.002418294196714566,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River","Au, usable ore",0.4581107636443382,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.42499765505964987,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.005515280623488855,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Cu, usable ore",1.6855645495912754e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar","Mo, usable ore",7.142885134789695e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island","Au, usable ore",0.37973115851961525,consumption market for propane,propane,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Ag, usable ore",0.01417679762559589,consumption market for propane,propane,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Zn, usable ore",5.4403791282546174e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
+YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District","Pb, usable ore",4.350472365594104e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa","Au, usable ore",0.0019950139176003866,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Au, usable ore",0.0003758064085088507,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex","Ag, usable ore",4.876915856726065e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.8849604530329372,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.003085102544275791,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",4.110044227966304e-07,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.01688568014890944,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.2305859243834324,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Au, usable ore",2.708973185902986,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris","Cu, usable ore",0.0003608956087081927,consumption market for propane,propane,kilogram,CA,Regioinvent
+NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully","Fe, usable ore",2.4065253199731466e-08,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation","Au, usable ore",0.7182904786708117,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Au, usable ore",0.10961807652100569,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Ag, usable ore",0.0014225359745468884,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Cu, usable ore",1.4603571071628302e-05,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake","Zn, usable ore",5.4590149549312886e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.00024461444435539985,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",3.174411174079245e-06,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.07358949057180061,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack","Au, usable ore",0.06085930567932491,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.1975123013769301,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",2.63130408981965e-05,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.7573174325400723,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.0360762264759903,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",4.8061574701808e-06,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.35723039175528176,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.007658640257472799,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",1.0203015858484e-06,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.029299207093740436,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.012175572779406228,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.0001580048732756244,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.020774141126444524,"consumption market for activated carbon, granular","activated carbon, granular",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.0002695902357584099,"consumption market for activated carbon, granular","activated carbon, granular",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.06667335999827864,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.02978544075414065,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.0003865316956403692,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",3.790998443485239,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.04919655440474367,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",1.6821258057774848,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",1.5553530334825043,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.0005159141008222977,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",6.6951217489671e-06,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.28756553020902925,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.13733633363889566,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.0017822414095750516,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River","Au, usable ore",0.445133879674055,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River","Au, usable ore",0.445133879674055,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Au, usable ore",0.4572982593507295,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Au, usable ore",0.4572982593507295,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Ag, usable ore",0.0059344521056199015,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena","Ag, usable ore",0.0059344521056199015,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.5102046514398644,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.5102046514398644,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.006621029068278567,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.006621029068278567,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.038696287616704676,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",5.1552080127079e-06,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.0188916933842826,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.01589015430532677,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.00020620974986818768,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.0015477423024668933,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",2.00853652469014e-05,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.4209927730090881,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.4209927730090881,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.005463308458207796,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.005463308458207796,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.12968726277678647,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.12968726277678647,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.23893205192094386,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.23893205192094386,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.06885733532308266,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.000893575582762147,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.012157974361584887,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.00033182637125923247,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.30869202639470283,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.004005958930670477,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.16505484377428048,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.5490035805619975,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",7.31395136802933e-05,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.5375255814643666,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River","Au, usable ore",0.8096946841242085,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",1.7435489008656495,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.0226263871213594,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.04639445333237588,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.0006020702148709436,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.05289481176645,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.06739806427918699,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.006500517670360952,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",8.43585340369859e-05,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.005557322031481938,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",7.21184932524349e-05,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",3.26762632451702e-05,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.011084874056868524,consumption market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",1.4767522953069e-06,consumption market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Au, usable ore",0.11749966500280637,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton","Cu, usable ore",1.56535743302536e-05,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.11616459028258268,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.0015074914091729005,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.06966043478493845,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.09082838809879176,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.18538513356214567,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",0.0024057804151288572,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",1.8846472221067698e-05,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",2.4457448605770004e-07,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",1.1376409530958e-06,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Au, usable ore",0.03341055468593675,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore","Ag, usable ore",0.0004335755331485275,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite","Au, usable ore",0.01798749754367533,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex","Au, usable ore",0.07753067361794765,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island","Au, usable ore",0.11898703496420444,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island","Au, usable ore",0.11898703496420444,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",0.4515170360139427,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",0.4515170360139427,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island","Au, usable ore",0.05994617225216961,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson","Au, usable ore",0.3396929668522669,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Au, usable ore",0.002785936144440408,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon","Ag, usable ore",3.6153657444422495e-05,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent

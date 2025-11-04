@@ -1,0 +1,233 @@
+activity_name,functional_unit,site_id,subflow_type,value_normalized,unit,province
+"Au, Underground mining and beneficiation at Brucejack",Ore processed,BC-MAIN-857b7b89,Acetylene,1.112991002891566e-07,MJ,British Columbia
+"Au and Cu, Open-pit mining and beneficiation at Red Chris",Ore processed,BC-MAIN-8eb8be0d,Acetylene,1.7559262510973998e-09,MJ,British Columbia
+"Au and Ag, Underground mining and beneficiation at Timmins Operation",Ore processed,GRP-147b3123,Ammonium nitrate,1.31512071156289e-08,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,ANFO,1.4805609284332688e-06,MJ,Quebec
+"Au, Underground mining and beneficiation at Brucejack",Ore processed,BC-MAIN-857b7b89,Aviation fuel,0.00043780789632289163,MJ,British Columbia
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Aviation fuel,1.304160077062011e-05,MJ,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Aviation fuel,2.690002824902724e-05,MJ,Ontario
+"Au and Cu, Open-pit mining and beneficiation at Red Chris",Ore processed,BC-MAIN-8eb8be0d,Aviation fuel,0.00010629667725021947,MJ,British Columbia
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Biodiesel,1.144977648710282e-05,MJ,Ontario
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Biodiesel,8.081221804023017e-06,MJ,Ontario
+"Au, Underground mining and beneficiation at Brucejack",Ore processed,BC-MAIN-857b7b89,Diesel,0.0017291713688647112,MJ,British Columbia
+"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",Ore processed,QC-MAIN-e7e6a960,Diesel,0.00013053541202090666,MJ,Quebec
+"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain",Ore processed,BC-MAIN-599152a0,Diesel,1.1798048192462073e-05,MJ,British Columbia
+"Au and Ag, Open-pit mining and beneficiation at Detour Lake",Ore processed,ON-MAIN-aeafbb59,Diesel,0.0001551810785788493,MJ,Ontario
+"Au, Underground mining and beneficiation at Eagle River",Ore processed,ON-MAIN-cb85213a,Diesel,0.0004562575294101794,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Diesel,0.00023198542889825405,MJ,Quebec
+"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",Ore processed,BC-MAIN-6b4800fe,Diesel,5.612176666666667e-05,MJ,British Columbia
+"Au and Ag and Zn, Underground mining and beneficiation at Goldex",Ore processed,QC-MAIN-c0660aec,Diesel,4.484179380338546e-05,MJ,Quebec
+"Au, Underground mining and beneficiation at Island",Ore processed,ON-MAIN-687b8c8d,Diesel,0.0004813306363437569,MJ,Ontario
+"Au and Ag, Open-pit mining and beneficiation at Kiena",Ore processed,QC-MAIN-9de9bb0d,Diesel,0.00022315242639211504,MJ,Quebec
+"Pt, Open-pit and underground mining and beneficiation at Lac des Iles",Ore processed,ON-MAIN-a3c56a83,Diesel,4.8521501268540204e-05,MJ,Ontario
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",Ore processed,QC-MAIN-e51eda66,Diesel,0.00014713609477795902,MJ,Quebec
+"Au, Underground mining and beneficiation at Macassa",Ore processed,ON-MAIN-1f126a43,Diesel,0.00020703234689348443,MJ,Ontario
+"Au and Ag, Open-pit and underground mining at Meadowbank complex",Ore processed,GRP-0a2c0d69,Diesel,0.0009344821748349344,MJ,Nunavut
+"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine",Ore processed,NU-MAIN-8b0264c9,Diesel,0.0010135625967407017,MJ,Nunavut
+"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",Ore processed,BC-MAIN-ed23117f,Diesel,,MJ,British Columbia
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Diesel,0.00030020888212159533,MJ,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Diesel,5.57798537e-05,MJ,British Columbia
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Diesel,0.0002140233145365854,MJ,Ontario
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Diesel,0.00017361787310170017,MJ,Ontario
+"Au and Cu, Open-pit mining and beneficiation at Red Chris",Ore processed,BC-MAIN-8eb8be0d,Diesel,0.00119553455514662,MJ,British Columbia
+"Au, Underground mining and beneficiation at Red Lake",Ore processed,ON-MAIN-7f050560,Diesel,0.00013305580974910819,MJ,Ontario
+"Fe, Open-pit mining and beneficiation at Scully",Ore processed,NL-MAIN-b64bae7a,Diesel,0.00012134831460674156,MJ,Newfoundland and Labrador
+"Au, Underground mining and beneficiation at Seabee Gold Operation",Ore processed,GRP-14bfbb82,Diesel,0.0010791393442622951,MJ,Saskatchewan
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake",Ore processed,GRP-a13779f8,Diesel,0.00024781133058428305,MJ,Manitoba
+"Au and Ag, Underground mining and beneficiation at Timmins Operation",Ore processed,GRP-147b3123,Diesel,0.000244145997458704,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Diesel,0.0002001411992263056,MJ,Quebec
+"Au, Underground mining and beneficiation at Young-Davidson",Ore processed,ON-MAIN-7607a50e,Diesel,4.86788436741999e-05,MJ,Ontario
+"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",Ore processed,QC-MAIN-b86f7d07,Diesel|Mobile equipment,0.0002780432849491107,MJ,Quebec
+"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",Ore processed,YT-MAIN-44857446,Diesel|Mobile equipment,0.0004375020654423374,MJ,Yukon
+"Au and Ag, Underground mining and beneficiation at Lamaque",Ore processed,QC-MAIN-f9e41c2a,Diesel|Mobile equipment,0.00022856352253467537,MJ,Quebec
+"Au and Ag, Underground mining and beneficiation at Lamaque",Ore processed,QC-MAIN-f9e41c2a,Diesel|Stationary equipment,2.158825122045182e-07,MJ,Quebec
+"Au and Ag, Underground mining and beneficiation at Timmins Operation",Ore processed,GRP-147b3123,Dynamite,3.106607369758576e-06,MJ,Ontario
+"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain",Ore processed,BC-MAIN-599152a0,Electricity consumption,0.000286790499540086,MJ,British Columbia
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Electricity consumption,0.00033309242355089005,MJ,Ontario
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake",Ore processed,GRP-a13779f8,Electricity consumption,0.0004889665717107238,MJ,Manitoba
+"Au, Underground mining and beneficiation at Brucejack",Ore processed,BC-MAIN-857b7b89,Electricity consumption|Generated on-site,0.0005194284180457832,MJ,British Columbia
+"Au, Underground mining and beneficiation at Eagle River",Ore processed,ON-MAIN-cb85213a,Electricity consumption|Generated on-site,0.0005528809713107574,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Electricity consumption|Generated on-site,2.1258921131848284e-06,MJ,Quebec
+"Au, Underground mining and beneficiation at Island",Ore processed,ON-MAIN-687b8c8d,Electricity consumption|Generated on-site,1.6332276404985786e-06,MJ,Ontario
+"Au and Ag, Open-pit mining and beneficiation at Kiena",Ore processed,QC-MAIN-9de9bb0d,Electricity consumption|Generated on-site,0.00020122732123799362,MJ,Quebec
+"Au and Ag, Open-pit and underground mining at Meadowbank complex",Ore processed,GRP-0a2c0d69,Electricity consumption|Generated on-site,0.00015456902504356462,MJ,Nunavut
+"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine",Ore processed,NU-MAIN-8b0264c9,Electricity consumption|Generated on-site,0.00024907201058523796,MJ,Nunavut
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Electricity consumption|Generated on-site,3.7052376284656905e-06,MJ,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Electricity consumption|Generated on-site,1.840609347471452e-05,MJ,British Columbia
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Electricity consumption|Generated on-site,3.126948892473899e-05,MJ,Ontario
+"Au and Cu, Open-pit mining and beneficiation at Red Chris",Ore processed,BC-MAIN-8eb8be0d,Electricity consumption|Generated on-site,4.853877699736613e-06,MJ,British Columbia
+"Au, Underground mining and beneficiation at Seabee Gold Operation",Ore processed,GRP-14bfbb82,Electricity consumption|Generated on-site,1.3360573770491803e-05,MJ,Saskatchewan
+"Au, Underground mining and beneficiation at Young-Davidson",Ore processed,ON-MAIN-7607a50e,Electricity consumption|Generated on-site,1.65042474983904e-07,MJ,Ontario
+"Au, Underground mining and beneficiation at Brucejack",Ore processed,BC-MAIN-857b7b89,Electricity consumption|Grid electricity,0.00342776858313253,MJ,British Columbia
+"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",Ore processed,QC-MAIN-e7e6a960,Electricity consumption|Grid electricity,0.000123924302737933,MJ,Quebec
+"Au and Ag, Open-pit mining and beneficiation at Detour Lake",Ore processed,ON-MAIN-aeafbb59,Electricity consumption|Grid electricity,0.00011761232172679124,MJ,Ontario
+"Au, Underground mining and beneficiation at Eagle River",Ore processed,ON-MAIN-cb85213a,Electricity consumption|Grid electricity,0.0006234615208397904,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Electricity consumption|Grid electricity,0.0005371643289825408,MJ,Quebec
+"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",Ore processed,BC-MAIN-6b4800fe,Electricity consumption|Grid electricity,5.652216666666666e-05,MJ,British Columbia
+"Au and Ag and Zn, Underground mining and beneficiation at Goldex",Ore processed,QC-MAIN-c0660aec,Electricity consumption|Grid electricity,0.00022311551648398969,MJ,Quebec
+"Au, Underground mining and beneficiation at Island",Ore processed,ON-MAIN-687b8c8d,Electricity consumption|Grid electricity,0.000761213918652963,MJ,Ontario
+"Au and Ag, Open-pit mining and beneficiation at Kiena",Ore processed,QC-MAIN-9de9bb0d,Electricity consumption|Grid electricity,0.0006036819637139807,MJ,Quebec
+"Au and Ag, Underground mining and beneficiation at Lamaque",Ore processed,QC-MAIN-f9e41c2a,Electricity consumption|Grid electricity,0.0003300414232024799,MJ,Quebec
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",Ore processed,QC-MAIN-e51eda66,Electricity consumption|Grid electricity,0.0006354181435366932,MJ,Quebec
+"Au, Underground mining and beneficiation at Macassa",Ore processed,ON-MAIN-1f126a43,Electricity consumption|Grid electricity,0.0014882578602679422,MJ,Ontario
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Electricity consumption|Grid electricity,0.0004960015564202335,MJ,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Electricity consumption|Grid electricity,5.611250358890702e-05,MJ,British Columbia
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Electricity consumption|Grid electricity,0.000248700515286843,MJ,Ontario
+"Au and Cu, Open-pit mining and beneficiation at Red Chris",Ore processed,BC-MAIN-8eb8be0d,Electricity consumption|Grid electricity,0.0011190380523266022,MJ,British Columbia
+"Au, Underground mining and beneficiation at Red Lake",Ore processed,ON-MAIN-7f050560,Electricity consumption|Grid electricity,0.0010628717237700354,MJ,Ontario
+"Fe, Open-pit mining and beneficiation at Scully",Ore processed,NL-MAIN-b64bae7a,Electricity consumption|Grid electricity,0.00034634831460674155,MJ,Newfoundland and Labrador
+"Au, Underground mining and beneficiation at Seabee Gold Operation",Ore processed,GRP-14bfbb82,Electricity consumption|Grid electricity,0.001583811855737705,MJ,Saskatchewan
+"Au and Ag, Underground mining and beneficiation at Timmins Operation",Ore processed,GRP-147b3123,Electricity consumption|Grid electricity,0.00046901321473951713,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Electricity consumption|Grid electricity,0.0005086525145067697,MJ,Quebec
+"Au, Underground mining and beneficiation at Young-Davidson",Ore processed,ON-MAIN-7607a50e,Electricity consumption|Grid electricity,0.0003338194268543912,MJ,Ontario
+"Au, Open-pit and underground mining and beneficiation at Hemlo (Williams)",Ore processed,ON-MAIN-6e9be24e,Electricity consumption|Non-renewable electricity use,0.0004889380723201809,MJ,Ontario
+"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",Ore processed,QC-MAIN-b86f7d07,Electricity consumption|Not specified,0.0003640500416467737,MJ,Quebec
+"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",Ore processed,YT-MAIN-44857446,Electricity consumption|Not specified,0.0004975641308019198,MJ,Yukon
+"Pt, Open-pit and underground mining and beneficiation at Lac des Iles",Ore processed,ON-MAIN-a3c56a83,Electricity consumption|Not specified,0.00011451990632318499,MJ,Ontario
+"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",Ore processed,BC-MAIN-ed23117f,Electricity consumption|Not specified,,MJ,British Columbia
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Emulsion ANFO,4.120502901353965e-06,MJ,Quebec
+"Au and Ag, Underground mining and beneficiation at Timmins Operation",Ore processed,GRP-147b3123,Emulsions,1.2873570520965692e-06,MJ,Ontario
+"Fe, Open-pit mining and beneficiation at Carol Lake",Ore processed,NL-MAIN-dd723db4,Energy use,0.0008345637583892617,MJ,Newfoundland and Labrador
+"Au and Ag, Open-pit mining and beneficiation at Detour Lake",Ore processed,ON-MAIN-aeafbb59,Explosives,2.5584578261407225e-06,MJ,Ontario
+"Au and Ag and Zn, Underground mining and beneficiation at Goldex",Ore processed,QC-MAIN-c0660aec,Explosives,3.8265597786566686e-06,MJ,Quebec
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",Ore processed,QC-MAIN-e51eda66,Explosives,2.3623267915448007e-06,MJ,Quebec
+"Au, Underground mining and beneficiation at Macassa",Ore processed,ON-MAIN-1f126a43,Explosives,0.00018699783508609836,MJ,Ontario
+"Au and Ag, Open-pit and underground mining at Meadowbank complex",Ore processed,GRP-0a2c0d69,Explosives,1.1793426860597274e-05,MJ,Nunavut
+"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine",Ore processed,NU-MAIN-8b0264c9,Explosives,9.487300998934908e-06,MJ,Nunavut
+"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",Ore processed,BC-MAIN-ed23117f,Explosives,,MJ,British Columbia
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Explosives,6.820228384991843e-07,MJ,British Columbia
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Explosives,6.757474669100868e-06,MJ,Ontario
+"Au, Underground mining and beneficiation at Brucejack",Ore processed,BC-MAIN-857b7b89,Gasoline,8.173765060240964e-05,MJ,British Columbia
+"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain",Ore processed,BC-MAIN-599152a0,Gasoline,5.36274917839185e-08,MJ,British Columbia
+"Au, Underground mining and beneficiation at Eagle River",Ore processed,ON-MAIN-cb85213a,Gasoline,5.433222385424949e-05,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Gasoline,6.031377423239012e-06,MJ,Quebec
+"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",Ore processed,BC-MAIN-6b4800fe,Gasoline,1.2930333333333334e-06,MJ,British Columbia
+"Au, Underground mining and beneficiation at Island",Ore processed,ON-MAIN-687b8c8d,Gasoline,3.281489175595889e-05,MJ,Ontario
+"Au and Ag, Open-pit mining and beneficiation at Kiena",Ore processed,QC-MAIN-9de9bb0d,Gasoline,6.17364555213761e-06,MJ,Quebec
+"Au and Ag, Underground mining and beneficiation at Lamaque",Ore processed,QC-MAIN-f9e41c2a,Gasoline,4.2329670486952225e-06,MJ,Quebec
+"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",Ore processed,BC-MAIN-ed23117f,Gasoline,,MJ,British Columbia
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Gasoline,5.289528210116732e-06,MJ,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Gasoline,1.2771729696574224e-06,MJ,British Columbia
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Gasoline,5.907195637238063e-06,MJ,Ontario
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Gasoline,4.290836544728435e-06,MJ,Ontario
+"Au and Cu, Open-pit mining and beneficiation at Red Chris",Ore processed,BC-MAIN-8eb8be0d,Gasoline,2.1993643546971028e-05,MJ,British Columbia
+"Au, Underground mining and beneficiation at Red Lake",Ore processed,ON-MAIN-7f050560,Gasoline,5.910202818073723e-06,MJ,Ontario
+"Fe, Open-pit mining and beneficiation at Scully",Ore processed,NL-MAIN-b64bae7a,Gasoline,3.3707865168539322e-06,MJ,Newfoundland and Labrador
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake",Ore processed,GRP-a13779f8,Gasoline,1.1264151390194683e-06,MJ,Manitoba
+"Au and Ag, Underground mining and beneficiation at Timmins Operation",Ore processed,GRP-147b3123,Gasoline,1.8717280813214741e-06,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Gasoline,3.2406189555125724e-06,MJ,Quebec
+"Au, Underground mining and beneficiation at Young-Davidson",Ore processed,ON-MAIN-7607a50e,Gasoline,7.380004565596044e-07,MJ,Ontario
+"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",Ore processed,QC-MAIN-b86f7d07,Gasoline|Mobile equipment,1.3153753757887401e-05,MJ,Quebec
+"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",Ore processed,YT-MAIN-44857446,Gasoline|Mobile equipment,6.545869522876511e-05,MJ,Yukon
+"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",Ore processed,QC-MAIN-e7e6a960,Light Fuel & Gasoline,2.18592280614657e-06,MJ,Quebec
+"Au and Ag, Open-pit mining and beneficiation at Detour Lake",Ore processed,ON-MAIN-aeafbb59,Light Fuel & Gasoline,2.8269869922061424e-06,MJ,Ontario
+"Au and Ag and Zn, Underground mining and beneficiation at Goldex",Ore processed,QC-MAIN-c0660aec,Light Fuel & Gasoline,4.665860434371806e-07,MJ,Quebec
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",Ore processed,QC-MAIN-e51eda66,Light Fuel & Gasoline,3.1330923322892743e-06,MJ,Quebec
+"Au, Underground mining and beneficiation at Macassa",Ore processed,ON-MAIN-1f126a43,Light Fuel & Gasoline,1.4583729630334159e-05,MJ,Ontario
+"Au and Ag, Open-pit and underground mining at Meadowbank complex",Ore processed,GRP-0a2c0d69,Light Fuel & Gasoline,1.3313992488967234e-05,MJ,Nunavut
+"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine",Ore processed,NU-MAIN-8b0264c9,Light Fuel & Gasoline,2.7578757162526465e-06,MJ,Nunavut
+"Au, Underground mining and beneficiation at Red Lake",Ore processed,ON-MAIN-7f050560,LPG,1.742643615999997e-05,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Lamaque",Ore processed,QC-MAIN-f9e41c2a,LPG|Mobile equipment,5.3672447785653697e-08,MJ,Quebec
+"Au and Ag, Underground mining and beneficiation at Lamaque",Ore processed,QC-MAIN-f9e41c2a,LPG|Stationary equipment,2.2303883857593871e-07,MJ,Quebec
+"Au and Ag, Open-pit and underground mining at Meadowbank complex",Ore processed,GRP-0a2c0d69,Lubricating Oils & Greases,1.90259375475146e-06,MJ,Nunavut
+"Au, Underground mining and beneficiation at Young-Davidson",Ore processed,ON-MAIN-7607a50e,Naphta,2.2042725501008147e-06,MJ,Ontario
+"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",Ore processed,QC-MAIN-e7e6a960,Natural gas,8.308527594487715e-06,MJ,Quebec
+"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",Ore processed,BC-MAIN-6b4800fe,Natural gas,6.232566666666667e-06,MJ,British Columbia
+"Au and Ag and Zn, Underground mining and beneficiation at Goldex",Ore processed,QC-MAIN-c0660aec,Natural gas,2.9870512895146124e-05,MJ,Quebec
+"Au and Ag, Open-pit mining and beneficiation at Kiena",Ore processed,QC-MAIN-9de9bb0d,Natural gas,3.037646221775796e-07,MJ,Quebec
+"Au and Ag, Underground mining and beneficiation at Lamaque",Ore processed,QC-MAIN-f9e41c2a,Natural gas,9.172502054462028e-05,MJ,Quebec
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",Ore processed,QC-MAIN-e51eda66,Natural gas,0.0001118851384145108,MJ,Quebec
+"Au, Underground mining and beneficiation at Macassa",Ore processed,ON-MAIN-1f126a43,Natural gas,0.0007407130628549689,MJ,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Natural gas,1.931419249592169e-05,MJ,British Columbia
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Natural gas,5.726726210924081e-05,MJ,Ontario
+"Au, Underground mining and beneficiation at Red Lake",Ore processed,ON-MAIN-7f050560,Natural gas,0.0003653186682520808,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Timmins Operation",Ore processed,GRP-147b3123,Natural gas,0.00010122337919313852,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Natural gas,6.185522243713732e-05,MJ,Quebec
+"Au, Underground mining and beneficiation at Young-Davidson",Ore processed,ON-MAIN-7607a50e,Natural gas,7.700082729712198e-05,MJ,Ontario
+"Au, Open-pit and underground mining and beneficiation at Hemlo (Williams)",Ore processed,ON-MAIN-6e9be24e,Non-renewable fuel use,0.00023775502385844016,MJ,Ontario
+"Fe, Open-pit mining and beneficiation at Scully",Ore processed,NL-MAIN-b64bae7a,Oil,0.000297191011235955,MJ,Newfoundland and Labrador
+"Au, Underground mining and beneficiation at Seabee Gold Operation",Ore processed,GRP-14bfbb82,Other,8.423770491803279e-05,MJ,Saskatchewan
+"Pt, Open-pit and underground mining and beneficiation at Lac des Iles",Ore processed,ON-MAIN-a3c56a83,Petrol,1.349839968774395e-06,MJ,Ontario
+"Au, Underground mining and beneficiation at Brucejack",Ore processed,BC-MAIN-857b7b89,Propane,0.0002534400078313253,MJ,British Columbia
+"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",Ore processed,QC-MAIN-e7e6a960,Propane,7.46932762396473e-08,MJ,Quebec
+"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",Ore processed,QC-MAIN-b86f7d07,Propane,3.144667947525795e-05,MJ,Quebec
+"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain",Ore processed,BC-MAIN-599152a0,Propane,1.4747560240577592e-06,MJ,British Columbia
+"Au and Ag, Open-pit mining and beneficiation at Detour Lake",Ore processed,ON-MAIN-aeafbb59,Propane,7.1739355598279704e-06,MJ,Ontario
+"Au, Underground mining and beneficiation at Eagle River",Ore processed,ON-MAIN-cb85213a,Propane,0.0002597551312284673,MJ,Ontario
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Propane,8.572737757375076e-05,MJ,Quebec
+"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",Ore processed,BC-MAIN-6b4800fe,Propane,1.51e-08,MJ,British Columbia
+"Au, Underground mining and beneficiation at Island",Ore processed,ON-MAIN-687b8c8d,Propane,0.00016403117938625263,MJ,Ontario
+"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",Ore processed,YT-MAIN-44857446,Propane,0.00028745946577824215,MJ,Yukon
+"Au, Underground mining and beneficiation at Macassa",Ore processed,ON-MAIN-1f126a43,Propane,1.4900767230993596e-06,MJ,Ontario
+"Au and Ag, Open-pit and underground mining at Meadowbank complex",Ore processed,GRP-0a2c0d69,Propane,6.11557286782373e-08,MJ,Nunavut
+"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",Ore processed,BC-MAIN-ed23117f,Propane,,MJ,British Columbia
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Propane,0.0002236302227140078,MJ,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Propane,2.317336125285481e-07,MJ,British Columbia
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Propane,2.176591573445551e-06,MJ,Ontario
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Propane,9.635076341434962e-06,MJ,Ontario
+"Au and Cu, Open-pit mining and beneficiation at Red Chris",Ore processed,BC-MAIN-8eb8be0d,Propane,7.051201562774365e-05,MJ,British Columbia
+"Fe, Open-pit mining and beneficiation at Scully",Ore processed,NL-MAIN-b64bae7a,Propane,2.808988764044944e-07,MJ,Newfoundland and Labrador
+"Au, Underground mining and beneficiation at Seabee Gold Operation",Ore processed,GRP-14bfbb82,Propane,0.0003293196721311475,MJ,Saskatchewan
+"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake",Ore processed,GRP-a13779f8,Propane,3.097641632303538e-05,MJ,Manitoba
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Propane,3.19148936170212e-08,MJ,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Solar,1.4428015564202335e-06,MJ,Ontario
+"Au, Underground mining and beneficiation at Brucejack",Ore processed,BC-MAIN-857b7b89,Used oil,1.412062891566265e-05,MJ,British Columbia
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,2'' balls,3.197389885807e-10,t,British Columbia
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,2.5'' balls,6.819968051117999e-10,t,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,3/4'' balls,5.840130505709624e-11,t,British Columbia
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,5.5'' balls,3.217012779552e-10,t,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Anti-scalant,1.2398042414355629e-11,t,British Columbia
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Anti-scalant,2.6385191693290737e-11,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Anti-scalant,3.423597678916828e-11,t,Quebec
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Carbon,5.841392649903288e-11,t,Quebec
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Caustic soda,6.004221816522137e-11,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Caustic soda,8.375241779497098e-11,t,Quebec
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Cement,1.64804334738109e-08,t,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Cement,9.161089494163401e-09,t,Ontario
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Cement,4.3208519409137e-09,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Compressor oil,1.4506769825918763e-12,t,Quebec
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Cyanide,2.589650844363e-10,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Cyanide,3.861702127659e-10,t,Quebec
+"Au, Underground mining and beneficiation at Eagle River",Ore processed,ON-MAIN-cb85213a,Explosives,5.4395917835662e-09,t,Ontario
+"Au and Ag, Open-pit mining and beneficiation at Kiena",Ore processed,QC-MAIN-9de9bb0d,Explosives,2.6471634544959e-09,t,Quebec
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Explosives,1.4346228239845e-09,t,Quebec
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Flocculant,6.264274061990212e-11,t,British Columbia
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Flocculant,1.7012779552715655e-11,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Flocculant,4.468085106382979e-11,t,Quebec
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Grease,4.352030947775628e-12,t,Quebec
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Grinding media,1.8301625526790999e-09,t,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Grinding media,7.062947470817e-10,t,Ontario
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Grinding media,6.637657162487e-10,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Hydraulic oil,1.936170212765e-10,t,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Hydrochloric acid (HCL),6.621400778210116e-11,t,Ontario
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Hydrochloric acid (HCL),9.218309859154928e-13,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Lime,1.3419626730885e-09,t,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Lime,8.989114785992001e-10,t,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Lime,8.887438825448e-10,t,British Columbia
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Lime,1.4932741326004e-09,t,Ontario
+"Au, Open-pit and underground mining and beneficiation at Rainy River",Ore processed,ON-MAIN-0aadf28f,Lime,7.291647649475e-10,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Lime,4.9026112185686e-09,t,Quebec
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Lubricants,2.0168847682109998e-10,t,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Lubricants,2.880724513618e-10,t,Ontario
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Lubricants,1.8723534180690001e-10,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Motor/drill oil,1.827852998065764e-11,t,Quebec
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Nitric acid (HNO3),2.415909090909091e-11,t,Quebec
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Nitric acid (HNO3),9.077636551013399e-14,t,Ontario
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,Polyfroth h57,1.794453507340946e-11,t,British Columbia
+"Au and Cu, Underground mining and beneficiation at New Afton",Ore processed,BC-MAIN-aa76f6f2,S60 SAG Balls,1.902120717781e-10,t,British Columbia
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Sodium cyanide (NaCN),5.049969897652e-10,t,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Sodium cyanide (NaCN),3.793803501945e-10,t,Ontario
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Sodium cyanide (NaCN),2.523260048093e-10,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Sulfur dioxide,5.212765957446e-10,t,Quebec
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Sulfuric acid (H2SO4),8.1930403371463e-14,t,Quebec
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Sulfuric acid (H2SO4),3.1604259704568884e-15,t,Ontario
+"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",Ore processed,QC-MAIN-b86f7d07,Surface/underground emulsion & ANFO,2.1801195078893e-09,t,Quebec
+"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",Ore processed,YT-MAIN-44857446,Surface/underground emulsion & ANFO,1.8214298217694e-09,t,Yukon
+"Au and Ag, Underground mining and beneficiation at Éléonore",Ore processed,QC-MAIN-6dc537e6,Tires,1.45244170377e-10,t,Quebec
+"Au, Underground mining and beneficiation at Musselwhite",Ore processed,ON-MAIN-fefeaee4,Tires,9.79623962771858e-11,t,Ontario
+"Au, Open-pit and underground mining at Porcupine complex",Ore processed,GRP-0d911886,Tires,2.1538425963159998e-10,t,Ontario
+"Au, Underground mining and beneficiation at Island",Ore processed,ON-MAIN-687b8c8d,Total blasting agents used e.g. ANFO,1.1077246883883e-09,t,Ontario
+"Au, Underground mining and beneficiation at Young-Davidson",Ore processed,ON-MAIN-7607a50e,Total blasting agents used e.g. ANFO,9.032166604645e-10,t,Ontario
+"Au, Underground mining and beneficiation at Island",Ore processed,ON-MAIN-687b8c8d,Total sodium cyanide used,5.580763904074e-10,t,Ontario
+"Au, Underground mining and beneficiation at Young-Davidson",Ore processed,ON-MAIN-7607a50e,Total sodium cyanide used,6.795233017389001e-10,t,Ontario
+"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",Ore processed,QC-MAIN-02884fb5,Transmission oil,7.833655705996131e-12,t,Quebec

@@ -551,7 +551,7 @@ def plot_relative_difference_heatmap(df_ei, df_ri, title, output_png=None, outpu
 
 
     plt.title(title, fontsize=16)
-    plt.xticks(rotation=90, ha='right', fontsize=14)
+    plt.xticks(rotation=45, ha='right', fontsize=16)
     ax.set_ylabel('')
     plt.yticks(fontsize=14)
     plt.tight_layout()

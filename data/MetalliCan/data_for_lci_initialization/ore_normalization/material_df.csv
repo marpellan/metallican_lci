@@ -1,60 +1,60 @@
 main_id,facility_group_id,flow_type,subflow_type,mass,site_id,activity_name,ore_processed_t,value_normalized,functional_unit,allocation_factor,normalization_key
-QC-MAIN-b86f7d07,,Material use,Surface/underground emulsion & ANFO,2968.123704016,QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi",1361450.0,0.002180119507889383,Ore processed,1,ore
-ON-MAIN-cb85213a,,Material use,Explosives,1211.0,ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River",222627.0,0.005439591783566234,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Material use,Cement,27374.0,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,0.01648043347381096,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Material use,Grinding media,3039.9,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,0.001830162552679109,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Material use,Lime,2229.0,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,0.0013419626730885009,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Material use,Lubricants,335.00455999999997,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,0.00020168847682119204,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Material use,Nitric acid (HNO3),40.12825,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,2.415909090909091e-05,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Material use,Sodium cyanide (NaCN),838.8,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,0.0005049969897652016,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Material use,Sulfuric acid (H2SO4),0.1360864,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,8.193040337146298e-08,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Material use,Tires,241.250566996281,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,0.00014524417037705057,Ore processed,1,ore
-ON-MAIN-687b8c8d,,Material use,Total sodium cyanide used,245.0,ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island",439008.0,0.0005580763904074641,Ore processed,1,ore
-ON-MAIN-687b8c8d,,Material use,Total blasting agents used e.g. ANFO,486.3,ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island",439008.0,0.0011077246883883665,Ore processed,1,ore
-YT-MAIN-44857446,,Material use,Surface/underground emulsion & ANFO,231.88076632,YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District",127307.0,0.0018214298217694234,Ore processed,1,ore
-QC-MAIN-9de9bb0d,,Material use,Explosives,506.0,QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena",191148.0,0.0026471634544959926,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Material use,Cement,9417.6,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,0.009161089494163424,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Material use,Grinding media,726.071,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,0.0007062947470817121,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Material use,Hydrochloric acid (HCL),68.068,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,6.621400778210116e-05,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Material use,Lime,924.081,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,0.0008989114785992218,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Material use,Lubricants,296.13847999999996,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,0.00028807245136186764,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Material use,Sodium cyanide (NaCN),390.003,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,0.0003793803501945525,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Material use,Tires,100.705343372947,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,9.79623962771858e-05,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Material use,2'' balls,980.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,0.00031973898858075043,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Material use,3/4'' balls,179.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,5.840130505709625e-05,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Material use,Anti-scalant,38.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,1.2398042414355628e-05,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Material use,Flocculant,192.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,6.264274061990212e-05,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Material use,Lime,2724.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,0.0008887438825448613,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Material use,Polyfroth h57,55.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,1.7944535073409462e-05,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Material use,S60 SAG Balls,583.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,0.0001902120717781403,Ore processed,1,ore
-,GRP-0d911886,Material use,Cement,12578.0,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Material use,Grinding media,1932.222,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Material use,Hydrochloric acid (HCL),2.6834499999999997,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Material use,Lime,4346.921,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Material use,Lubricants,545.0420799999999,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Material use,Nitric acid (HNO3),0.26425,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Material use,Sodium cyanide (NaCN),734.521,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Material use,Sulfuric acid (H2SO4),0.009200000000000002,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Material use,Tires,626.983579787717,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Material use,2.5'' balls,5977.02,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,0.0006819968051118211,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Material use,5.5'' balls,2819.39,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,0.00032170127795527157,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Material use,Anti-scalant,231.23982,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,2.6385191693290736e-05,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Material use,Caustic soda,526.21,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,6.004221816522137e-05,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Material use,Cyanide,2269.57,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,0.0002589650844363305,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Material use,Flocculant,149.1,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,1.7012779552715656e-05,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Material use,Lime,6390.4,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,0.0007291647649475125,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Anti-scalant,35.4,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,3.4235976789168274e-05,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Carbon,60.4,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,5.841392649903288e-05,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Caustic soda,86.6,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,8.375241779497098e-05,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Compressor oil,1.5,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,1.4506769825918762e-06,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Cyanide,399.3,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,0.00038617021276595744,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Explosives,1483.4,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,0.0014346228239845262,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Flocculant,46.2,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,4.468085106382979e-05,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Grease,4.5,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,4.352030947775629e-06,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Hydraulic oil,200.2,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,0.00019361702127659573,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Lime,5069.3,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,0.004902611218568665,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Motor/drill oil,18.9,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,1.827852998065764e-05,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Sulfur dioxide,539.0,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,0.0005212765957446809,Ore processed,1,ore
-QC-MAIN-02884fb5,,Material use,Transmission oil,8.1,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,7.833655705996132e-06,Ore processed,1,ore
-ON-MAIN-7607a50e,,Material use,Total blasting agents used e.g. ANFO,2599.5,ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson",2878047.0,0.0009032166604645441,Ore processed,1,ore
-ON-MAIN-7607a50e,,Material use,Total sodium cyanide used,1955.7,ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson",2878047.0,0.0006795233017389918,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Material use,2'' balls,980.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,0.00031973898858075043,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Material use,2.5'' balls,5977.02,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,0.0006819968051118211,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Material use,3/4'' balls,179.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,5.840130505709625e-05,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Material use,5.5'' balls,2819.39,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,0.00032170127795527157,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Material use,Anti-scalant,38.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,1.2398042414355628e-05,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Material use,Anti-scalant,231.23982,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,2.6385191693290736e-05,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Anti-scalant,35.4,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,3.4235976789168274e-05,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Carbon,60.4,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,5.841392649903288e-05,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Material use,Caustic soda,526.21,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,6.004221816522137e-05,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Caustic soda,86.6,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,8.375241779497098e-05,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Material use,Cement,27374.0,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,0.01648043347381096,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Material use,Cement,9417.6,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,0.009161089494163424,Ore processed,1,ore
+,GRP-0d911886,Material use,Cement,12578.0,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,0.004320851940913775,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Compressor oil,1.5,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,1.4506769825918762e-06,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Material use,Cyanide,2269.57,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,0.0002589650844363305,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Cyanide,399.3,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,0.00038617021276595744,Ore processed,1,ore
+ON-MAIN-cb85213a,,Material use,Explosives,1211.0,ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River",222627.0,0.005439591783566234,Ore processed,1,ore
+QC-MAIN-9de9bb0d,,Material use,Explosives,506.0,QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena",191148.0,0.0026471634544959926,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Explosives,1483.4,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,0.0014346228239845262,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Material use,Flocculant,192.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,6.264274061990212e-05,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Material use,Flocculant,149.1,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,1.7012779552715656e-05,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Flocculant,46.2,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,4.468085106382979e-05,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Grease,4.5,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,4.352030947775629e-06,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Material use,Grinding media,3039.9,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,0.001830162552679109,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Material use,Grinding media,726.071,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,0.0007062947470817121,Ore processed,1,ore
+,GRP-0d911886,Material use,Grinding media,1932.222,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,0.0006637657162487118,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Hydraulic oil,200.2,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,0.00019361702127659573,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Material use,Hydrochloric acid (HCL),68.068,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,6.621400778210116e-05,Ore processed,1,ore
+,GRP-0d911886,Material use,Hydrochloric acid (HCL),2.6834499999999997,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,9.218309859154929e-07,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Material use,Lime,2229.0,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,0.0013419626730885009,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Material use,Lime,924.081,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,0.0008989114785992218,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Material use,Lime,2724.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,0.0008887438825448613,Ore processed,1,ore
+,GRP-0d911886,Material use,Lime,4346.921,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,0.001493274132600481,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Material use,Lime,6390.4,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,0.0007291647649475125,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Lime,5069.3,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,0.004902611218568665,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Material use,Lubricants,335.00455999999997,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,0.00020168847682119204,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Material use,Lubricants,296.13847999999996,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,0.00028807245136186764,Ore processed,1,ore
+,GRP-0d911886,Material use,Lubricants,545.0420799999999,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,0.00018723534180693918,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Motor/drill oil,18.9,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,1.827852998065764e-05,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Material use,Nitric acid (HNO3),40.12825,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,2.415909090909091e-05,Ore processed,1,ore
+,GRP-0d911886,Material use,Nitric acid (HNO3),0.26425,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,9.077636551013398e-08,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Material use,Polyfroth h57,55.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,1.7944535073409462e-05,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Material use,S60 SAG Balls,583.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,0.0001902120717781403,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Material use,Sodium cyanide (NaCN),838.8,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,0.0005049969897652016,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Material use,Sodium cyanide (NaCN),390.003,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,0.0003793803501945525,Ore processed,1,ore
+,GRP-0d911886,Material use,Sodium cyanide (NaCN),734.521,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,0.0002523260048093439,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Sulfur dioxide,539.0,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,0.0005212765957446809,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Material use,Sulfuric acid (H2SO4),0.1360864,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,8.193040337146298e-08,Ore processed,1,ore
+,GRP-0d911886,Material use,Sulfuric acid (H2SO4),0.009200000000000002,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,3.1604259704568883e-09,Ore processed,1,ore
+QC-MAIN-b86f7d07,,Material use,Surface/underground emulsion & ANFO,2968.123704016,QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",1361450.0,0.002180119507889383,Ore processed,1,ore
+YT-MAIN-44857446,,Material use,Surface/underground emulsion & ANFO,231.88076632,YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",127307.0,0.0018214298217694234,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Material use,Tires,241.250566996281,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,0.00014524417037705057,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Material use,Tires,100.705343372947,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,9.79623962771858e-05,Ore processed,1,ore
+,GRP-0d911886,Material use,Tires,626.983579787717,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,0.00021538425963164444,Ore processed,1,ore
+ON-MAIN-687b8c8d,,Material use,Total blasting agents used e.g. ANFO,486.3,ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island",439008.0,0.0011077246883883665,Ore processed,1,ore
+ON-MAIN-7607a50e,,Material use,Total blasting agents used e.g. ANFO,2599.5,ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson",2878047.0,0.0009032166604645441,Ore processed,1,ore
+ON-MAIN-687b8c8d,,Material use,Total sodium cyanide used,245.0,ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island",439008.0,0.0005580763904074641,Ore processed,1,ore
+ON-MAIN-7607a50e,,Material use,Total sodium cyanide used,1955.7,ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson",2878047.0,0.0006795233017389918,Ore processed,1,ore
+QC-MAIN-02884fb5,,Material use,Transmission oil,8.1,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,7.833655705996132e-06,Ore processed,1,ore

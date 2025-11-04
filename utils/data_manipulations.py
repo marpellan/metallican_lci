@@ -396,11 +396,11 @@ def build_activity_name(row, df):
     parts = []
 
     if "open-pit" in mpt and "underground" in mpt:
-        parts.append("OP and UG mining")
+        parts.append("Open-pit and underground mining")
     elif "open-pit" in mpt:
-        parts.append("OP mining")
+        parts.append("Open-pit mining")
     elif "underground" in mpt:
-        parts.append("UG mining")
+        parts.append("Underground mining")
 
     if "concentrator" in mpt:
         parts.append("and beneficiation")

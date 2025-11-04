@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import re
-from core.constants import *
+from utils.constants import *
 
 
 # ======================================================
@@ -132,7 +132,7 @@ def standardize_energy_to_MJ(
     equivalence_table : dict, optional
         Energy equivalence lookup (e.g., electricity→diesel). Defaults to ENERGY_EQUIVALENCE.
     """
-    from core.constants import (
+    from utils.constants import (
         UNIT_TO_MJ, VOLUME_TO_L, CUBIC_M_TO_M3,
         DEFAULT_LHV, ENERGY_EQUIVALENCE
     )
@@ -283,14 +283,16 @@ def standardize_energy_to_MJ(
 # ======================================================
 def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict):
     """
-    Extended mapping with physical conversions for:
-      - biodiesel (MJ <-> m3 via LHV and density)
-      - natural gas (MJ <-> m3 via MJ/m3 LHV)
-      - naphtha (MJ <-> kg via LHV and density)
-      - explosives / ANFO / emulsion (MJ <-> kg via effective energy)
-
-    Warnings are printed for unmapped flows and for conversions using default/assumed values.
+    Map MetalliCan technosphere flows to Ecoinvent flows with consistent physical conversions.
+    Extended handling for:
+      - Electricity (on-site → diesel; grid → kWh)
+      - LPG, oil, petrol, used oil, acetylene
+      - Non-renewable fuel use, generic 'energy use'
+      - ANFO/emulsion explosives
     """
+
+    import pandas as pd
+
     merged_df = technosphere_df.merge(
         mapping_df,
         left_on="subflow_type",
@@ -298,9 +300,7 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
         how="left"
     )
 
-    print(merged_df.columns)
-
-    # Warn for unmapped flows
+    # --- Warn for unmapped flows ---
     unmapped = merged_df[merged_df["Flow name"].isna()]["subflow_type"].unique().tolist()
     if len(unmapped) > 0:
         print("⚠️ Les flux suivants n'ont pas trouvé de correspondance dans Ecoinvent:")
@@ -311,7 +311,7 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
     merged_df["Reference product"] = merged_df["Reference product"].fillna("No mapping")
     merged_df["Unit"] = merged_df["Unit"].fillna(merged_df["unit"])
 
-    # Location correction
+    # --- Location correction ---
     merged_df["Location"] = merged_df.apply(
         lambda row: ca_provinces_dict.get(row["province"], row["Location"])
         if isinstance(row["Location"], str) and row["Location"].startswith("CA-")
@@ -319,7 +319,7 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
         axis=1
     )
 
-    # Base simple conversions
+    # --- Base conversion factors ---
     conversion_factors = {
         ("MJ", "MJ"): 1.0,
         ("t", "t"): 1.0,
@@ -331,54 +331,78 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
         ("kilogram", "tonne"): 0.001,
     }
 
-    # --- Additional physical constants (from literature) ---
-    # Sources: AFDC, Sandia/ECN, TUDelft tables, Orica/Dyno tech sheets for ANFO
-    # - Biodiesel (B100): LHV ~ 37.4 MJ/kg, density ~ 877 kg/m3  (Sandia / ECN data)
-    # - Natural gas (typical LHV): ~35.2 MJ/m3 (varies by composition)
-    # - Petroleum naphtha: LHV ~ 44.9 MJ/kg, density ~ 725 kg/m3 (kerone table)
-    # - ANFO effective energy: 2.3 MJ/kg (Orica) ; some docs report up to 3.7 MJ/kg for different densities/emulsions
+    # --- Physical constants (literature sources) ---
     fuel_lhv_mj_per_kg = {
         "diesel": 43.0,
         "gasoline": 44.4,
         "propane": 46.4,
         "kerosene": 43.1,
         "aviation fuel": 43.1,
-        "biodiesel": 37.4,   # Sandia / ECN
-        "naphtha": 44.9,     # kerone table -> petroleum naphtha
-        "natural gas_mj_per_m3": 35.2,  # MJ per cubic meter (approx)
+        "biodiesel": 37.4,
+        "naphtha": 44.9,
+        "natural gas_mj_per_m3": 35.2,
+        "lpg": 46.1,
+        "petrol": 44.4,
+        "oil": 42.7,
+        "used oil": 40.0,
+        "acetylene": 48.0,
     }
 
-    # Densities (kg per m3)
     density_kg_per_m3 = {
-        "biodiesel": 877.0,  # ~0.877 kg/L => 877 kg/m3 (Sandia/AFDC)
-        "naphtha": 725.0,    # ~0.725 kg/L => 725 kg/m3 (kerone)
+        "biodiesel": 877.0,
+        "naphtha": 725.0,
     }
 
-    # Explosives / ANFO default effective energy (MJ/kg)
     explosives_energy_mj_per_kg = {
-        "anfo": 2.3,          # Orica technical note (effective energy)
-        "emulsion": 3.7,      # some manufacturer sheets use ~3.7 MJ/kg at certain densities
-        "explosive_default": 3.0  # fallback if only 'explosive' found
+        "anfo": 2.3,
+        "emulsion": 3.7,
+        "explosive_default": 3.0
     }
 
+    # --- Conversion function ---
     def convert_value(row):
         val = row["value_normalized"]
-        original_unit = str(row["unit"]).strip()
-        target_unit = str(row["Unit"]).strip()
-        subflow_lower = str(row["subflow_type"]).lower()
-
         if pd.isna(val):
             return None
 
-        # Direct known unit conversions
+        original_unit = str(row["unit"]).strip()
+        target_unit = str(row["Unit"]).strip()
+        subflow_lower = str(row["subflow_type"]).lower()
+        ref_product = str(row.get("Reference product", "")).lower()
+        flow_name = str(row.get("Flow name", "")).lower()
+
+        # direct unit mapping
         key = (original_unit, target_unit)
         if key in conversion_factors:
             return val * conversion_factors[key]
 
-        # 1) Energy (MJ) <-> mass (kg) for fuels using LHV (MJ/kg)
-        # e.g., MJ -> kg: kg = MJ / (MJ/kg)
+        # --- Electricity cases ---
+        if "electricity" in subflow_lower:
+            # grid electricity (non-renewable electricity use)
+            if "non-renewable" in subflow_lower or "grid" in flow_name:
+                if original_unit == "MJ" and target_unit in ["kilowatt hour", "kwh"]:
+                    return val * 0.277778
+                if original_unit in ["kilowatt hour", "kwh"] and target_unit == "MJ":
+                    return val * 3.6
+                return val
+            # on-site electricity mapped to diesel
+            if "on-site" in subflow_lower or "generator" in flow_name or "diesel" in ref_product:
+                lhv = fuel_lhv_mj_per_kg["diesel"]
+                if original_unit == "MJ" and target_unit in ["kg", "kilogram"]:
+                    return val / lhv
+                if original_unit in ["kg", "kilogram"] and target_unit == "MJ":
+                    return val * lhv
+
+        # --- Generic energy placeholders (diesel equivalent) ---
+        if any(k in subflow_lower for k in ["non-renewable fuel", "energy use", "fuel use"]):
+            lhv = fuel_lhv_mj_per_kg["diesel"]
+            if original_unit == "MJ" and target_unit in ["kg", "kilogram"]:
+                return val / lhv
+            if original_unit in ["kg", "kilogram"] and target_unit == "MJ":
+                return val * lhv
+
+        # --- Specific fuels ---
         for fuel, lhv in fuel_lhv_mj_per_kg.items():
-            # skip the special natural gas key
             if fuel.endswith("_mj_per_m3"):
                 continue
             if fuel in subflow_lower:
@@ -387,26 +411,24 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
                 if original_unit in ["kg", "kilogram"] and target_unit == "MJ":
                     return val * lhv
 
-        # 2) Energy (MJ) <-> volume (m3) for biodiesel and natural gas
+        # --- Volume-based fuels ---
         if "biodiesel" in subflow_lower:
             lhv = fuel_lhv_mj_per_kg["biodiesel"]
             dens = density_kg_per_m3["biodiesel"]
-            mj_per_m3 = lhv * dens  # MJ per m3 for biodiesel
-            if original_unit == "MJ" and target_unit in ["cubic meter", "m3", "m^3"]:
+            mj_per_m3 = lhv * dens
+            if original_unit == "MJ" and target_unit in ["cubic meter", "m3"]:
                 return val / mj_per_m3
-            if original_unit in ["cubic meter", "m3", "m^3"] and target_unit == "MJ":
+            if original_unit in ["cubic meter", "m3"] and target_unit == "MJ":
                 return val * mj_per_m3
 
-        # Natural gas: MJ <-> m3 using MJ per m3
-        if "natural gas" in subflow_lower or "gas, natural" in subflow_lower or "naturalgas" in subflow_lower:
+        if "natural gas" in subflow_lower:
             mj_per_m3 = fuel_lhv_mj_per_kg["natural gas_mj_per_m3"]
-            if original_unit == "MJ" and target_unit in ["cubic meter", "m3", "m^3"]:
+            if original_unit == "MJ" and target_unit in ["cubic meter", "m3"]:
                 return val / mj_per_m3
-            if original_unit in ["cubic meter", "m3", "m^3"] and target_unit == "MJ":
+            if original_unit in ["cubic meter", "m3"] and target_unit == "MJ":
                 return val * mj_per_m3
 
-        # Naphtha: support MJ <-> kg and MJ <-> m3 via density
-        if "naphtha" in subflow_lower or "naphta" in subflow_lower or "naphtha" in subflow_lower:
+        if "naphtha" in subflow_lower or "naphta" in subflow_lower:
             lhv = fuel_lhv_mj_per_kg["naphtha"]
             dens = density_kg_per_m3["naphtha"]
             mj_per_m3 = lhv * dens
@@ -414,65 +436,47 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
                 return val / lhv
             if original_unit in ["kg", "kilogram"] and target_unit == "MJ":
                 return val * lhv
-            if original_unit == "MJ" and target_unit in ["cubic meter", "m3", "m^3"]:
+            if original_unit == "MJ" and target_unit in ["cubic meter", "m3"]:
                 return val / mj_per_m3
-            if original_unit in ["cubic meter", "m3", "m^3"] and target_unit == "MJ":
+            if original_unit in ["cubic meter", "m3"] and target_unit == "MJ":
                 return val * mj_per_m3
 
-        # Explosives: ANFO, emulsion, generic 'explosive' -> use effective energy MJ/kg
-        if "anfo" in subflow_lower:
-            e = explosives_energy_mj_per_kg["anfo"]
+        # --- Explosives (ANFO, emulsion, generic) ---
+        if "anfo" in subflow_lower or "emulsion" in subflow_lower:
+            e = explosives_energy_mj_per_kg["emulsion" if "emulsion" in subflow_lower else "anfo"]
             if original_unit == "MJ" and target_unit in ["kg", "kilogram"]:
                 return val / e
             if original_unit in ["kg", "kilogram"] and target_unit == "MJ":
                 return val * e
-        if "emulsion" in subflow_lower and ("anfo" in subflow_lower or "emulsion" in subflow_lower):
-            e = explosives_energy_mj_per_kg["emulsion"]
-            if original_unit == "MJ" and target_unit in ["kg", "kilogram"]:
-                return val / e
-            if original_unit in ["kg", "kilogram"] and target_unit == "MJ":
-                return val * e
-
-        # Generic 'explosive' fallback
         if "explos" in subflow_lower:
             e = explosives_energy_mj_per_kg["explosive_default"]
-            #print(f"ℹ️ Conversion explosive par défaut utilisée ({e} MJ/kg) pour: {row['subflow_type']}")
             if original_unit == "MJ" and target_unit in ["kg", "kilogram"]:
                 return val / e
             if original_unit in ["kg", "kilogram"] and target_unit == "MJ":
                 return val * e
 
-        # If none matched, warn and return original value
+        # --- Fallback warning ---
         print(f"⚠️ Pas de conversion définie pour {original_unit} → {target_unit} (flux: {row['subflow_type']})")
         return val
 
     merged_df["value_converted"] = merged_df.apply(convert_value, axis=1)
 
-    # Final selection and renaming
+    # --- Final tidy dataframe ---
     result_df = merged_df[[
-        "activity_name",
-        "functional_unit",
-        "site_id",
-        "subflow_type",
-        "Flow name",
-        "Reference product",
-        "value_normalized",
-        "unit",
-        "value_converted",
-        "Unit",
-        "Location",
-        "province",
-        "DB_to_map"
+        "activity_name", "functional_unit", "site_id", "subflow_type",
+        "Flow name", "Reference product", "value_normalized", "unit",
+        "value_converted", "Unit", "Location", "province", "DB_to_map"
     ]].rename(columns={
-        "value_converted": "Amount",
         "Flow name": "Activity",
         "Reference product": "Product",
-        "unit": "unit_original",
-        "Location": "Location",
+        #"unit": "unit_original",
+        "value_converted": "Amount",
+        #"Unit": "unit_target",
         "DB_to_map": "Database"
     })
 
     return result_df
+
 
 def map_biosphere_to_ecoinvent(biosphere_df, mapping_df, ca_provinces_dict):
     """
@@ -522,12 +526,15 @@ def map_biosphere_to_ecoinvent(biosphere_df, mapping_df, ca_provinces_dict):
 
     # --- 5️⃣ Unit conversions
     conversion_factors = {
+        ("m3", "cubic meter"): 1.0,
         ("kg", "kilogram"): 1.0,
         ("tonnes", "kilogram"): 1000.0,
         ("t", "kilogram"): 1000.0,
         ("kilogram", "tonne"): 0.001,
         ("g", "kilogram"): 0.001,
+        ("grams", "kilogram"): 0.001,
         ("mg", "kilogram"): 1e-6,
+        ('tco2eq', 'kilogram'): 1000.0
     }
 
     def convert_value(row):

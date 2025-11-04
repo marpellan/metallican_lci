@@ -1,174 +1,174 @@
 main_id,facility_group_id,flow_type,subflow_type,value_MJ,site_id,activity_name,ore_processed_t,value_normalized,functional_unit,allocation_factor,normalization_key
-BC-MAIN-857b7b89,,Energy,Acetylene,18475.650648,BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack",166000.0,0.11129910028915661,Ore processed,1,ore
-BC-MAIN-857b7b89,,Energy,Aviation fuel,72676110.7896,BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack",166000.0,437.80789632289157,Ore processed,1,ore
-BC-MAIN-857b7b89,,Energy,Diesel,287042447.23154205,BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack",166000.0,1729.1713688647112,Ore processed,1,ore
-BC-MAIN-857b7b89,,Energy,Gasoline,13568450.0,BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack",166000.0,81.73765060240964,Ore processed,1,ore
-BC-MAIN-857b7b89,,Energy,Propane,42071041.3,BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack",166000.0,253.4400078313253,Ore processed,1,ore
-BC-MAIN-857b7b89,,Energy,Used oil,2344024.4,BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack",166000.0,14.12062891566265,Ore processed,1,ore
-BC-MAIN-857b7b89,,Energy,Electricity consumption|Grid electricity,569009584.8,BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack",166000.0,3427.76858313253,Ore processed,1,ore
-BC-MAIN-857b7b89,,Energy,Electricity consumption|Generated on-site,86225117.39559999,BC-MAIN-857b7b89,"Au, UG mining and beneficiation at Brucejack",166000.0,519.4284180457831,Ore processed,1,ore
-QC-MAIN-e7e6a960,,Energy,Electricity consumption|Grid electricity,2428287789.6,QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic",19594928.0,123.92430273793299,Ore processed,1,ore
-QC-MAIN-e7e6a960,,Energy,Diesel,2557832000.0,QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic",19594928.0,130.53541202090665,Ore processed,1,ore
-QC-MAIN-e7e6a960,,Energy,Light Fuel & Gasoline,42833000.0,QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic",19594928.0,2.18592280614657,Ore processed,1,ore
-QC-MAIN-e7e6a960,,Energy,Natural gas,162805000.0,QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic",19594928.0,8.308527594487716,Ore processed,1,ore
-QC-MAIN-e7e6a960,,Energy,Propane,1463609.3699999999,QC-MAIN-e7e6a960,"Au and Ag, OP mining and beneficiation at Canadian Malartic",19594928.0,0.07469327623964732,Ore processed,1,ore
-NL-MAIN-dd723db4,,Energy,Energy use,14922000000.0,NL-MAIN-dd723db4,"Fe, OP mining and beneficiation at Carol Lake",17880000.0,834.5637583892617,Ore processed,1,ore
-QC-MAIN-b86f7d07,,Energy,Diesel|Mobile equipment,378542030.29396677,QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi",1361450.0,278.0432849491107,Ore processed,1,ore
-QC-MAIN-b86f7d07,,Energy,Gasoline|Mobile equipment,17908178.0536758,QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi",1361450.0,13.153753757887399,Ore processed,1,ore
-QC-MAIN-b86f7d07,,Energy,Propane,42813081.771589935,QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi",1361450.0,31.446679475257948,Ore processed,1,ore
-QC-MAIN-b86f7d07,,Energy,Electricity consumption|Not specified,495635929.2,QC-MAIN-b86f7d07,"Au and Ag, OP and UG mining and beneficiation at Casa Berardi",1361450.0,364.05004164677365,Ore processed,1,ore
-BC-MAIN-599152a0,,Energy,Diesel,80960000.0,BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain",6862152.0,11.798048192462073,Ore processed,1,ore
-BC-MAIN-599152a0,,Energy,Gasoline,368000.0,BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain",6862152.0,0.05362749178391851,Ore processed,1,ore
-BC-MAIN-599152a0,,Energy,Propane,10120000.0,BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain",6862152.0,1.474756024057759,Ore processed,1,ore
-BC-MAIN-599152a0,,Energy,Electricity consumption,1968000000.0,BC-MAIN-599152a0,"Au and Ag and Cu, OP mining and beneficiation at Copper Mountain",6862152.0,286.790499540086,Ore processed,1,ore
-ON-MAIN-aeafbb59,,Energy,Electricity consumption|Grid electricity,2991452173.2000003,ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake",25434853.5024164,117.61232172679124,Ore processed,1,ore
-ON-MAIN-aeafbb59,,Energy,Diesel,3947008000.0,ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake",25434853.5024164,155.1810785788493,Ore processed,1,ore
-ON-MAIN-aeafbb59,,Energy,Explosives,65074000.0,ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake",25434853.5024164,2.5584578261407227,Ore processed,1,ore
-ON-MAIN-aeafbb59,,Energy,Light Fuel & Gasoline,71904000.0,ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake",25434853.5024164,2.8269869922061424,Ore processed,1,ore
-ON-MAIN-aeafbb59,,Energy,Propane,182468000.0,ON-MAIN-aeafbb59,"Au and Ag, OP mining and beneficiation at Detour Lake",25434853.5024164,7.173935559827971,Ore processed,1,ore
-ON-MAIN-cb85213a,,Energy,Diesel,101575245.0,ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River",222627.0,456.25752941017936,Ore processed,1,ore
-ON-MAIN-cb85213a,,Energy,Gasoline,12095820.0,ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River",222627.0,54.332223854249484,Ore processed,1,ore
-ON-MAIN-cb85213a,,Energy,Propane,57828505.6,ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River",222627.0,259.75513122846735,Ore processed,1,ore
-ON-MAIN-cb85213a,,Energy,Electricity consumption|Generated on-site,123086231.99999999,ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River",222627.0,552.8809713107573,Ore processed,1,ore
-ON-MAIN-cb85213a,,Energy,Electricity consumption|Grid electricity,138799368.00000003,ON-MAIN-cb85213a,"Au, UG mining and beneficiation at Eagle River",222627.0,623.4615208397904,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Energy,Aviation fuel,21662098.880000003,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,13.04160077062011,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Energy,Diesel,385327797.4,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,231.98542889825404,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Energy,Gasoline,10018117.899999999,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,6.031377423239012,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Energy,Propane,142393174.15,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,85.72737757375076,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Energy,Electricity consumption|Grid electricity,892229950.44,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,537.1643289825407,Ore processed,1,ore
-QC-MAIN-6dc537e6,,Energy,Electricity consumption|Generated on-site,3531106.8,QC-MAIN-6dc537e6,"Au, UG mining and beneficiation at Éléonore",1661000.0,2.1258921131848285,Ore processed,1,ore
-BC-MAIN-6b4800fe,,Energy,Diesel,1683653000.0,BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar",30000000.0,56.121766666666666,Ore processed,1,ore
-BC-MAIN-6b4800fe,,Energy,Gasoline,38791000.0,BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar",30000000.0,1.2930333333333333,Ore processed,1,ore
-BC-MAIN-6b4800fe,,Energy,Natural gas,186977000.0,BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar",30000000.0,6.232566666666667,Ore processed,1,ore
-BC-MAIN-6b4800fe,,Energy,Propane,453000.0,BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar",30000000.0,0.0151,Ore processed,1,ore
-BC-MAIN-6b4800fe,,Energy,Electricity consumption|Grid electricity,1695665000.0,BC-MAIN-6b4800fe,"Cu and Mo, OP mining and beneficiation at Gibraltar",30000000.0,56.522166666666664,Ore processed,1,ore
-QC-MAIN-c0660aec,,Energy,Electricity consumption|Grid electricity,644118282.0,QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex",2886927.328724,223.1155164839897,Ore processed,1,ore
-QC-MAIN-c0660aec,,Energy,Diesel,129455000.0,QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex",2886927.328724,44.84179380338546,Ore processed,1,ore
-QC-MAIN-c0660aec,,Energy,Explosives,11047000.0,QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex",2886927.328724,3.8265597786566694,Ore processed,1,ore
-QC-MAIN-c0660aec,,Energy,Light Fuel & Gasoline,1347000.0,QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex",2886927.328724,0.4665860434371806,Ore processed,1,ore
-QC-MAIN-c0660aec,,Energy,Natural gas,86234000.0,QC-MAIN-c0660aec,"Au and Ag and Zn, UG mining and beneficiation at Goldex",2886927.328724,29.870512895146124,Ore processed,1,ore
-ON-MAIN-6e9be24e,,Energy,Electricity consumption|Non-renewable electricity use,619000000.0,ON-MAIN-6e9be24e,"Au, OP and UG mining and beneficiation at Hemlo (Williams)",1266009.0,488.938072320181,Ore processed,1,ore
-ON-MAIN-6e9be24e,,Energy,Non-renewable fuel use,301000000.0,ON-MAIN-6e9be24e,"Au, OP and UG mining and beneficiation at Hemlo (Williams)",1266009.0,237.75502385844018,Ore processed,1,ore
-ON-MAIN-687b8c8d,,Energy,Electricity consumption|Generated on-site,717000.0,ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island",439008.0,1.6332276404985786,Ore processed,1,ore
-ON-MAIN-687b8c8d,,Energy,Electricity consumption|Grid electricity,334179000.0,ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island",439008.0,761.213918652963,Ore processed,1,ore
-ON-MAIN-687b8c8d,,Energy,Diesel,211308000.0,ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island",439008.0,481.33063634375685,Ore processed,1,ore
-ON-MAIN-687b8c8d,,Energy,Gasoline,14406000.0,ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island",439008.0,32.81489175595889,Ore processed,1,ore
-ON-MAIN-687b8c8d,,Energy,Propane,72011000.0,ON-MAIN-687b8c8d,"Au, UG mining and beneficiation at Island",439008.0,164.03117938625263,Ore processed,1,ore
-YT-MAIN-44857446,,Energy,Diesel|Mobile equipment,55697075.44526765,YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District",127307.0,437.5020654423374,Ore processed,1,ore
-YT-MAIN-44857446,,Energy,Gasoline|Mobile equipment,8333350.1134884,YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District",127307.0,65.45869522876511,Ore processed,1,ore
-YT-MAIN-44857446,,Energy,Propane,36595602.20983067,YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District",127307.0,287.45946577824213,Ore processed,1,ore
-YT-MAIN-44857446,,Energy,Electricity consumption|Not specified,63343396.800000004,YT-MAIN-44857446,"Ag and Zn and Pb, UG mining and beneficiation at Keno Hill Silver District",127307.0,497.5641308019198,Ore processed,1,ore
-QC-MAIN-9de9bb0d,,Energy,Diesel,42655140.0,QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena",191148.0,223.15242639211502,Ore processed,1,ore
-QC-MAIN-9de9bb0d,,Energy,Gasoline,1180080.0,QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena",191148.0,6.173645552137611,Ore processed,1,ore
-QC-MAIN-9de9bb0d,,Energy,Natural gas,58064.0,QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena",191148.0,0.30376462217757966,Ore processed,1,ore
-QC-MAIN-9de9bb0d,,Energy,Electricity consumption|Generated on-site,38464200.0,QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena",191148.0,201.2273212379936,Ore processed,1,ore
-QC-MAIN-9de9bb0d,,Energy,Electricity consumption|Grid electricity,115392600.0,QC-MAIN-9de9bb0d,"Au, OP mining and beneficiation at Kiena",191148.0,603.6819637139807,Ore processed,1,ore
-ON-MAIN-a3c56a83,,Energy,Diesel,497248345.0,ON-MAIN-a3c56a83,"Pt, OP and UG mining and beneficiation at Lac des Iles",10248000.0,48.521501268540206,Ore processed,1,ore
-ON-MAIN-a3c56a83,,Energy,Petrol,13833160.0,ON-MAIN-a3c56a83,"Pt, OP and UG mining and beneficiation at Lac des Iles",10248000.0,1.349839968774395,Ore processed,1,ore
-ON-MAIN-a3c56a83,,Energy,Electricity consumption|Not specified,1173600000.0,ON-MAIN-a3c56a83,"Pt, OP and UG mining and beneficiation at Lac des Iles",10248000.0,114.51990632318501,Ore processed,1,ore
-QC-MAIN-f9e41c2a,,Energy,Electricity consumption|Grid electricity,276713000.0,QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque",838419.0,330.0414232024799,Ore processed,1,ore
-QC-MAIN-f9e41c2a,,Energy,Diesel|Mobile equipment,191632000.0,QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque",838419.0,228.56352253467537,Ore processed,1,ore
-QC-MAIN-f9e41c2a,,Energy,Diesel|Stationary equipment,181000.0,QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque",838419.0,0.21588251220451826,Ore processed,1,ore
-QC-MAIN-f9e41c2a,,Energy,Gasoline,3549000.0,QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque",838419.0,4.2329670486952224,Ore processed,1,ore
-QC-MAIN-f9e41c2a,,Energy,LPG|Mobile equipment,45000.0,QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque",838419.0,0.053672447785653714,Ore processed,1,ore
-QC-MAIN-f9e41c2a,,Energy,LPG|Stationary equipment,187000.0,QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque",838419.0,0.22303883857593876,Ore processed,1,ore
-QC-MAIN-f9e41c2a,,Energy,Natural gas,76904000.0,QC-MAIN-f9e41c2a,"Au, UG mining and beneficiation at Lamaque",838419.0,91.72502054462029,Ore processed,1,ore
-QC-MAIN-e51eda66,,Energy,Electricity consumption|Grid electricity,1689193026.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde",2658395.96049,635.4181435366932,Ore processed,1,ore
-QC-MAIN-e51eda66,,Energy,Diesel,391146000.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde",2658395.96049,147.13609477795902,Ore processed,1,ore
-QC-MAIN-e51eda66,,Energy,Explosives,6280000.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde",2658395.96049,2.3623267915448007,Ore processed,1,ore
-QC-MAIN-e51eda66,,Energy,Light Fuel & Gasoline,8329000.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde",2658395.96049,3.1330923322892743,Ore processed,1,ore
-QC-MAIN-e51eda66,,Energy,Natural gas,297435000.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, UG mining and beneficiation at LaRonde",2658395.96049,111.88513841451079,Ore processed,1,ore
-ON-MAIN-1f126a43,,Energy,Electricity consumption|Grid electricity,657196812.0,ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa",441588.0,1488.257860267942,Ore processed,1,ore
-ON-MAIN-1f126a43,,Energy,Diesel,91423000.0,ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa",441588.0,207.03234689348443,Ore processed,1,ore
-ON-MAIN-1f126a43,,Energy,Explosives,82576000.0,ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa",441588.0,186.99783508609835,Ore processed,1,ore
-ON-MAIN-1f126a43,,Energy,Light Fuel & Gasoline,6440000.0,ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa",441588.0,14.583729630334158,Ore processed,1,ore
-ON-MAIN-1f126a43,,Energy,Natural gas,327090000.0,ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa",441588.0,740.7130628549689,Ore processed,1,ore
-ON-MAIN-1f126a43,,Energy,Propane,658000.0,ON-MAIN-1f126a43,"Au, UG mining and beneficiation at Macassa",441588.0,1.4900767230993597,Ore processed,1,ore
-,GRP-0a2c0d69,Energy,Electricity consumption|Generated on-site,593954510.4,GRP-0a2c0d69,"Au and Ag, OP and UG mining at Meadowbank complex",,,Ore processed,1,ore
-,GRP-0a2c0d69,Energy,Diesel,3590887000.0,GRP-0a2c0d69,"Au and Ag, OP and UG mining at Meadowbank complex",,,Ore processed,1,ore
-,GRP-0a2c0d69,Energy,Explosives,45318000.0,GRP-0a2c0d69,"Au and Ag, OP and UG mining at Meadowbank complex",,,Ore processed,1,ore
-,GRP-0a2c0d69,Energy,Light Fuel & Gasoline,51161000.0,GRP-0a2c0d69,"Au and Ag, OP and UG mining at Meadowbank complex",,,Ore processed,1,ore
-,GRP-0a2c0d69,Energy,Lubricating Oils & Greases,7311000.0,GRP-0a2c0d69,"Au and Ag, OP and UG mining at Meadowbank complex",,,Ore processed,1,ore
-,GRP-0a2c0d69,Energy,Propane,235000.0,GRP-0a2c0d69,"Au and Ag, OP and UG mining at Meadowbank complex",,,Ore processed,1,ore
-NU-MAIN-8b0264c9,,Energy,Electricity consumption|Generated on-site,477755733.6,NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine",1918143.0,249.07201058523793,Ore processed,1,ore
-NU-MAIN-8b0264c9,,Energy,Diesel,1944158000.0,NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine",1918143.0,1013.5625967407018,Ore processed,1,ore
-NU-MAIN-8b0264c9,,Energy,Explosives,18198000.0,NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine",1918143.0,9.487300998934908,Ore processed,1,ore
-NU-MAIN-8b0264c9,,Energy,Light Fuel & Gasoline,5290000.0,NU-MAIN-8b0264c9,"Au and Ag, OP and UG mining and beneficiation at Meliadine",1918143.0,2.7578757162526464,Ore processed,1,ore
-BC-MAIN-ed23117f,,Energy,Electricity consumption|Not specified,,BC-MAIN-ed23117f,"Au and Cu, OP mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
-BC-MAIN-ed23117f,,Energy,Diesel,,BC-MAIN-ed23117f,"Au and Cu, OP mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
-BC-MAIN-ed23117f,,Energy,Explosives,,BC-MAIN-ed23117f,"Au and Cu, OP mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
-BC-MAIN-ed23117f,,Energy,Gasoline,,BC-MAIN-ed23117f,"Au and Cu, OP mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
-BC-MAIN-ed23117f,,Energy,Propane,,BC-MAIN-ed23117f,"Au and Cu, OP mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Energy,Aviation fuel,27653229.04,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,26.900028249027237,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Energy,Biodiesel,11770370.2287417,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,11.44977648710282,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Energy,Diesel,308614730.821,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,300.2088821215953,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Energy,Gasoline,5437635.0,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,5.289528210116732,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Energy,Propane,229891868.95000002,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,223.6302227140078,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Energy,Solar,1483200.0,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,1.4428015564202334,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Energy,Electricity consumption|Generated on-site,3808984.28206273,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,3.7052376284656905,Ore processed,1,ore
-ON-MAIN-fefeaee4,,Energy,Electricity consumption|Grid electricity,509889600.0,ON-MAIN-fefeaee4,"Au, UG mining and beneficiation at Musselwhite",1028000.0,496.00155642023344,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Energy,Electricity consumption|Generated on-site,56414676.5,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,18.40609347471452,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Energy,Electricity consumption|Grid electricity,171984823.5,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,56.11250358890702,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Energy,Diesel,170965251.5905,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,55.7798537,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Energy,Explosives,2090400.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,0.6820228384991843,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Energy,Gasoline,3914535.152,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,1.2771729696574223,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Energy,Natural gas,59198000.0,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,19.314192495921695,Ore processed,1,ore
-BC-MAIN-aa76f6f2,,Energy,Propane,710263.5224,BC-MAIN-aa76f6f2,"Au and Cu, UG mining and beneficiation at New Afton",3065000.0,0.23173361252854813,Ore processed,1,ore
-,GRP-0d911886,Energy,Biodiesel,23524436.671511002,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Energy,Diesel,623021868.616,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Energy,Electricity consumption|Generated on-site,91025482.2599152,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Energy,Gasoline,17195846.5,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Energy,Natural gas,166705000.0,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Energy,Propane,6336058.0703,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-,GRP-0d911886,Energy,Electricity consumption|Grid electricity,723967200.0,GRP-0d911886,"Au, OP and UG mining at Porcupine complex",,,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Energy,Electricity consumption,2919222000.0,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,333.09242355089003,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Energy,Diesel,1521587039.8633,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,173.61787310170016,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Energy,Explosives,59222508.0,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,6.757474669100867,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Energy,Gasoline,37604891.478,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,4.2908365447284345,Ore processed,1,ore
-ON-MAIN-0aadf28f,,Energy,Propane,84441809.056336,ON-MAIN-0aadf28f,"Au, OP and UG mining and beneficiation at Rainy River",8764000.0,9.635076341434962,Ore processed,1,ore
-BC-MAIN-8eb8be0d,,Energy,Electricity consumption|Generated on-site,5528566.7,BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris",1139000.0,4.8538776997366115,Ore processed,1,ore
-BC-MAIN-8eb8be0d,,Energy,Acetylene,2000.0,BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris",1139000.0,0.001755926251097454,Ore processed,1,ore
-BC-MAIN-8eb8be0d,,Energy,Aviation fuel,121071915.388,BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris",1139000.0,106.29667725021949,Ore processed,1,ore
-BC-MAIN-8eb8be0d,,Energy,Diesel,1361713858.312,BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris",1139000.0,1195.5345551466198,Ore processed,1,ore
-BC-MAIN-8eb8be0d,,Energy,Electricity consumption|Grid electricity,1274584341.6,BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris",1139000.0,1119.0380523266022,Ore processed,1,ore
-BC-MAIN-8eb8be0d,,Energy,Gasoline,25050760.0,BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris",1139000.0,21.99364354697103,Ore processed,1,ore
-BC-MAIN-8eb8be0d,,Energy,Propane,80313185.80000001,BC-MAIN-8eb8be0d,"Au and Cu, OP mining and beneficiation at Red Chris",1139000.0,70.51201562774365,Ore processed,1,ore
-ON-MAIN-7f050560,,Energy,Electricity consumption|Grid electricity,893875119.6906,ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake",841000.0,1062.8717237700357,Ore processed,1,ore
-ON-MAIN-7f050560,,Energy,Diesel,111899935.999,ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake",841000.0,133.0558097491082,Ore processed,1,ore
-ON-MAIN-7f050560,,Energy,Gasoline,4970480.57,ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake",841000.0,5.9102028180737225,Ore processed,1,ore
-ON-MAIN-7f050560,,Energy,LPG,14655632.810559977,ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake",841000.0,17.426436159999973,Ore processed,1,ore
-ON-MAIN-7f050560,,Energy,Natural gas,307233000.0,ON-MAIN-7f050560,"Au, UG mining and beneficiation at Red Lake",841000.0,365.31866825208084,Ore processed,1,ore
-NL-MAIN-b64bae7a,,Energy,Diesel,432000000.0,NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully",3560000.0,121.34831460674157,Ore processed,1,ore
-NL-MAIN-b64bae7a,,Energy,Gasoline,12000000.0,NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully",3560000.0,3.3707865168539324,Ore processed,1,ore
-NL-MAIN-b64bae7a,,Energy,Oil,1058000000.0,NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully",3560000.0,297.19101123595505,Ore processed,1,ore
-NL-MAIN-b64bae7a,,Energy,Propane,1000000.0,NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully",3560000.0,0.2808988764044944,Ore processed,1,ore
-NL-MAIN-b64bae7a,,Energy,Electricity consumption|Grid electricity,1233000000.0,NL-MAIN-b64bae7a,"Fe, OP mining and beneficiation at Scully",3560000.0,346.34831460674155,Ore processed,1,ore
-,GRP-14bfbb82,Energy,Diesel,131655000.0,GRP-14bfbb82,"Au, UG mining and beneficiation at Seabee Gold Operation",,,Ore processed,1,ore
-,GRP-14bfbb82,Energy,Electricity consumption|Generated on-site,1629990.0,GRP-14bfbb82,"Au, UG mining and beneficiation at Seabee Gold Operation",,,Ore processed,1,ore
-,GRP-14bfbb82,Energy,Electricity consumption|Grid electricity,193225046.4,GRP-14bfbb82,"Au, UG mining and beneficiation at Seabee Gold Operation",,,Ore processed,1,ore
-,GRP-14bfbb82,Energy,Other,10277000.0,GRP-14bfbb82,"Au, UG mining and beneficiation at Seabee Gold Operation",,,Ore processed,1,ore
-,GRP-14bfbb82,Energy,Propane,40177000.0,GRP-14bfbb82,"Au, UG mining and beneficiation at Seabee Gold Operation",,,Ore processed,1,ore
-,GRP-a13779f8,Energy,Electricity consumption,764000000.0,GRP-a13779f8,"Au and Ag and Cu and Zn, UG mining and beneficiation at Snow Lake",,,Ore processed,1,ore
-,GRP-a13779f8,Energy,Diesel,387200000.0,GRP-a13779f8,"Au and Ag and Cu and Zn, UG mining and beneficiation at Snow Lake",,,Ore processed,1,ore
-,GRP-a13779f8,Energy,Gasoline,1760000.0,GRP-a13779f8,"Au and Ag and Cu and Zn, UG mining and beneficiation at Snow Lake",,,Ore processed,1,ore
-,GRP-a13779f8,Energy,Propane,48400000.0,GRP-a13779f8,"Au and Ag and Cu and Zn, UG mining and beneficiation at Snow Lake",,,Ore processed,1,ore
-,GRP-147b3123,Energy,Electricity consumption|Grid electricity,738226800.0,GRP-147b3123,"Au and Ag, UG mining and beneficiation at Timmins Operation",,,Ore processed,1,ore
-,GRP-147b3123,Energy,Ammonium nitrate,20700.0,GRP-147b3123,"Au and Ag, UG mining and beneficiation at Timmins Operation",,,Ore processed,1,ore
-,GRP-147b3123,Energy,Diesel,384285800.0,GRP-147b3123,"Au and Ag, UG mining and beneficiation at Timmins Operation",,,Ore processed,1,ore
-,GRP-147b3123,Energy,Dynamite,4889799.999999999,GRP-147b3123,"Au and Ag, UG mining and beneficiation at Timmins Operation",,,Ore processed,1,ore
-,GRP-147b3123,Energy,Emulsions,2026300.0,GRP-147b3123,"Au and Ag, UG mining and beneficiation at Timmins Operation",,,Ore processed,1,ore
-,GRP-147b3123,Energy,Gasoline,2946100.0,GRP-147b3123,"Au and Ag, UG mining and beneficiation at Timmins Operation",,,Ore processed,1,ore
-,GRP-147b3123,Energy,Natural gas,159325598.85000002,GRP-147b3123,"Au and Ag, UG mining and beneficiation at Timmins Operation",,,Ore processed,1,ore
-QC-MAIN-02884fb5,,Energy,Electricity consumption|Grid electricity,525946699.99999994,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,508.65251450676976,Ore processed,1,ore
-QC-MAIN-02884fb5,,Energy,ANFO,1530900.0,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,1.4805609284332688,Ore processed,1,ore
-QC-MAIN-02884fb5,,Energy,Diesel,206946000.0,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,200.14119922630562,Ore processed,1,ore
-QC-MAIN-02884fb5,,Energy,Emulsion ANFO,4260600.0,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,4.120502901353965,Ore processed,1,ore
-QC-MAIN-02884fb5,,Energy,Gasoline,3350800.0,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,3.2406189555125726,Ore processed,1,ore
-QC-MAIN-02884fb5,,Energy,Natural gas,63958300.0,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,61.85522243713733,Ore processed,1,ore
-QC-MAIN-02884fb5,,Energy,Propane,33000.0,QC-MAIN-02884fb5,"Au, UG mining and beneficiation at Westwood-Doyon",1034000.0,0.031914893617021274,Ore processed,1,ore
-ON-MAIN-7607a50e,,Energy,Electricity consumption|Generated on-site,475000.0,ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson",2878047.0,0.165042474983904,Ore processed,1,ore
-ON-MAIN-7607a50e,,Energy,Electricity consumption|Grid electricity,960748000.0,ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson",2878047.0,333.81942685439117,Ore processed,1,ore
-ON-MAIN-7607a50e,,Energy,Diesel,140100000.0,ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson",2878047.0,48.6788436741999,Ore processed,1,ore
-ON-MAIN-7607a50e,,Energy,Gasoline,2124000.0,ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson",2878047.0,0.7380004565596044,Ore processed,1,ore
-ON-MAIN-7607a50e,,Energy,Naphta,6344000.0,ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson",2878047.0,2.2042725501008147,Ore processed,1,ore
-ON-MAIN-7607a50e,,Energy,Natural gas,221612000.0,ON-MAIN-7607a50e,"Au, UG mining and beneficiation at Young-Davidson",2878047.0,77.00082729712197,Ore processed,1,ore
+BC-MAIN-857b7b89,,Energy,Acetylene,18475.650648,BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack",166000.0,0.11129910028915661,Ore processed,1,ore
+BC-MAIN-8eb8be0d,,Energy,Acetylene,2000.0,BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris",1139000.0,0.001755926251097454,Ore processed,1,ore
+,GRP-147b3123,Energy,Ammonium nitrate,20700.0,GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation",1574000.0,0.013151207115628972,Ore processed,1,ore
+QC-MAIN-02884fb5,,Energy,ANFO,1530900.0,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,1.4805609284332688,Ore processed,1,ore
+BC-MAIN-857b7b89,,Energy,Aviation fuel,72676110.7896,BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack",166000.0,437.80789632289157,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Energy,Aviation fuel,21662098.880000003,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,13.04160077062011,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Energy,Aviation fuel,27653229.04,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,26.900028249027237,Ore processed,1,ore
+BC-MAIN-8eb8be0d,,Energy,Aviation fuel,121071915.388,BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris",1139000.0,106.29667725021949,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Energy,Biodiesel,11770370.2287417,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,11.44977648710282,Ore processed,1,ore
+,GRP-0d911886,Energy,Biodiesel,23524436.671511002,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,8.081221804023016,Ore processed,1,ore
+BC-MAIN-857b7b89,,Energy,Diesel,287042447.23154205,BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack",166000.0,1729.1713688647112,Ore processed,1,ore
+QC-MAIN-e7e6a960,,Energy,Diesel,2557832000.0,QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",19594928.0,130.53541202090665,Ore processed,1,ore
+BC-MAIN-599152a0,,Energy,Diesel,80960000.0,BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain",6862152.0,11.798048192462073,Ore processed,1,ore
+ON-MAIN-aeafbb59,,Energy,Diesel,3947008000.0,ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake",25434853.5024164,155.1810785788493,Ore processed,1,ore
+ON-MAIN-cb85213a,,Energy,Diesel,101575245.0,ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River",222627.0,456.25752941017936,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Energy,Diesel,385327797.4,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,231.98542889825404,Ore processed,1,ore
+BC-MAIN-6b4800fe,,Energy,Diesel,1683653000.0,BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",30000000.0,56.121766666666666,Ore processed,1,ore
+QC-MAIN-c0660aec,,Energy,Diesel,129455000.0,QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex",2886927.328724,44.84179380338546,Ore processed,1,ore
+ON-MAIN-687b8c8d,,Energy,Diesel,211308000.0,ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island",439008.0,481.33063634375685,Ore processed,1,ore
+QC-MAIN-9de9bb0d,,Energy,Diesel,42655140.0,QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena",191148.0,223.15242639211502,Ore processed,1,ore
+ON-MAIN-a3c56a83,,Energy,Diesel,497248345.0,ON-MAIN-a3c56a83,"Pt, Open-pit and underground mining and beneficiation at Lac des Iles",10248000.0,48.521501268540206,Ore processed,1,ore
+QC-MAIN-e51eda66,,Energy,Diesel,391146000.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",2658395.96049,147.13609477795902,Ore processed,1,ore
+ON-MAIN-1f126a43,,Energy,Diesel,91423000.0,ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa",441588.0,207.03234689348443,Ore processed,1,ore
+,GRP-0a2c0d69,Energy,Diesel,3590887000.0,GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex",3842649.005728,934.4821748349345,Ore processed,1,ore
+NU-MAIN-8b0264c9,,Energy,Diesel,1944158000.0,NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine",1918143.0,1013.5625967407018,Ore processed,1,ore
+BC-MAIN-ed23117f,,Energy,Diesel,,BC-MAIN-ed23117f,"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Energy,Diesel,308614730.821,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,300.2088821215953,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Energy,Diesel,170965251.5905,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,55.7798537,Ore processed,1,ore
+,GRP-0d911886,Energy,Diesel,623021868.616,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,214.0233145365854,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Energy,Diesel,1521587039.8633,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,173.61787310170016,Ore processed,1,ore
+BC-MAIN-8eb8be0d,,Energy,Diesel,1361713858.312,BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris",1139000.0,1195.5345551466198,Ore processed,1,ore
+ON-MAIN-7f050560,,Energy,Diesel,111899935.999,ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake",841000.0,133.0558097491082,Ore processed,1,ore
+NL-MAIN-b64bae7a,,Energy,Diesel,432000000.0,NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully",3560000.0,121.34831460674157,Ore processed,1,ore
+,GRP-14bfbb82,Energy,Diesel,131655000.0,GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation",122000.0,1079.139344262295,Ore processed,1,ore
+,GRP-a13779f8,Energy,Diesel,387200000.0,GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake",1562479.0,247.81133058428304,Ore processed,1,ore
+,GRP-147b3123,Energy,Diesel,384285800.0,GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation",1574000.0,244.14599745870393,Ore processed,1,ore
+QC-MAIN-02884fb5,,Energy,Diesel,206946000.0,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,200.14119922630562,Ore processed,1,ore
+ON-MAIN-7607a50e,,Energy,Diesel,140100000.0,ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson",2878047.0,48.6788436741999,Ore processed,1,ore
+QC-MAIN-b86f7d07,,Energy,Diesel|Mobile equipment,378542030.29396677,QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",1361450.0,278.0432849491107,Ore processed,1,ore
+YT-MAIN-44857446,,Energy,Diesel|Mobile equipment,55697075.44526765,YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",127307.0,437.5020654423374,Ore processed,1,ore
+QC-MAIN-f9e41c2a,,Energy,Diesel|Mobile equipment,191632000.0,QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque",838419.0,228.56352253467537,Ore processed,1,ore
+QC-MAIN-f9e41c2a,,Energy,Diesel|Stationary equipment,181000.0,QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque",838419.0,0.21588251220451826,Ore processed,1,ore
+,GRP-147b3123,Energy,Dynamite,4889799.999999999,GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation",1574000.0,3.106607369758576,Ore processed,1,ore
+BC-MAIN-599152a0,,Energy,Electricity consumption,1968000000.0,BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain",6862152.0,286.790499540086,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Energy,Electricity consumption,2919222000.0,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,333.09242355089003,Ore processed,1,ore
+,GRP-a13779f8,Energy,Electricity consumption,764000000.0,GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake",1562479.0,488.96657171072377,Ore processed,1,ore
+BC-MAIN-857b7b89,,Energy,Electricity consumption|Generated on-site,86225117.39559999,BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack",166000.0,519.4284180457831,Ore processed,1,ore
+ON-MAIN-cb85213a,,Energy,Electricity consumption|Generated on-site,123086231.99999999,ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River",222627.0,552.8809713107573,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Energy,Electricity consumption|Generated on-site,3531106.8,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,2.1258921131848285,Ore processed,1,ore
+ON-MAIN-687b8c8d,,Energy,Electricity consumption|Generated on-site,717000.0,ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island",439008.0,1.6332276404985786,Ore processed,1,ore
+QC-MAIN-9de9bb0d,,Energy,Electricity consumption|Generated on-site,38464200.0,QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena",191148.0,201.2273212379936,Ore processed,1,ore
+,GRP-0a2c0d69,Energy,Electricity consumption|Generated on-site,593954510.4,GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex",3842649.005728,154.56902504356464,Ore processed,1,ore
+NU-MAIN-8b0264c9,,Energy,Electricity consumption|Generated on-site,477755733.6,NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine",1918143.0,249.07201058523793,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Energy,Electricity consumption|Generated on-site,3808984.28206273,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,3.7052376284656905,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Energy,Electricity consumption|Generated on-site,56414676.5,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,18.40609347471452,Ore processed,1,ore
+,GRP-0d911886,Energy,Electricity consumption|Generated on-site,91025482.2599152,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,31.26948892473899,Ore processed,1,ore
+BC-MAIN-8eb8be0d,,Energy,Electricity consumption|Generated on-site,5528566.7,BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris",1139000.0,4.8538776997366115,Ore processed,1,ore
+,GRP-14bfbb82,Energy,Electricity consumption|Generated on-site,1629990.0,GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation",122000.0,13.360573770491802,Ore processed,1,ore
+ON-MAIN-7607a50e,,Energy,Electricity consumption|Generated on-site,475000.0,ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson",2878047.0,0.165042474983904,Ore processed,1,ore
+BC-MAIN-857b7b89,,Energy,Electricity consumption|Grid electricity,569009584.8,BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack",166000.0,3427.76858313253,Ore processed,1,ore
+QC-MAIN-e7e6a960,,Energy,Electricity consumption|Grid electricity,2428287789.6,QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",19594928.0,123.92430273793299,Ore processed,1,ore
+ON-MAIN-aeafbb59,,Energy,Electricity consumption|Grid electricity,2991452173.2000003,ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake",25434853.5024164,117.61232172679124,Ore processed,1,ore
+ON-MAIN-cb85213a,,Energy,Electricity consumption|Grid electricity,138799368.00000003,ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River",222627.0,623.4615208397904,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Energy,Electricity consumption|Grid electricity,892229950.44,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,537.1643289825407,Ore processed,1,ore
+BC-MAIN-6b4800fe,,Energy,Electricity consumption|Grid electricity,1695665000.0,BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",30000000.0,56.522166666666664,Ore processed,1,ore
+QC-MAIN-c0660aec,,Energy,Electricity consumption|Grid electricity,644118282.0,QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex",2886927.328724,223.1155164839897,Ore processed,1,ore
+ON-MAIN-687b8c8d,,Energy,Electricity consumption|Grid electricity,334179000.0,ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island",439008.0,761.213918652963,Ore processed,1,ore
+QC-MAIN-9de9bb0d,,Energy,Electricity consumption|Grid electricity,115392600.0,QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena",191148.0,603.6819637139807,Ore processed,1,ore
+QC-MAIN-f9e41c2a,,Energy,Electricity consumption|Grid electricity,276713000.0,QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque",838419.0,330.0414232024799,Ore processed,1,ore
+QC-MAIN-e51eda66,,Energy,Electricity consumption|Grid electricity,1689193026.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",2658395.96049,635.4181435366932,Ore processed,1,ore
+ON-MAIN-1f126a43,,Energy,Electricity consumption|Grid electricity,657196812.0,ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa",441588.0,1488.257860267942,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Energy,Electricity consumption|Grid electricity,509889600.0,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,496.00155642023344,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Energy,Electricity consumption|Grid electricity,171984823.5,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,56.11250358890702,Ore processed,1,ore
+,GRP-0d911886,Energy,Electricity consumption|Grid electricity,723967200.0,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,248.700515286843,Ore processed,1,ore
+BC-MAIN-8eb8be0d,,Energy,Electricity consumption|Grid electricity,1274584341.6,BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris",1139000.0,1119.0380523266022,Ore processed,1,ore
+ON-MAIN-7f050560,,Energy,Electricity consumption|Grid electricity,893875119.6906,ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake",841000.0,1062.8717237700357,Ore processed,1,ore
+NL-MAIN-b64bae7a,,Energy,Electricity consumption|Grid electricity,1233000000.0,NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully",3560000.0,346.34831460674155,Ore processed,1,ore
+,GRP-14bfbb82,Energy,Electricity consumption|Grid electricity,193225046.4,GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation",122000.0,1583.811855737705,Ore processed,1,ore
+,GRP-147b3123,Energy,Electricity consumption|Grid electricity,738226800.0,GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation",1574000.0,469.01321473951714,Ore processed,1,ore
+QC-MAIN-02884fb5,,Energy,Electricity consumption|Grid electricity,525946699.99999994,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,508.65251450676976,Ore processed,1,ore
+ON-MAIN-7607a50e,,Energy,Electricity consumption|Grid electricity,960748000.0,ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson",2878047.0,333.81942685439117,Ore processed,1,ore
+ON-MAIN-6e9be24e,,Energy,Electricity consumption|Non-renewable electricity use,619000000.0,ON-MAIN-6e9be24e,"Au, Open-pit and underground mining and beneficiation at Hemlo (Williams)",1266009.0,488.938072320181,Ore processed,1,ore
+QC-MAIN-b86f7d07,,Energy,Electricity consumption|Not specified,495635929.2,QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",1361450.0,364.05004164677365,Ore processed,1,ore
+YT-MAIN-44857446,,Energy,Electricity consumption|Not specified,63343396.800000004,YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",127307.0,497.5641308019198,Ore processed,1,ore
+ON-MAIN-a3c56a83,,Energy,Electricity consumption|Not specified,1173600000.0,ON-MAIN-a3c56a83,"Pt, Open-pit and underground mining and beneficiation at Lac des Iles",10248000.0,114.51990632318501,Ore processed,1,ore
+BC-MAIN-ed23117f,,Energy,Electricity consumption|Not specified,,BC-MAIN-ed23117f,"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
+QC-MAIN-02884fb5,,Energy,Emulsion ANFO,4260600.0,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,4.120502901353965,Ore processed,1,ore
+,GRP-147b3123,Energy,Emulsions,2026300.0,GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation",1574000.0,1.2873570520965691,Ore processed,1,ore
+NL-MAIN-dd723db4,,Energy,Energy use,14922000000.0,NL-MAIN-dd723db4,"Fe, Open-pit mining and beneficiation at Carol Lake",17880000.0,834.5637583892617,Ore processed,1,ore
+ON-MAIN-aeafbb59,,Energy,Explosives,65074000.0,ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake",25434853.5024164,2.5584578261407227,Ore processed,1,ore
+QC-MAIN-c0660aec,,Energy,Explosives,11047000.0,QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex",2886927.328724,3.8265597786566694,Ore processed,1,ore
+QC-MAIN-e51eda66,,Energy,Explosives,6280000.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",2658395.96049,2.3623267915448007,Ore processed,1,ore
+ON-MAIN-1f126a43,,Energy,Explosives,82576000.0,ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa",441588.0,186.99783508609835,Ore processed,1,ore
+,GRP-0a2c0d69,Energy,Explosives,45318000.0,GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex",3842649.005728,11.793426860597274,Ore processed,1,ore
+NU-MAIN-8b0264c9,,Energy,Explosives,18198000.0,NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine",1918143.0,9.487300998934908,Ore processed,1,ore
+BC-MAIN-ed23117f,,Energy,Explosives,,BC-MAIN-ed23117f,"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Energy,Explosives,2090400.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,0.6820228384991843,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Energy,Explosives,59222508.0,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,6.757474669100867,Ore processed,1,ore
+BC-MAIN-857b7b89,,Energy,Gasoline,13568450.0,BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack",166000.0,81.73765060240964,Ore processed,1,ore
+BC-MAIN-599152a0,,Energy,Gasoline,368000.0,BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain",6862152.0,0.05362749178391851,Ore processed,1,ore
+ON-MAIN-cb85213a,,Energy,Gasoline,12095820.0,ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River",222627.0,54.332223854249484,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Energy,Gasoline,10018117.899999999,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,6.031377423239012,Ore processed,1,ore
+BC-MAIN-6b4800fe,,Energy,Gasoline,38791000.0,BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",30000000.0,1.2930333333333333,Ore processed,1,ore
+ON-MAIN-687b8c8d,,Energy,Gasoline,14406000.0,ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island",439008.0,32.81489175595889,Ore processed,1,ore
+QC-MAIN-9de9bb0d,,Energy,Gasoline,1180080.0,QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena",191148.0,6.173645552137611,Ore processed,1,ore
+QC-MAIN-f9e41c2a,,Energy,Gasoline,3549000.0,QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque",838419.0,4.2329670486952224,Ore processed,1,ore
+BC-MAIN-ed23117f,,Energy,Gasoline,,BC-MAIN-ed23117f,"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Energy,Gasoline,5437635.0,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,5.289528210116732,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Energy,Gasoline,3914535.152,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,1.2771729696574223,Ore processed,1,ore
+,GRP-0d911886,Energy,Gasoline,17195846.5,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,5.907195637238063,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Energy,Gasoline,37604891.478,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,4.2908365447284345,Ore processed,1,ore
+BC-MAIN-8eb8be0d,,Energy,Gasoline,25050760.0,BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris",1139000.0,21.99364354697103,Ore processed,1,ore
+ON-MAIN-7f050560,,Energy,Gasoline,4970480.57,ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake",841000.0,5.9102028180737225,Ore processed,1,ore
+NL-MAIN-b64bae7a,,Energy,Gasoline,12000000.0,NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully",3560000.0,3.3707865168539324,Ore processed,1,ore
+,GRP-a13779f8,Energy,Gasoline,1760000.0,GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake",1562479.0,1.1264151390194683,Ore processed,1,ore
+,GRP-147b3123,Energy,Gasoline,2946100.0,GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation",1574000.0,1.871728081321474,Ore processed,1,ore
+QC-MAIN-02884fb5,,Energy,Gasoline,3350800.0,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,3.2406189555125726,Ore processed,1,ore
+ON-MAIN-7607a50e,,Energy,Gasoline,2124000.0,ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson",2878047.0,0.7380004565596044,Ore processed,1,ore
+QC-MAIN-b86f7d07,,Energy,Gasoline|Mobile equipment,17908178.0536758,QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",1361450.0,13.153753757887399,Ore processed,1,ore
+YT-MAIN-44857446,,Energy,Gasoline|Mobile equipment,8333350.1134884,YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",127307.0,65.45869522876511,Ore processed,1,ore
+QC-MAIN-e7e6a960,,Energy,Light Fuel & Gasoline,42833000.0,QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",19594928.0,2.18592280614657,Ore processed,1,ore
+ON-MAIN-aeafbb59,,Energy,Light Fuel & Gasoline,71904000.0,ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake",25434853.5024164,2.8269869922061424,Ore processed,1,ore
+QC-MAIN-c0660aec,,Energy,Light Fuel & Gasoline,1347000.0,QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex",2886927.328724,0.4665860434371806,Ore processed,1,ore
+QC-MAIN-e51eda66,,Energy,Light Fuel & Gasoline,8329000.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",2658395.96049,3.1330923322892743,Ore processed,1,ore
+ON-MAIN-1f126a43,,Energy,Light Fuel & Gasoline,6440000.0,ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa",441588.0,14.583729630334158,Ore processed,1,ore
+,GRP-0a2c0d69,Energy,Light Fuel & Gasoline,51161000.0,GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex",3842649.005728,13.313992488967234,Ore processed,1,ore
+NU-MAIN-8b0264c9,,Energy,Light Fuel & Gasoline,5290000.0,NU-MAIN-8b0264c9,"Au and Ag, Open-pit and underground mining and beneficiation at Meliadine",1918143.0,2.7578757162526464,Ore processed,1,ore
+ON-MAIN-7f050560,,Energy,LPG,14655632.810559977,ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake",841000.0,17.426436159999973,Ore processed,1,ore
+QC-MAIN-f9e41c2a,,Energy,LPG|Mobile equipment,45000.0,QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque",838419.0,0.053672447785653714,Ore processed,1,ore
+QC-MAIN-f9e41c2a,,Energy,LPG|Stationary equipment,187000.0,QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque",838419.0,0.22303883857593876,Ore processed,1,ore
+,GRP-0a2c0d69,Energy,Lubricating Oils & Greases,7311000.0,GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex",3842649.005728,1.90259375475146,Ore processed,1,ore
+ON-MAIN-7607a50e,,Energy,Naphta,6344000.0,ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson",2878047.0,2.2042725501008147,Ore processed,1,ore
+QC-MAIN-e7e6a960,,Energy,Natural gas,162805000.0,QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",19594928.0,8.308527594487716,Ore processed,1,ore
+BC-MAIN-6b4800fe,,Energy,Natural gas,186977000.0,BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",30000000.0,6.232566666666667,Ore processed,1,ore
+QC-MAIN-c0660aec,,Energy,Natural gas,86234000.0,QC-MAIN-c0660aec,"Au and Ag and Zn, Underground mining and beneficiation at Goldex",2886927.328724,29.870512895146124,Ore processed,1,ore
+QC-MAIN-9de9bb0d,,Energy,Natural gas,58064.0,QC-MAIN-9de9bb0d,"Au and Ag, Open-pit mining and beneficiation at Kiena",191148.0,0.30376462217757966,Ore processed,1,ore
+QC-MAIN-f9e41c2a,,Energy,Natural gas,76904000.0,QC-MAIN-f9e41c2a,"Au and Ag, Underground mining and beneficiation at Lamaque",838419.0,91.72502054462029,Ore processed,1,ore
+QC-MAIN-e51eda66,,Energy,Natural gas,297435000.0,QC-MAIN-e51eda66,"Au and Ag and Cu and Zn, Underground mining and beneficiation at LaRonde",2658395.96049,111.88513841451079,Ore processed,1,ore
+ON-MAIN-1f126a43,,Energy,Natural gas,327090000.0,ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa",441588.0,740.7130628549689,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Energy,Natural gas,59198000.0,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,19.314192495921695,Ore processed,1,ore
+,GRP-0d911886,Energy,Natural gas,166705000.0,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,57.26726210924081,Ore processed,1,ore
+ON-MAIN-7f050560,,Energy,Natural gas,307233000.0,ON-MAIN-7f050560,"Au, Underground mining and beneficiation at Red Lake",841000.0,365.31866825208084,Ore processed,1,ore
+,GRP-147b3123,Energy,Natural gas,159325598.85000002,GRP-147b3123,"Au and Ag, Underground mining and beneficiation at Timmins Operation",1574000.0,101.22337919313851,Ore processed,1,ore
+QC-MAIN-02884fb5,,Energy,Natural gas,63958300.0,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,61.85522243713733,Ore processed,1,ore
+ON-MAIN-7607a50e,,Energy,Natural gas,221612000.0,ON-MAIN-7607a50e,"Au, Underground mining and beneficiation at Young-Davidson",2878047.0,77.00082729712197,Ore processed,1,ore
+ON-MAIN-6e9be24e,,Energy,Non-renewable fuel use,301000000.0,ON-MAIN-6e9be24e,"Au, Open-pit and underground mining and beneficiation at Hemlo (Williams)",1266009.0,237.75502385844018,Ore processed,1,ore
+NL-MAIN-b64bae7a,,Energy,Oil,1058000000.0,NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully",3560000.0,297.19101123595505,Ore processed,1,ore
+,GRP-14bfbb82,Energy,Other,10277000.0,GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation",122000.0,84.23770491803279,Ore processed,1,ore
+ON-MAIN-a3c56a83,,Energy,Petrol,13833160.0,ON-MAIN-a3c56a83,"Pt, Open-pit and underground mining and beneficiation at Lac des Iles",10248000.0,1.349839968774395,Ore processed,1,ore
+BC-MAIN-857b7b89,,Energy,Propane,42071041.3,BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack",166000.0,253.4400078313253,Ore processed,1,ore
+QC-MAIN-e7e6a960,,Energy,Propane,1463609.3699999999,QC-MAIN-e7e6a960,"Au and Ag, Open-pit mining and beneficiation at Canadian Malartic",19594928.0,0.07469327623964732,Ore processed,1,ore
+QC-MAIN-b86f7d07,,Energy,Propane,42813081.771589935,QC-MAIN-b86f7d07,"Au and Ag, Open-pit and underground mining and beneficiation at Casa Berardi",1361450.0,31.446679475257948,Ore processed,1,ore
+BC-MAIN-599152a0,,Energy,Propane,10120000.0,BC-MAIN-599152a0,"Au and Ag and Cu, Open-pit mining and beneficiation at Copper Mountain",6862152.0,1.474756024057759,Ore processed,1,ore
+ON-MAIN-aeafbb59,,Energy,Propane,182468000.0,ON-MAIN-aeafbb59,"Au and Ag, Open-pit mining and beneficiation at Detour Lake",25434853.5024164,7.173935559827971,Ore processed,1,ore
+ON-MAIN-cb85213a,,Energy,Propane,57828505.6,ON-MAIN-cb85213a,"Au, Underground mining and beneficiation at Eagle River",222627.0,259.75513122846735,Ore processed,1,ore
+QC-MAIN-6dc537e6,,Energy,Propane,142393174.15,QC-MAIN-6dc537e6,"Au and Ag, Underground mining and beneficiation at Éléonore",1661000.0,85.72737757375076,Ore processed,1,ore
+BC-MAIN-6b4800fe,,Energy,Propane,453000.0,BC-MAIN-6b4800fe,"Cu and Mo, Open-pit mining and beneficiation at Gibraltar",30000000.0,0.0151,Ore processed,1,ore
+ON-MAIN-687b8c8d,,Energy,Propane,72011000.0,ON-MAIN-687b8c8d,"Au, Underground mining and beneficiation at Island",439008.0,164.03117938625263,Ore processed,1,ore
+YT-MAIN-44857446,,Energy,Propane,36595602.20983067,YT-MAIN-44857446,"Ag and Zn and Pb, Underground mining and beneficiation at Keno Hill Silver District",127307.0,287.45946577824213,Ore processed,1,ore
+ON-MAIN-1f126a43,,Energy,Propane,658000.0,ON-MAIN-1f126a43,"Au, Underground mining and beneficiation at Macassa",441588.0,1.4900767230993597,Ore processed,1,ore
+,GRP-0a2c0d69,Energy,Propane,235000.0,GRP-0a2c0d69,"Au and Ag, Open-pit and underground mining at Meadowbank complex",3842649.005728,0.06115572867823733,Ore processed,1,ore
+BC-MAIN-ed23117f,,Energy,Propane,,BC-MAIN-ed23117f,"Au and Cu, Open-pit mining and beneficiation at Mount Milligan",21680000.0,,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Energy,Propane,229891868.95000002,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,223.6302227140078,Ore processed,1,ore
+BC-MAIN-aa76f6f2,,Energy,Propane,710263.5224,BC-MAIN-aa76f6f2,"Au and Cu, Underground mining and beneficiation at New Afton",3065000.0,0.23173361252854813,Ore processed,1,ore
+,GRP-0d911886,Energy,Propane,6336058.0703,GRP-0d911886,"Au, Open-pit and underground mining at Porcupine complex",2911000.0,2.176591573445551,Ore processed,1,ore
+ON-MAIN-0aadf28f,,Energy,Propane,84441809.056336,ON-MAIN-0aadf28f,"Au, Open-pit and underground mining and beneficiation at Rainy River",8764000.0,9.635076341434962,Ore processed,1,ore
+BC-MAIN-8eb8be0d,,Energy,Propane,80313185.80000001,BC-MAIN-8eb8be0d,"Au and Cu, Open-pit mining and beneficiation at Red Chris",1139000.0,70.51201562774365,Ore processed,1,ore
+NL-MAIN-b64bae7a,,Energy,Propane,1000000.0,NL-MAIN-b64bae7a,"Fe, Open-pit mining and beneficiation at Scully",3560000.0,0.2808988764044944,Ore processed,1,ore
+,GRP-14bfbb82,Energy,Propane,40177000.0,GRP-14bfbb82,"Au, Underground mining and beneficiation at Seabee Gold Operation",122000.0,329.3196721311475,Ore processed,1,ore
+,GRP-a13779f8,Energy,Propane,48400000.0,GRP-a13779f8,"Au and Ag and Cu and Zn, Underground mining and beneficiation at Snow Lake",1562479.0,30.97641632303538,Ore processed,1,ore
+QC-MAIN-02884fb5,,Energy,Propane,33000.0,QC-MAIN-02884fb5,"Au and Ag, Underground mining and beneficiation at Westwood-Doyon",1034000.0,0.031914893617021274,Ore processed,1,ore
+ON-MAIN-fefeaee4,,Energy,Solar,1483200.0,ON-MAIN-fefeaee4,"Au, Underground mining and beneficiation at Musselwhite",1028000.0,1.4428015564202334,Ore processed,1,ore
+BC-MAIN-857b7b89,,Energy,Used oil,2344024.4,BC-MAIN-857b7b89,"Au, Underground mining and beneficiation at Brucejack",166000.0,14.12062891566265,Ore processed,1,ore

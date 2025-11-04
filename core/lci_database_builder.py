@@ -1,6 +1,6 @@
 import brightway2 as bw
 import pandas as pd
-from core.constants import CA_provinces
+from utils.constants import CA_provinces
 
 
 def normalize_flows(df, production_df, price_df=None, mode='ore',
@@ -39,13 +39,13 @@ def normalize_flows(df, production_df, price_df=None, mode='ore',
     df = df.copy()
     prod = production_df.copy()
     df[value_col] = pd.to_numeric(df[value_col], errors='coerce')
-    prod = prod.groupby('main_id', as_index=False).agg(prod_agg)
+    prod = prod.groupby('site_id', as_index=False).agg(prod_agg)
 
     # Identify metal columns (ending with _t except ore_processed_t)
     metal_cols = [c for c in prod.columns if c.endswith('_t') and c != 'ore_processed_t']
 
     if mode == 'ore':
-        out = df.merge(prod[['main_id', 'ore_processed_t']], on='main_id', how='left')
+        out = df.merge(prod[['site_id', 'ore_processed_t']], on='site_id', how='left')
         out['value_normalized'] = out[value_col] / out['ore_processed_t']
         out['functional_unit'] = 'Ore processed'
         out['allocation_factor'] = 1
@@ -53,7 +53,7 @@ def normalize_flows(df, production_df, price_df=None, mode='ore',
         return out
 
     # ---- METAL-BASED NORMALIZATION ----
-    melted = prod.melt(id_vars=['main_id'], value_vars=metal_cols,
+    melted = prod.melt(id_vars=['site_id'], value_vars=metal_cols,
                        var_name='metal', value_name='mass_t')
     melted['metal'] = melted['metal'].str.replace('_t', '', regex=False)
 
@@ -62,7 +62,7 @@ def normalize_flows(df, production_df, price_df=None, mode='ore',
 
     # ---- MASS ALLOCATION ----
     if allocation == 'mass':
-        melted['allocation_factor'] = melted.groupby('main_id')['mass_t'] \
+        melted['allocation_factor'] = melted.groupby('site_id')['mass_t'] \
                                             .transform(lambda x: x / x.sum())
 
     # ---- ECONOMIC ALLOCATION ----
@@ -79,14 +79,14 @@ def normalize_flows(df, production_df, price_df=None, mode='ore',
                               left_on='metal', right_on='commodity', how='left')
 
         melted['mass_value'] = melted['mass_t'] * melted['price']
-        melted['allocation_factor'] = melted.groupby('main_id')['mass_value'] \
+        melted['allocation_factor'] = melted.groupby('site_id')['mass_value'] \
                                             .transform(lambda x: x / x.sum())
     else:
         raise ValueError("allocation must be 'mass' or 'economic'.")
 
     # merge with flows
-    out = df.merge(melted[['main_id', 'metal', 'mass_t', 'allocation_factor']],
-                   on='main_id', how='inner')
+    out = df.merge(melted[['site_id', 'metal', 'mass_t', 'allocation_factor']],
+                   on='site_id', how='inner')
 
     out['value_normalized'] = (out[value_col] / out['mass_t']) * out['allocation_factor']
     out['functional_unit'] = out['metal'] + ', usable ore'
