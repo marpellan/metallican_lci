@@ -85,11 +85,19 @@ def normalize_flows(df, production_df, price_df=None, mode='ore',
         raise ValueError("allocation must be 'mass' or 'economic'.")
 
     # merge with flows
-    out = df.merge(melted[['site_id', 'metal', 'mass_t', 'allocation_factor']],
+    out = df.merge(melted[['site_id', 'metal', 'mass_t', 'allocation_factor', 'facility_type']],
                    on='site_id', how='inner')
 
     out['value_normalized'] = (out[value_col] / out['mass_t']) * out['allocation_factor']
-    out['functional_unit'] = out['metal'] + ', usable ore'
+    # Bring facility_type from production_df
+    out = out.merge(
+        production_df[['site_id', 'facility_type']].drop_duplicates(),
+        on='site_id',
+        how='left'
+    )
+    out['functional_unit'] = out['metal'] + ', ' + out['facility_type'].str.contains('mining', case=False).map(
+        {True: 'usable ore', False: 'metal'}
+    )
     out['normalization_key'] = f"metal_{allocation}"
 
     return out

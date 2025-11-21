@@ -1,0 +1,16 @@
+site_id,commodity,material_type,facility_name,unit,value,grade_percent,value_normalized,mining_processing_type,Main_product
+QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,683736.954321499,"Open-pit, concentrator",Au (Ag)
+ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,0.1318348627974145,"Underground, concentrator",Au
+QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,139381.58210175717,"Underground, concentrator",Au (Ag)
+QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,173750.30577210686,"Underground, concentrator","Au (Zn, Ag)"
+QC-MAIN-9de9bb0d,Gold,Head grade,Kiena,g/t,5.9,0.00059,74237.76327293739,"Open-pit, concentrator",Au (Ag)
+QC-MAIN-f9e41c2a,Gold,Head grade,Lamaque,g/t,6.76,0.0006760000000000001,196500.51903976564,"Underground, concentrator",Au (Ag)
+QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,125304.28348973082,"Underground, concentrator","Au (Zn, Cu, Ag)"
+ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,431792.3568621854,"Underground, concentrator",Au
+GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,103901.70462906314,"Open-pit, underground",Au (Ag)
+NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,40133.60629536472,"Open-pit, underground, concentrator",Au (Ag)
+GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,606884.2948666424,"Open-pit, underground",Au
+ON-MAIN-0aadf28f,Gold,Ore grade,Rainy River,g/t,0.99,9.900000000000001e-05,802891.1404088335,"Open-pit, underground, concentrator",Au
+GRP-147b3123,Gold,Ore grade,Timmins West,g/t,2.7,0.00027000000000000006,621792.4859529109,"Underground, concentrator",Au
+ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,311052.5959854314,"Underground, concentrator",Au
+ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,311052.5959854314,"Underground, concentrator",Au

@@ -389,29 +389,53 @@ def add_site_id(
 def build_activity_name(row, df):
     """
     Build an LCI activity name from mining type, commodities, and facility name.
-    The function scans for all *_t columns (except 'ore_processed_t') in df.
+    Automatically detects mining/processing types in a case-insensitive way.
     """
-    # ---- 1️⃣ Determine operation type ----
-    mpt = str(row.get("mining_processing_type", "")).lower()
+
+    import pandas as pd
+
+    # ---- 1️⃣ Parse mining/processing type ----
+    mpt_raw = str(row.get("mining_processing_type", ""))
+    mpt = mpt_raw.lower()
+    mpt_parts = [p.strip() for p in mpt.split(",")] if "," in mpt else [mpt]
+
     parts = []
 
-    if "open-pit" in mpt and "underground" in mpt:
+    # Mining categories
+    has_open = any("open-pit" in p for p in mpt_parts)
+    has_ug   = any("underground" in p for p in mpt_parts)
+
+    if has_open and has_ug:
         parts.append("Open-pit and underground mining")
-    elif "open-pit" in mpt:
+    elif has_open:
         parts.append("Open-pit mining")
-    elif "underground" in mpt:
+    elif has_ug:
         parts.append("Underground mining")
 
-    if "concentrator" in mpt:
+    # Processing categories
+    if any("concentrator" in p for p in mpt_parts):
         parts.append("and beneficiation")
 
-    op = " ".join(parts)
+    if any("refinery" in p for p in mpt_parts):
+        parts.append("refining")
+
+    if any("smelter" in p for p in mpt_parts):
+        parts.append("smelting")
+
+    if any("convertor" in p for p in mpt_parts):
+        parts.append("converting")
+
+    # Combine operation parts
+    op = " ".join(parts).strip()
 
     # ---- 2️⃣ Determine commodities ----
     commodities = [
         col.replace("_t", "")
         for col in df.columns
-        if col.endswith("_t") and col != "ore_processed_t" and pd.notna(row.get(col)) and row[col] != 0
+        if col.endswith("_t")
+        and col != "ore_processed_t"
+        and pd.notna(row.get(col))
+        and row[col] not in [0, "0", ""]
     ]
     commodities_str = " and ".join(commodities)
 
@@ -422,7 +446,7 @@ def build_activity_name(row, df):
         else row.get("facility_group_name", "")
     )
 
-    # ---- 4️⃣ Build name ----
+    # ---- 4️⃣ Build final name ----
     if commodities_str and op and facility:
         return f"{commodities_str}, {op} at {facility}"
     elif commodities_str and op:

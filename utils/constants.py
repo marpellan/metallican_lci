@@ -136,6 +136,7 @@ nrj_subflow = {
 
     # Explosives
     'Explosives': 'Explosives',
+    'Dynamite': 'Explosives',
     'Total blasting agents used e.g. anfo': 'Explosives',
     'ANFO': 'Explosives',
     'Emulsion ANFO': 'Explosives',

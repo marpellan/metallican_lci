@@ -1,3 +1,6 @@
+# ======================================================
+# Ecoinvent
+# ======================================================
 INVENTORIES_CA_ei = {
     "Cu concentrate from Au mine": ("gold-silver mine operation and beneficiation", "copper concentrate, sulfide ore", 'CA-QC'),
     "Cu concentrate from Cu mine": ("copper mine operation and beneficiation, sulfide ore", "copper concentrate, sulfide ore", 'CA'),
@@ -11,6 +14,9 @@ INVENTORIES_CA_ei = {
 }
 
 
+# ======================================================
+# Regioinvent
+# ======================================================
 INVENTORIES_CA_reg = {
     "Cu concentrate from Au mine": ("gold-silver mine operation and beneficiation", "copper concentrate, sulfide ore", 'CA'),
     "Cu concentrate from Cu mine": ("copper mine operation and beneficiation, sulfide ore", "copper concentrate, sulfide ore", 'CA'),
@@ -24,6 +30,37 @@ INVENTORIES_CA_reg = {
 }
 
 
+# ======================================================
+# Lai et al 2025
+# ======================================================
+INVENTORIES_Lai_Cu = { # From DB - 'Copper'
+    #"Cu concentrate (Australia)": ("[M+C] Copper (Cu) ore mining and concentration (Australia)", "Cu concentrate", 'AU'), # almost no data
+    #"Cu concentrate (US)": ("[M+C] Copper (Cu) ore mining and concentration (United States)", "Cu concentrate", 'US'), # almost no data
+    "Cu concentrate (Sweden)": ("[M+C] Copper (Cu) ore mining and concentration (Sweden)", "Cu concentrate", "SE"),
+    "Cu concentrate (China)": ("[M+C] Copper (Cu) ore mining and concentration (China)", "Cu concentrate", "CB"),
+    "Cu concentrate (Chile)": ("[M+C] Copper (Cu) ore mining and concentration (Chile)", "Cu concentrate", "CL")
+}
+
+
+INVENTORIES_Lai_Fe = { # FROM DB = 'Iron'
+    "Fe concentrate (Canada)": ("[M+C] Iron (Fe) ore mining and concentration (Canada)", "Fe concentrate", 'CA'), # water and PM10 in biosphere data
+    "Fe concentrate (Brazil)": ("[M+C] Iron (Fe) ore mining and concentration (Brazil)", "Fe concentrate", 'BR'),
+    "Fe concentrate (Ukraine)": ("[M+C] Iron (Fe) ore mining and concentration (Ukraine)", "Fe concentrate", 'UA'), # almost no biosphere data
+    "Fe concentrate (Australia)": ("[M+C] Iron (Fe) ore mining and concentration (Australia)", "Fe concentrate", 'AU'), # only water in biosphere data
+    "Fe concentrate (South Africa)": ("[M+C] Iron (Fe) ore mining and concentration (South Africa)", "Fe concentrate", 'ZA'), # water and PM10 in biosphere data
+    "Fe concentrate (China)": ("[M+C] Iron (Fe) ore mining and concentration (China)", "Fe concentrate", 'CN'),
+    "Fe concentrate (Global)": ("Iron ore mining and concentration - Global market", "Fe concentrate", 'GLO') # No biosphere data
+}
+
+
+#INVENTORIES_Lai_Ni = { # FROM DB = 'Nickel' a lot of them are not included because almost empty
+#    "Ni concentrate (CN)": ("[M+C] Nickel (Ni) ore mining and concentration (GFEM route)", "Ni concentrate", 'CN'),
+
+#}
+
+# ======================================================
+# MetalliCan
+# ======================================================
 INVENTORIES_metallican_ore = {
     "Brucejack": ("Au, Underground mining and beneficiation at Brucejack", "Gold, silver", "CA-BC"),
     "Canadian Malartic": ("Au and Ag, Open-pit mining and beneficiation at Canadian Malartic", "Gold, silver", "CA-QC"),

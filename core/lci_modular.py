@@ -206,3 +206,7 @@ class CopperProcess(MetalProcess):
         self.add_module(mining)
         self.add_module(beneficiation)
         self.add_module(refining)
+
+
+
+
