@@ -2,7 +2,7 @@
 # Energy equivalence = How much *input fuel* energy is required to produce 1 MJ of delivered energy
 # ======================================================
 ENERGY_EQUIVALENCE = {
-    ('electricity', 'diesel'): {'efficiency': 0.35, 'MJ/kg': 43.0}, #(diesel generator efficiency ~35%)
+    ('electricity', 'diesel'): {'efficiency': 0.35, 'MJ/kg': 43.0}, #(diesel generator efficiency assumed to be ~35%)
     ('electricity', 'natural_gas'): {'efficiency': 0.40, 'MJ/m3': 35.2},
     ('electricity', 'propane'): {'efficiency': 0.38, 'MJ/kg': 46.4},
 }
@@ -54,8 +54,9 @@ DEFAULT_LHV = {
     'used_oil':     {'MJ/kg': 42.0},
     'biodiesel':    {'MJ/kg': 37.4, 'density_kg_per_L': 0.877},
     'naphtha':      {'MJ/kg': 44.9, 'density_kg_per_L': 0.725},
+    'naphta':       {'MJ/kg': 44.9, 'density_kg_per_L': 0.725},
     "kerosene":     {'MJ/kg': 43.1},
-    "aviation fuel": {'MJ/kg': 43.1},
+    "aviation fuel": {'MJ/kg': 43.1, 'MJ/L': 31, 'density_kg_per_L': 0.72},
     "anfo":         {'MJ/kg': 2.3},
     "emulsion":     {'MJ/kg': 3.7},
     "explosive_default": {'MJ/kg': 3.0},

@@ -279,6 +279,112 @@ def standardize_energy_to_MJ(
 
 
 # ======================================================
+# Sanity check / GHG from energy
+# ======================================================
+def convert_energy_to_fuel_units(energy_mj, lhv_key, ef_unit, DEFAULT_LHV):
+    ef_unit = ef_unit.strip().lower()
+    lhv_key = lhv_key.strip().lower()
+
+    # Normalize LHV keys to lowercase internally
+    raw_props = DEFAULT_LHV.get(lhv_key, {})
+    props = {k.lower(): v for k, v in raw_props.items()}
+
+    # ---- CASE 0: explosives, EF in t/t (t CO2e per t explosive) ----
+    if ef_unit in ["t/t", "tonne/tonne", "t per t"]:
+        if "mj/kg" not in props:
+            raise ValueError(f"Explosive '{lhv_key}' missing MJ/kg in DEFAULT_LHV")
+        kg = energy_mj / props["mj/kg"]   # MJ -> kg explosive
+        tonnes = kg / 1000.0
+        return tonnes                     # EF will be applied as t/t
+
+    # ---- CASE 1: EF in g/MJ or kg/MJ ----
+    if ef_unit in ["g/mj", "kg/mj"]:
+        return energy_mj
+
+    # ---- CASE 2: MJ -> kg ----
+    if ef_unit in ["g/kg", "kg/kg"]:
+        if "mj/kg" not in props:
+            raise ValueError(f"LHV for '{lhv_key}' missing MJ/kg")
+        return energy_mj / props["mj/kg"]
+
+    # ---- CASE 3: MJ -> L ----
+    if ef_unit in ["g/l", "kg/l"]:
+        # Try explicit MJ/L first
+        if "mj/l" in props:
+            mj_per_l = props["mj/l"]
+        # Otherwise derive from MJ/kg and density_kg_per_L
+        elif "mj/kg" in props and "density_kg_per_l" in props:
+            mj_per_l = props["mj/kg"] * props["density_kg_per_l"]
+        else:
+            raise ValueError(
+                f"LHV for '{lhv_key}' missing MJ/L and/or density_kg_per_L "
+                f"(props={raw_props})"
+            )
+        return energy_mj / mj_per_l
+
+    # ---- CASE 4: MJ -> m³ ----
+    if ef_unit in ["g/m3", "kg/m3", "g/m^3"]:
+        if "mj/m3" in props:
+            mj_per_m3 = props["mj/m3"]
+        elif "mj/kg" in props and "density_kg_per_m3" in props:
+            mj_per_m3 = props["mj/kg"] * props["density_kg_per_m3"]
+        else:
+            raise ValueError(
+                f"LHV for '{lhv_key}' missing MJ/m3 information (props={raw_props})"
+            )
+        return energy_mj / mj_per_m3
+
+    # ---- CASE 5: MJ -> GJ ----
+    if ef_unit in ["kg/gj", "g/gj"]:
+        return energy_mj / 1000.0
+
+    # ---- CASE 6: MJ -> kWh ----
+    if ef_unit in ["g/kwh", "kg/kwh"]:
+        return energy_mj / 3.6
+
+    raise ValueError(f"Unsupported EF unit: {ef_unit}")
+
+
+def compute_ghg_from_energy(row, mapping_df, ef_df, DEFAULT_LHV):
+    subflow = row["subflow_type"]
+    energy_mj = row["value_MJ"]
+
+
+    # Mapping row
+    m = mapping_df.loc[mapping_df["subflow_type"] == subflow].iloc[0]
+    ef_id = m["ef_id"]
+    fuel_type = m["default_lhv_key"]  # <- works WITH your current mapping
+
+    # EF rows (CO2, CH4, N2O)
+    ef_rows = ef_df.loc[ef_df["ef_id"] == ef_id]
+    if ef_rows.empty:
+        return None
+
+    # Convert energy to fuel-unit amount
+    ef_unit = ef_rows.iloc[0]["ef_unit"].lower().strip()
+
+    fuel_amount = convert_energy_to_fuel_units(
+        energy_mj=energy_mj,
+        lhv_key=fuel_type,
+        ef_unit=ef_unit,
+        DEFAULT_LHV=DEFAULT_LHV
+    )
+
+    # Convert gases → CO2eq
+    gwp_map = {
+        "co2": 1,
+        "ch4": 27.2,
+        "n2o": 273
+    }
+
+    ef_rows["gwp"] = ef_rows["gas"].str.lower().map(gwp_map)
+    ef_rows["g_co2eq"] = ef_rows["ef_value"] * ef_rows["gwp"] * fuel_amount
+
+    # Return in tonnes CO2eq
+    return ef_rows["g_co2eq"].sum() / 1e6
+
+
+# ======================================================
 # Needed for conversion to ecoinvent
 # ======================================================
 def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict):
