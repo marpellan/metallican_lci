@@ -137,6 +137,7 @@ class LCIDatabaseBuilder:
                     "name": act_name,
                     "product": row.get("Product", None),
                     "location": loc,
+                    # add comment but no parenthesis
                 }
                 process["exchanges"].append(exchange)
                 added += 1

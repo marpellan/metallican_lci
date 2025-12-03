@@ -350,6 +350,144 @@ def aggregate_biosphere_facility_groups(df, remove_individuals=False):
     return combined_df
 
 
+def aggregate_land_facility_groups(
+    df: pd.DataFrame,
+    by=("facility_group_id",),                    # -> 1 ligne par facility_group_id
+    sum_cols=("area_m2",),                        # colonnes à sommer
+    concat_cols=("operation_periods", "commodities", "mining_processing_type"),  # concat unique
+    first_cols=("province", "facility_type", "company_id"),  # on prend la 1ère valeur non-nulle
+    remove_individuals: bool=False
+) -> pd.DataFrame:
+    """
+    Agrège les enregistrements par facility_group_id (1 ligne par groupe).
+    - Somme les colonnes numériques définies dans `sum_cols`
+    - Concatène de façon unique et nettoyée les colonnes de `concat_cols`
+    - Recopie la première valeur non-nulle pour `first_cols`
+    - Crée de nouvelles lignes agrégées (main_id=None, facility_name="")
+    - Optionnellement supprime les lignes individuelles du groupe (remove_individuals=True)
+
+    Paramètres
+    ----------
+    df : pd.DataFrame
+    by : tuple[str]
+        Clés d'agrégation. Par défaut uniquement ("facility_group_id",)
+        -> garantit 1 ligne par facility group ID.
+    sum_cols : tuple[str]
+        Colonnes à sommer.
+    concat_cols : tuple[str]
+        Colonnes à concaténer (valeurs uniques, trim, dédoublonnées).
+    first_cols : tuple[str]
+        Colonnes pour lesquelles on prend la première valeur non-nulle.
+    remove_individuals : bool
+        Si True, supprime les enregistrements individuels des groupes agrégés.
+
+    Retour
+    ------
+    pd.DataFrame
+        DataFrame combinant les lignes d'origine (ou non) et les lignes agrégées.
+    """
+
+    df = df.copy()
+
+    # --- Helpers -------------------------------------------------------------
+    def first_non_null(series: pd.Series):
+        s = series.dropna()
+        if not s.empty:
+            # Evite les chaînes vides considérées comme "non-informatives"
+            for v in s:
+                if isinstance(v, str) and v.strip() == "":
+                    continue
+                return v
+            # si tout est vide/"" -> retourner NaN
+            return pd.NA
+        return pd.NA
+
+    def concat_unique(series: pd.Series):
+        """Concatène des valeurs uniques en nettoyant les séparateurs et espaces.
+        Gère des entrées déjà séparées par des virgules.
+        """
+        if series.isna().all():
+            return pd.NA
+        tokens = []
+        for v in series.dropna().astype(str):
+            # scinder sur virgule si présent
+            parts = [p.strip() for p in v.split(",") if p.strip() != ""]
+            tokens.extend(parts)
+        # unicité en préservant l'ordre d'apparition
+        seen = set()
+        uniq = []
+        for t in tokens:
+            key = t.lower()  # unicité case-insensitive
+            if key not in seen:
+                seen.add(key)
+                uniq.append(t)
+        return ", ".join(uniq) if uniq else pd.NA
+
+    # S'assurer que la colonne facility_group_id existe et filtrer les groupes valides
+    if "facility_group_id" not in df.columns:
+        raise KeyError("La colonne 'facility_group_id' est absente du DataFrame.")
+
+    df_groups = df[df["facility_group_id"].notna()].copy()
+    if df_groups.empty:
+        # rien à agréger : retourner df tel quel
+        return df
+
+    # Construire le dict d'aggregations
+    agg_dict = {}
+
+    for c in sum_cols:
+        if c in df_groups.columns:
+            agg_dict[c] = "sum"
+
+    for c in concat_cols:
+        if c in df_groups.columns:
+            agg_dict[c] = concat_unique
+
+    for c in first_cols:
+        if c in df_groups.columns:
+            agg_dict[c] = first_non_null
+
+    # Groupby UNIQUEMENT par les clés "by" (par défaut: facility_group_id)
+    grouped = (
+        df_groups
+        .groupby(list(by), dropna=False)
+        .agg(agg_dict)
+        .reset_index()
+    )
+
+    # Ajouter/forcer les champs des lignes agrégées
+    grouped["main_id"] = None
+    grouped["facility_name"] = ""  # vide pour les lignes agrégées
+    grouped["comment"] = grouped.get("comment", pd.Series(index=grouped.index, dtype="object"))
+    grouped["comment"] = grouped["comment"].fillna("Aggregated value from multiple facilities")
+
+    # Réordonner/réaligner les colonnes sur le df original
+    # (on garde toutes les colonnes d'origine ; s'il en manque, on les crée)
+    for col in df.columns:
+        if col not in grouped.columns:
+            grouped[col] = pd.NA
+    grouped = grouped[df.columns]
+
+    # Optionnellement supprimer les indiv. des groupes agrégés
+    if remove_individuals:
+        to_remove = df_groups["facility_group_id"].unique()
+        base = df[~df["facility_group_id"].isin(to_remove)].copy()
+    else:
+        base = df
+
+    # Combiner
+    combined = pd.concat([base, grouped], ignore_index=True)
+
+    # (Optionnel) garantir au maximum 1 ligne agrégée par group_id
+    # -> si jamais des duplications surviennent, on garde la première.
+    mask_agg = (combined["main_id"].isna()) & (combined["facility_name"] == "")
+    dupe_mask = mask_agg & combined.duplicated(subset=list(by) + ["main_id", "facility_name"], keep="first")
+    if dupe_mask.any():
+        combined = combined.loc[~dupe_mask].copy()
+
+    return combined
+
+
 def add_site_id(
     df: pd.DataFrame,
     main_col: str = "main_id",

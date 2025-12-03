@@ -2,7 +2,7 @@ site_id,commodity,material_type,facility_name,unit,value,grade_percent,value_nor
 QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,683736.954321499,"Open-pit, concentrator",Au (Ag)
 ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,0.1318348627974145,"Underground, concentrator",Au
 QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,139381.58210175717,"Underground, concentrator",Au (Ag)
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,173750.30577210686,"Underground, concentrator","Au (Zn, Ag)"
+QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,173750.30577210686,"Underground, concentrator","Au (Cu, Ag)"
 QC-MAIN-9de9bb0d,Gold,Head grade,Kiena,g/t,5.9,0.00059,74237.76327293739,"Open-pit, concentrator",Au (Ag)
 QC-MAIN-f9e41c2a,Gold,Head grade,Lamaque,g/t,6.76,0.0006760000000000001,196500.51903976564,"Underground, concentrator",Au (Ag)
 QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,125304.28348973082,"Underground, concentrator","Au (Zn, Cu, Ag)"

@@ -1121,12 +1121,26 @@ def plot_energy_mix_archetypes(df, nrj_subflow, savepath=None,
     plt.show()
 
     # ----------------------------------------------------------
-    # 7) Return detailed statistics
+    # 7) Return detailed statistics (in % shares)
     # ----------------------------------------------------------
+    # First compute share per site
+    site_totals = (
+        site_energy.groupby(['site_id','mining_processing_type','Main_product'])['value_MJ']
+        .sum()
+        .reset_index(name='total_MJ')
+    )
+
+    site_energy_share = site_energy.merge(site_totals, on=['site_id','mining_processing_type','Main_product'])
+    site_energy_share['share'] = site_energy_share['value_MJ'] / site_energy_share['total_MJ']
+
+    # Now compute stats on SHARES, not MJ
     stats_df = (
-        site_energy.groupby(['mining_processing_type','Main_product','energy_group'])['value_MJ']
+        site_energy_share.groupby(['mining_processing_type','Main_product','energy_group'])['share']
         .agg(['mean','min','max','std'])
         .reset_index()
     )
+
+    # Convert to %
+    stats_df[['mean','min','max','std']] = stats_df[['mean','min','max','std']] * 100
 
     return stats_df

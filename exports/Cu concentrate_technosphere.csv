@@ -1,0 +1,112 @@
+raw_material,activity_name,reference_product,location,exchange_type,input_name,input_database,input_code,amount,unit,comment
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for aluminium hydroxide factory,ecoinvent-3.10-cutoff,24c23664742d1d7bfbd3d646634f2720,7.718585087315065e-10,unit,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for aluminium sulfate, powder",ecoinvent-3.10-cutoff,c0d478928e7cc93227d2f8ac093def1b,2.084745515803764e-07,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for blasting,ecoinvent-3.10-cutoff,5eb7e0955908056726c78b884572c7ff,0.05045385731056215,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for carbon disulfide,ecoinvent-3.10-cutoff,d07349537afbc1554f4fe0fca62aefd3,1.0493435347044504e-07,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for chemical, inorganic",ecoinvent-3.10-cutoff,8b11c93221742fd1a07a536070dbf623,0.03880460121072578,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for chemical, organic",ecoinvent-3.10-cutoff,9bf65567f5b88135f3232b06d5bafd00,0.02075485663182157,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for conveyor belt,ecoinvent-3.10-cutoff,8afb9125c7f9943fdc8b13c01501f63f,6.951189241094382e-06,meter,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for copper sulfate,ecoinvent-3.10-cutoff,f2c84d9349e7675fe098a1decc1ac167,4.665238262995804e-07,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for diesel,ecoinvent-3.10-cutoff,ead9bea3a525e304841425cdd0052655,2.318095263028934e-07,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for diesel, burned in building machine",ecoinvent-3.10-cutoff,7b503114dd17d341a5d418812fc977be,0.0032991975009649447,megajoule,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for dithiocarbamate-compound,ecoinvent-3.10-cutoff,0db781197d64d1e1b03de35d12fdc14d,3.4731287227051516e-07,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market group for electricity, high voltage",ecoinvent-3.10-cutoff,21b008dfb9916900afa45909a5c30c12,1.1909968433750155,kilowatt hour,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market group for electricity, medium voltage",ecoinvent-3.10-cutoff,f8d2524d0d4bda1254c2d1ba0a831cb4,0.4361847034701243,kilowatt hour,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for iron pellet,ecoinvent-3.10-cutoff,c1fab15fe1a0d83a988b5942bdf2d432,1.9172846676928685e-06,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for lime, packed",ecoinvent-3.10-cutoff,dd106810cfd07a7cb5a4cd7e9989fd60,0.06547596023830783,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for mine infrastructure, open cast, non-ferrous metal",ecoinvent-3.10-cutoff,c68a65fc9240bf16b34dde1a1ef1fb43,8.668777599549951e-10,unit,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for mine infrastructure, underground, non-ferrous metal",ecoinvent-3.10-cutoff,dd6f5faf45e8356588e0efdfa9ef9097,3.7819295121660295e-10,unit,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for non-sulfidic tailing, off-site",ecoinvent-3.10-cutoff,09ac8e11347e6624a98a1ca138424332,-157.76626621153662,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner & Hischier (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for potassium carbonate,ecoinvent-3.10-cutoff,0cd1b1ff755bbdd51904639e34c7527f,2.2227003962376123e-09,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for sodium cyanide,ecoinvent-3.10-cutoff,0beed1f26798d4273323ec10b5eac139,0.0017691566143128196,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for steel, chromium steel 18/8, hot rolled",ecoinvent-3.10-cutoff,75af37d43bba95faeb80752e810959ba,0.06645947831491149,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,"market for sulfidic tailings, from copper mine operation",ecoinvent-3.10-cutoff,34a0f6e1fa2090f68692c3b413b7cc09,-90.21637261898933,kilogram,"Amount calculated through mass balance of the copper production chain. Source: Turner & Hischier (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
+Cu concentrate,"copper mine operation and beneficiation, sulfide ore","copper concentrate, sulfide ore",CA,technosphere,market for synthetic rubber,ecoinvent-3.10-cutoff,67e715e9a99ff1fe421b32b1b9c037bd,5.181230794175163e-07,kilogram,"Original amount reported in Classen et al. (2009) regionalised based on geography-specific ore grade (see Sampling Procedure and Turner & Hischier, 2020 for details).
+
+References: 
+Classen, M., Althaus, H.-J., Blaser, S., Scharnhost, W., Tuchschmid, M., Jungbluth, N., & Emmenegger, M. F. (2009). Life cycle inventories of metals. Final report, ecoinvent data v2.1, No. 10. Dübendorf, Switzerland.
+Turner, D. A. & Hischier, R. (2020). Life cycle inventories of pyrometallurgical copper production and anode slime processing. Empa, St. Gallen, Switzerland."
