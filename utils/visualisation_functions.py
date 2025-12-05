@@ -1144,3 +1144,133 @@ def plot_energy_mix_archetypes(df, nrj_subflow, savepath=None,
     stats_df[['mean','min','max','std']] = stats_df[['mean','min','max','std']] * 100
 
     return stats_df
+
+
+import plotly.graph_objects as go
+import pandas as pd
+import numpy as np
+import plotly.express as px
+
+def plot_sankey_hierarchy(
+        df,
+        columns,
+        html_output="sankey_generic.html",
+        undefined_label="Undefined"
+    ):
+    """
+    Create a Sankey diagram from an arbitrary list of hierarchical columns.
+    Missing values are replaced with distinct undefined labels per level
+    but DISPLAYED as 'Undefined'.
+
+    Colors are assigned automatically per level.
+    """
+
+    df = df.copy()
+
+    # ---------------------------------------------------------------
+    # 1. Create DISTINCT undefined names internally per level
+    # ---------------------------------------------------------------
+    undefined_values = {
+        col: f"{undefined_label}_{i+1}"
+        for i, col in enumerate(columns)
+    }
+
+    for col in columns:
+        df[col] = df[col].fillna(undefined_values[col])
+
+    # ---------------------------------------------------------------
+    # 2. Build levels and internal labels
+    # ---------------------------------------------------------------
+    levels = [df[col].unique().tolist() for col in columns]
+    internal_labels = [lab for lvl in levels for lab in lvl]
+
+    idx = {label: i for i, label in enumerate(internal_labels)}
+
+    # ---------------------------------------------------------------
+    # 3. Build displayed labels (merge all Undefined_* into "Undefined")
+    # ---------------------------------------------------------------
+    display_labels = [
+        undefined_label if lab.startswith(undefined_label + "_") else lab
+        for lab in internal_labels
+    ]
+
+    # ---------------------------------------------------------------
+    # 4. Build links between each level
+    # ---------------------------------------------------------------
+    sources, targets, values = [], [], []
+
+    for i in range(len(columns) - 1):
+        c1, c2 = columns[i], columns[i + 1]
+        pairs = df[[c1, c2]].drop_duplicates()
+
+        for _, row in pairs.iterrows():
+            v1, v2 = row[c1], row[c2]
+            count = df[(df[c1] == v1) & (df[c2] == v2)].shape[0]
+
+            sources.append(idx[v1])
+            targets.append(idx[v2])
+            values.append(count)
+
+    # ---------------------------------------------------------------
+    # 5. Horizontal node positions
+    # ---------------------------------------------------------------
+    num_levels = len(levels)
+    x_positions = []
+    for i, lvl in enumerate(levels):
+        x_positions.extend([i / (num_levels - 1)] * len(lvl))
+
+    # ---------------------------------------------------------------
+    # 6. Generate colors per level
+    # ---------------------------------------------------------------
+    color_scales = [
+        px.colors.qualitative.Plotly,
+        px.colors.qualitative.Set2,
+        px.colors.qualitative.Pastel,
+        px.colors.qualitative.Set3,
+        px.colors.qualitative.Bold,
+        px.colors.qualitative.Prism
+    ]
+
+    node_colors = []
+    for lvl_index, lvl in enumerate(levels):
+        palette = color_scales[lvl_index % len(color_scales)]
+        for j, _ in enumerate(lvl):
+            node_colors.append(palette[j % len(palette)])
+
+    # ---------------------------------------------------------------
+    # 7. Build the Sankey diagram
+    # ---------------------------------------------------------------
+    fig = go.Figure(go.Sankey(
+        arrangement="snap",
+        node=dict(
+            label=display_labels,
+            pad=10,
+            thickness=18,
+            color=node_colors,
+            x=x_positions,
+            y=None
+        ),
+        link=dict(
+            source=sources,
+            target=targets,
+            value=values,
+            color="rgba(140,140,140,0.35)"
+        )
+    ))
+
+    # ---------------------------------------------------------------
+    # 8. Layout (white background, black text)
+    # ---------------------------------------------------------------
+    fig.update_layout(
+        width=2000,
+        height=1100,
+        font=dict(color="black", size=22),
+        paper_bgcolor="white",
+        plot_bgcolor="white",
+        margin=dict(l=10, r=10, t=10, b=10)
+    )
+
+    fig.write_html(html_output)
+    print(f"✓ Sankey exported to: {html_output}")
+
+    return fig

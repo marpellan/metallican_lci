@@ -555,27 +555,27 @@ def build_activity_name(row, df):
         parts.append("and beneficiation")
 
     if any("refinery" in p for p in mpt_parts):
-        parts.append("refining")
+        parts.append("Refining")
 
     if any("smelter" in p for p in mpt_parts):
-        parts.append("smelting")
+        parts.append("Smelting")
 
     if any("convertor" in p for p in mpt_parts):
-        parts.append("converting")
+        parts.append("Converting")
 
     # Combine operation parts
-    op = " ".join(parts).strip()
+    operation = " ".join(parts).strip()
 
     # ---- 2️⃣ Determine commodities ----
-    commodities = [
-        col.replace("_t", "")
-        for col in df.columns
-        if col.endswith("_t")
-        and col != "ore_processed_t"
-        and pd.notna(row.get(col))
-        and row[col] not in [0, "0", ""]
-    ]
-    commodities_str = " and ".join(commodities)
+    # commodities = [
+    #     col.replace("_t", "")
+    #     for col in df.columns
+    #     if col.endswith("_t")
+    #     and col != "ore_processed_t"
+    #     and pd.notna(row.get(col))
+    #     and row[col] not in [0, "0", ""]
+    # ]
+    # commodities_str = " and ".join(commodities)
 
     # ---- 3️⃣ Choose facility name ----
     facility = (
@@ -583,6 +583,10 @@ def build_activity_name(row, df):
         if pd.notna(row.get("facility_name"))
         else row.get("facility_group_name", "")
     )
+
+    final_name = f"{operation} at {facility}"
+
+    return final_name
 
     # ---- 4️⃣ Build final name ----
     if commodities_str and op and facility:

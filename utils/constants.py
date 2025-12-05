@@ -107,12 +107,12 @@ SUBFLOW_ALIASES = {
 
 nrj_subflow = {
     # electricity
-    'Electricity consumption|Generated on-site': 'Electricity',
-    'Electricity consumption': 'Electricity',
-    'Electricity consumption|Grid electricity': 'Electricity',
-    'Electricity consumption|Not specified': 'Electricity',
-    'Electricity consumption|Non-renewable electricity use': 'Electricity',
-    'Solar': 'Electricity',
+    'Electricity consumption|Generated on-site': 'Electricity consumption|Generated on-site',
+    'Electricity consumption': 'Electricity consumption|Not specified',
+    'Electricity consumption|Grid electricity': 'Electricity consumption|Grid electricity',
+    'Electricity consumption|Not specified': 'Electricity consumption|Not specified',
+    'Electricity consumption|Non-renewable electricity use': 'Electricity consumption|Not specified',
+    'Solar': 'Electricity consumption|Grid electricity',
 
     # Fuels
     'Diesel': 'Diesel',
