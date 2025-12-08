@@ -1,93 +1,83 @@
 mining_processing_type,Main_product,subflow_type_agg,value_sum,total_sum,share
-"Open-pit, concentrator",Au (Ag),Diesel,6547495140,12648877656,0.517634475
-"Open-pit, concentrator",Au (Ag),Electricity consumption|Generated on-site,38464200,12648877656,0.003040918
-"Open-pit, concentrator",Au (Ag),Electricity consumption|Grid electricity,5535132563,12648877656,0.437598711
-"Open-pit, concentrator",Au (Ag),Explosives,65074000,12648877656,0.005144646
-"Open-pit, concentrator",Au (Ag),Gasoline,115917080,12648877656,0.009164219
-"Open-pit, concentrator",Au (Ag),LPG-Propane,183931609.4,12648877656,0.014541338
-"Open-pit, concentrator",Au (Ag),Natural gas,162863064,12648877656,0.012875693
-"Open-pit, concentrator","Cu (Au, Ag)",Diesel,80960000,2059448000,0.039311505
-"Open-pit, concentrator","Cu (Au, Ag)",Electricity consumption|Not specified,1968000000,2059448000,0.955595868
-"Open-pit, concentrator","Cu (Au, Ag)",Gasoline,368000,2059448000,0.000178689
-"Open-pit, concentrator","Cu (Au, Ag)",LPG-Propane,10120000,2059448000,0.004913938
-"Open-pit, concentrator",Cu (Mo),Diesel,1683653000,3605539000,0.466962915
-"Open-pit, concentrator",Cu (Mo),Electricity consumption|Grid electricity,1695665000,3605539000,0.470294455
-"Open-pit, concentrator",Cu (Mo),Gasoline,38791000,3605539000,0.010758724
-"Open-pit, concentrator",Cu (Mo),LPG-Propane,453000,3605539000,0.00012564
-"Open-pit, concentrator",Cu (Mo),Natural gas,186977000,3605539000,0.051858266
-"Open-pit, concentrator",Cu+Au,Aviation fuel,121071915.4,4246032525,0.028514128
-"Open-pit, concentrator",Cu+Au,Diesel,2291322495,4246032525,0.53963847
-"Open-pit, concentrator",Cu+Au,Electricity consumption|Generated on-site,41810617.98,4246032525,0.009846985
-"Open-pit, concentrator",Cu+Au,Electricity consumption|Grid electricity,1640126008,4246032525,0.386272597
-"Open-pit, concentrator",Cu+Au,Explosives,2587500,4246032525,0.000609392
-"Open-pit, concentrator",Cu+Au,Gasoline,46062905.75,4246032525,0.010848458
-"Open-pit, concentrator",Cu+Au,LPG-Propane,103051082.3,4246032525,0.02426997
-"Open-pit, concentrator",Fe,Diesel,432000000,2736000000,0.157894737
-"Open-pit, concentrator",Fe,Electricity consumption|Grid electricity,1233000000,2736000000,0.450657895
-"Open-pit, concentrator",Fe,Gasoline,1070000000,2736000000,0.391081871
-"Open-pit, concentrator",Fe,LPG-Propane,1000000,2736000000,0.000365497
-"Open-pit, underground",Au,Diesel,646546305.3,1651775892,0.391424956
-"Open-pit, underground",Au,Electricity consumption|Generated on-site,91025482.26,1651775892,0.055107647
-"Open-pit, underground",Au,Electricity consumption|Grid electricity,723967200,1651775892,0.438296262
-"Open-pit, underground",Au,Gasoline,17195846.5,1651775892,0.01041052
-"Open-pit, underground",Au,LPG-Propane,6336058.07,1651775892,0.003835907
-"Open-pit, underground",Au,Natural gas,166705000,1651775892,0.100924708
-"Open-pit, underground",Au (Ag),Diesel,3590887000,4288866510,0.837257814
-"Open-pit, underground",Au (Ag),Electricity consumption|Generated on-site,593954510.4,4288866510,0.138487526
-"Open-pit, underground",Au (Ag),Explosives,45318000,4288866510,0.010566428
-"Open-pit, underground",Au (Ag),Gasoline,51161000,4288866510,0.011928793
-"Open-pit, underground",Au (Ag),LPG-Propane,235000,4288866510,5.48E-05
-"Open-pit, underground",Au (Ag),Lubricants,7311000,4288866510,0.001704646
-"Open-pit, underground, concentrator",Au,Diesel,2201129070,6476977468,0.339838927
-"Open-pit, underground, concentrator",Au,Electricity consumption|Not specified,4033857929,6476977468,0.622799438
-"Open-pit, underground, concentrator",Au,Explosives,59222508,6476977468,0.009143541
-"Open-pit, underground, concentrator",Au,Gasoline,55513069.53,6476977468,0.008570829
-"Open-pit, underground, concentrator",Au,LPG-Propane,127254890.8,6476977468,0.019647265
-"Open-pit, underground, concentrator",Au (Ag),Diesel,1944158000,2445401734,0.795026017
-"Open-pit, underground, concentrator",Au (Ag),Electricity consumption|Generated on-site,477755733.6,2445401734,0.195369017
-"Open-pit, underground, concentrator",Au (Ag),Explosives,18198000,2445401734,0.007441722
-"Open-pit, underground, concentrator",Au (Ag),Gasoline,5290000,2445401734,0.002163244
-"Open-pit, underground, concentrator",Pt,Diesel,497248345,1684681505,0.295158666
-"Open-pit, underground, concentrator",Pt,Electricity consumption|Not specified,1173600000,1684681505,0.696630192
-"Open-pit, underground, concentrator",Pt,Gasoline,13833160,1684681505,0.008211143
-"Underground, concentrator","Ag (Zn, Pb)",Diesel,55697075.45,163969424.6,0.339679642
-"Underground, concentrator","Ag (Zn, Pb)",Electricity consumption|Not specified,63343396.8,163969424.6,0.386312247
-"Underground, concentrator","Ag (Zn, Pb)",Gasoline,8333350.113,163969424.6,0.050822586
-"Underground, concentrator","Ag (Zn, Pb)",LPG-Propane,36595602.21,163969424.6,0.223185526
-"Underground, concentrator",Au,Aviation fuel,100329339.8,8725300981,0.011498668
-"Underground, concentrator",Au,Diesel,1779674529,8725300981,0.203967122
-"Underground, concentrator",Au,Electricity consumption|Generated on-site,215942323.7,8725300981,0.024748983
-"Underground, concentrator",Au,Electricity consumption|Grid electricity,4996632531,8725300981,0.572660192
-"Underground, concentrator",Au,Explosives,89492100,8725300981,0.01025662
-"Underground, concentrator",Au,Gasoline,61988485.57,8725300981,0.007104452
-"Underground, concentrator",Au,LPG-Propane,457293048.7,8725300981,0.052410003
-"Underground, concentrator",Au,Naphtha,6344000,8725300981,0.000727081
-"Underground, concentrator",Au,Natural gas,1015260599,8725300981,0.116358232
-"Underground, concentrator",Au,Other,2344024.4,8725300981,0.000268647
-"Underground, concentrator",Au (Ag),Aviation fuel,21662098.88,2810399546,0.007707836
-"Underground, concentrator",Au (Ag),Diesel,784086797.4,2810399546,0.278994778
-"Underground, concentrator",Au (Ag),Electricity consumption|Generated on-site,3531106.8,2810399546,0.001256443
-"Underground, concentrator",Au (Ag),Electricity consumption|Grid electricity,1694889650,2810399546,0.603077827
-"Underground, concentrator",Au (Ag),Explosives,5791500,2810399546,0.002060739
-"Underground, concentrator",Au (Ag),Gasoline,16917917.9,2810399546,0.006019755
-"Underground, concentrator",Au (Ag),LPG-Propane,142658174.2,2810399546,0.050760816
-"Underground, concentrator",Au (Ag),Natural gas,140862300,2810399546,0.050121806
-"Underground, concentrator","Au (Cu, Ag)",Diesel,129455000,872201282,0.148423309
-"Underground, concentrator","Au (Cu, Ag)",Electricity consumption|Grid electricity,644118282,872201282,0.738497289
-"Underground, concentrator","Au (Cu, Ag)",Explosives,11047000,872201282,0.012665654
-"Underground, concentrator","Au (Cu, Ag)",Gasoline,1347000,872201282,0.001544368
-"Underground, concentrator","Au (Cu, Ag)",Natural gas,86234000,872201282,0.09886938
-"Underground, concentrator","Au (Zn, Cu, Ag)",Diesel,778346000,3593743026,0.216583655
-"Underground, concentrator","Au (Zn, Cu, Ag)",Electricity consumption|Grid electricity,1689193026,3593743026,0.470037232
-"Underground, concentrator","Au (Zn, Cu, Ag)",Electricity consumption|Not specified,764000000,3593743026,0.212591717
-"Underground, concentrator","Au (Zn, Cu, Ag)",Explosives,6280000,3593743026,0.001747482
-"Underground, concentrator","Au (Zn, Cu, Ag)",Gasoline,10089000,3593743026,0.002807379
-"Underground, concentrator","Au (Zn, Cu, Ag)",LPG-Propane,48400000,3593743026,0.013467852
-"Underground, concentrator","Au (Zn, Cu, Ag)",Natural gas,297435000,3593743026,0.082764682
-"Underground, concentrator",Cu+Au,Diesel,170965251.6,465277950.3,0.367447569
-"Underground, concentrator",Cu+Au,Electricity consumption|Generated on-site,56414676.5,465277950.3,0.121249409
-"Underground, concentrator",Cu+Au,Electricity consumption|Grid electricity,171984823.5,465277950.3,0.369638887
-"Underground, concentrator",Cu+Au,Explosives,2090400,465277950.3,0.004492798
-"Underground, concentrator",Cu+Au,Gasoline,3914535.152,465277950.3,0.008413326
-"Underground, concentrator",Cu+Au,LPG-Propane,710263.5224,465277950.3,0.001526536
-"Underground, concentrator",Cu+Au,Natural gas,59198000,465277950.3,0.127231475
+"Open-pit, concentrator",Au (Ag),Diesel,6547495140.0,12583803656.17,0.5203112921099718
+"Open-pit, concentrator",Au (Ag),Electricity consumption|Generated on-site,38464200.0,12583803656.17,0.0030566433688068956
+"Open-pit, concentrator",Au (Ag),Electricity consumption|Grid electricity,5535132562.799999,12583803656.17,0.4398616439065348
+"Open-pit, concentrator",Au (Ag),Gasoline,115917080.0,12583803656.17,0.009211609078401694
+"Open-pit, concentrator",Au (Ag),LPG-Propane,183931609.37,12583803656.17,0.014616535222227183
+"Open-pit, concentrator",Au (Ag),Natural gas,162863064.0,12583803656.17,0.012942276314057567
+"Open-pit, concentrator","Cu (Au, Ag)",Diesel,80960000.0,2059448000.0,0.03931150483042058
+"Open-pit, concentrator","Cu (Au, Ag)",Electricity consumption|Not specified,1968000000.0,2059448000.0,0.9555958684074568
+"Open-pit, concentrator","Cu (Au, Ag)",Gasoline,368000.0,2059448000.0,0.00017868865832009354
+"Open-pit, concentrator","Cu (Au, Ag)",LPG-Propane,10120000.0,2059448000.0,0.004913938103802572
+"Open-pit, concentrator",Cu (Mo),Diesel,1683653000.0,3605539000.0,0.46696291456006994
+"Open-pit, concentrator",Cu (Mo),Electricity consumption|Grid electricity,1695665000.0,3605539000.0,0.470294455281166
+"Open-pit, concentrator",Cu (Mo),Gasoline,38791000.0,3605539000.0,0.010758724285051417
+"Open-pit, concentrator",Cu (Mo),LPG-Propane,453000.0,3605539000.0,0.00012564002219917744
+"Open-pit, concentrator",Cu (Mo),Natural gas,186977000.0,3605539000.0,0.051858265851513465
+"Open-pit, concentrator",Cu+Au,Aviation fuel,121071915.388,4243445024.968921,0.028531515001513828
+"Open-pit, concentrator",Cu+Au,Diesel,2291322495.289058,4243445024.968921,0.5399675220974118
+"Open-pit, concentrator",Cu+Au,Electricity consumption|Generated on-site,41810617.98205128,4243445024.968921,0.009852989195343116
+"Open-pit, concentrator",Cu+Au,Electricity consumption|Grid electricity,1640126008.2666667,4243445024.968921,0.38650813162795217
+"Open-pit, concentrator",Cu+Au,Gasoline,46062905.74898786,4243445024.968921,0.010855073054546105
+"Open-pit, concentrator",Cu+Au,LPG-Propane,103051082.29415694,4243445024.968921,0.024284769023232882
+"Open-pit, concentrator",Fe,Diesel,432000000.0,2736000000.0,0.15789473684210525
+"Open-pit, concentrator",Fe,Electricity consumption|Grid electricity,1233000000.0,2736000000.0,0.4506578947368421
+"Open-pit, concentrator",Fe,Gasoline,1070000000.0,2736000000.0,0.39108187134502925
+"Open-pit, concentrator",Fe,LPG-Propane,1000000.0,2736000000.0,0.0003654970760233918
+"Open-pit, underground",Au,Diesel,646546305.2875111,1651775892.1177263,0.3914249556328009
+"Open-pit, underground",Au,Electricity consumption|Generated on-site,91025482.2599152,1651775892.1177263,0.05510764668154364
+"Open-pit, underground",Au,Electricity consumption|Grid electricity,723967200.0,1651775892.1177263,0.4382962624983032
+"Open-pit, underground",Au,Gasoline,17195846.5,1651775892.1177263,0.010410520326672989
+"Open-pit, underground",Au,LPG-Propane,6336058.0703,1651775892.1177263,0.003835906614532677
+"Open-pit, underground",Au,Natural gas,166705000.0,1651775892.1177263,0.10092470824614656
+"Open-pit, underground",Au (Ag),Diesel,3590887000.0,4243548510.4,0.8461991164233257
+"Open-pit, underground",Au (Ag),Electricity consumption|Generated on-site,593954510.4,4243548510.4,0.13996647120784614
+"Open-pit, underground",Au (Ag),Gasoline,51161000.0,4243548510.4,0.012056183610159208
+"Open-pit, underground",Au (Ag),LPG-Propane,235000.0,4243548510.4,5.53781815912006e-05
+"Open-pit, underground",Au (Ag),Lubricants,7311000.0,4243548510.4,0.0017228505770777343
+"Open-pit, underground, concentrator",Au,Diesel,2201129070.1572666,6417754959.716868,0.34297493188402656
+"Open-pit, underground, concentrator",Au,Electricity consumption|Not specified,4033857929.2,6417754959.716868,0.6285465796871063
+"Open-pit, underground, concentrator",Au,Gasoline,55513069.5316758,6417754959.716868,0.008649920397416492
+"Open-pit, underground, concentrator",Au,LPG-Propane,127254890.82792592,6417754959.716868,0.019828568031450677
+"Open-pit, underground, concentrator",Au (Ag),Diesel,1944158000.0,2427203733.6,0.8009867375724772
+"Open-pit, underground, concentrator",Au (Ag),Electricity consumption|Generated on-site,477755733.6,2427203733.6,0.1968337997286278
+"Open-pit, underground, concentrator",Au (Ag),Gasoline,5290000.0,2427203733.6,0.002179462698895051
+"Open-pit, underground, concentrator",Pt,Diesel,497248345.0,1684681505.0,0.2951586656137713
+"Open-pit, underground, concentrator",Pt,Electricity consumption|Not specified,1173600000.0,1684681505.0,0.696630191829642
+"Open-pit, underground, concentrator",Pt,Gasoline,13833160.0,1684681505.0,0.008211142556586682
+"Underground, concentrator","Ag (Zn, Pb)",Diesel,55697075.44526765,163969424.5685867,0.33967964205405954
+"Underground, concentrator","Ag (Zn, Pb)",Electricity consumption|Not specified,63343396.8,163969424.5685867,0.3863122467292926
+"Underground, concentrator","Ag (Zn, Pb)",Gasoline,8333350.1134884,163969424.5685867,0.05082258558517199
+"Underground, concentrator","Ag (Zn, Pb)",LPG-Propane,36595602.20983067,163969424.5685867,0.22318552563147595
+"Underground, concentrator",Au,Aviation fuel,100329339.8296,8635808881.158707,0.011617827722947286
+"Underground, concentrator",Au,Diesel,1779674529.280284,8635808881.158707,0.206080814637192
+"Underground, concentrator",Au,Electricity consumption|Generated on-site,215942323.67766273,8635808881.158707,0.025005454225463214
+"Underground, concentrator",Au,Electricity consumption|Grid electricity,4996632530.8906,8635808881.158707,0.5785946168623615
+"Underground, concentrator",Au,Gasoline,61988485.57,8635808881.158707,0.007178075200951265
+"Underground, concentrator",Au,LPG-Propane,457293048.66055995,8635808881.158707,0.052953122857809565
+"Underground, concentrator",Au,Naphtha,6344000.0,8635808881.158707,0.000734615608949048
+"Underground, concentrator",Au,Natural gas,1015260598.85,8635808881.158707,0.11756404209744134
+"Underground, concentrator",Au,Other,2344024.4,8635808881.158707,0.0002714307868848403
+"Underground, concentrator",Au (Ag),Aviation fuel,21662098.88,2804608045.57,0.007723752669902028
+"Underground, concentrator",Au (Ag),Diesel,784086797.4,2804608045.57,0.2795709006962663
+"Underground, concentrator",Au (Ag),Electricity consumption|Generated on-site,3531106.8,2804608045.57,0.0012590375348803323
+"Underground, concentrator",Au (Ag),Electricity consumption|Grid electricity,1694889650.44,2804608045.57,0.6043231791754828
+"Underground, concentrator",Au (Ag),Gasoline,16917917.9,2804608045.57,0.006032186182565718
+"Underground, concentrator",Au (Ag),LPG-Propane,142658174.15,2804608045.57,0.0508656367777789
+"Underground, concentrator",Au (Ag),Natural gas,140862300.0,2804608045.57,0.050225306963123814
+"Underground, concentrator","Au (Cu, Ag)",Diesel,129455000.0,861154282.0,0.15032730221040694
+"Underground, concentrator","Au (Cu, Ag)",Electricity consumption|Grid electricity,644118282.0,861154282.0,0.747970828762598
+"Underground, concentrator","Au (Cu, Ag)",Gasoline,1347000.0,861154282.0,0.0015641796460346695
+"Underground, concentrator","Au (Cu, Ag)",Natural gas,86234000.0,861154282.0,0.10013768938096043
+"Underground, concentrator","Au (Zn, Cu, Ag)",Diesel,778346000.0,3587463026.0,0.21696279358392473
+"Underground, concentrator","Au (Zn, Cu, Ag)",Electricity consumption|Grid electricity,1689193026.0,3587463026.0,0.470860051729492
+"Underground, concentrator","Au (Zn, Cu, Ag)",Electricity consumption|Not specified,764000000.0,3587463026.0,0.2129638673522039
+"Underground, concentrator","Au (Zn, Cu, Ag)",Gasoline,10089000.0,3587463026.0,0.0028122937928224934
+"Underground, concentrator","Au (Zn, Cu, Ag)",LPG-Propane,48400000.0,3587463026.0,0.013491428245872603
+"Underground, concentrator","Au (Zn, Cu, Ag)",Natural gas,297435000.0,3587463026.0,0.08290956529568425
+"Underground, concentrator",Cu+Au,Diesel,170965251.5905,463187550.26489997,0.36910588700565
+"Underground, concentrator",Cu+Au,Electricity consumption|Generated on-site,56414676.5,463187550.26489997,0.1217966166571966
+"Underground, concentrator",Cu+Au,Electricity consumption|Grid electricity,171984823.5,463187550.26489997,0.37130709450554267
+"Underground, concentrator",Cu+Au,Gasoline,3914535.152,463187550.26489997,0.008451296132120242
+"Underground, concentrator",Cu+Au,LPG-Propane,710263.5224,463187550.26489997,0.0015334253306113165
+"Underground, concentrator",Cu+Au,Natural gas,59198000.0,463187550.26489997,0.12780568036887927

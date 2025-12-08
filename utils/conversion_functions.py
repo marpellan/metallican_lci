@@ -5,32 +5,6 @@ from utils.constants import *
 
 
 # ======================================================
-def ore_to_concentrate(
-    ore_processed_tonnes: float,
-    head_grade: float,
-    recovery_rate: float,
-    concentrate_grade: float
-):
-    """
-    Compute concentrate mass and related values.
-    All grades and recovery rates are fractions (e.g. 0.005 = 0.5%).
-    """
-    metal_in_ore = ore_processed_tonnes * head_grade
-    metal_in_concentrate = metal_in_ore * recovery_rate
-    concentrate_mass = metal_in_concentrate / concentrate_grade
-    yield_fraction = concentrate_mass / ore_processed_tonnes
-    tailings_grade = head_grade * (1 - recovery_rate)
-
-    return {
-        "M_concentrate_t": concentrate_mass,
-        "M_metal_in_ore_t": metal_in_ore,
-        "M_metal_in_concentrate_t": metal_in_concentrate,
-        "Yield_fraction": yield_fraction,
-        "Tailings_grade": tailings_grade
-    }
-
-
-# ======================================================
 # Needed for normalization
 # ======================================================
 def _norm_unit(x):
@@ -97,6 +71,37 @@ def standardize_materials_to_t(df, subflow_col='subflow_type', unit_col='unit', 
             dens.notna(),
             out.loc[mask_L, '_unit_n'] + "×density=" + dens.map(lambda x: f"{x:g}") + " kg/L",
             "volume reported; no density mapping for this subflow"
+        )
+
+    # --- Energy-based explosives: GJ / MJ → t via LHV ---
+    ENERGY_REPORTED_MATERIALS = {
+        'explosives',
+        'anfo',
+        'emulsion',
+        'emulsions',
+        'emulsion anfo',
+        'dynamite',
+        'ammonium nitrate',
+    }
+
+    mask_energy = (
+            out['_subflow_n'].isin(ENERGY_REPORTED_MATERIALS) &
+            out['_unit_n'].isin(UNIT_TO_MJ.keys())
+    )
+
+    if mask_energy.any():
+        mj = out.loc[mask_energy, value_col] * out.loc[mask_energy, '_unit_n'].map(UNIT_TO_MJ)
+
+        lhv = out.loc[mask_energy, '_subflow_n'].map(
+            lambda s: DEFAULT_LHV.get(s, DEFAULT_LHV['explosive_default']).get('MJ/kg', np.nan)
+        )
+
+        mass_t = (mj / lhv) / 1000.0  # MJ → kg → t
+
+        out.loc[mask_energy, 'mass_t'] = mass_t
+        out.loc[mask_energy, 'mass_source'] = 'energy→LHV→t'
+        out.loc[mask_energy, 'mass_note'] = (
+            'converted from energy using LHV (MJ/kg)'
         )
 
     # --- Unknown ---

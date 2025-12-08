@@ -135,23 +135,23 @@ Underground,N2O,On-site Transportation,0.0632,0.9598,0.06584705146905606
 Underground,N2O,Stationary Fuel Combustion,0.8955,0.9598,0.9330068764325901
 Underground,N2O,Waste,0.0,0.9598,0.0
 Underground,N2O,Wastewater,0.0011,0.9598,0.0011460720983538237
-"Underground, concentrator",CH4,Industrial Processes,0.001165,66.204793,1.7596913262760296e-05
-"Underground, concentrator",CH4,On-site Transportation,17.413206,66.204793,0.26302032241079587
-"Underground, concentrator",CH4,Stationary Fuel Combustion,7.299968000000001,66.204793,0.11026343666688908
-"Underground, concentrator",CH4,Waste,39.751854,66.204793,0.6004377054694515
-"Underground, concentrator",CH4,Wastewater,1.7386,66.204793,0.026260938539600903
-"Underground, concentrator",CO2,Industrial Processes,2378.0785300000002,512869.450997,0.004636810645237497
-"Underground, concentrator",CO2,On-site Transportation,205126.10462,512869.450997,0.3999577362645448
-"Underground, concentrator",CO2,Stationary Fuel Combustion,305330.87289,512869.450997,0.5953383893239257
-"Underground, concentrator",CO2,Waste,34.394957,512869.450997,6.706376629206014e-05
-"Underground, concentrator",CO2,Wastewater,0.0,512869.450997,0.0
-"Underground, concentrator",CO2eq,Industrial Processes,4588.672183000001,527910.46043,0.008692141048431547
-"Underground, concentrator",CO2eq,On-site Transportation,214334.610273,527910.46043,0.4060056133352948
-"Underground, concentrator",CO2eq,Stationary Fuel Combustion,307475.25166,527910.46043,0.582438263128091
-"Underground, concentrator",CO2eq,Waste,1445.575314,527910.46043,0.002738296401292243
-"Underground, concentrator",CO2eq,Wastewater,66.351,527910.46043,0.00012568608689048324
-"Underground, concentrator",N2O,Industrial Processes,0.003143,41.424706,7.58725964162546e-05
-"Underground, concentrator",N2O,On-site Transportation,32.909192,41.424706,0.794433930321678
-"Underground, concentrator",N2O,Stationary Fuel Combustion,7.320678,41.424706,0.17672250950918034
-"Underground, concentrator",N2O,Waste,1.125013,41.424706,0.027158020143824315
-"Underground, concentrator",N2O,Wastewater,0.06668,41.424706,0.0016096674289010043
+"Underground, concentrator",CH4,Industrial Processes,0.001165,57.273093,2.0341139948561885e-05
+"Underground, concentrator",CH4,On-site Transportation,18.059606,57.273093,0.31532444039647023
+"Underground, concentrator",CH4,Stationary Fuel Combustion,7.434868000000001,57.273093,0.1298143265983557
+"Underground, concentrator",CH4,Waste,30.038854,57.273093,0.524484577775466
+"Underground, concentrator",CH4,Wastewater,1.7386,57.273093,0.03035631408975939
+"Underground, concentrator",CO2,Industrial Processes,2378.0785300000002,523920.897497,0.004539003008586076
+"Underground, concentrator",CO2,On-site Transportation,206017.32542,523920.897497,0.39322219519060064
+"Underground, concentrator",CO2,Stationary Fuel Combustion,315517.74859,523920.897497,0.6022240191169443
+"Underground, concentrator",CO2,Waste,7.744957,523920.897497,1.4782683868883753e-05
+"Underground, concentrator",CO2,Wastewater,0.0,523920.897497,0.0
+"Underground, concentrator",CO2eq,Industrial Processes,3413.672183,537891.0713300001,0.006346400535259466
+"Underground, concentrator",CO2eq,On-site Transportation,215446.390273,537891.0713300001,0.4005390714894802
+"Underground, concentrator",CO2eq,Stationary Fuel Combustion,317817.69656,537891.0713300001,0.5908588439182635
+"Underground, concentrator",CO2eq,Waste,1146.961314,537891.0713300001,0.002132330085279164
+"Underground, concentrator",CO2eq,Wastewater,66.351,537891.0713300001,0.00012335397171761787
+"Underground, concentrator",N2O,Industrial Processes,0.003143,42.761506000000004,7.35006854061688e-05
+"Underground, concentrator",N2O,On-site Transportation,33.673192,42.761506000000004,0.7874650626196373
+"Underground, concentrator",N2O,Stationary Fuel Combustion,7.893478,42.761506000000004,0.1845930777087224
+"Underground, concentrator",N2O,Waste,1.125013,42.761506000000004,0.026309012596516128
+"Underground, concentrator",N2O,Wastewater,0.06668,42.761506000000004,0.0015593463897178924
