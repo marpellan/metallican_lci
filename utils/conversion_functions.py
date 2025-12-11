@@ -395,14 +395,7 @@ def compute_ghg_from_energy(row, mapping_df, ef_df, DEFAULT_LHV):
 def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict):
     """
     Map MetalliCan technosphere flows to Ecoinvent flows with consistent physical conversions.
-    Extended handling for:
-      - Electricity (on-site → diesel; grid → kWh)
-      - LPG, oil, petrol, used oil, acetylene
-      - Non-renewable fuel use, generic 'energy use'
-      - ANFO/emulsion explosives
     """
-
-    import pandas as pd
 
     merged_df = technosphere_df.merge(
         mapping_df,
@@ -410,6 +403,16 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
         right_on="MetalliCan",
         how="left"
     )
+
+    # --- Ensure normalized value columns exist ---
+    for col in [
+        "value_normalized",
+        "value_min_normalized",
+        "value_mean_normalized",
+        "value_max_normalized",
+    ]:
+        if col not in merged_df.columns:
+            merged_df[col] = pd.NA
 
     # --- Warn for unmapped flows ---
     unmapped = merged_df[merged_df["Flow name"].isna()]["subflow_type"].unique().tolist()
@@ -440,9 +443,12 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
         ("kilogram", "kg"): 1.0,
         ("t", "kilogram"): 1000.0,
         ("kilogram", "tonne"): 0.001,
+        ("m3", "cubic meter"): 1.0,
+        ("cubic meter", "m3"): 1.0,
+        ("g", "kilogram"): 0.001
     }
 
-    # --- Physical constants (literature sources) ---
+    # --- Physical constants ---
     fuel_lhv_mj_per_kg = {
         "diesel": 43.0,
         "gasoline": 44.4,
@@ -464,6 +470,25 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
         "naphtha": 725.0,
     }
 
+    density_kg_per_L = {
+        "diesel": 0.835,
+        "gasoline": 0.745,
+        "petrol": 0.745,
+        "lpg": 0.49,  # propane–butane mix
+        "propane": 0.49,
+        "biodiesel": 0.877,
+        "heavy fuel oil": 0.96,
+        "fuel oil": 0.88,
+        "oil": 0.88,
+        "used oil": 0.88,
+        "kerosene": 0.80,
+        "aviation fuel": 0.80,
+        "naphtha": 0.725,
+        'diesel|transport': 0.835,
+        'diesel|stationary': 0.835,
+        'lpg|stationary': 0.49,
+    }
+
     explosives_energy_mj_per_kg = {
         "anfo": 2.3,
         "emulsion": 3.7,
@@ -471,8 +496,8 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
     }
 
     # --- Conversion function ---
-    def convert_value(row):
-        val = row["value_normalized"]
+    def convert_value(row, value_col="value_normalized"):
+        val = row[value_col]
         if pd.isna(val):
             return None
 
@@ -511,6 +536,13 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
                 return val / lhv
             if original_unit in ["kg", "kilogram"] and target_unit == "MJ":
                 return val * lhv
+
+        # --- Volume (L) to mass (kg) using density ---
+        if original_unit in ["L", "l", "liter", "litre"] and target_unit in ["kg", "kilogram"]:
+
+            for fuel, dens in density_kg_per_L.items():
+                if fuel in subflow_lower:
+                    return val * dens
 
         # --- Specific fuels ---
         for fuel, lhv in fuel_lhv_mj_per_kg.items():
@@ -570,18 +602,38 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
         print(f"⚠️ Pas de conversion définie pour {original_unit} → {target_unit} (flux: {row['subflow_type']})")
         return val
 
-    merged_df["value_converted"] = merged_df.apply(convert_value, axis=1)
+    #merged_df["value_converted"] = merged_df.apply(convert_value, axis=1)
+    merged_df["value_converted"] = merged_df.apply(
+        lambda r: convert_value(r, "value_normalized"), axis=1
+    )
+
+    merged_df["value_min_converted"] = merged_df.apply(
+        lambda r: convert_value(r, "value_min_normalized"), axis=1
+    )
+
+    merged_df["value_mean_converted"] = merged_df.apply(
+        lambda r: convert_value(r, "value_mean_normalized"), axis=1
+    )
+
+    merged_df["value_max_converted"] = merged_df.apply(
+        lambda r: convert_value(r, "value_max_normalized"), axis=1
+    )
 
     # --- Final tidy dataframe ---
     result_df = merged_df[[
         "activity_name", "functional_unit", "site_id", "subflow_type",
-        "Flow name", "Reference product", "value_normalized", "unit",
-        "value_converted", "Unit", "Location", "province", "DB_to_map"
+        "Flow name", "Reference product", "unit",
+        "value_normalized", "value_min_normalized", "value_mean_normalized", "value_max_normalized",
+        "value_converted", "value_min_converted", "value_mean_converted", "value_max_converted",
+        "Unit", "Location", "province", "DB_to_map"
     ]].rename(columns={
         "Flow name": "Activity",
         "Reference product": "Product",
         #"unit": "unit_original",
         "value_converted": "Amount",
+        "value_min_converted": "Amount_min",
+        "value_mean_converted": "Amount_mean",
+        "value_max_converted": "Amount_max",
         #"Unit": "unit_target",
         "DB_to_map": "Database"
     })
@@ -643,9 +695,13 @@ def map_biosphere_to_ecoinvent(biosphere_df, mapping_df, ca_provinces_dict):
         ("t", "kilogram"): 1000.0,
         ("kilogram", "tonne"): 0.001,
         ("g", "kilogram"): 0.001,
+        ("g teq", "kilogram"): 0.001, # for Dioxins, given in toxic equivalent in ecoinvent
         ("grams", "kilogram"): 0.001,
         ("mg", "kilogram"): 1e-6,
-        ('tco2eq', 'kilogram'): 1000.0
+        ('tco2eq', 'kilogram'): 1000.0,
+        ("m2", "square meter"): 1.0,
+        ("m2*year", "square meter-year"): 1.0,
+
     }
 
     def convert_value(row):

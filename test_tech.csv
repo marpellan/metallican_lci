@@ -1,0 +1,698 @@
+site_id,activity_name,functional_unit,Amount,Amount_min,Amount_mean,Amount_max,Activity,Product,Unit,Location,Database
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,0.41819354039876866,,,,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,1832.0327123765478,,,,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,7252.646070521314,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,2178.633386423827,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,171726.07535313736,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,332.0214060689548,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,985.1085688518716,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,59.64211956573841,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,Doré,2048.4276991702864,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,Doré,23228.174595145614,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,Doré,33.220992421627166,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,Doré,159.27299774800179,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,Doré,1.0862362190484312,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,Open-pit and underground mining and beneficiation at Casa Berardi,Doré,2503.356520781824,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,Open-pit and underground mining and beneficiation at Casa Berardi,Doré,39150.53322277846,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-b86f7d07,Open-pit and underground mining and beneficiation at Casa Berardi,Doré,114.6952644481757,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,Open-pit and underground mining and beneficiation at Casa Berardi,Doré,262.38292139666936,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,Open-pit mining and beneficiation at Copper Mountain,Cu concentrate,0.02965024720747116,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,Open-pit mining and beneficiation at Copper Mountain,Cu concentrate,8.608930771653544,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-599152a0,Open-pit mining and beneficiation at Copper Mountain,Cu concentrate,0.00013052422501241216,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-599152a0,Open-pit mining and beneficiation at Copper Mountain,Cu concentrate,0.003434699972848222,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,3823.300504994078,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,34611.370282968484,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,67.45419499384289,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,163.79763029191633,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,850.9264153780041,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,1031.1304312201796,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,13888.5823446087,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,98.13522624348593,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,448.9485483714514,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,64.94474760290271,,,,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,1157.9309280405394,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,10.61116743075193,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,32025.462753873067,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,29.155731220421362,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,396.5445269695384,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Cu concentrate,0.21117543841960607,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Mo concentrate,0.8948941767230839,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Cu concentrate,2.5403711633313777,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Mo concentrate,10.765283016783979,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Cu concentrate,0.004712021647029189,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Mo concentrate,0.01996804535639616,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Cu concentrate,0.02864869180530395,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Mo concentrate,0.121404021505375,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Cu concentrate,5.2654984954198274e-05,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Mo concentrate,0.00022313503768996984,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.08928929141917658,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,670.2278731199644,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,5.3065526266291645,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,39832.318344291154,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.0008997743917222838,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,6.753932831886251,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.07265823955111962,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,545.3910159323881,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),Doré,138276.9423660766,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),Doré,1563.7134031704948,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,1178.3354201173447,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,3.9982702795168006,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,22258.631025843675,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,77.8004105824104,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,372.136535349223,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Zn concentrate,0.4807438305958798,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Pb concentrate,0.3844332721363504,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Zn concentrate,6.530538271154982,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Pb concentrate,5.222232791380706,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-YK,ecoinvent-3.10-cutoff regionalized
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Zn concentrate,0.06966047665457228,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Pb concentrate,0.0557049373794389,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Zn concentrate,0.29272559749384447,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Pb concentrate,0.2340819624105049,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,812.980005631206,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,733.1033383690649,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,26269.55730718719,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,21.782384930867938,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,1.351889627739767,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,561.7873258133715,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,0.5306186126128216,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,9689.464366870796,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,10.076167763551451,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,0.12305066039546624,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,0.5113438554211598,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,275.40931578481076,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.10344502645114304,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.03866916822195377,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,776.4843797192204,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,5.336005930864164,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,1.994672127338891,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,40053.40225189105,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.002133285930950827,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.0007974515098454325,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,16.012980610918383,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.09609229935498077,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.03592061809126284,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,721.2929612975264,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,293.1238155362484,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,25168.503129410394,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,19.99709867554025,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,1281.1167095600174,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,1.9551136392483783,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,4726.674454085328,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,781.8206507741506,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,65.2196498822265,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,9.691060780311028,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,0.2866634281598319,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,3642.0556147369916,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,894.995649546318,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,9.597456977857863,,,,consumption market for light fuel oil,light fuel oil,kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.23113387813987074,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,1.0855920296165653,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.009021012591879719,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.005059636841928829,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.005239190819328129,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,112.30856787871866,,,,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,0.06281498156438639,,,,consumption market for biogas,biogas,cubic meter,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,1256.2975277904575,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,15.505473521040697,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,24792.38510896845,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,21.437364430516325,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,867.2612439722785,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,72.1177007603646,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.055477504954265476,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.018306325208811876,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.6666002902929856,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0012301972559252772,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.023466152982242385,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.00021358908585890086,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.08691435321881372,,,,consumption market for biogas,biogas,cubic meter,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,1755.8131662376122,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,256.5299041109499,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,24370.26227124675,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,46.93362029357176,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,573.9174480734916,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,16.547966545931253,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,4393.874674138434,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,100689.52463412323,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,105.16729173246168,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,225.97420589576376,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,3.4447256565354164e-06,,,,consumption market for acetylene,acetylene,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,0.2322373270848105,,,,consumption market for kerosene,kerosene,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,2.618082231398815,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,0.010629430077414103,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,29.27064596936494,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-BC,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,0.04664486253392142,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,0.1430983922500838,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,727.5356521459559,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,69417.28017395372,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,31.297403433721104,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,88.87846549777092,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,2440.1588321942595,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,2489.061129608932,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,30.816488174784578,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,43634.29141795733,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-SK,ecoinvent-3.10-cutoff regionalized
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,703.9246690973955,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,0.028680913055002363,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,0.010721318266634382,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,215.28614518565215,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,0.6759542222388819,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-MB,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,0.25268094974522987,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-MB,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,5073.882360324406,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-MB,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,0.00012625709063934234,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,4.7196630371137396e-05,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,0.9477174695928586,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,0.0033224118032465022,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,0.0012419630535163752,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,24.93885841320863,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,2118.7402360770448,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,48616.029513103436,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,15.731000572588048,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,1073.086494270694,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1168.6504745220782,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,35476.08118194575,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-QC,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,18.325743159793365,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,441.2150390130997,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,0.17269987299564876,,,,consumption market for propane,propane,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,554.6002675885104,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,1.8803363819025156,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,45427.38428592711,,,,"market for electricity, medium voltage","electricity, medium voltage",kilowatt hour,CA-ON,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,8.142953173633027,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,24.05067271325524,,,,consumption market for naphtha,naphtha,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,1071.669830708478,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+AB-MAIN-d3a4aba9,Refining at The Cobalt Refinery Company Inc.,Ni concentrate,0.002738028898870823,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+AB-MAIN-d3a4aba9,Refining at The Cobalt Refinery Company Inc.,Ni concentrate,0.09775666318815279,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+AB-MAIN-d3a4aba9,Refining at The Cobalt Refinery Company Inc.,Ni concentrate,0.2666737356289335,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+AB-MAIN-d3a4aba9,Refining at The Cobalt Refinery Company Inc.,Ni concentrate,0.01862195708309414,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+BC-MAIN-3f490561,Open-pit mining and beneficiation at Mount Polley,Cu concentrate,0.31853834110410345,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-3f490561,Open-pit mining and beneficiation at Mount Polley,Cu concentrate,0.004386484116677718,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-3f490561,Open-pit mining and beneficiation at Mount Polley,Cu concentrate,0.0017094342326605,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-3f490561,Open-pit mining and beneficiation at Mount Polley,Cu concentrate,0.000358111879768342,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Cu concentrate,0.14682158646342958,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Mo concentrate,0.6221830707522725,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Cu concentrate,0.010589095543033656,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Mo concentrate,0.044873210678015384,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Cu concentrate,0.0041266221266713,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Mo concentrate,0.0174873088382418,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Cu concentrate,0.0008644921101035381,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Mo concentrate,0.003663441927453364,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,0.05707484549029969,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,0.017610247338278227,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,0.0480395943344482,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,0.003354628313416429,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,0.14505585809606694,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,0.1413173393012557,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,0.3855043896913055,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,0.02691995963998866,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+NL-MAIN-d9036091,Refining at Long Harbour,Ni concentrate,0.004812436654785516,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NL-MAIN-d9036091,Refining at Long Harbour,Ni concentrate,0.010811939938354746,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+NL-MAIN-d9036091,Refining at Long Harbour,Ni concentrate,0.029494259713093,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+NL-MAIN-d9036091,Refining at Long Harbour,Ni concentrate,0.002059598547564124,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,0.028169703934296336,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,0.024137852259252766,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,0.065846470430819,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,0.004598091160136327,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,0.03508387806518825,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,0.08516036311736756,,,,consumption market for diesel,diesel,kilogram,CA,Regioinvent
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,0.2323118590526636,,,,"consumption market for natural gas, high pressure","natural gas, high pressure",cubic meter,CA,Regioinvent
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,0.016222450474808418,,,,consumption market for liquefied petroleum gas,liquefied petroleum gas,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,Open-pit and underground mining and beneficiation at Casa Berardi,Doré,844.0322687446658,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,677.6202793144414,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,677.6202793144414,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,436.23120208057395,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,436.23120208057395,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,3537.19524476698,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,392.8077673912158,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,392.8077673912158,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,288.02543291391817,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,288.02543291391817,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,43.2883954338881,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,5.1852654007752,,,,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,108.38749803866959,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,0.017584721522519803,,,,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,31.1737545983993,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.08190932852966026,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.08190932852966026,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,614.8320159849342,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,614.8320159849342,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,116.6072942649203,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,58.7472488071262,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Zn concentrate,0.08606260955163361,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Pb concentrate,0.06882112362735579,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,414.6937265362106,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,414.6937265362106,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.017854135631494805,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.017854135631494805,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.006674120524469377,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.006674120524469377,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,134.0176314594667,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,134.0176314594667,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,2846.1510348709116,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,2846.1510348709116,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,641.2585257584179,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,641.2585257584179,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,366.4773525750353,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,366.4773525750353,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.006915956912836868,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.006915956912836868,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,1648.4832896619353,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,127.0935175212507,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,127.0935175212507,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,11.9148148743531,,,,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,161.7537468987949,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,161.7537468987949,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,51.836915531121,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,68.2672260892396,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,17.6277475928018,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.013674252732785453,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0024976441216006083,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0005302261263733135,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.00729200456954457,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.00729200456954457,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.002679037270096742,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.03800884126949753,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.03800884126949753,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0007674325513297959,,,,consumption market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.008134785044095837,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,1524.2459728128545,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,234.153410882525,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,234.153410882525,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.325189843834,,,,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,526.7750698350793,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,526.7750698350793,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,66.0501029936032,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.03202273798026688,,,,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,89.0118203368159,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.0011148881340338897,,,,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,75.9800601455887,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,742.1710838892709,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,350.0857839201761,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,28.7132229518656,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,65.339892798313,,,,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,281.8142196048487,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,1838.425877485813,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,1838.425877485813,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,18.513859516596902,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,793.5007904417245,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,793.5007904417245,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,1.6358403772506,,,,consumption market for ammonium nitrate,ammonium nitrate,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,386.4218491149815,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,160.1305969286447,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,161.6274220079498,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,8.5960576784161,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,14.666719880687399,,,,"consumption market for activated carbon, granular","activated carbon, granular",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,21.028773868667702,,,,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,0.36423973213620003,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,96.960616694677,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,344.8621783866273,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,360.2088124339692,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,360.2088124339692,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,11.2185837497973,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1.0927191964088,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,48.613862915788395,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1230.9603160789536,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1230.9603160789536,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,4.589420624917,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,130.8834770809689,,,,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1.9668945535358,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,442.4866952936639,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,332.8991075152216,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,Open-pit and underground mining and beneficiation at Casa Berardi,Doré,844.0322687446658,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,677.6202793144414,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,677.6202793144414,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,436.23120208057395,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,436.23120208057395,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,3537.19524476698,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,392.8077673912158,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,392.8077673912158,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,288.02543291391817,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,288.02543291391817,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,43.2883954338881,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,5.1852654007752,,,,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,108.38749803866959,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,0.017584721522519803,,,,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,31.1737545983993,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.08190932852966026,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.08190932852966026,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,614.8320159849342,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,614.8320159849342,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,116.6072942649203,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,58.7472488071262,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Zn concentrate,0.08606260955163361,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Pb concentrate,0.06882112362735579,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,414.6937265362106,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,414.6937265362106,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.017854135631494805,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.017854135631494805,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.006674120524469377,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.006674120524469377,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,134.0176314594667,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,134.0176314594667,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,2846.1510348709116,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,2846.1510348709116,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,641.2585257584179,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,641.2585257584179,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,366.4773525750353,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,366.4773525750353,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.006915956912836868,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.006915956912836868,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,1648.4832896619353,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,127.0935175212507,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,127.0935175212507,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,11.9148148743531,,,,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,161.7537468987949,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,161.7537468987949,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,51.836915531121,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,68.2672260892396,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,17.6277475928018,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.013674252732785453,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0024976441216006083,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0005302261263733135,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.00729200456954457,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.00729200456954457,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.002679037270096742,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.03800884126949753,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.03800884126949753,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0007674325513297959,,,,consumption market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.008134785044095837,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,1524.2459728128545,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,234.153410882525,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,234.153410882525,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.325189843834,,,,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,526.7750698350793,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,526.7750698350793,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,66.0501029936032,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.03202273798026688,,,,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,89.0118203368159,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.0011148881340338897,,,,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,75.9800601455887,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,742.1710838892709,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,350.0857839201761,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,28.7132229518656,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,65.339892798313,,,,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,281.8142196048487,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,1838.425877485813,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,1838.425877485813,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,18.513859516596902,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,793.5007904417245,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,793.5007904417245,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,1.6358403772506,,,,consumption market for ammonium nitrate,ammonium nitrate,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,386.4218491149815,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,160.1305969286447,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,161.6274220079498,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,8.5960576784161,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,14.666719880687399,,,,"consumption market for activated carbon, granular","activated carbon, granular",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,21.028773868667702,,,,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,0.36423973213620003,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,96.960616694677,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,344.8621783866273,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,360.2088124339692,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,360.2088124339692,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,11.2185837497973,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1.0927191964088,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,48.613862915788395,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1230.9603160789536,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1230.9603160789536,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,4.589420624917,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,130.8834770809689,,,,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1.9668945535358,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,442.4866952936639,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,332.8991075152216,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,,901.7723362987756,4959.747849643266,9017.723362987756,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,,0.0470588235294117,0.2588235294117645,0.4705882352941175,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,,0.0470588235294117,0.2588235294117645,0.4705882352941173,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,,772.563983405139,4249.101908728264,7725.639834051391,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,,304.4047043176168,1674.225873746892,3044.047043176168,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-28f3f0fc,Underground mining at Totten,Ni concentrate,,0.052289232712346,0.2875907799179034,0.5228923271234607,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-48fe2205,Underground mining at Garson,Ni concentrate,,0.0620186257236345,0.3411024414799899,0.6201862572363454,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-4e0734b5,Open-pit and underground mining and beneficiation at Fox Complex,Doré,,1571.9457006586615,8645.70135362264,15719.457006586616,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-52224e1e,Underground mining at Creighton,Ni concentrate,,0.0305359661495063,0.1679478138222849,0.3053596614950634,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),Doré,,1414.053744167482,7777.295592921152,14140.537441674822,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,,1175.5981606990963,6465.78988384503,11755.981606990965,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-f080c409,Underground mining at Copper Cliff Complex (mine),Ni concentrate,,0.0683807564849731,0.3760941606673523,0.6838075648497314,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-f4fc3276,Underground mining and beneficiation at Sugar Zone,Doré,,956.3032380457752,5259.667809251763,9563.032380457753,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Cu concentrate,,0.0643045148085551,0.3536748314470532,0.6430451480855515,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Zn concentrate,,0.0240379086928606,0.1322084978107338,0.2403790869286069,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,,0.0149033107218791,0.081968208970335,0.149033107218791,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,,0.0495212941564872,0.2723671178606801,0.4952129415648729,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,,0.4281094939978431,2.354602216988137,4.281094939978431,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,,3213.497509769852,17674.236303734186,32134.97509769852,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,,0.0853757472951893,0.4695666101235412,0.8537574729518932,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,,0.031914624100289,0.1755304325515899,0.3191462410028907,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,,640.8518268674819,3524.6850477711514,6408.5182686748185,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,,528.4494818351895,2906.4721500935425,5284.494818351895,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,,1087.484635871039,5981.165497290715,10874.84635871039,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,,1865.8063433278896,10261.934888303393,18658.0634332789,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,,495.9027262894861,2727.4649945921733,4959.027262894861,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,,0.0338202789757831,0.1860115343668072,0.3382027897578313,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,,0.0126424836639742,0.0695336601518586,0.1264248366397429,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,,253.8635180768692,1396.2493494227806,2538.6351807686915,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-b86f7d07,Open-pit and underground mining and beneficiation at Casa Berardi,Doré,844.0322687446658,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,677.6202793144414,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,677.6202793144414,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,436.23120208057395,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,436.23120208057395,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,3537.19524476698,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,392.8077673912158,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,392.8077673912158,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,288.02543291391817,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,288.02543291391817,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,43.2883954338881,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,5.1852654007752,,,,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,108.38749803866959,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,0.017584721522519803,,,,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,31.1737545983993,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.08190932852966026,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,0.08190932852966026,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,614.8320159849342,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,614.8320159849342,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,116.6072942649203,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,58.7472488071262,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Zn concentrate,0.08606260955163361,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Pb concentrate,0.06882112362735579,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,414.6937265362106,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,414.6937265362106,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.017854135631494805,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,0.017854135631494805,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.006674120524469377,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,0.006674120524469377,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,134.0176314594667,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,134.0176314594667,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,2846.1510348709116,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,2846.1510348709116,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,641.2585257584179,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,641.2585257584179,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,366.4773525750353,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,366.4773525750353,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.006915956912836868,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,0.006915956912836868,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,1648.4832896619353,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,127.0935175212507,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,127.0935175212507,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,11.9148148743531,,,,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,161.7537468987949,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,161.7537468987949,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,51.836915531121,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,68.2672260892396,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,17.6277475928018,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.013674252732785453,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0024976441216006083,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0005302261263733135,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.00729200456954457,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.00729200456954457,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.002679037270096742,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.03800884126949753,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.03800884126949753,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.0007674325513297959,,,,consumption market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,kilogram,CA,Regioinvent
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,0.008134785044095837,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,1524.2459728128545,,,,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,234.153410882525,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,234.153410882525,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.325189843834,,,,"consumption market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,526.7750698350793,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,526.7750698350793,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,66.0501029936032,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.03202273798026688,,,,"consumption market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,89.0118203368159,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,0.0011148881340338897,,,,consumption market for sulfuric acid,sulfuric acid,kilogram,CA,Regioinvent
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,75.9800601455887,,,,consumption market for synthetic rubber,synthetic rubber,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,742.1710838892709,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,350.0857839201761,,,,"consumption market for steel, low-alloyed","steel, low-alloyed, hot rolled",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,28.7132229518656,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,65.339892798313,,,,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,281.8142196048487,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,1838.425877485813,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,1838.425877485813,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,18.513859516596902,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,793.5007904417245,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,793.5007904417245,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,1.6358403772506,,,,consumption market for ammonium nitrate,ammonium nitrate,kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,386.4218491149815,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,160.1305969286447,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,161.6274220079498,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,8.5960576784161,,,,consumption market for sodium bicarbonate,sodium bicarbonate,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,14.666719880687399,,,,"consumption market for activated carbon, granular","activated carbon, granular",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,21.028773868667702,,,,"consumption market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,0.36423973213620003,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,96.960616694677,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,344.8621783866273,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,360.2088124339692,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,360.2088124339692,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,11.2185837497973,,,,consumption market for polyacrylamide,polyacrylamide,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1.0927191964088,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,48.613862915788395,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1230.9603160789536,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1230.9603160789536,,,,consumption market for lime,lime,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,4.589420624917,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,130.8834770809689,,,,"consumption market for sulfur dioxide, liquid","sulfur dioxide, liquid",kilogram,CA,Regioinvent
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,1.9668945535358,,,,consumption market for lubricating oil,lubricating oil,kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,442.4866952936639,,,,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,332.8991075152216,,,,consumption market for sodium cyanide,sodium cyanide,kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,,901.7723362987756,4959.747849643266,9017.723362987756,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,,0.0470588235294117,0.2588235294117645,0.4705882352941175,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,,0.0470588235294117,0.2588235294117645,0.4705882352941173,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,,772.563983405139,4249.101908728264,7725.639834051391,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,,304.4047043176168,1674.225873746892,3044.047043176168,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-28f3f0fc,Underground mining at Totten,Ni concentrate,,0.052289232712346,0.2875907799179034,0.5228923271234607,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-48fe2205,Underground mining at Garson,Ni concentrate,,0.0620186257236345,0.3411024414799899,0.6201862572363454,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-4e0734b5,Open-pit and underground mining and beneficiation at Fox Complex,Doré,,1571.9457006586615,8645.70135362264,15719.457006586616,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-52224e1e,Underground mining at Creighton,Ni concentrate,,0.0305359661495063,0.1679478138222849,0.3053596614950634,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),Doré,,1414.053744167482,7777.295592921152,14140.537441674822,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,,1175.5981606990963,6465.78988384503,11755.981606990965,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-f080c409,Underground mining at Copper Cliff Complex (mine),Ni concentrate,,0.0683807564849731,0.3760941606673523,0.6838075648497314,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-f4fc3276,Underground mining and beneficiation at Sugar Zone,Doré,,956.3032380457752,5259.667809251763,9563.032380457753,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Cu concentrate,,0.0643045148085551,0.3536748314470532,0.6430451480855515,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Zn concentrate,,0.0240379086928606,0.1322084978107338,0.2403790869286069,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,,0.0149033107218791,0.081968208970335,0.149033107218791,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,,0.0495212941564872,0.2723671178606801,0.4952129415648729,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,,0.4281094939978431,2.354602216988137,4.281094939978431,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,,3213.497509769852,17674.236303734186,32134.97509769852,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,,0.0853757472951893,0.4695666101235412,0.8537574729518932,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,,0.031914624100289,0.1755304325515899,0.3191462410028907,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,,640.8518268674819,3524.6850477711514,6408.5182686748185,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,,528.4494818351895,2906.4721500935425,5284.494818351895,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,,1087.484635871039,5981.165497290715,10874.84635871039,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,,1865.8063433278896,10261.934888303393,18658.0634332789,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,,495.9027262894861,2727.4649945921733,4959.027262894861,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,,0.0338202789757831,0.1860115343668072,0.3382027897578313,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,,0.0126424836639742,0.0695336601518586,0.1264248366397429,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,,253.8635180768692,1396.2493494227806,2538.6351807686915,"consumption market for cement, unspecified","cement, unspecified",kilogram,CA,Regioinvent
+BC-MAIN-3f490561,Open-pit mining and beneficiation at Mount Polley,Cu concentrate,,0.0489395822725185,0.2569328069307225,0.6264266530882378,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-3f490561,Open-pit mining and beneficiation at Mount Polley,Cu concentrate,,0.0489395822725185,0.2569328069307225,0.6264266530882378,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-4724f4ba,Open-pit mining at Elk,Doré,,100.30711411255312,526.6123490909038,1283.93106064068,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-4724f4ba,Open-pit mining at Elk,Doré,,100.30711411255312,526.6123490909038,1283.93106064068,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-599152a0,Open-pit mining and beneficiation at Copper Mountain,Cu concentrate,,0.0405245196850393,0.2127537283464566,0.518713851968504,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-599152a0,Open-pit mining and beneficiation at Copper Mountain,Cu concentrate,,0.0405245196850393,0.2127537283464566,0.518713851968504,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Cu concentrate,,0.0606752806757,0.3185452235474252,0.7766435926489605,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Cu concentrate,,0.0606752806757,0.3185452235474252,0.7766435926489605,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Mo concentrate,,0.257122493761952,1.349893092250248,3.2911679201529864,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Mo concentrate,,0.257122493761952,1.349893092250248,3.2911679201529864,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,,18.03544672597551,36.07089345195102,54.10634017792653,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,,18.03544672597551,36.07089345195102,54.10634017792653,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,,0.0353118827051623,0.1853873842021023,0.4519920986260781,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,,0.0353118827051623,0.1853873842021023,0.4519920986260781,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Cu concentrate,,0.0191208108277907,0.1003842568459016,0.244746378595722,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Cu concentrate,,0.0191208108277907,0.1003842568459016,0.244746378595722,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Mo concentrate,,0.0810278997977684,0.4253964739382844,1.0371571174114365,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Mo concentrate,,0.0810278997977684,0.4253964739382844,1.0371571174114365,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,,0.0035294117647058,0.0185294117647058,0.0451764705882352,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,,0.0035294117647058,0.0185294117647058,0.0451764705882352,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,,0.0035294117647058,0.0185294117647058,0.0451764705882352,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,,0.0035294117647058,0.0185294117647058,0.0451764705882352,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-28f3f0fc,Underground mining at Totten,Ni concentrate,,0.0010457846542469,0.0020915693084938,0.0031373539627407,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-28f3f0fc,Underground mining at Totten,Ni concentrate,,0.0010457846542469,0.0020915693084938,0.0031373539627407,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-48fe2205,Underground mining at Garson,Ni concentrate,,0.0012403725144726,0.0024807450289453,0.003721117543418,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-48fe2205,Underground mining at Garson,Ni concentrate,,0.0012403725144726,0.0024807450289453,0.003721117543418,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-4e0734b5,Open-pit and underground mining and beneficiation at Fox Complex,Doré,,117.89592754939964,618.9536196343481,1509.0678726323151,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-4e0734b5,Open-pit and underground mining and beneficiation at Fox Complex,Doré,,117.89592754939964,618.9536196343481,1509.0678726323151,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-52224e1e,Underground mining at Creighton,Ni concentrate,,0.0006107193229901,0.0012214386459802,0.0018321579689703,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-52224e1e,Underground mining at Creighton,Ni concentrate,,0.0006107193229901,0.0012214386459802,0.0018321579689703,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),Doré,,106.05403081256117,556.783661765946,1357.4915944007828,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),Doré,,106.05403081256117,556.783661765946,1357.4915944007828,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,,23.51196321398193,47.02392642796386,70.53588964194579,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,,23.51196321398193,47.02392642796386,70.53588964194579,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-8825d90d,Open-pit mining and beneficiation at Magino,Doré,,417.3163718786398,2190.910952362859,5341.64956004659,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-8825d90d,Open-pit mining and beneficiation at Magino,Doré,,417.3163718786398,2190.910952362859,5341.64956004659,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-f080c409,Underground mining at Copper Cliff Complex (mine),Ni concentrate,,0.0013676151296994,0.0027352302593989,0.0041028453890983,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-f080c409,Underground mining at Copper Cliff Complex (mine),Ni concentrate,,0.0013676151296994,0.0027352302593989,0.0041028453890983,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-f4fc3276,Underground mining and beneficiation at Sugar Zone,Doré,,19.1260647609155,38.252129521831,57.378194282746506,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-f4fc3276,Underground mining and beneficiation at Sugar Zone,Doré,,19.1260647609155,38.252129521831,57.378194282746506,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Cu concentrate,,0.0012860902961711,0.0025721805923422,0.0038582708885133,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Cu concentrate,,0.0012860902961711,0.0025721805923422,0.0038582708885133,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Zn concentrate,,0.0004807581738572,0.0009615163477144,0.0014422745215716,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Zn concentrate,,0.0004807581738572,0.0009615163477144,0.0014422745215716,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,,0.0011177483041409,0.0058681785967398,0.0143071782930039,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,,0.0011177483041409,0.0058681785967398,0.0143071782930039,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,,0.0009904258831297,0.0019808517662594,0.0029712776493892,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,,0.0009904258831297,0.0019808517662594,0.0029712776493892,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,Doré,,223.8306614858001,1175.1109728004506,2865.0324670182417,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,Doré,,223.8306614858001,1175.1109728004506,2865.0324670182417,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,,10.568989636703792,21.137979273407584,31.70696891011137,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,,10.568989636703792,21.137979273407584,31.70696891011137,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,,37.3161268665578,74.63225373311559,111.94838059967338,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,,37.3161268665578,74.63225373311559,111.94838059967338,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,,9.91805452578972,19.83610905157944,29.75416357736917,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,,9.91805452578972,19.83610905157944,29.75416357736917,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,,0.0006764055795156,0.0013528111590313,0.0020292167385469,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,,0.0006764055795156,0.0013528111590313,0.0020292167385469,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,,0.0002528496732794,0.0005056993465589,0.0007585490198384,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,,0.0002528496732794,0.0005056993465589,0.0007585490198384,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,,5.077270361537384,10.154540723074769,15.231811084612149,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,,5.077270361537384,10.154540723074769,15.231811084612149,"consumption market for explosive, tovex","explosive, tovex",kilogram,CA,Regioinvent
+AB-MAIN-d3a4aba9,Refining at The Cobalt Refinery Company Inc.,Ni concentrate,-0.0,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-3f490561,Open-pit mining and beneficiation at Mount Polley,Cu concentrate,-129.5055527267161,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-4724f4ba,Open-pit mining at Elk,Doré,-267484.63763347495,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-599152a0,Open-pit mining and beneficiation at Copper Mountain,Cu concentrate,-107.06538582677159,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Cu concentrate,-160.795227012692,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,Mo concentrate,-681.3989040363934,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,Doré,-180353.46725975513,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,Cu concentrate,-93.1650205470996,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-aa76f6f2,Underground mining and beneficiation at New Afton,Cu concentrate,-41.7669230877422,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Cu concentrate,-49.9838790114817,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,Mo concentrate,-211.8157423616994,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,Cu concentrate,-230.78812888162818,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),Ni concentrate,-8.4117647058823,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,Ni concentrate,-8.4117647058823,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+NL-MAIN-d9036091,Refining at Long Harbour,Ni concentrate,-0.0,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,Doré,-154511.7966810278,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-0aadf28f,Open-pit and underground mining and beneficiation at Rainy River,Doré,-1088231.493651614,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,Doré,-60879.940863523356,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-28f3f0fc,Underground mining at Totten,Ni concentrate,-9.4578465424692,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-40ce0593,Smelting at Sudbury,Ni concentrate,-0.0,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-48fe2205,Underground mining at Garson,Ni concentrate,-11.4037251447269,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-4e0734b5,Open-pit and underground mining and beneficiation at Fox Complex,Doré,-314388.14013173233,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-52224e1e,Underground mining at Creighton,Ni concentrate,-5.1071932299012,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-63b394c3,Refining Smelting at Copper Cliff Complex (refinery),Ni concentrate,-0.0,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-687b8c8d,Underground mining and beneficiation at Island,Doré,-105266.39675232189,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),Doré,-282809.7488334964,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-7607a50e,Underground mining and beneficiation at Young-Davidson,Doré,-489899.94477008795,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,Doré,-235118.6321398193,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-8825d90d,Open-pit mining and beneficiation at Magino,Doré,-1112842.6583430395,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,Doré,-1059418.893329397,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-cb85213a,Underground mining and beneficiation at Eagle River,Doré,-80194.57706489837,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-ed85ac94,and beneficiation at Strathcona,Ni concentrate,-20.800733067729002,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-f080c409,Underground mining at Copper Cliff Complex (mine),Ni concentrate,-12.676151296994599,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-f4fc3276,Underground mining and beneficiation at Sugar Zone,Doré,-191259.64760915504,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Cu concentrate,-11.396935500198799,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,Zn concentrate,-4.2603306431565,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+ON-MAIN-fefeaee4,Underground mining and beneficiation at Musselwhite,Doré,-179943.02201967267,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-02884fb5,Underground mining and beneficiation at Westwood-Doyon,Doré,-251081.58868594049,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-5ce331b8,Open-pit and underground mining and beneficiation at Nunavik Nickel,Ni concentrate,-1.9806621443758001,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-6dc537e6,Underground mining and beneficiation at Éléonore,Doré,-214628.9883669889,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-9de9bb0d,Open-pit mining and beneficiation at Kiena,Doré,-156654.88229237864,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,Ni concentrate,-8.904258831297401,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-b86f7d07,Open-pit and underground mining and beneficiation at Casa Berardi,Doré,-387148.5418899261,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Cu concentrate,-85.6179068540535,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,Doré,-642669.5374071626,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Cu concentrate,-16.8021303718189,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Zn concentrate,-6.2808665445305,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,Doré,-126121.01545437925,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,Doré,-596880.7639621337,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,Doré,-105688.8963670379,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Zn concentrate,-45.4983221423512,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+YT-MAIN-44857446,Underground mining and beneficiation at Keno Hill Silver District,Pb concentrate,-36.3833454424526,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,Doré,-217495.92717420784,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+GRP-0d911886,Open-pit and underground mining at Porcupine complex,Doré,-352764.14762746217,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,Doré,-373160.268665578,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,Doré,-99179.54525789722,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Cu concentrate,-6.4142328452407,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Zn concentrate,-2.3977281210763,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized
+GRP-a13779f8,Underground mining and beneficiation at Snow Lake,Doré,-48146.844590577755,,,,"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",kilogram,CA,ecoinvent-3.10-cutoff regionalized

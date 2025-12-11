@@ -129,14 +129,27 @@ class LCIDatabaseBuilder:
                     missing_keys.append((db_name, act_name, loc))
                     continue
 
+                    # --- Amount selection logic ---
+                if pd.notna(row.get("Amount")):
+                    amount = float(row["Amount"])
+                elif pd.notna(row.get("Amount_mean")):
+                    amount = float(row["Amount_mean"])
+                else:
+                    print(
+                            f"⚠️ Missing Amount & Amount_mean "
+                            f"(site_id={site_id}, activity={act_name})"
+                        )
+                    continue
+
                 exchange = {
                     "input": input_key,
-                    "amount": float(row["Amount"]),
+                    "amount": amount,
                     "unit": row["Unit"],
                     "type": "technosphere",
                     "name": act_name,
                     "product": row.get("Product", None),
                     "location": loc,
+                    "comment": "mean used (gap-filled)" if pd.isna(row["Amount"]) else "reported"
                     # add comment but no parenthesis
                 }
                 process["exchanges"].append(exchange)
