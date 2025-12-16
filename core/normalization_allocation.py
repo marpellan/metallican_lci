@@ -208,7 +208,7 @@ def normalize_land_flows(
         "parameter_distribution",
     ]
 
-    VALUE_COLS = ["value", "value_min", "value_mean", "value_max"]
+    VALUE_COLS = ["value"]
 
     # ------------------------------------------------------------------
     # Copy & numeric safety

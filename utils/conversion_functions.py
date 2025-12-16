@@ -440,9 +440,11 @@ def map_technosphere_to_ecoinvent(technosphere_df, mapping_df, ca_provinces_dict
         ("MJ", "kilowatt hour"): 0.277778,
         ("kilowatt hour", "MJ"): 3.6,
         ("kg", "kilogram"): 1.0,
+        ("kg", "kg"): 1.0,
         ("kilogram", "kg"): 1.0,
         ("t", "kilogram"): 1000.0,
         ("kilogram", "tonne"): 0.001,
+        ("m3", "m3"): 1.0,
         ("m3", "cubic meter"): 1.0,
         ("cubic meter", "m3"): 1.0,
         ("g", "kilogram"): 0.001

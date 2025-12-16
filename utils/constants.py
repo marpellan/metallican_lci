@@ -159,8 +159,8 @@ IMPACT_METHODS_EP = {
 'Total EQ': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10','Ecosystem quality', 'Total ecosystem quality'),
 }
 
-# Midpoints for ecosystem quality
-IMPACT_METHODS_MP_EQ = {
+# Damages for ecosystem quality
+IMPACT_METHODS_EQ_damages = {
     'Climate change EQ LT': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Ecosystem quality', 'Climate change, ecosystem quality, long term'),
     'Climate change EQ ST': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Ecosystem quality', 'Climate change, ecosystem quality, short term'),
     'Fisheries impact': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Ecosystem quality', 'Fisheries impact'),
@@ -185,8 +185,8 @@ IMPACT_METHODS_MP_EQ = {
     'Water availability terrestrial': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Ecosystem quality', 'Water availability, terrestrial ecosystem'),
 }
 
-# Midpoints for human health
-IMPACT_METHODS_MP_HH = {
+# Damages for human health
+IMPACT_METHODS_HH_damages = {
     'Climate change HH LT': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Human health', 'Climate change, human health, long term'),
     'Climate change HH ST': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Human health', 'Climate change, human health, short term'),
     'Human toxicity cancer LT': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Human health', 'Human toxicity cancer, long term'),
@@ -200,6 +200,29 @@ IMPACT_METHODS_MP_HH = {
     'Water availability HH': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Human health', 'Water availability, human health'),
 }
 
+# Selected MPs
+IMPACT_METHODS_MIDPOINT = { # 10 indicators?
+'Climate change LT': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Climate change, long term'),
+'Climate change ST': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Climate change, short term'),
+#'Fossil and nuclear energy use': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Fossil and nuclear energy use'),
+'Freshwater acidification': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Freshwater acidification'),
+'Terrestrial acidification': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Terrestrial acidification'),
+'Freshwater ecotoxicity': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Freshwater ecotoxicity'),
+#'Freshwater eutrophication': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Freshwater eutrophication'),
+'Human toxicity cancer': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Human toxicity cancer'),
+'Human toxicity non-cancer': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Human toxicity non-cancer' ),
+#'Ionizing radiations': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Ionizing radiations'),
+'Land occupation biodiversity': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Land occupation, biodiversity'),
+'Land transformation biodiversity': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Land transformation, biodiversity'),
+#'Marine eutrophication': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Marine eutrophication' ),
+#'Mineral resources use': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Mineral resources use'),
+#'Ozone layer depletion': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Ozone layer depletion'),
+'Particulate matter formation': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Particulate matter formation'),
+#'Photochemical ozone formation': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Photochemical ozone formation'),
+'Water scarcity': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Water scarcity'),
+}
+
+
 agg_mapping_eq = {
  'Freshwater ecotoxicity LT': 'Freshwater ecotoxicity',
  'Freshwater ecotoxicity ST': 'Freshwater ecotoxicity',
@@ -207,22 +230,22 @@ agg_mapping_eq = {
  'Climate change EQ LT': 'Climate change',
  'Climate change EQ ST': 'Climate change',
  'Freshwater acidification': 'Freshwater acidification',
- 'Terrestrial ecotoxicity LT': 'Terrestrial ecotoxicity',
- 'Marine ecotoxicity LT': 'Marine ecotoxicity',
- 'Terrestrial ecotoxicity ST': 'Terrestrial ecotoxicity',
- 'Marine ecotoxicity ST': 'Marine ecotoxicity',
+ 'Terrestrial ecotoxicity LT': 'Other',
+ 'Marine ecotoxicity LT': 'Other',
+ 'Terrestrial ecotoxicity ST': 'Other',
+ 'Marine ecotoxicity ST': 'Other',
  'Land occupation biodiversity': 'Land occupation',
  'Land transformation biodiversity': 'Land transformation',
- 'Water availability freshwater ecosystem': 'Freshwater availability',
- 'Thermally polluted water': 'Thermally polluted water',
- 'Water availability terrestrial ecosystem': 'Terrestrial water availability',
- 'Marine eutrophication': 'Eutrophication',
- 'Freshwater eutrophication': 'Eutrophication',
+ 'Water availability freshwater ecosystem': 'Other',
+ 'Thermally polluted water': 'Other',
+ 'Water availability terrestrial ecosystem': 'Other',
+ 'Marine eutrophication': 'Other',
+ 'Freshwater eutrophication': 'Other',
  'Marine acidification LT': 'Marine acidification',
  'Marine acidification ST': 'Marine acidification',
- 'Photochemical ozone EQ': 'Photochemical ozone formation',
- 'Fisheries impact': 'Fisheries impact',
- 'Ionizing radiations EQ': 'Ionizing radiations'
+ 'Photochemical ozone EQ': 'Other',
+ 'Fisheries impact': 'Other',
+ 'Ionizing radiations EQ': 'Other'
 }
 
 agg_mapping_hh = {
@@ -230,12 +253,12 @@ agg_mapping_hh = {
  'Climate change HH ST': 'Climate change',
  'Human toxicity cancer LT': 'Human toxicity, cancer',
  'Human toxicity cancer ST': 'Human toxicity, cancer',
- 'Human toxicity non-cancer LT': 'Human toxicity, non-cancer',
- 'Human toxicity non-cancer ST': 'Human toxicity, non-cancer',
- 'Ionizing radiations HH': 'Ionizing radiations',
- 'Ozone layer depletion': 'Ozone layer depletion',
+ 'Human toxicity non-cancer LT': 'Other',
+ 'Human toxicity non-cancer ST': 'Other',
+ 'Ionizing radiations HH': 'Other',
+ 'Ozone layer depletion': 'Other',
  'Particulate matter formation': 'Particulate matter',
- 'Photochemical ozone HH': 'Photochemical ozone formation',
+ 'Photochemical ozone HH': 'Other',
  'Water availability HH': 'Water availability'
 }
 

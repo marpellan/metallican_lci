@@ -9,6 +9,7 @@ INVENTORIES_CA_ei = {
     "Zn concentrate": ("gold-silver mine operation and beneficiation", "zinc concentrate", "CA-QC"),
     "Fe concentrate": ("iron ore mine operation and beneficiation", "iron ore concentrate", "CA-QC"),
     "Ni concentrate": ("nickel mine operation and benefication to nickel concentrate, 16% Ni", "nickel concentrate, 16% Ni", "CA-QC"), #typo in EI
+    "U yellowcake": ("uranium production, in yellowcake", "uranium, in yellowcake", "RoW")
 }
 
 
@@ -23,6 +24,8 @@ INVENTORIES_CA_reg = {
     "Zn concentrate": ("gold-silver mine operation and beneficiation", "zinc concentrate", "CA"),
     "Fe concentrate": ("iron ore mine operation and beneficiation", "iron ore concentrate", "CA"),
     "Ni concentrate": ("nickel mine operation and benefication to nickel concentrate, 16% Ni", "nickel concentrate, 16% Ni", "CA"), #typo in EI
+    "U yellowcake": ("uranium production, in yellowcake", "uranium, in yellowcake", "CA")
+
 }
 
 
@@ -116,4 +119,11 @@ INVENTORIES_metallican = {
 "Kidd Creek (Zn)": ("Underground mining and beneficiation at Kidd Creek", "Zn concentrate", "CA-ON"),
 "LaRonde (Zn)": ("Underground mining and beneficiation at LaRonde", "Zn concentrate", "CA-QC"),
 "Snow Lake (Zn)": ("Underground mining and beneficiation at Snow Lake", "Zn concentrate", "CA-MB"),
+
+# U
+"Key Lake + McArthur River": ("Underground mining and beneficiation at Key Lake + McArthur River", "U concentrate", "CA-SK"),
+"Cigar Lake + McClean Lake": ("Underground mining and beneficiation at Cigar Lake + McClean Lake", "U concentrate", "CA-SK"),
+
+
+
 }
