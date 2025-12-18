@@ -61,6 +61,7 @@ class InferenceEngine:
 
     # We can attach sub-inference objects here
     energy_inference: "EnergyInference" = field(init=False) # This InferenceEngine will have an EnergyInference object
+    electricity_inference: "ElectricityInference" = field(init=False)
     land_inference: "LandInference" = field(init=False)
     material_inference: "MaterialInference" = field(init=False)
     explosives_inference: "ExplosivesInference" = field(init=False)
@@ -68,6 +69,7 @@ class InferenceEngine:
 
     def __post_init__(self):
         self.energy_inference = EnergyInference(self)
+        self.electricity_inference = ElectricityInference(self)
         self.land_inference = LandInference(self)
         #self.material_inference = MaterialInference(self) Needs external rules table, engine alone is not enough
         self.explosives_inference = ExplosivesInference(self)
@@ -95,18 +97,43 @@ class InferenceEngine:
 
         return combined, inferred
 
+    def infer_electricity_for_sites(
+            self,
+            site_ids,
+            electricity_share_rules,
+            overwrite=False,
+            verbose=True,
+    ):
+        inferred = self.electricity_inference.infer_for_sites(
+            site_ids=site_ids,
+            electricity_share_rules=electricity_share_rules,
+            overwrite=overwrite,
+            verbose=verbose,
+        )
+
+        self.energy_df = pd.concat(
+            [
+                self.energy_df.reindex(columns=INFERRED_COLS),
+                inferred.reindex(columns=INFERRED_COLS),
+            ],
+            ignore_index=True,
+        )
+
+        return self.energy_df, inferred
+
+
     def infer_land_for_sites(
             self,
             site_ids,
-            formula_open_pit="0.791 * ore_processed_t - 7.76e5",
-            formula_underground="Uniform(UG_land_min, UG_land_max)",
+            formula_open_pit=None,
+            underground_land_factors=None,
             formula_other="Uniform(other_land_min, other_land_max)",
             overwrite=False
     ):
         inferred = self.land_inference.infer_for_sites(
             site_ids=site_ids,
             formula_open_pit=formula_open_pit,
-            formula_underground=formula_underground,
+            underground_land_factors=underground_land_factors,
             formula_other=formula_other,
             overwrite=overwrite
         )
@@ -349,155 +376,146 @@ class EnergyInference:
         return df[self.engine.energy_df.columns]
 
 
-# class LandInference:
-#     """
-#     Infer land transformation area (m2) or land occupation formula
-#     based on mining_processing_type and ore_processed_t.
-#
-#     Now returns symbolic formulas + min/mean/max estimates for Brightway use.
-#     """
-#
-#     def __init__(self, engine):
-#         self.engine = engine
-#
-#     @staticmethod
-#     def _is_open_pit(mtype):
-#         if not isinstance(mtype, str):
-#             return False
-#         m = mtype.lower()
-#         return "open-pit" in m or "open pit" in m
-#
-#     @staticmethod
-#     def _is_underground(mtype):
-#         if not isinstance(mtype, str):
-#             return False
-#         return "underground" in mtype.lower()
-#
-#     @staticmethod
-#     def _parse_uniform_range(formula_str):
-#         """Extract min, mean, and max from Uniform(a, b) string."""
-#         if not isinstance(formula_str, str):
-#             return None, None, None
-#         match = re.search(r"Uniform\(([^,]+),\s*([^)]+)\)", formula_str)
-#         if match:
-#             try:
-#                 a = float(match.group(1))
-#                 b = float(match.group(2))
-#                 return a, (a + b) / 2, b
-#             except ValueError:
-#                 return None, None, None
-#         return None, None, None
-#
-#     def infer_for_sites(
-#         self,
-#         site_ids,
-#         formula_open_pit="0.791 * ore_processed_t - 7.76e5",
-#         formula_underground="Uniform(800000, 1200000)",  # updated to numeric default
-#         formula_other="Uniform(200000, 400000)",
-#         overwrite=False,
-#     ):
-#         records = []
-#
-#         existing_pairs = set(zip(
-#             self.engine.land_df["site_id"],
-#             self.engine.land_df["activity_name"]
-#         ))
-#
-#         for site_id in site_ids:
-#             site_row = self.engine.site_df[self.engine.site_df["site_id"] == site_id]
-#             if site_row.empty:
-#                 print(f"⚠️ No site metadata for {site_id}")
-#                 continue
-#
-#             site_meta = site_row.iloc[0]
-#             activity_name = site_meta.get("activity_name")
-#             mtype = site_meta.get("mining_processing_type")
-#             archetype = site_meta.get("archetypes")
-#
-#             if not overwrite and (site_id, activity_name) in existing_pairs:
-#                 continue
-#
-#             ore_row = self.engine.production_df[self.engine.production_df["site_id"] == site_id]
-#             ore = ore_row.iloc[0]["ore_processed_t"] if not ore_row.empty else None
-#
-#             if self._is_open_pit(mtype):
-#                 value_formula = formula_open_pit
-#                 value_min = value_max = value_mean = None
-#                 if ore is not None and pd.notna(ore):
-#                     value_mean = 0.791 * ore - 7.76e5
-#                     value_min = value_max = value_mean
-#                     value_formula = f"(0.510 * {ore}) - 7.14e6"
-#
-#                 rec = {
-#                     "site_id": site_id,
-#                     "activity_name": activity_name,
-#                     "mining_processing_type": mtype,
-#                     "archetypes": archetype,
-#                     "value": None,
-#                     "unit": "m2",
-#                     "operation_periods": None,
-#                     "data_source": "Inference (open-pit model)",
-#                     "value_formula": value_formula,
-#                     "amount_parameter": "ore_processed_t",
-#                     #"reference_flow": "ore_processed_t",
-#                     "parameter_distribution": None,
-#                     "value_min": value_min,
-#                     "value_mean": value_mean,
-#                     "value_max": value_max,
-#                 }
-#                 records.append(rec)
-#                 continue
-#
-#             if self._is_underground(mtype):
-#                 val_min, val_mean, val_max = self._parse_uniform_range(formula_underground)
-#                 rec = {
-#                     "site_id": site_id,
-#                     "activity_name": activity_name,
-#                     "mining_processing_type": mtype,
-#                     "archetypes": archetype,
-#                     "value": None,
-#                     "unit": "m2",
-#                     "operation_periods": None,
-#                     "data_source": "Inference (underground range)",
-#                     "value_formula": formula_underground,
-#                     "amount_parameter": None,
-#                     #"reference_flow": None,
-#                     "parameter_distribution": formula_underground,
-#                     "value_min": val_min,
-#                     "value_mean": val_mean,
-#                     "value_max": val_max,
-#                 }
-#                 records.append(rec)
-#                 continue
-#
-#             # For other facilities
-#             val_min, val_mean, val_max = self._parse_uniform_range(formula_other)
-#             rec = {
-#                 "site_id": site_id,
-#                 "activity_name": activity_name,
-#                 "mining_processing_type": mtype,
-#                 "archetypes": archetype,
-#                 "value": None,
-#                 "unit": "m2",
-#                 "operation_periods": None,
-#                 "data_source": "Inference (other facilities range)",
-#                 "value_formula": formula_other,
-#                 "amount_parameter": None,
-#                 #"reference_flow": None,
-#                 "parameter_distribution": formula_other,
-#                 "value_min": val_min,
-#                 "value_mean": val_mean,
-#                 "value_max": val_max,
-#             }
-#             records.append(rec)
-#
-#         columns = [
-#             "site_id", "activity_name", "mining_processing_type", "archetypes",
-#             "value", "unit", "operation_periods", "data_source", "value_formula",
-#             "amount_parameter", "parameter_distribution",
-#             "value_min", "value_mean", "value_max"
-#         ]
-#         return pd.DataFrame(records, columns=columns)
+class ElectricityInference:
+    """
+    Infer electricity consumption as a share of total final energy (MJ).
+
+    - Converts all fuel energy to MJ
+    - Applies electricity share by mining method / archetype
+    - Adds one 'Electricity' energy flow (MJ)
+    """
+
+    def __init__(self, engine):
+        self.engine = engine
+
+    @staticmethod
+    def _get_method_key(mtype):
+        if not isinstance(mtype, str):
+            return None
+
+        m = mtype.lower()
+        has_op = ("open-pit" in m) or ("open pit" in m)
+        has_ug = ("underground" in m)
+
+        if has_op and has_ug:
+            return "mixed"
+        if has_ug:
+            return "underground"
+        if has_op:
+            return "open-pit"
+        return None
+
+    def infer_for_sites(
+        self,
+        site_ids,
+        electricity_share_rules,
+        overwrite=False,
+        verbose=True,
+    ):
+
+        ENERGY_TO_MJ = {
+            "Diesel": 38.6,  # MJ / L
+            "LPG": 25.3,  # MJ / L assumed same as propane
+            "Natural gas": 38.0,  # MJ / m3
+        }
+
+        records = []
+
+        existing_pairs = set(zip(
+            self.engine.energy_df.get("site_id", pd.Series(dtype=object)),
+            self.engine.energy_df.get("subflow_type", pd.Series(dtype=object)),
+        ))
+
+        for site_id in site_ids:
+
+            # ---- site metadata ----
+            site_row = self.engine.site_df[self.engine.site_df["site_id"] == site_id]
+            if site_row.empty:
+                if verbose:
+                    print(f"⚠️ No site metadata for {site_id}")
+                continue
+
+            meta = site_row.iloc[0]
+            mtype = meta.get("mining_processing_type")
+            archetype = meta.get("archetypes")
+
+            subflow = "Electricity consumption|Grid electricity"
+            if not overwrite and (site_id, subflow) in existing_pairs:
+                continue
+
+            # ---- select electricity share ----
+            method_key = self._get_method_key(mtype)
+            if method_key not in electricity_share_rules:
+                if verbose:
+                    print(f"⚠️ No electricity share rule for {method_key}")
+                continue
+
+            rules = electricity_share_rules[method_key]
+            share = rules.get(archetype, rules.get("default"))
+
+            if share is None:
+                continue
+
+            if isinstance(share, (int, float)):
+                smin = smax = float(share)
+            else:
+                smin, smax = share
+
+            mean_share = (smin + smax) / 2
+
+            # ---- collect site energy flows ----
+            df_energy = self.engine.energy_df[self.engine.energy_df["site_id"] == site_id]
+            if df_energy.empty:
+                continue
+
+            total_energy_MJ = 0.0
+
+            for _, r in df_energy.iterrows():
+                sub = r["subflow_type"]
+                val = r["value"]
+                unit = r["unit"]
+
+                if val is None or pd.isna(val):
+                    continue
+
+                # identify fuel
+                if sub.startswith("Diesel"):
+                    total_energy_MJ += val * ENERGY_TO_MJ["Diesel"]
+                elif sub.startswith("LPG"):
+                    total_energy_MJ += val * ENERGY_TO_MJ["LPG"]
+                elif sub.startswith("Natural gas"):
+                    total_energy_MJ += val * ENERGY_TO_MJ["Natural gas"]
+                elif sub == "Electricity":
+                    # already electricity → skip
+                    continue
+
+            if total_energy_MJ == 0:
+                continue
+
+            # ---- infer electricity ----
+            fuel_energy_MJ = total_energy_MJ
+            electricity_MJ = (mean_share / (1 - mean_share)) * fuel_energy_MJ
+            dist = f"Uniform({smin}, {smax})" if smin != smax else None
+            formula = f"({mean_share} / (1 - {mean_share})) * fuel_energy_MJ"
+
+
+            records.append({
+                "site_id": site_id,
+                "activity_name": meta.get("activity_name"),
+                "mining_processing_type": mtype,
+                "archetypes": archetype,
+                "flow_type": "Energy",
+                "subflow_type": "Electricity consumption|Grid electricity",
+                "value": electricity_MJ,
+                "unit": "MJ",
+                "data_source": "Inference | electricity share of total energy",
+                "value_formula": formula,
+                "parameter_distribution": dist,
+            })
+
+        return pd.DataFrame(records, columns=INFERRED_COLS)
+
+
 class LandInference:
 
     def __init__(self, engine):
@@ -515,23 +533,26 @@ class LandInference:
         self,
         site_ids,
         formula_open_pit="0.791 * ore_processed_t - 7.76e5",
-        formula_underground="Uniform(800000, 1200000)",
+        underground_land_factors=None,
         formula_other="Uniform(200000, 400000)",
         overwrite=False,
     ):
         records = []
+
         existing_pairs = set(zip(
             self.engine.land_df.get("site_id", pd.Series(dtype=object)),
             self.engine.land_df.get("subflow_type", pd.Series(dtype=object)),
         ))
 
         for site_id in site_ids:
+
             site_row = self.engine.site_df[self.engine.site_df["site_id"] == site_id]
             if site_row.empty:
                 continue
 
             meta = site_row.iloc[0]
             mtype = meta.get("mining_processing_type")
+            archetype = meta.get("archetypes")
 
             prod_row = self.engine.production_df[self.engine.production_df["site_id"] == site_id]
             ore = prod_row.iloc[0].get("ore_processed_t") if not prod_row.empty else None
@@ -544,25 +565,49 @@ class LandInference:
             dist = None
 
             if self._is_open_pit(mtype):
-                # deterministic regression
                 formula = formula_open_pit
                 source = "Inference | land | open-pit regression"
                 if ore is not None and pd.notna(ore):
-                    # safe eval context
-                    value_inferred = float(eval(formula, {"__builtins__": {}}, {"ore_processed_t": ore}))
+                    value_inferred = float(
+                        eval(formula, {"__builtins__": {}}, {"ore_processed_t": ore})
+                    )
 
-            elif self._is_underground(mtype):
-                dist = formula_underground
-                formula = f"ore_processed_t * {dist}"
-                source = "Inference | land | underground"
-                mean_factor = mean_of_distribution(dist)
-                if mean_factor is not None and ore is not None and pd.notna(ore):
+            elif self._is_underground(mtype) and underground_land_factors:
+
+                params = underground_land_factors.get(archetype)
+                if params is None:
+                    continue
+
+                factor = params["factor"]
+
+                # ---- normalize factor (scalar or range) ----
+                if isinstance(factor, (int, float)):
+                    xmin = xmax = float(factor)
+                elif isinstance(factor, (tuple, list)) and len(factor) == 2:
+                    xmin, xmax = factor
+                else:
+                    raise ValueError(
+                        f"Invalid land factor for archetype '{archetype}': {factor}"
+                    )
+
+                dist = f"Uniform({xmin}, {xmax})" if xmin != xmax else None
+                formula = (
+                    f"ore_processed_t * {xmin}"
+                    if xmin == xmax
+                    else f"ore_processed_t * Uniform({xmin}, {xmax})"
+                )
+                source = f"Inference | land | underground | {archetype}"
+
+                mean_factor = (xmin + xmax) / 2
+                if ore is not None and pd.notna(ore):
                     value_inferred = ore * mean_factor
+
 
             else:
                 dist = formula_other
                 formula = f"ore_processed_t * {dist}"
-                source = "Inference | land | other"
+                source = "Inference | land | other facilities"
+
                 mean_factor = mean_of_distribution(dist)
                 if mean_factor is not None and ore is not None and pd.notna(ore):
                     value_inferred = ore * mean_factor
@@ -571,247 +616,18 @@ class LandInference:
                 "site_id": site_id,
                 "activity_name": meta.get("activity_name"),
                 "mining_processing_type": mtype,
-                "archetypes": meta.get("archetypes"),
+                "archetypes": archetype,
                 "flow_type": "Land",
                 "subflow_type": subflow,
-                "value": value_inferred,  # ✅ inferred mean / deterministic estimate
+                "value": value_inferred,
                 "unit": "m2",
                 "data_source": source,
                 "value_formula": formula,
-                "amount_parameter": "ore_processed_t",
                 "parameter_distribution": dist,
             })
 
         return pd.DataFrame(records, columns=INFERRED_COLS)
 
-
-# class MaterialInference:
-#     """
-#     Infer material input flows based on archetype-driven rules, enriched with value range estimation.
-#
-#     Output includes:
-#     - value_formula (symbolic)
-#     - value_min, value_mean, value_max (numeric, resolved if ore_processed_t is known)
-#     - parameter_distribution (optional)
-#     """
-#
-#     def __init__(self, engine, material_rules_df):
-#         self.engine = engine
-#         self.material_rules_df = material_rules_df.copy()
-#
-#         required_cols = {
-#             "archetype", "material_name", "flow_type", "value_formula", "unit"
-#         }
-#         missing = required_cols - set(self.material_rules_df.columns)
-#         if missing:
-#             raise ValueError(f"Material rules table missing columns: {missing}")
-#
-#     def _extract_distribution_stats(self, formula: str):
-#         if not isinstance(formula, str):
-#             return None, None, None, None
-#
-#         # Detect Uniform(...)
-#         uniform_matches = re.findall(r"Uniform\(([-+eE0-9.]+),\s*([-+eE0-9.]+)\)", formula)
-#         if uniform_matches:
-#             param_dist = " * ".join([f"Uniform({a}, {b})" for a, b in uniform_matches])
-#             param_min = np.prod([float(a) for a, _ in uniform_matches])
-#             param_max = np.prod([float(b) for _, b in uniform_matches])
-#             param_mean = np.prod([(float(a) + float(b)) / 2 for a, b in uniform_matches])
-#             return param_dist, param_min, param_mean, param_max
-#
-#         # Detect 'a-b * ore_processed_t' style
-#         range_match = re.match(r"\s*([0-9.eE+-]+)-([0-9.eE+-]+)\s*\*\s*", formula)
-#         if range_match:
-#             a, b = float(range_match[1]), float(range_match[2])
-#             param_dist = f"Uniform({a}, {b})"
-#             return param_dist, a, (a + b) / 2, b
-#
-#         return None, None, None, None
-#
-#     def infer_for_sites(self, site_ids, overwrite=False, verbose=True):
-#         records = []
-#
-#         existing_pairs = set(zip(
-#             self.engine.material_df["site_id"],
-#             self.engine.material_df["subflow_type"]
-#         ))
-#
-#         for site_id in site_ids:
-#             site_row = self.engine.site_df[self.engine.site_df["site_id"] == site_id]
-#             if site_row.empty:
-#                 if verbose:
-#                     print(f"⚠️ No site metadata for {site_id}")
-#                 continue
-#
-#             site_meta = site_row.iloc[0]
-#             archetype = site_meta.get("archetypes")
-#             activity_name = site_meta.get("activity_name")
-#             mining_type = site_meta.get("mining_processing_type")
-#
-#             if not archetype or pd.isna(archetype):
-#                 if verbose:
-#                     print(f"⚠️ No archetype for site {site_id}")
-#                 continue
-#
-#             rules = self.material_rules_df[self.material_rules_df["archetype"] == archetype]
-#             if rules.empty:
-#                 if verbose:
-#                     print(f"⚠️ No material rules for archetype '{archetype}'")
-#                 continue
-#
-#             # Get ore_processed_t from production_df
-#             prod_row = self.engine.production_df[self.engine.production_df["site_id"] == site_id]
-#             ore_processed = None
-#             if not prod_row.empty:
-#                 ore_processed = prod_row.iloc[0].get("ore_processed_t")
-#
-#             for _, rule in rules.iterrows():
-#                 subflow = rule["material_name"]
-#                 if not overwrite and (site_id, subflow) in existing_pairs:
-#                     continue
-#
-#                 formula = rule["value_formula"]
-#                 param_dist, param_min, param_mean, param_max = self._extract_distribution_stats(formula)
-#
-#                 # Multiply by ore if possible
-#                 value_min = value_mean = value_max = None
-#                 if ore_processed and param_min is not None:
-#                     value_min = ore_processed * param_min
-#                     value_mean = ore_processed * param_mean
-#                     value_max = ore_processed * param_max
-#
-#                 rec = {
-#                     "site_id": site_id,
-#                     "activity_name": activity_name,
-#                     "mining_processing_type": mining_type,
-#                     "archetypes": archetype,
-#                     "flow_type": rule.get("flow_type", "Material"),
-#                     "subflow_type": subflow,
-#                     "value": None,
-#                     "unit": rule["unit"],
-#                     "data_source": (
-#                         f"Archetype inference ({rule.get('process', '')}) | "
-#                         f"{rule.get('source', '')}"
-#                     ).strip(),
-#                     "value_formula": formula,
-#                     "amount_parameter": None,
-#                     "parameter_distribution": param_dist,
-#                     "value_min": value_min,
-#                     "value_mean": value_mean,
-#                     "value_max": value_max,
-#                     #"reference_flow": "ore_processed_t"
-#                 }
-#
-#                 records.append(rec)
-#
-#         if not records:
-#             return pd.DataFrame(columns=[
-#                 "site_id", "activity_name", "mining_processing_type", "archetypes",
-#                 "flow_type", "subflow_type", "value", "unit", "data_source",
-#                 "value_formula", "amount_parameter", "parameter_distribution",
-#                 "value_min", "value_mean", "value_max"
-#             ])
-#
-#         return pd.DataFrame(records)
-
-
-# class MaterialInference:
-#     """
-#     Infer material flows based on archetype rules.
-#     Stores:
-#       - value: inferred mean (deterministic)
-#       - parameter_distribution: uncertainty model string
-#       - value_formula: symbolic formula
-#     """
-#
-#     def __init__(self, engine, material_rules_df):
-#         self.engine = engine
-#         self.material_rules_df = material_rules_df.copy()
-#
-#         required_cols = {"archetype", "material_name", "unit", "value", "reference_flow"}
-#
-#         missing = required_cols - set(self.material_rules_df.columns)
-#         if missing:
-#             raise ValueError(f"Material rules table missing columns: {missing}")
-#
-#         # Optional columns: make sure they exist
-#         if "parameter_distribution" not in self.material_rules_df.columns:
-#             self.material_rules_df["parameter_distribution"] = pd.NA
-#
-#         if "flow_type" not in self.material_rules_df.columns:
-#             self.material_rules_df["flow_type"] = "Material"
-#
-#         if "source" not in self.material_rules_df.columns:
-#             self.material_rules_df["source"] = ""
-#
-#     def infer_for_sites(self, site_ids, overwrite=False, verbose=True):
-#         records = []
-#
-#         existing_pairs = set(zip(
-#             self.engine.material_df.get("site_id", pd.Series(dtype=object)),
-#             self.engine.material_df.get("subflow_type", pd.Series(dtype=object)),
-#         ))
-#
-#         for site_id in site_ids:
-#             site_row = self.engine.site_df[self.engine.site_df["site_id"] == site_id]
-#             if site_row.empty:
-#                 if verbose:
-#                     print(f"⚠️ No site metadata for {site_id}")
-#                 continue
-#
-#             meta = site_row.iloc[0]
-#             archetype = meta.get("archetypes")
-#
-#             rules = self.material_rules_df[self.material_rules_df["archetype"] == archetype]
-#             if rules.empty:
-#                 if verbose:
-#                     print(f"⚠️ No material rules for archetype '{archetype}'")
-#                 continue
-#
-#             # Get production reference
-#             prod_row = self.engine.production_df[self.engine.production_df["site_id"] == site_id]
-#
-#             for _, rule in rules.iterrows():
-#                 subflow = rule["material_name"]
-#                 if not overwrite and (site_id, subflow) in existing_pairs:
-#                     continue
-#
-#                 ref_flow = rule["reference_flow"]  # e.g. "ore_processed_t"
-#                 intensity_mean = rule["value"]  # e.g. 0.05 (kg/t)
-#                 dist = rule.get("parameter_distribution")
-#
-#                 # Resolve reference flow value
-#                 ref_value = None
-#                 if not prod_row.empty and ref_flow in prod_row.columns:
-#                     ref_value = prod_row.iloc[0][ref_flow]
-#
-#                 # ---- inferred deterministic value (mean) ----
-#                 value_inferred = None
-#                 if ref_value is not None and pd.notna(ref_value):
-#                     value_inferred = ref_value * intensity_mean
-#
-#                 # ---- symbolic formula ----
-#                 if pd.notna(dist):
-#                     value_formula = f"{ref_flow} * {dist}"
-#                 else:
-#                     value_formula = f"{ref_flow} * {intensity_mean}"
-#
-#                 records.append({
-#                     "site_id": site_id,
-#                     "activity_name": meta.get("activity_name"),
-#                     "mining_processing_type": meta.get("mining_processing_type"),
-#                     "archetypes": archetype,
-#                     "flow_type": rule["flow_type"],
-#                     "subflow_type": subflow,
-#                     "value": value_inferred,  # ✅ mean inferred value
-#                     "unit": rule["unit"],
-#                     "data_source": f"Archetype inference | {rule.get('source', '')}".strip(),
-#                     "value_formula": value_formula,
-#                     "amount_parameter": ref_flow,
-#                     "parameter_distribution": dist,
-#                 })
-#
-#         return pd.DataFrame(records, columns=INFERRED_COLS)
 
 class MaterialInference:
     """

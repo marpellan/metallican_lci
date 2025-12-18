@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 
 def merge_main_and_group(df, main_df,
@@ -64,53 +65,6 @@ def merge_main_and_group(df, main_df,
 
     return df_out
 
-
-# def merge_without_suffixes(
-#     left: pd.DataFrame,
-#     right: pd.DataFrame,
-#     keys: Tuple[str, str] = ("main_id", "facility_group_id"),
-#     how: str = "left",
-#     right_prefix: str = ""  # leave empty to add only non-overlapping cols
-# ) -> pd.DataFrame:
-#     """
-#     Merge two DataFrames on keys, adding only *new* columns from right to avoid _x/_y.
-#     - Ensures right has unique keys to prevent row multiplication.
-#     - Drops overlapping non-key columns from right before merge.
-#     - Returns a clean merged DataFrame with no suffixes.
-#     """
-#     key_cols = list(keys)
-#
-#     # Ensure key types align
-#     for k in key_cols:
-#         if k in left.columns and k in right.columns:
-#             # Cast to string to be robust to mixed types; change to category/int if you prefer
-#             left[k] = left[k].astype(str)
-#             right[k] = right[k].astype(str)
-#
-#     # Deduplicate right on keys (keep first occurrence)
-#     if not right.duplicated(subset=key_cols, keep=False).any():
-#         right_dedup = right.copy()
-#     else:
-#         # If duplicates exist, keep the first row per keys (you can change strategy if needed)
-#         right_dedup = right.drop_duplicates(subset=key_cols, keep="first")
-#
-#     # Determine overlapping non-key columns and drop them from right
-#     overlap = [c for c in right_dedup.columns if c in left.columns and c not in key_cols]
-#     right_cols_to_use = [c for c in right_dedup.columns if c not in overlap]
-#
-#     # Optionally add a prefix to new columns from right (disabled by default to keep names clean)
-#     if right_prefix:
-#         rename_map = {
-#             c: f"{right_prefix}{c}" for c in right_cols_to_use if c not in key_cols
-#         }
-#         right_dedup = right_dedup[right_cols_to_use].rename(columns=rename_map)
-#     else:
-#         right_dedup = right_dedup[right_cols_to_use]
-#
-#     # Perform merge
-#     merged = left.merge(right_dedup, on=key_cols, how=how, validate=None)
-#
-#     return merged
 
 def prepare_normalization_data(df):
     '''
@@ -266,17 +220,6 @@ def get_production_data(production_df, reference_priority=None):
     result = df.drop_duplicates(subset=["main_id", "facility_group_id"], keep="first").drop(columns="priority")
 
     return result
-
-
-# # Add the MDO_URL column to the archetypes_table with a merge from the main_id and facility_group_id columns
-# def add_mdo_url(archetypes_df, main_df):
-#     merged_df = pd.merge(
-#         archetypes_df,
-#         main_df[['main_id', 'facility_group_id', 'MDO_URL']],
-#         on=['main_id', 'facility_group_id'],
-#         how='left'
-#     )
-#     return merged_df
 
 
 def aggregate_biosphere_facility_groups(df, remove_individuals=False):
@@ -566,16 +509,6 @@ def build_activity_name(row, df):
     # Combine operation parts
     operation = " ".join(parts).strip()
 
-    # ---- 2️⃣ Determine commodities ----
-    # commodities = [
-    #     col.replace("_t", "")
-    #     for col in df.columns
-    #     if col.endswith("_t")
-    #     and col != "ore_processed_t"
-    #     and pd.notna(row.get(col))
-    #     and row[col] not in [0, "0", ""]
-    # ]
-    # commodities_str = " and ".join(commodities)
 
     # ---- 3️⃣ Choose facility name ----
     facility = (
@@ -588,14 +521,38 @@ def build_activity_name(row, df):
 
     return final_name
 
-    # ---- 4️⃣ Build final name ----
-    if commodities_str and op and facility:
-        return f"{commodities_str}, {op} at {facility}"
-    elif commodities_str and op:
-        return f"{commodities_str}, {op}"
-    elif commodities_str and facility:
-        return f"{commodities_str} at {facility}"
-    elif commodities_str:
-        return commodities_str
-    else:
-        return None
+def add_land_substance_name(df):
+    """
+    Add ecoinvent-style land use 'substance_name' column
+    based on flow_type, npv and mining_processing_type.
+    """
+
+    out = df.copy()
+
+    MANU_TYPES = {
+        "Refinery",
+        "Smelter, plant",
+        "Smelter, refinery, plant",
+    }
+
+    is_manu = out["mining_processing_type"].isin(MANU_TYPES)
+
+    out["substance_name"] = np.select(
+        [
+            out["flow_type"].eq("transformation_from"),
+            out["flow_type"].eq("transformation_to") & is_manu,
+            out["flow_type"].eq("transformation_to") & ~is_manu,
+            out["flow_type"].eq("occupation") & is_manu,
+            out["flow_type"].eq("occupation") & ~is_manu,
+        ],
+        [
+            "Transformation, from " + out["npv"].astype(str),
+            "Transformation, to manufacturing area",
+            "Transformation, to mine area",
+            "Occupation, manufacturing area",
+            "Occupation, mine area",
+        ],
+        default=None,
+    )
+
+    return out

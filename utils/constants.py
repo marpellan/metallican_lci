@@ -147,13 +147,14 @@ nrj_subflow = {
     'Ammonium nitrate': 'Explosives',  # (treat as energy only if you ANFO-equivalize)
 
     # Others
-    'Used oil': 'Other',  # usually MATERIAL (lubricants); map to energy only if burned
-    'Other': 'Other',
+    'Used oil': 'Gasoline',  # usually MATERIAL (lubricants); map to energy only if burned
+    'Other': 'Diesel',
 }
 
 # ======================================================
 # LCA stuff
 # ======================================================
+# Total endpoints
 IMPACT_METHODS_EP = {
 'Total HH': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10','Human health', 'Total human health'),
 'Total EQ': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10','Ecosystem quality', 'Total ecosystem quality'),
@@ -202,15 +203,15 @@ IMPACT_METHODS_HH_damages = {
 
 # Selected MPs
 IMPACT_METHODS_MIDPOINT = { # 10 indicators?
-'Climate change LT': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Climate change, long term'),
+#'Climate change LT': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Climate change, long term'),
 'Climate change ST': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Climate change, short term'),
 #'Fossil and nuclear energy use': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Fossil and nuclear energy use'),
-'Freshwater acidification': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Freshwater acidification'),
-'Terrestrial acidification': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Terrestrial acidification'),
-'Freshwater ecotoxicity': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Freshwater ecotoxicity'),
+#'Freshwater acidification': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Freshwater acidification'),
+#'Terrestrial acidification': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Terrestrial acidification'),
+#'Freshwater ecotoxicity': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Freshwater ecotoxicity'),
 #'Freshwater eutrophication': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Freshwater eutrophication'),
-'Human toxicity cancer': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Human toxicity cancer'),
-'Human toxicity non-cancer': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Human toxicity non-cancer' ),
+#'Human toxicity cancer': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Human toxicity cancer'),
+#'Human toxicity non-cancer': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Human toxicity non-cancer' ),
 #'Ionizing radiations': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Ionizing radiations'),
 'Land occupation biodiversity': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Land occupation, biodiversity'),
 'Land transformation biodiversity': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Land transformation, biodiversity'),
@@ -259,6 +260,47 @@ agg_mapping_hh = {
  'Ozone layer depletion': 'Other',
  'Particulate matter formation': 'Particulate matter',
  'Photochemical ozone HH': 'Other',
+ 'Water availability HH': 'Water availability'
+}
+
+
+agg_st_lt_eq = {
+ 'Freshwater ecotoxicity LT': 'Freshwater ecotoxicity',
+ 'Freshwater ecotoxicity ST': 'Freshwater ecotoxicity',
+ 'Terrestrial acidification': 'Terrestrial acidification',
+ 'Climate change EQ LT': 'Climate change',
+ 'Climate change EQ ST': 'Climate change',
+ 'Freshwater acidification': 'Freshwater acidification',
+ 'Terrestrial ecotoxicity LT': 'Terrestrial ecotoxicity',
+ 'Marine ecotoxicity LT': 'Marine ecotoxicity',
+ 'Terrestrial ecotoxicity ST': 'Terrestrial ecotoxicity',
+ 'Marine ecotoxicity ST': 'Marine ecotoxicity',
+ 'Land occupation biodiversity': 'Land occupation',
+ 'Land transformation biodiversity': 'Land transformation',
+ 'Water availability freshwater ecosystem': 'Water availability',
+ 'Thermally polluted water': 'Thermally polluted water',
+ 'Water availability terrestrial ecosystem': 'Water availability',
+ 'Marine eutrophication': 'Marine eutrophication',
+ 'Freshwater eutrophication': 'Freshwater eutrophication',
+ 'Marine acidification LT': 'Marine acidification',
+ 'Marine acidification ST': 'Marine acidification',
+ 'Photochemical ozone EQ': 'Photochemical ozone',
+ 'Fisheries impact': 'Fisheries impact',
+ 'Ionizing radiations EQ': 'Ionizing radiations'
+}
+
+
+agg_st_lt_hh = {
+ 'Climate change HH LT': 'Climate change',
+ 'Climate change HH ST': 'Climate change',
+ 'Human toxicity cancer LT': 'Human toxicity, cancer',
+ 'Human toxicity cancer ST': 'Human toxicity, cancer',
+ 'Human toxicity non-cancer LT': 'Human toxicity non-cancer',
+ 'Human toxicity non-cancer ST': 'Human toxicity non-cancer',
+ 'Ionizing radiations HH': 'Ionizing radiations',
+ 'Ozone layer depletion': 'Ozone layer depletion',
+ 'Particulate matter formation': 'Particulate matter formation',
+ 'Photochemical ozone HH': 'Photochemical ozone',
  'Water availability HH': 'Water availability'
 }
 
