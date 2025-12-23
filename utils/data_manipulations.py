@@ -293,6 +293,73 @@ def aggregate_biosphere_facility_groups(df, remove_individuals=False):
     return combined_df
 
 
+def deduplicate_environmental_flows(
+
+        df: pd.DataFrame,
+        id_cols=("main_id", "facility_group_id", "substance_id"),
+        source_col="source_id",
+        official_prefix="https",
+):
+    """
+    Deduplicate environmental flows by favoring official sources.
+
+    For each (main_id, facility_group_id, substance_id):
+      - If at least one official source exists (source_id starts with official_prefix),
+        keep only official rows.
+      - Otherwise, keep all rows.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Environmental flows table.
+    id_cols : tuple
+        Columns defining a unique environmental flow.
+    source_col : str
+        Column identifying the data source.
+    official_prefix : str
+        Prefix identifying official sources (default: "https").
+
+    Returns
+    -------
+    df_kept : pd.DataFrame
+        Deduplicated dataframe (preferred rows kept).
+    df_removed : pd.DataFrame
+        Rows removed during deduplication (QA / audit).
+    """
+
+    df = df.copy()
+
+    # Flag official sources
+    df["_is_official"] = (
+        df[source_col]
+        .astype(str)
+        .str.startswith(official_prefix, na=False)
+    )
+
+    kept_rows = []
+    removed_rows = []
+
+    for _, g in df.groupby(list(id_cols), dropna=False):
+        if g["_is_official"].any():
+            kept = g[g["_is_official"]]
+            removed = g[~g["_is_official"]]
+        else:
+            kept = g
+            removed = g.iloc[0:0]  # empty df with same columns
+
+        kept_rows.append(kept)
+        removed_rows.append(removed)
+
+    df_kept = pd.concat(kept_rows, ignore_index=True)
+    df_removed = pd.concat(removed_rows, ignore_index=True)
+
+    # Cleanup helper column
+    df_kept = df_kept.drop(columns="_is_official")
+    df_removed = df_removed.drop(columns="_is_official")
+
+    return df_kept, df_removed
+
+
 def aggregate_land_facility_groups(
     df: pd.DataFrame,
     by=("facility_group_id",),                    # -> 1 ligne par facility_group_id

@@ -10,78 +10,6 @@ import math # for pedigree matrix
 import re
 
 
-### LCI ###
-def search_activity(database_name, activity_name, ref_product, location):
-    """
-    Function to find a specific activity based on its name and reference product in a BW database
-    """
-    db = bw.Database(database_name)
-    matches = [ds for ds in db if ds["name"] == activity_name
-               and ds["reference product"] == ref_product
-               and ds["location"] == location]
-
-    if matches:
-        print(f"Match found in {database_name}:")
-        for match in matches:
-            print(match)
-    else:
-        print(
-            f"No match found in {database_name} for activity '{activity_name}', product '{ref_product}', location '{location}'")
-
-
-def filter_ecoinvent_activities(databases_to_include, products_to_include, locations_to_include=None):
-    """
-    Extracts activities from Ecoinvent databases based on product and location filters.
-
-    Parameters:
-    - databases_to_include (list): List of Ecoinvent databases to search.
-    - products_to_include (list): List of product/activity keywords to match.
-    - locations_to_include (list, optional): List of locations to filter (default: None, includes all locations).
-
-    Returns:
-    - pd.DataFrame: DataFrame with filtered Ecoinvent activities.
-    """
-    data = []
-
-    for db_name in databases_to_include:
-        if db_name in bw.databases:  # Check if the database exists
-            db = bw.Database(db_name)
-            for activity in db:
-                product_name = activity.get('reference product', None)
-                activity_name = activity['name']
-                location = activity.get('location', None)
-
-                # Match product keyword in either 'reference product' or 'activity name'
-                matched_metal = next(
-                    (p for p in products_to_include if
-                     (product_name and re.search(rf'\b{p}\b', product_name, re.IGNORECASE)) or
-                     (activity_name and re.search(rf'\b{p}\b', activity_name, re.IGNORECASE))
-                    ),
-                    None
-                )
-
-                # Apply location filter if specified
-                if matched_metal and (locations_to_include is None or location in locations_to_include):
-                    data.append({
-                        'metal': matched_metal,  # Add the identified metal name
-                        'database': db_name,
-                        'name': activity_name,
-                        'product': product_name,
-                        'location': location,  # Keep it for reference
-                        'unit': activity['unit'],
-                        'description': activity.get('comment', None),
-                        'categories': activity.get('categories', None),
-                        'activity type': activity.get('activity type', None),
-                        'production amount': activity.get('production amount', None),
-                        'parameters': activity.get('parameters', None),
-                        'authors': activity.get('authors', None),
-                        'data quality': activity.get('data quality', None)
-                    })
-        else:
-            print(f"⚠️ Database '{db_name}' not found in the current project.")
-
-    return pd.DataFrame(data)
-
 
 def get_inventory_dataset(inventories, database_names):
     """
@@ -143,14 +71,13 @@ def run_lca(inventories, amount, lcia_methods):
     return df.reset_index()
 
 
-def compute_midpoint_contributions(
+def compute_mp_contributions_to_ep(
     inventories,
     amount=1,
     damage_version="IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10"
 ):
     """
     For each activity in `inventories`, computes midpoint→endpoint damage shares
-    for IW+ 2.1 Human health and Ecosystem quality.
 
     Returns
     -------
@@ -220,7 +147,7 @@ def compute_midpoint_contributions(
     return df_hh, df_eq
 
 
-def first_tier_contributions(activity, commodity_label, method_id,
+def first_tier_contributions_technosphere(activity, commodity_label, method_id,
                                      amount=1, threshold=0.01):
     """
     Builds a DataFrame of direct (first‑tier) technosphere contributions
@@ -295,7 +222,7 @@ def first_tier_contributions(activity, commodity_label, method_id,
 
 
 
-def first_tier_contributions_batch(inventory_dict, method_id, amount=1, threshold=0.01):
+def first_tier_contributions_batch_technosphere(inventory_dict, method_id, amount=1, threshold=0.01):
     """
     Runs first-tier contribution analysis for multiple commodities at once.
 
@@ -496,96 +423,129 @@ def export_activity_exchanges(inventory_ds, output_folder="exports"):
     print(f"✅ Export complete: CSVs saved in '{output_folder}/'")
 
 
-def create_pedigree_matrix(pedigree_scores: tuple, exc_amount: float):
-    """
-    Function from Istrate et al (2024)
-
-    This function returns a dict containing the pedigree matrix dict and loc and scale values
-    that can be used to update exchanges in a dataset dict
-
-    The pedigree matrix dictionary is created using the scores provided in the LCI Excel file.
-
-    The code to calcualte the loc and scale values is based on https://github.com/brightway-lca/pedigree_matrix,
-    which is published by Chris Mutel under an BSD 3-Clause License (2021).
-
-    :param pedigree_scores: tuple of pedigree scores
-    :param exc_amount: exchange amount
-    :return dict:
-    """
-
-    VERSION_2 = {
-        "reliability": (1.0, 1.54, 1.61, 1.69, 1.69),
-        "completeness": (1.0, 1.03, 1.04, 1.08, 1.08),
-        "temporal correlation": (1.0, 1.03, 1.1, 1.19, 1.29),
-        "geographical correlation": (1.0, 1.04, 1.08, 1.11, 1.11),
-        "further technological correlation": (1.0, 1.18, 1.65, 2.08, 2.8),
-        "sample size": (1.0, 1.0, 1.0, 1.0, 1.0),
-    }
-
-    pedigree_scores_dict = {
-        'reliability': pedigree_scores[0],
-        'completeness': pedigree_scores[1],
-        'temporal correlation': pedigree_scores[2],
-        'geographical correlation': pedigree_scores[3],
-        'further technological correlation': pedigree_scores[4]
-    }
-
-    assert len(pedigree_scores) in (5, 6), "Must provide either 5 or 6 factors"
-    if len(pedigree_scores) == 5:
-        pedigree_scores = pedigree_scores + (1,)
-
-    factors = [VERSION_2[key][index - 1] for key, index in pedigree_scores_dict.items()]
-
-    basic_uncertainty: float = 1.0
-    values = [basic_uncertainty] + factors
-
-    scale = math.sqrt(sum([math.log(x) ** 2 for x in values])) / 2
-    loc = math.log(abs(exc_amount))
-
-    pedigree_dict = {
-        'uncertainty type': 2,
-        'loc': loc,
-        'scale': scale,
-        "pedigree": pedigree_scores_dict,
-    }
-    return pedigree_dict
-
-
-### Scale up ###
-# Calculate projected impacts using the mapping
-# def calculate_projected_impacts(production_df, impact_df, mapping):
-#     projections = []
+# def create_pedigree_matrix(pedigree_scores: tuple, exc_amount: float):
+#     """
+#     Function from Istrate et al (2024)
 #
-#     for mineral in production_df['Commodity'].unique():
-#         # Use the mapping dictionary to get the corresponding raw material
-#         raw_material = mapping.get(mineral)
+#     This function returns a dict containing the pedigree matrix dict and loc and scale values
+#     that can be used to update exchanges in a dataset dict
 #
-#         if raw_material:
-#             # Fetch impact factors for the mapped raw material
-#             material_impacts = impact_df[impact_df['Commodity'] == raw_material]
+#     The pedigree matrix dictionary is created using the scores provided in the LCI Excel file.
 #
-#             if not material_impacts.empty:
-#                 impacts_per_kt = material_impacts.iloc[0, 1:].to_dict()  # Extract impact per kilotonne as a dict
+#     The code to calcualte the loc and scale values is based on https://github.com/brightway-lca/pedigree_matrix,
+#     which is published by Chris Mutel under an BSD 3-Clause License (2021).
 #
-#                 # Filter production data for the mineral
-#                 mineral_data = production_df[production_df['Commodity'] == mineral]
+#     :param pedigree_scores: tuple of pedigree scores
+#     :param exc_amount: exchange amount
+#     :return dict:
+#     """
 #
-#                 for _, row in mineral_data.iterrows():
-#                     year = row['Year']
-#                     production_kilotons = row['Value']
+#     VERSION_2 = {
+#         "reliability": (1.0, 1.54, 1.61, 1.69, 1.69),
+#         "completeness": (1.0, 1.03, 1.04, 1.08, 1.08),
+#         "temporal correlation": (1.0, 1.03, 1.1, 1.19, 1.29),
+#         "geographical correlation": (1.0, 1.04, 1.08, 1.11, 1.11),
+#         "further technological correlation": (1.0, 1.18, 1.65, 2.08, 2.8),
+#         "sample size": (1.0, 1.0, 1.0, 1.0, 1.0),
+#     }
 #
-#                     # Calculate impacts for each category
-#                     annual_impacts = {f"{category}": production_kilotons * impact_per_kt * 1000000
-#                                       for category, impact_per_kt in impacts_per_kt.items()}
-#                     annual_impacts['Year'] = year
-#                     annual_impacts['Commodity'] = mineral
-#                     projections.append(annual_impacts)
+#     pedigree_scores_dict = {
+#         'reliability': pedigree_scores[0],
+#         'completeness': pedigree_scores[1],
+#         'temporal correlation': pedigree_scores[2],
+#         'geographical correlation': pedigree_scores[3],
+#         'further technological correlation': pedigree_scores[4]
+#     }
 #
-#     # Convert list of dictionaries to DataFrame
-#     projected_impacts_df = pd.DataFrame(projections)
+#     assert len(pedigree_scores) in (5, 6), "Must provide either 5 or 6 factors"
+#     if len(pedigree_scores) == 5:
+#         pedigree_scores = pedigree_scores + (1,)
 #
-#     # Reorder columns to have 'Year' and 'Commodity' first
-#     impact_columns = [col for col in projected_impacts_df.columns if col not in ['Year', 'Commodity']]
-#     projected_impacts_df = projected_impacts_df[['Year', 'Commodity'] + impact_columns]
+#     factors = [VERSION_2[key][index - 1] for key, index in pedigree_scores_dict.items()]
 #
-#     return projected_impacts_df
+#     basic_uncertainty: float = 1.0
+#     values = [basic_uncertainty] + factors
+#
+#     scale = math.sqrt(sum([math.log(x) ** 2 for x in values])) / 2
+#     loc = math.log(abs(exc_amount))
+#
+#     pedigree_dict = {
+#         'uncertainty type': 2,
+#         'loc': loc,
+#         'scale': scale,
+#         "pedigree": pedigree_scores_dict,
+#     }
+#     return pedigree_dict
+
+
+### LCI ###
+# def search_activity(database_name, activity_name, ref_product, location):
+#     """
+#     Function to find a specific activity based on its name and reference product in a BW database
+#     """
+#     db = bw.Database(database_name)
+#     matches = [ds for ds in db if ds["name"] == activity_name
+#                and ds["reference product"] == ref_product
+#                and ds["location"] == location]
+#
+#     if matches:
+#         print(f"Match found in {database_name}:")
+#         for match in matches:
+#             print(match)
+#     else:
+#         print(
+#             f"No match found in {database_name} for activity '{activity_name}', product '{ref_product}', location '{location}'")
+#
+#
+# def filter_ecoinvent_activities(databases_to_include, products_to_include, locations_to_include=None):
+#     """
+#     Extracts activities from Ecoinvent databases based on product and location filters.
+#
+#     Parameters:
+#     - databases_to_include (list): List of Ecoinvent databases to search.
+#     - products_to_include (list): List of product/activity keywords to match.
+#     - locations_to_include (list, optional): List of locations to filter (default: None, includes all locations).
+#
+#     Returns:
+#     - pd.DataFrame: DataFrame with filtered Ecoinvent activities.
+#     """
+#     data = []
+#
+#     for db_name in databases_to_include:
+#         if db_name in bw.databases:  # Check if the database exists
+#             db = bw.Database(db_name)
+#             for activity in db:
+#                 product_name = activity.get('reference product', None)
+#                 activity_name = activity['name']
+#                 location = activity.get('location', None)
+#
+#                 # Match product keyword in either 'reference product' or 'activity name'
+#                 matched_metal = next(
+#                     (p for p in products_to_include if
+#                      (product_name and re.search(rf'\b{p}\b', product_name, re.IGNORECASE)) or
+#                      (activity_name and re.search(rf'\b{p}\b', activity_name, re.IGNORECASE))
+#                     ),
+#                     None
+#                 )
+#
+#                 # Apply location filter if specified
+#                 if matched_metal and (locations_to_include is None or location in locations_to_include):
+#                     data.append({
+#                         'metal': matched_metal,  # Add the identified metal name
+#                         'database': db_name,
+#                         'name': activity_name,
+#                         'product': product_name,
+#                         'location': location,  # Keep it for reference
+#                         'unit': activity['unit'],
+#                         'description': activity.get('comment', None),
+#                         'categories': activity.get('categories', None),
+#                         'activity type': activity.get('activity type', None),
+#                         'production amount': activity.get('production amount', None),
+#                         'parameters': activity.get('parameters', None),
+#                         'authors': activity.get('authors', None),
+#                         'data quality': activity.get('data quality', None)
+#                     })
+#         else:
+#             print(f"⚠️ Database '{db_name}' not found in the current project.")
+#
+#     return pd.DataFrame(data)

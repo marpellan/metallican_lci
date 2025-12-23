@@ -1,254 +1,31 @@
 site_id,commodity,material_type,facility_name,unit,value,grade_percent,facility_group_id,compartment_name,substance_name,flow_direction,unit_substance,value_normalized,mining_processing_type,Main_product
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Air,Arsenic (and its compounds),Emission,kg,0.2400764191590554,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Air,Cadmium (and its compounds),Emission,kg,0.0082493218918089,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Air,Cobalt (and its compounds),Emission,kg,3.376140744759889,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Air,Copper (and its compounds),Emission,tonnes,0.0077205192064365,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Air,Lead (and its compounds),Emission,kg,0.6318663287514436,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Air,Manganese (and its compounds),Emission,tonnes,0.0601777455953755,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Air,Zinc (and its compounds),Emission,tonnes,0.0066629138356918,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Water,Arsenic (and its compounds),Emission,kg,0.1177326298713042,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Water,Cadmium (and its compounds),Emission,kg,0.035614860859829,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Water,Cobalt (and its compounds),Emission,kg,5.964746226248416,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Water,Copper (and its compounds),Emission,tonnes,0.0044630946645427,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Water,Lead (and its compounds),Emission,kg,0.0469047981925291,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Water,Manganese (and its compounds),Emission,tonnes,0.1252522040572992,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,Water,Zinc (and its compounds),Emission,tonnes,0.0027286218565214,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,,Water,Arsenic (and its compounds),Emission,kg,23.700389482142885,"Open-pit, underground, concentrator",Au
-QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,,Water,Cadmium (and its compounds),Emission,kg,0.1146733375911393,"Open-pit, underground, concentrator",Au
-QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,,Water,Cobalt (and its compounds),Emission,kg,36.05551682260758,"Open-pit, underground, concentrator",Au
-QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,,Water,Copper (and its compounds),Emission,tonnes,0.09987677790196,"Open-pit, underground, concentrator",Au
-QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,,Water,Lead (and its compounds),Emission,kg,0.3162764633562068,"Open-pit, underground, concentrator",Au
-QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,,Water,Manganese (and its compounds),Emission,tonnes,0.4143036712970195,"Open-pit, underground, concentrator",Au
-QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,,Water,Zinc (and its compounds),Emission,tonnes,0.0073982798445896,"Open-pit, underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Air,Cobalt (and its compounds),Emission,kg,3.708624740036024e-07,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Air,Lead (and its compounds),Emission,kg,1.0494459342307987e-06,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Air,Manganese (and its compounds),Emission,tonnes,9.581497302663198e-08,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Air,Arsenic (and its compounds),Emission,kg,4.631064515984135e-08,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Air,Cadmium (and its compounds),Emission,kg,3.0858790712716784e-09,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Air,Copper (and its compounds),Emission,tonnes,6.383367695742205e-07,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Air,Zinc (and its compounds),Emission,tonnes,1.1588890835343421e-09,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Water,Arsenic (and its compounds),Emission,kg,2.448939257143114e-06,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Water,Copper (and its compounds),Emission,tonnes,3.1451710708943663e-08,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Water,Lead (and its compounds),Emission,kg,6.456539413458386e-07,"Underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,Water,Zinc (and its compounds),Emission,tonnes,1.3722504458129518e-08,"Underground, concentrator",Au
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Air,Cobalt (and its compounds),Emission,kg,3.046758448041033e-05,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Air,Lead (and its compounds),Emission,kg,0.052764316759256,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Air,Manganese (and its compounds),Emission,tonnes,3.739203549868541e-05,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Air,Zinc (and its compounds),Emission,tonnes,5.262582773889058e-05,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Water,Arsenic (and its compounds),Emission,kg,1.8820657867671653,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Water,Cadmium (and its compounds),Emission,kg,0.004431648651696,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Water,Cobalt (and its compounds),Emission,kg,50.56234133544461,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Water,Copper (and its compounds),Emission,tonnes,0.0016895660484591,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Water,Lead (and its compounds),Emission,kg,0.0330988758673548,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Water,Manganese (and its compounds),Emission,tonnes,0.006093516896082,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Water,Zinc (and its compounds),Emission,tonnes,0.0008724808283026,"Underground, concentrator",Au (Ag)
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,Land,Lead (and its compounds),Emission,kg,18.56445317999548,"Underground, concentrator",Au (Ag)
+QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,,,,,,,"Open-pit, concentrator",Au (Ag)
+QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,,,,,,,"Open-pit, underground, concentrator",Au
+ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,,,,,,,"Underground, concentrator",Au
+QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,,,,,,,"Underground, concentrator",Au (Ag)
 BC-MAIN-4724f4ba,Gold,Ore grade,Elk,g/t,4.26,0.000426,,,,,,,Open-pit,Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Air,Arsenic (and its compounds),Emission,kg,2.188260318479505,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Air,Cadmium (and its compounds),Emission,kg,0.004102607187298485,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Air,Cobalt (and its compounds),Emission,kg,2.211849585987279,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Air,Copper (and its compounds),Emission,tonnes,0.0029589728619752852,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Air,Lead (and its compounds),Emission,kg,0.2595543245048366,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Air,Manganese (and its compounds),Emission,tonnes,0.0525651974516584,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Air,Zinc (and its compounds),Emission,tonnes,0.0020382748481708,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Water,Arsenic (and its compounds),Emission,kg,82.32039403426502,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Water,Cadmium (and its compounds),Emission,kg,0.03857811536144,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Water,Cobalt (and its compounds),Emission,kg,2.7233074661243792,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Water,Copper (and its compounds),Emission,tonnes,0.0031717757047886,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Water,Lead (and its compounds),Emission,kg,0.1700019662784852,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,Water,Zinc (and its compounds),Emission,tonnes,0.0270375421443812,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Air,Arsenic (and its compounds),Emission,kg,2.188260318479505,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Air,Cadmium (and its compounds),Emission,kg,0.004102607187298485,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Air,Cobalt (and its compounds),Emission,kg,2.211849585987279,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Air,Copper (and its compounds),Emission,tonnes,0.0029589728619752852,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Air,Lead (and its compounds),Emission,kg,0.2595543245048366,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Air,Manganese (and its compounds),Emission,tonnes,0.0525651974516584,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Air,Zinc (and its compounds),Emission,tonnes,0.0020382748481708,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Water,Arsenic (and its compounds),Emission,kg,82.32039403426502,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Water,Cadmium (and its compounds),Emission,kg,0.03857811536144,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Water,Cobalt (and its compounds),Emission,kg,2.7233074661243792,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Water,Copper (and its compounds),Emission,tonnes,0.0031717757047886,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Water,Lead (and its compounds),Emission,kg,0.1700019662784852,"Open-pit, underground, concentrator",Au
-ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,Water,Zinc (and its compounds),Emission,tonnes,0.0270375421443812,"Open-pit, underground, concentrator",Au
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Air,Arsenic (and its compounds),Emission,kg,0.0842776253614667,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Air,Cobalt (and its compounds),Emission,kg,2.733328390101624e-05,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Air,Copper (and its compounds),Emission,tonnes,6.83332097525406e-07,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Air,Lead (and its compounds),Emission,kg,2.1319961442792663,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Air,Manganese (and its compounds),Emission,tonnes,6.83332097525406e-07,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Air,Zinc (and its compounds),Emission,tonnes,1.366664195050812e-06,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Water,Arsenic (and its compounds),Emission,kg,0.1197197834864511,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Water,Cadmium (and its compounds),Emission,kg,0.0029838834925276,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Water,Cobalt (and its compounds),Emission,kg,0.0748248646790319,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Water,Copper (and its compounds),Emission,tonnes,0.0005011102048519,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Water,Lead (and its compounds),Emission,kg,0.0254427317645292,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Water,Manganese (and its compounds),Emission,tonnes,0.0198166308282367,"Underground, concentrator","Au (Cu, Ag)"
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,Water,Zinc (and its compounds),Emission,tonnes,0.0007744430438621,"Underground, concentrator","Au (Cu, Ag)"
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Air,Arsenic (and its compounds),Emission,kg,0.9886958891288448,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Air,Cadmium (and its compounds),Emission,kg,0.006899926765351692,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Air,Cobalt (and its compounds),Emission,kg,0.2234891172862516,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Air,Copper (and its compounds),Emission,tonnes,0.000782970413089493,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Air,Lead (and its compounds),Emission,kg,0.3575608489728612,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Air,Manganese (and its compounds),Emission,tonnes,0.0098850014652556,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Air,Zinc (and its compounds),Emission,tonnes,0.000880841714725693,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Water,Arsenic (and its compounds),Emission,kg,2.435674148169174,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Water,Cadmium (and its compounds),Emission,kg,0.0137998535307034,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Water,Cobalt (and its compounds),Emission,kg,7.118718060159482,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Water,Copper (and its compounds),Emission,tonnes,0.0103743579734366,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Water,Lead (and its compounds),Emission,kg,0.0846586759153088,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Water,Manganese (and its compounds),Emission,tonnes,0.0598483009505334,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,Water,Zinc (and its compounds),Emission,tonnes,0.0017616834294514,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Air,Arsenic (and its compounds),Emission,kg,0.9886958891288448,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Air,Cadmium (and its compounds),Emission,kg,0.006899926765351692,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Air,Cobalt (and its compounds),Emission,kg,0.2234891172862516,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Air,Copper (and its compounds),Emission,tonnes,0.000782970413089493,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Air,Lead (and its compounds),Emission,kg,0.3575608489728612,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Air,Manganese (and its compounds),Emission,tonnes,0.0098850014652556,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Air,Zinc (and its compounds),Emission,tonnes,0.000880841714725693,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Water,Arsenic (and its compounds),Emission,kg,2.435674148169174,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Water,Cadmium (and its compounds),Emission,kg,0.0137998535307034,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Water,Cobalt (and its compounds),Emission,kg,7.118718060159482,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Water,Copper (and its compounds),Emission,tonnes,0.0103743579734366,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Water,Lead (and its compounds),Emission,kg,0.0846586759153088,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Water,Manganese (and its compounds),Emission,tonnes,0.0598483009505334,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,Water,Zinc (and its compounds),Emission,tonnes,0.0017616834294514,"Underground, concentrator",Au
-QC-MAIN-9de9bb0d,Gold,Head grade,Kiena,g/t,5.9,0.00059,,Air,Lead (and its compounds),Emission,kg,0.0005512884154228,"Open-pit, concentrator",Au (Ag)
+ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,,,,,,"Open-pit, underground, concentrator",Au
+ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,,,,,,"Open-pit, underground, concentrator",Au
+QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,,,,,,,"Underground, concentrator",Au-Ag+Cu
+ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,,,,,,,"Underground, concentrator",Au
+ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,,,,,,,"Underground, concentrator",Au
+QC-MAIN-9de9bb0d,Gold,Head grade,Kiena,g/t,5.9,0.00059,,,,,,,"Open-pit, concentrator",Au (Ag)
 MB-MAIN-be5b3dc8,Gold,Ore grade,Lalor Lake,g/t,4.74,0.00047400000000000003,,,,,,,,
 QC-MAIN-f9e41c2a,Gold,Head grade,Lamaque,g/t,6.76,0.0006760000000000001,,,,,,,"Underground, concentrator",Au (Ag)
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Air,Arsenic (and its compounds),Emission,kg,0.0943607457077632,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Air,Cadmium (and its compounds),Emission,kg,0.293951014115807,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Air,Cobalt (and its compounds),Emission,kg,0.0629895030248157,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Air,Copper (and its compounds),Emission,tonnes,0.0012350882946042,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Air,Lead (and its compounds),Emission,kg,1.3203093869319231,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Air,Manganese (and its compounds),Emission,tonnes,0.0003272983980701,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Air,Zinc (and its compounds),Emission,tonnes,0.0044092652117371,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Water,Arsenic (and its compounds),Emission,kg,0.4400990120163257,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Water,Cadmium (and its compounds),Emission,kg,0.7573561422513145,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Water,Cobalt (and its compounds),Emission,kg,7.8010893881451375,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Water,Copper (and its compounds),Emission,tonnes,0.0100165660692403,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Water,Lead (and its compounds),Emission,kg,0.0462417057499824,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Water,Manganese (and its compounds),Emission,tonnes,0.7093235584741561,"Underground, concentrator","Au (Zn, Cu, Ag)"
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,Water,Zinc (and its compounds),Emission,tonnes,0.0318652780007891,"Underground, concentrator","Au (Zn, Cu, Ag)"
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Air,Arsenic (and its compounds),Emission,kg,0.0599304606395991,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Air,Cobalt (and its compounds),Emission,kg,0.102697737715745,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Air,Copper (and its compounds),Emission,tonnes,0.00036858640111659996,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Air,Lead (and its compounds),Emission,kg,0.2250909319797153,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Air,Manganese (and its compounds),Emission,tonnes,0.0059086369644674,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Air,Zinc (and its compounds),Emission,tonnes,0.0004290795890862,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Water,Arsenic (and its compounds),Emission,kg,1.3516710465381907,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Water,Cadmium (and its compounds),Emission,kg,0.1313968315431588,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Water,Cobalt (and its compounds),Emission,kg,12.603685372539188,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Water,Copper (and its compounds),Emission,tonnes,0.0160377289035547,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Water,Lead (and its compounds),Emission,kg,0.1308341042132095,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Water,Manganese (and its compounds),Emission,tonnes,0.1067775108578774,"Underground, concentrator",Au
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,Water,Zinc (and its compounds),Emission,tonnes,0.00787818261929,"Underground, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Air,Arsenic (and its compounds),Emission,kg,2.260145136155875,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Air,Cobalt (and its compounds),Emission,kg,5.604235321855526,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Air,Copper (and its compounds),Emission,tonnes,0.022382748506818,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Air,Lead (and its compounds),Emission,kg,0.5880990690417282,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Air,Manganese (and its compounds),Emission,tonnes,0.3394824025942708,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Water,Arsenic (and its compounds),Emission,kg,4.781979617416145,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Water,Cobalt (and its compounds),Emission,kg,3.021649614605391,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Water,Copper (and its compounds),Emission,tonnes,0.0132577888778958,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Water,Lead (and its compounds),Emission,kg,0.114974881030148,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Water,Manganese (and its compounds),Emission,tonnes,0.8975936158407584,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,Water,Zinc (and its compounds),Emission,tonnes,0.007527166142756,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Air,Arsenic (and its compounds),Emission,kg,2.260145136155875,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Air,Cobalt (and its compounds),Emission,kg,5.604235321855526,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Air,Copper (and its compounds),Emission,tonnes,0.022382748506818,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Air,Lead (and its compounds),Emission,kg,0.5880990690417282,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Air,Manganese (and its compounds),Emission,tonnes,0.3394824025942708,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Water,Arsenic (and its compounds),Emission,kg,4.781979617416145,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Water,Cobalt (and its compounds),Emission,kg,3.021649614605391,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Water,Copper (and its compounds),Emission,tonnes,0.0132577888778958,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Water,Lead (and its compounds),Emission,kg,0.114974881030148,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Water,Manganese (and its compounds),Emission,tonnes,0.8975936158407584,"Open-pit, concentrator",Au
-ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,Water,Zinc (and its compounds),Emission,tonnes,0.007527166142756,"Open-pit, concentrator",Au
+QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,,,,,,,"Underground, concentrator",Au-Ag+Cu+Zn
+ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,,,,,,,"Underground, concentrator",Au
+ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,,,,,,"Open-pit, concentrator",Au
+ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,,,,,,"Open-pit, concentrator",Au
 ON-MAIN-7001a391,Gold,Head grade,McCreedy West,g/t,0.41,4.1e-05,,,,,,,Underground,PGMs+Cu+Ni
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Air,Arsenic (and its compounds),Emission,kg,3.080895136298238,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Air,Cadmium (and its compounds),Emission,kg,0.0319328826956488,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Air,Cobalt (and its compounds),Emission,kg,0.16974034684006167,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Air,Copper (and its compounds),Emission,tonnes,0.0001998253827084895,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Air,Lead (and its compounds),Emission,kg,0.10545712225711212,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Air,Manganese (and its compounds),Emission,tonnes,0.0081938795159134,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Air,Zinc (and its compounds),Emission,tonnes,0.0007880970626614488,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Water,Arsenic (and its compounds),Emission,kg,0.7026858469918905,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Water,Cadmium (and its compounds),Emission,kg,0.0014922719166919,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Water,Cobalt (and its compounds),Emission,kg,0.1447552732363292,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Water,Copper (and its compounds),Emission,tonnes,0.0001642085302391,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Water,Lead (and its compounds),Emission,kg,0.0143973705929953,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Water,Manganese (and its compounds),Emission,tonnes,0.0313260605717014,"Open-pit, underground",Au (Ag)
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,GRP-0a2c0d69,Water,Zinc (and its compounds),Emission,tonnes,0.0009825057157236,"Open-pit, underground",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Air,Arsenic (and its compounds),Emission,kg,1.005649859908869,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Air,Cadmium (and its compounds),Emission,kg,0.018368508033674402,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Air,Cobalt (and its compounds),Emission,kg,0.09565485038871754,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Air,Copper (and its compounds),Emission,tonnes,0.00030934224763413964,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Air,Lead (and its compounds),Emission,kg,0.19399207823696119,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Air,Manganese (and its compounds),Emission,tonnes,0.0034904425666193338,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Air,Zinc (and its compounds),Emission,tonnes,0.000993123571746,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Water,Arsenic (and its compounds),Emission,kg,0.225140381596053,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Water,Cadmium (and its compounds),Emission,kg,0.0005885176721458,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Water,Cobalt (and its compounds),Emission,kg,0.0481108786625004,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Water,Copper (and its compounds),Emission,tonnes,0.0001111409272937,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Water,Lead (and its compounds),Emission,kg,0.0056051192260956,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Water,Manganese (and its compounds),Emission,tonnes,0.0022770659032443,"Open-pit, underground, concentrator",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,Water,Zinc (and its compounds),Emission,tonnes,0.0001438657558857,"Open-pit, underground, concentrator",Au (Ag)
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Air,Lead (and its compounds),Emission,kg,0.051268045185604,"Open-pit, concentrator",Cu+Au
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Air,Manganese (and its compounds),Emission,tonnes,0.8703719351309915,"Open-pit, concentrator",Cu+Au
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Water,Arsenic (and its compounds),Emission,kg,2.544316840835092,"Open-pit, concentrator",Cu+Au
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Water,Cadmium (and its compounds),Emission,kg,0.089496522601328,"Open-pit, concentrator",Cu+Au
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Water,Cobalt (and its compounds),Emission,kg,0.4660876937392045,"Open-pit, concentrator",Cu+Au
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Water,Copper (and its compounds),Emission,tonnes,0.0204944090685737,"Open-pit, concentrator",Cu+Au
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Water,Lead (and its compounds),Emission,kg,0.1431406383383198,"Open-pit, concentrator",Cu+Au
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Water,Manganese (and its compounds),Emission,tonnes,0.1924553101595753,"Open-pit, concentrator",Cu+Au
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,Water,Zinc (and its compounds),Emission,tonnes,0.0138977711496265,"Open-pit, concentrator",Cu+Au
+GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,,,,,,,"Open-pit, underground",Au (Ag)
+NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,,,,,,"Open-pit, underground, concentrator",Au (Ag)
+BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,,,,,,"Open-pit, concentrator",Cu (Au)
 MB-MAIN-da0b5c3d,Gold,Head grade,New Britannia,g/t,6.76,0.0006760000000000001,,,,,,,,
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Air,Arsenic (and its compounds),Emission,kg,3.7286049925125915,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Air,Cadmium (and its compounds),Emission,kg,0.0025243263496192,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Air,Cobalt (and its compounds),Emission,kg,0.06564942604777349,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Air,Copper (and its compounds),Emission,tonnes,0.00013466206499144915,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Air,Lead (and its compounds),Emission,kg,7.44017282249957,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Air,Manganese (and its compounds),Emission,tonnes,0.0015523852744743,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Air,Zinc (and its compounds),Emission,tonnes,0.00029677590080759897,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Water,Arsenic (and its compounds),Emission,kg,0.0375616891989647,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Water,Cadmium (and its compounds),Emission,kg,0.0008977470999429,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Water,Cobalt (and its compounds),Emission,kg,0.0573249856867456,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Water,Copper (and its compounds),Emission,tonnes,9.669948101314348e-05,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Water,Lead (and its compounds),Emission,kg,0.0088991963555919,"Open-pit, underground",Au
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,GRP-0d911886,Water,Zinc (and its compounds),Emission,tonnes,0.0004926479953406,"Open-pit, underground",Au
-ON-MAIN-0aadf28f,Gold,Ore grade,Rainy River,g/t,0.99,9.900000000000001e-05,,Air,Copper (and its compounds),Emission,tonnes,0.0563836589940023,"Open-pit, underground, concentrator",Au
+GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,,,,,,,"Open-pit, underground",Au
+ON-MAIN-0aadf28f,Gold,Ore grade,Rainy River,g/t,0.99,9.900000000000001e-05,,,,,,,"Open-pit, underground, concentrator",Au
 GRP-14bfbb82,Gold,Mill feed grade,Seabee,g/t,10.14,0.0010140000000000001,,,,,,,"Underground, concentrator",Au
-GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,GRP-a13779f8,Land,Manganese (and its compounds),Emission,tonnes,0.0003362828925999,"Underground, concentrator","Au (Zn, Cu, Ag)"
-GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,GRP-a13779f8,Water,Arsenic (and its compounds),Emission,kg,9.815046750953975,"Underground, concentrator","Au (Zn, Cu, Ag)"
-GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,GRP-a13779f8,Water,Cadmium (and its compounds),Emission,kg,0.1324113889612412,"Underground, concentrator","Au (Zn, Cu, Ag)"
-GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,GRP-a13779f8,Water,Copper (and its compounds),Emission,tonnes,0.0171294098418113,"Underground, concentrator","Au (Zn, Cu, Ag)"
-GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,GRP-a13779f8,Water,Lead (and its compounds),Emission,kg,1.5260202400975178,"Underground, concentrator","Au (Zn, Cu, Ag)"
-GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,GRP-a13779f8,Water,Manganese (and its compounds),Emission,tonnes,0.0834401927263694,"Underground, concentrator","Au (Zn, Cu, Ag)"
-GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,GRP-a13779f8,Water,Zinc (and its compounds),Emission,tonnes,0.0150276417630615,"Underground, concentrator","Au (Zn, Cu, Ag)"
+GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,,,,,,,"Underground, concentrator",Au-Ag+Cu+Zn
 MB-MAIN-0898e255,Gold,Head grade,Stall Lake,g/t,3.45,0.00034500000000000004,,,,,,,,
 ON-MAIN-f4fc3276,Gold,Ore grade,Sugar Zone,g/t,5.1,0.00051,,,,,,,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Arsenic (and its compounds),Emission,kg,0.1604583334755452,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Cadmium (and its compounds),Emission,kg,0.0506605761977466,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Cobalt (and its compounds),Emission,kg,0.780138412595157,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Copper (and its compounds),Emission,tonnes,0.011701751381519,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Lead (and its compounds),Emission,kg,2.50251497768161,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Manganese (and its compounds),Emission,tonnes,0.0578348249592468,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Zinc (and its compounds),Emission,tonnes,0.0042548033522588,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Arsenic (and its compounds),Emission,kg,2.2429094434254018,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Cadmium (and its compounds),Emission,kg,0.0370078960420368,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Cobalt (and its compounds),Emission,kg,3.551273285423552,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Copper (and its compounds),Emission,tonnes,0.0097192103355244,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Lead (and its compounds),Emission,kg,0.1158836406814748,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Zinc (and its compounds),Emission,tonnes,0.006728897855426,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Arsenic (and its compounds),Emission,kg,0.1604583334755452,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Cadmium (and its compounds),Emission,kg,0.0506605761977466,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Cobalt (and its compounds),Emission,kg,0.780138412595157,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Copper (and its compounds),Emission,tonnes,0.011701751381519,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Lead (and its compounds),Emission,kg,2.50251497768161,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Manganese (and its compounds),Emission,tonnes,0.0578348249592468,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Air,Zinc (and its compounds),Emission,tonnes,0.0042548033522588,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Arsenic (and its compounds),Emission,kg,2.2429094434254018,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Cadmium (and its compounds),Emission,kg,0.0370078960420368,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Cobalt (and its compounds),Emission,kg,3.551273285423552,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Copper (and its compounds),Emission,tonnes,0.0097192103355244,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Lead (and its compounds),Emission,kg,0.1158836406814748,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,Water,Zinc (and its compounds),Emission,tonnes,0.006728897855426,"Underground, concentrator",Au
+ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,,,,,,"Underground, concentrator",Au
+ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,,,,,,"Underground, concentrator",Au

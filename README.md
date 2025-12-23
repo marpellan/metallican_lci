@@ -1,4 +1,4 @@
-# Life-cycle inventories (LCI) for Canadian metals
+# MetalliCan LCI
 
 # How it works
 ## Creating regionalized LCI database with Regioinvent

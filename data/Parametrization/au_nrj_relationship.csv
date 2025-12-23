@@ -1,32 +1,32 @@
 site_id,commodity,material_type,facility_name,unit,value,grade_percent,total_energy_normalized,mining_processing_type,Main_product
-QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,278182.72776815825,"Open-pit, concentrator",Au (Ag)
-QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,350320.238365134,"Open-pit, underground, concentrator",Au
-ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,1.946687376643444,"Underground, concentrator",Au
-QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,204139.21153489692,"Underground, concentrator",Au (Ag)
+QC-MAIN-e7e6a960,Gold,Head grade,Canadian Malartic,g/t,1.17,0.000117,178.83557565457093,"Open-pit, concentrator",Au (Ag)
+QC-MAIN-b86f7d07,Gold,Head grade,Casa Berardi,g/t,2.51,0.000251,265.85317453647986,"Open-pit, underground, concentrator",Au
+ON-MAIN-cb85213a,Gold,Head grade,Eagle River,g/t,12.6,0.00126,58.18575015084609,"Underground, concentrator",Au
+QC-MAIN-6dc537e6,Gold,Mill ore grade,Éléonore,g/t,4.785,0.00047850000000000003,188.03218292520802,"Underground, concentrator",Au (Ag)
 BC-MAIN-4724f4ba,Gold,Ore grade,Elk,g/t,4.26,0.000426,,Open-pit,Au
 ON-MAIN-4e0734b5,Gold,Head grade,Fox Complex,g/t,3.31,0.000331,,"Open-pit, underground, concentrator",Au
 ON-MAIN-4e0734b5,Gold,Ore grade,Fox Complex,g/t,3.4,0.00034,,"Open-pit, underground, concentrator",Au
-QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,198694.17746494873,"Underground, concentrator","Au (Cu, Ag)"
-ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,154788.60178097873,"Underground, concentrator",Au
-ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,154788.60178097873,"Underground, concentrator",Au
-QC-MAIN-9de9bb0d,Gold,Head grade,Kiena,g/t,5.9,0.00059,181036.18103170127,"Open-pit, concentrator",Au (Ag)
+QC-MAIN-c0660aec,Gold,Head grade,Goldex,g/t,1.74,0.000174,191.73920877889657,"Underground, concentrator",Au-Ag+Cu
+ON-MAIN-687b8c8d,Gold,Mill grade,Island,g/t,9.48,0.0009480000000000001,151.69282974535918,"Underground, concentrator",Au
+ON-MAIN-687b8c8d,Gold,Ore grade,Island,g/t,9.43,0.000943,151.69282974535918,"Underground, concentrator",Au
+QC-MAIN-9de9bb0d,Gold,Head grade,Kiena,g/t,5.9,0.00059,,"Open-pit, concentrator",Au (Ag)
 MB-MAIN-be5b3dc8,Gold,Ore grade,Lalor Lake,g/t,4.74,0.00047400000000000003,,,
-QC-MAIN-f9e41c2a,Gold,Head grade,Lamaque,g/t,6.76,0.0006760000000000001,100478.63001263281,"Underground, concentrator",Au (Ag)
-QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,299369.0160923765,"Underground, concentrator","Au (Zn, Cu, Ag)"
-ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,163948.33022322087,"Underground, concentrator",Au
+QC-MAIN-f9e41c2a,Gold,Head grade,Lamaque,g/t,6.76,0.0006760000000000001,69.23275077692331,"Underground, concentrator",Au (Ag)
+QC-MAIN-e51eda66,Gold,Head grade,LaRonde,g/t,5.23,0.000523,203.71872796753038,"Underground, concentrator",Au-Ag+Cu+Zn
+ON-MAIN-1f126a43,Gold,Head grade,Macassa,g/t,15.55,0.0015550000000000002,39.9729140766795,"Underground, concentrator",Au
 ON-MAIN-8825d90d,Gold,Ore grade,Magino,g/t,0.81,8.1e-05,,"Open-pit, concentrator",Au
 ON-MAIN-8825d90d,Gold,Head grade,Magino,g/t,0.91,9.1e-05,,"Open-pit, concentrator",Au
 ON-MAIN-7001a391,Gold,Head grade,McCreedy West,g/t,0.41,4.1e-05,,Underground,PGMs+Cu+Ni
-GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,322371.39654290123,"Open-pit, underground",Au (Ag)
-NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,218500.96435213345,"Open-pit, underground, concentrator",Au (Ag)
-BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,,"Open-pit, concentrator",Cu+Au
+GRP-0a2c0d69,Gold,Head grade,Meadowbank,g/t,3.86,0.000386,240.18815144211433,"Open-pit, underground",Au (Ag)
+NU-MAIN-8b0264c9,Gold,Head grade,Meliadine,g/t,6.11,0.0006110000000000001,,"Open-pit, underground, concentrator",Au (Ag)
+BC-MAIN-3f490561,Gold,Ore grade,Mount Polley,g/t,0.311,3.1100000000000004e-05,0.006786900246935688,"Open-pit, concentrator",Cu (Au)
 MB-MAIN-da0b5c3d,Gold,Head grade,New Britannia,g/t,6.76,0.0006760000000000001,,,
-GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,204253.0326314657,"Open-pit, underground",Au
-ON-MAIN-0aadf28f,Gold,Ore grade,Rainy River,g/t,0.99,9.900000000000001e-05,585639.7388792095,"Open-pit, underground, concentrator",Au
-GRP-14bfbb82,Gold,Mill feed grade,Seabee,g/t,10.14,0.0010140000000000001,,"Underground, concentrator",Au
-GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,127910.47027650154,"Underground, concentrator","Au (Zn, Cu, Ag)"
+GRP-0d911886,Gold,Mill ore grade,Hoyle Pond,g/t,3.015,0.0003015,200.1679719788364,"Open-pit, underground",Au
+ON-MAIN-0aadf28f,Gold,Ore grade,Rainy River,g/t,0.99,9.900000000000001e-05,566.5732405916821,"Open-pit, underground, concentrator",Au
+GRP-14bfbb82,Gold,Mill feed grade,Seabee,g/t,10.14,0.0010140000000000001,306.45490715385097,"Underground, concentrator",Au
+GRP-a13779f8,Gold,Head grade,Stall Lake,g/t,7.475,0.0007475,392.84861688167484,"Underground, concentrator",Au-Ag+Cu+Zn
 MB-MAIN-0898e255,Gold,Head grade,Stall Lake,g/t,3.45,0.00034500000000000004,,,
 ON-MAIN-f4fc3276,Gold,Ore grade,Sugar Zone,g/t,5.1,0.00051,,"Underground, concentrator",Au
-GRP-147b3123,Gold,Ore grade,Timmins West,g/t,2.7,0.00027000000000000006,1071542.3461448073,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,231256.44789385318,"Underground, concentrator",Au
-ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,231256.44789385318,"Underground, concentrator",Au
+GRP-147b3123,Gold,Ore grade,Timmins West,g/t,2.7,0.00027000000000000006,110.44495183967396,"Underground, concentrator",Au
+ON-MAIN-7607a50e,Gold,Mill grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,"Underground, concentrator",Au
+ON-MAIN-7607a50e,Gold,Ore grade,Young-Davidson,g/t,2.2,0.00022000000000000003,,"Underground, concentrator",Au

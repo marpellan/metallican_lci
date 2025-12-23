@@ -77,7 +77,7 @@ INVENTORIES_metallican = {
 
 # Dore
 "Casa Berardi": ("Open-pit and underground mining and beneficiation at Casa Berardi", "Doré", "CA-QC"),
-"Fox Complex": ("Open-pit and underground mining and beneficiation at Fox Complex", "Doré", "CA-ON"),
+"Fox Complex": ("Open-pit and underground mining and beneficiation at Fox Complex", "Doré", "CA-ON"), # No GHGs data
 "Hemlo": ("Open-pit and underground mining and beneficiation at Hemlo (Williams)", "Doré", "CA-ON"),
 "Meliadine": ("Open-pit and underground mining and beneficiation at Meliadine", "Doré", "CA-NU"),
 "Rainy River": ("Open-pit and underground mining and beneficiation at Rainy River", "Doré", "CA-ON"),
@@ -85,7 +85,7 @@ INVENTORIES_metallican = {
 "Porcupine complex": ("Open-pit and underground mining at Porcupine complex", "Doré", "CA-ON"),
 "Canadian Malartic": ("Open-pit mining and beneficiation at Canadian Malartic", "Doré", "CA-QC"),
 "Detour Lake": ("Open-pit mining and beneficiation at Detour Lake", "Doré", "CA-ON"),
-"Kiena": ("Open-pit mining and beneficiation at Kiena", "Doré", "CA-QC"),
+"Kiena": ("Open-pit mining and beneficiation at Kiena", "Doré", "CA-QC"), # No NPRI data but still some extracted
 "Magino": ("Open-pit mining and beneficiation at Magino", "Doré", "CA-ON"),
 "Elk": ("Open-pit mining at Elk", "Doré", "CA-BC"),
 "Brucejack": ("Underground mining and beneficiation at Brucejack", "Doré", "CA-BC"),
@@ -94,7 +94,7 @@ INVENTORIES_metallican = {
 "Goldex (Au)": ("Underground mining and beneficiation at Goldex", "Doré", "CA-QC"),
 "Island": ("Underground mining and beneficiation at Island", "Doré", "CA-ON"),
 "LaRonde (Doré)": ("Underground mining and beneficiation at LaRonde", "Doré", "CA-QC"),
-"Lamaque": ("Underground mining and beneficiation at Lamaque", "Doré", "CA-QC"),
+"Lamaque": ("Underground mining and beneficiation at Lamaque", "Doré", "CA-QC"), # No NPRI data but still some extracted
 "Macassa": ("Underground mining and beneficiation at Macassa", "Doré", "CA-ON"),
 "Musselwhite": ("Underground mining and beneficiation at Musselwhite", "Doré", "CA-ON"),
 "Red Lake": ("Underground mining and beneficiation at Red Lake", "Doré", "CA-ON"),
@@ -102,13 +102,13 @@ INVENTORIES_metallican = {
 "Snow Lake (Doré)": ("Underground mining and beneficiation at Snow Lake", "Doré", "CA-MB"),
 "Timmins Operation": ("Underground mining and beneficiation at Timmins Operation", "Doré", "CA-ON"),
 "Westwood-Doyon": ("Underground mining and beneficiation at Westwood-Doyon", "Doré", "CA-QC"),
-"Eleonore": ("Underground mining and beneficiation at Éléonore", "Doré", "CA-QC"),
 
 # Ni
 "Nunavik Nickel": ("Open-pit and underground mining and beneficiation at Nunavik Nickel", "Ni concentrate", "CA-QC"),
 "Thompson": ("Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3)", "Ni concentrate", "CA-MB"),
 "Voisey's Bay": ("Open-pit and underground mining and beneficiation at Voisey’s Bay", "Ni concentrate", "CA-NF"),
 "Raglan": ("Underground mining and beneficiation at Raglan", "Ni concentrate", "CA-QC"),
+#"Strathcona": ("and beneficiation at Strathcona", "Ni concentrate", "CA-ON"),
 ## Some others but we don't include them for now
 
 # Mo

@@ -1155,6 +1155,9 @@ def plot_sankey_hierarchy(
         df,
         columns,
         html_output="sankey_generic.html",
+        output_image=None,  # ← NEW
+        image_format="pdf",  # ← NEW: "pdf", "svg", "png"
+        image_scale=3,  # ← NEW: for PNG
         undefined_label="Undefined"
     ):
     """
@@ -1264,13 +1267,13 @@ def plot_sankey_hierarchy(
     fig.update_layout(
         width=2000,
         height=1100,
-        font=dict(color="black", size=22),
+        font=dict(color="black", size=14),
         paper_bgcolor="white",
         plot_bgcolor="white",
         margin=dict(l=10, r=10, t=10, b=10)
     )
 
     fig.write_html(html_output)
-    print(f"✓ Sankey exported to: {html_output}")
+    fig.write_image(f"{output_image}.{image_format}")
 
     return fig
