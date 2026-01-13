@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 from matplotlib.lines import Line2D
+from matplotlib.patches import Patch
 
 
 def plot_lcia_boxes_for_reference_product_not_colored(
@@ -459,7 +460,7 @@ def plot_lcia_boxes_for_reference_product(
     fig.show()
 
 
-def plot_stacked_lcia_by_site_matplotlib(
+def plot_stacked_lcia_by_site(
     bgf_tech,
     bgf_bio,
     agf_tech,
@@ -471,6 +472,7 @@ def plot_stacked_lcia_by_site_matplotlib(
     figsize=(10, 6),
     height_min=0.2,
     height_max=1.6,
+    xlabel=None,
     output_path=None,
     dpi=600,
 ):
@@ -597,7 +599,7 @@ def plot_stacked_lcia_by_site_matplotlib(
     ax.set_yticklabels(sites)
     ax.invert_yaxis()
     ax.tick_params(axis="x", labelsize=12)
-    ax.set_xlabel(impact_category, fontsize=16)
+    ax.set_xlabel(xlabel, fontsize=16)
     ax.set_ylabel("")
 
     #ax.set_title(
@@ -631,7 +633,7 @@ def plot_stacked_lcia_by_site_matplotlib(
     plt.show()
 
 
-def plot_total_lcia_by_site_multi_ref_matplotlib(
+def plot_total_lcia_by_site_multi_commodities(
     df,
     impact_category,
     reference_products,
@@ -639,6 +641,7 @@ def plot_total_lcia_by_site_multi_ref_matplotlib(
     figsize=(13, 9),
     ref_gap=2.5,
     log_x=True,
+    xlabel=None,
     output_path=None,
     dpi=600,
     ref_colors=None,
@@ -773,7 +776,7 @@ def plot_total_lcia_by_site_multi_ref_matplotlib(
     ax.tick_params(axis="y", labelsize=9)
     ax.invert_yaxis()
 
-    ax.set_xlabel(impact_category, fontsize=16)
+    ax.set_xlabel(xlabel, fontsize=16)
     ax.set_ylabel("")
 
     if log_x:
@@ -855,5 +858,221 @@ def plot_total_lcia_by_site_multi_ref_matplotlib(
             bbox_inches="tight",
             facecolor="white",
         )
+
+    plt.show()
+
+
+def plot_stacked_contribution_by_activity(
+    df,
+    impact_col="share_%",
+    commodity_col="reference_product_market",
+    name_col="name",
+    flow_type_col="flow_type",
+    commodity_order=None,
+    act_to_hex=None,                     # dict: {activity_name: "#RRGGBB"}
+    act_to_plot=None,                    # list of activities to display (order preserved)
+    top_n=12,                            # used only if act_to_plot=None
+    others_label="Others",
+    hatch_technosphere="///",
+    hatch_biosphere=None,
+    bar_spacing=0.15,
+    figsize=(11, 7),
+    xlabel=None,
+    title=None,
+    normalize_to_percent=False,          # if True: each commodity is normalized to 100%
+    legend=True,
+    legend_fontsize=9,
+    legend_ncol=1,
+    output_path=None,
+    dpi=600,
+):
+    """
+    Horizontal stacked contribution barplot across ALL commodities.
+
+    - Colors encode activity (name)
+    - Hatch encodes flow_type (Technosphere hatched; Biosphere solid)
+    - Unselected activities grouped into 'Others'
+    - Legend style: "Activity — Bio" and "Activity — Tech"
+      BUT 'Others' appears only once.
+
+    Required columns in df:
+      - commodity_col
+      - name_col
+      - flow_type_col (expects e.g. 'Technosphere (first-tier)' and 'Biosphere (direct)')
+      - impact_col
+    """
+
+    df = df.copy()
+
+    # --- Basic checks
+    for c in [commodity_col, name_col, flow_type_col, impact_col]:
+        if c not in df.columns:
+            raise ValueError(f"Missing column: '{c}'")
+
+    # Coerce impacts to numeric
+    df[impact_col] = pd.to_numeric(df[impact_col], errors="coerce").fillna(0.0)
+
+    # --- Decide which activities to plot
+    if act_to_plot is None:
+        tmp = (
+            df.groupby(name_col, as_index=False)[impact_col].sum()
+            .assign(_abs=lambda x: x[impact_col].abs())
+            .sort_values("_abs", ascending=False)
+        )
+        act_to_plot = tmp[name_col].head(top_n).tolist()
+    act_to_plot = list(act_to_plot)  # preserve given order
+
+    # --- Colors
+    act_to_hex = act_to_hex or {}
+
+    def _get_color(act, i):
+        if act in act_to_hex:
+            return act_to_hex[act]
+        cmap = plt.get_cmap("tab20")
+        return cmap(i % 20)
+
+    # --- Group non-selected -> Others
+    df["_act"] = df[name_col].where(df[name_col].isin(act_to_plot), others_label)
+
+    # --- Aggregate
+    agg = (
+        df.groupby([commodity_col, "_act", flow_type_col], as_index=False)[impact_col]
+        .sum()
+        .rename(columns={impact_col: "impact"})
+    )
+
+    # --- Commodity order
+    if commodity_order is not None:
+        missing = set(commodity_order) - set(agg[commodity_col].unique())
+        if missing:
+            raise ValueError(f"Commodities not found in data: {missing}")
+    else:
+        commodity_order = (
+            agg.groupby(commodity_col, as_index=False)["impact"].sum()
+            .assign(_abs=lambda x: x["impact"].abs())
+            .sort_values("_abs", ascending=False)[commodity_col]
+            .tolist()
+        )
+
+    # --- Fixed bar heights (you don’t use production scaling here)
+    heights = np.full(len(commodity_order), 0.7, dtype=float)
+
+    # y positions with spacing
+    y_pos = np.zeros(len(commodity_order), dtype=float)
+    for i in range(1, len(commodity_order)):
+        y_pos[i] = y_pos[i - 1] + heights[i - 1] + bar_spacing
+
+    # --- Flow labels (expected)
+    flow_bio = "Biosphere (direct)"
+    flow_tech = "Technosphere (first-tier)"
+
+    flow_types_present = set(agg[flow_type_col].unique().tolist())
+    flow_order = []
+    if flow_bio in flow_types_present:
+        flow_order.append(flow_bio)
+    if flow_tech in flow_types_present:
+        flow_order.append(flow_tech)
+    # any other flow types appended
+    flow_order += [ft for ft in sorted(flow_types_present) if ft not in set(flow_order)]
+
+    # --- Activity order
+    acts_present = set(agg["_act"].unique().tolist())
+    act_order = [a for a in act_to_plot if a in acts_present]
+    if others_label in acts_present:
+        act_order.append(others_label)
+
+    # --- Pivot
+    pivot = (
+        agg.pivot_table(
+            index=[commodity_col],
+            columns=["_act", flow_type_col],
+            values="impact",
+            aggfunc="sum",
+            fill_value=0.0,
+        )
+        .reindex(index=commodity_order, fill_value=0.0)
+    )
+
+    # Normalize each commodity to 100% if requested
+    if normalize_to_percent:
+        row_sums = pivot.sum(axis=1).replace(0, np.nan)
+        pivot = (pivot.div(row_sums, axis=0) * 100.0).fillna(0.0)
+        if xlabel is None:
+            xlabel = "Contribution (%)"
+    else:
+        if xlabel is None:
+            xlabel = impact_col
+
+    # --- Plot (constrained_layout prevents right truncation)
+    fig, ax = plt.subplots(figsize=figsize, constrained_layout=True)
+
+    left = np.zeros(len(commodity_order), dtype=float)
+
+    # For legend control: avoid duplicates, and keep Others only once
+    labeled = set()
+
+    for i_act, act in enumerate(act_order):
+        color = _get_color(act, i_act)
+
+        for ft in flow_order:
+            try:
+                vals = pivot[(act, ft)].values
+            except KeyError:
+                vals = np.zeros(len(commodity_order), dtype=float)
+
+            if np.allclose(vals, 0):
+                continue
+
+            hatch = hatch_technosphere if ft == flow_tech else hatch_biosphere
+
+            # ---- Legend label logic ----
+            if act == others_label:
+                # One single "Others" entry in legend
+                label = others_label if others_label not in labeled else "_nolegend_"
+                if label != "_nolegend_":
+                    labeled.add(others_label)
+            else:
+                suffix = "Tech" if ft == flow_tech else "Bio"
+                label_full = f"{act}"
+                label = label_full if label_full not in labeled else "_nolegend_"
+                if label != "_nolegend_":
+                    labeled.add(label_full)
+
+            ax.barh(
+                y_pos,
+                vals,
+                left=left,
+                height=heights,
+                color=color,
+                hatch=hatch,
+                edgecolor="black",
+                linewidth=0.5,
+                label=label,
+            )
+            left += vals
+
+    # Axes
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels(commodity_order)
+    ax.invert_yaxis()
+    ax.set_xlabel(xlabel, fontsize=12)
+    ax.tick_params(axis="x", labelsize=11)
+    ax.tick_params(axis="y", labelsize=11)
+
+    if title is not None:
+        ax.set_title(title, fontsize=12)
+
+    if legend:
+        ax.legend(
+            loc="upper left",
+            bbox_to_anchor=(1.01, 1.0),
+            frameon=False,
+            fontsize=legend_fontsize,
+            ncol=legend_ncol,
+        )
+
+    # Save
+    if output_path:
+        fig.savefig(output_path, dpi=dpi, bbox_inches="tight", facecolor="white")
 
     plt.show()

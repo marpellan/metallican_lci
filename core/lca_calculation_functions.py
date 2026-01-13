@@ -147,220 +147,460 @@ def compute_mp_contributions_to_ep(
     return df_hh, df_eq
 
 
-def first_tier_contributions_technosphere(activity, commodity_label, method_id,
-                                     amount=1, threshold=0.01):
+
+def direct_biosphere_contributions(activity, method_id, amount=1.0, threshold=0.0):
     """
-    Builds a DataFrame of direct (first‑tier) technosphere contributions
-    for one commodity, filtered by a percentage cutoff of total endpoint impact.
+    Direct elementary-flow (biosphere) contributions of the *foreground activity only*.
+    Version-safe across Brightway 2.x variants.
 
     Parameters
     ----------
-    activity : brightway2 Activity
-        The target activity.
-    commodity_label : str
-        Name of the commodity (for the 'Commodity' column).
-    method_id : tuple or str
-        The LCIA method identifier (e.g., a triple for IW+ endpoint).
+    activity : bw.Activity
+        Foreground activity object
+    method_id : tuple
+        Brightway method key, e.g. ("IPCC 2021", "climate change", "GWP 100a")
     amount : float
-        Functional unit for the target activity.
-    threshold : float (0-1)
-        Fraction of total impact; only include providers with share >= threshold.
-
-    Returns
-    -------
-    pd.DataFrame with columns:
-      - Commodity     (str)
-      - Activity      (provider name)
-      - Product       (provider reference product)
-      - Location      (provider location)
-      - Impact_score  (absolute contribution to endpoint)
-      - Share_%       (percentage of total endpoint impact)
-    """
-    # 1) compute total endpoint impact of the main activity
-    lca_main = bw.LCA({activity.key: amount})
-    lca_main.lci()
-    lca_main.switch_method(method_id)
-    lca_main.lcia()
-    total_score = lca_main.score or 1e-30
-
-    rows = []
-    # 2) loop direct technosphere inputs
-    for exc in activity.technosphere():
-        provider = exc.input
-        unit_amt = getattr(exc, "amount", exc.get("amount", 1))
-
-        # 3) pull provider details
-        name     = provider.get("name", "<unknown>")
-        product  = provider.get("reference product", "<unknown>")
-        location = provider.get("location", "<unknown>")
-
-        # 4) run LCA on provider to get its unit CF
-        lca_p = bw.LCA({provider.key: 1})
-        lca_p.lci()
-        lca_p.switch_method(method_id)
-        lca_p.lcia()
-        cf_unit = lca_p.score
-
-        # 5) compute contribution & share
-        contr = cf_unit * unit_amt * amount
-        share_frac = contr / total_score  # fraction of total
-        share_pct = share_frac * 100      # percent
-
-        if share_frac >= threshold:
-            rows.append({
-                "Commodity":     commodity_label,
-                "Activity":      name,
-                "Product":       product,
-                "Location":      location,
-                "Impact_score":  contr,
-                "Share_%":       share_pct
-            })
-
-    # 6) assemble and sort
-    df = pd.DataFrame(rows)
-    return df.sort_values("Share_%", ascending=False).reset_index(drop=True)
-
-
-
-def first_tier_contributions_batch_technosphere(inventory_dict, method_id, amount=1, threshold=0.01):
-    """
-    Runs first-tier contribution analysis for multiple commodities at once.
-
-    Parameters
-    ----------
-    inventory_dict : dict
-        Mapping of commodity name → Brightway Activity
-        Example: {'Copper concentrate': activity1, 'Nickel concentrate': activity2}
-    method_id : tuple or str
-        LCIA method identifier (e.g., ('ReCiPe Endpoint (H,A)', 'total', 'human health'))
-    amount : float
-        Functional unit for each activity.
+        Functional unit amount (in activity reference unit)
     threshold : float
-        Minimum share (fraction of total) to include in output.
+        Minimum share (0-1) of total score to keep
 
     Returns
     -------
     pd.DataFrame
-        Combined results with columns:
-        ['Commodity', 'Activity', 'Product', 'Location', 'Impact_score', 'Share_%']
     """
-    all_results = []
-
-    for commodity, activity in inventory_dict.items():
-        print(f"🔹 Processing {commodity} ...")
-
-        # Compute total impact for this activity
-        lca_main = bw.LCA({activity.key: amount})
-        lca_main.lci()
-        lca_main.switch_method(method_id)
-        lca_main.lcia()
-        total_score = lca_main.score or 1e-30
-
-        rows = []
-        # Loop over direct technosphere inputs
-        for exc in activity.technosphere():
-            provider = exc.input
-            unit_amt = getattr(exc, "amount", exc.get("amount", 1))
-
-            # Provider details
-            name     = provider.get("name", "<unknown>")
-            product  = provider.get("reference product", "<unknown>")
-            location = provider.get("location", "<unknown>")
-
-            # Provider's unit impact
-            lca_p = bw.LCA({provider.key: 1})
-            lca_p.lci()
-            lca_p.switch_method(method_id)
-            lca_p.lcia()
-            cf_unit = lca_p.score
-
-            # Contribution and share
-            contr = cf_unit * unit_amt * amount
-            share_frac = contr / total_score
-            share_pct = share_frac * 100
-
-            if share_frac >= threshold:
-                rows.append({
-                    "Commodity":     commodity,
-                    "Activity":      name,
-                    "Product":       product,
-                    "Location":      location,
-                    "Impact_score":  contr,
-                    "Share_%":       share_pct
-                })
-
-        df = pd.DataFrame(rows)
-        if not df.empty:
-            all_results.append(df.sort_values("Share_%", ascending=False))
-
-    if all_results:
-        return pd.concat(all_results, ignore_index=True)
-    else:
-        return pd.DataFrame(columns=["Commodity", "Activity", "Product", "Location", "Impact_score", "Share_%"])
-
-
-def process_contributions(activity, commodity_label, method_id,
-                                     amount=1, threshold=0.05):
-    """
-    Full‑chain process contributions using Brightway’s ContributionAnalysis,
-    filtered by a percentage cutoff of total endpoint impact.
-
-    Parameters
-    ----------
-    activity : brightway2 Activity
-        The target activity.
-    commodity_label : str
-        Name of the commodity (for the 'Commodity' column).
-    method_id : tuple or str
-        The LCIA method identifier (e.g. the IW+ endpoint triple).
-    amount : float
-        Functional unit for the target activity.
-    threshold : float (0–1)
-        Only include processes whose share ≥ threshold fraction of total impact.
-
-    Returns
-    -------
-    pd.DataFrame with columns:
-      - Commodity     (str)
-      - Activity      (provider name)
-      - Product       (provider reference product)
-      - Location      (provider location)
-      - Impact_score  (absolute contribution to endpoint)
-      - Share_%       (percentage of total endpoint impact)
-    """
-    # 1) Run and characterize the LCA on the target
-    lca = bw.LCA({activity.key: amount})
+    # Run LCA once (gives total score and scaling)
+    lca = bw.LCA({activity.key: amount}, method_id)
     lca.lci()
-    lca.switch_method(method_id)
     lca.lcia()
-    total = lca.score or 1e-30
 
-    # 2) Use Brightway ContributionAnalysis
-    ca = ba.ContributionAnalysis()
-    # annotated_top_processes returns (score, supply, process_key)
-    raw = ca.annotated_top_processes(
-        lca,
-        names=False,
-        limit=threshold,
-        limit_type='percent'
-    )
+    total = float(lca.score) if lca.score else 1e-30
 
-    # 3) Build DataFrame rows
+    # ---- Get scaling factor for the foreground activity in solved system ----
+    # Try common attribute names, fallback to reverse_dict if needed.
+    scale = None
+
+    if hasattr(lca, "activity_dict"):  # common in bw2calc
+        idx = lca.activity_dict[activity.key]
+        scale = float(lca.supply_array[idx])
+
+    else:
+        # fallback: reverse_dict() gives idx -> key mapping, so invert it
+        ra, rp, rb = lca.reverse_dict()
+        inv_ra = {v: k for k, v in ra.items()}  # key -> idx
+        idx = inv_ra[activity.key]
+        scale = float(lca.supply_array[idx])
+
+    # ---- CF lookup (flow key -> CF) ----
+    cfs = dict(bw.Method(method_id).load())
+
     rows = []
-    for score, supply, proc_key in raw:
-        act = bw.get_activity(proc_key)
+    for exc in activity.biosphere():
+        flow = exc.input
+        cf = float(cfs.get(flow.key, 0.0))
+        if cf == 0.0:
+            continue
+
+        impact = float(exc["amount"]) * scale * cf
+        share = impact / total
+
+        if share < threshold:
+            continue
+
         rows.append({
-            "Commodity":     commodity_label,
-            "Activity":      act.get("name", "<unknown>"),
-            "Product":       act.get("reference product", "<unknown>"),
-            "Location":      act.get("location", "<unknown>"),
-            "Impact_score":  float(score),
-            "Share_%":       float(score / total * 100)
+            "Flow": flow.get("name"),
+            "Categories": flow.get("categories"),
+            "Unit": flow.get("unit"),
+            "Direct_amount_scaled": float(exc["amount"]) * scale,
+            "CF": cf,
+            "Impact_score": impact,
+            "Share_%": 100 * share,
         })
 
-    # 4) Assemble and sort
-    df = pd.DataFrame(rows)
-    return df.sort_values("Share_%", ascending=False).reset_index(drop=True)
+    return (
+        pd.DataFrame(rows)
+        .sort_values("Share_%", ascending=False)
+        .reset_index(drop=True)
+    )
+
+def first_tier_contributions(activity, method_id, amount=1.0, threshold=0.0, top=None):
+    """
+    First-tier technosphere contribution analysis:
+    - considers ONLY direct technosphere inputs of `activity`
+    - attributes impact as: (required amount of supplier) * (LCIA score of supplier per 1 unit)
+
+    Shares are relative to the TOTAL LCIA score of the full system of the foreground activity.
+
+    Version-safe across Brightway 2.x variants (no lca.dicts usage).
+    """
+    # --- Foreground LCA (for total score + scaling of foreground activity) ---
+    lca_fg = bw.LCA({activity.key: amount}, method_id)
+    lca_fg.lci()
+    lca_fg.lcia()
+
+    total = float(lca_fg.score) if lca_fg.score else 1e-30
+
+    # --- Get scaling factor for the foreground activity in solved system ---
+    if hasattr(lca_fg, "activity_dict"):
+        idx = lca_fg.activity_dict[activity.key]
+        scale = float(lca_fg.supply_array[idx])
+    else:
+        ra, rp, rb = lca_fg.reverse_dict()
+        inv_ra = {v: k for k, v in ra.items()}  # key -> idx
+        idx = inv_ra[activity.key]
+        scale = float(lca_fg.supply_array[idx])
+
+    rows = []
+
+    # --- Loop over direct technosphere exchanges (first tier) ---
+    for exc in activity.technosphere():
+        supplier = exc.input
+
+        # required amount of supplier in the solved foreground system
+        req_amount = float(exc["amount"]) * scale
+
+        # supplier LCIA per 1 unit of its reference product
+        lca_sup = bw.LCA({supplier.key: 1.0}, method_id)
+        lca_sup.lci()
+        lca_sup.lcia()
+        sup_score = float(lca_sup.score) if lca_sup.score else 0.0
+
+        impact = req_amount * sup_score
+        share = impact / total if total else 0.0
+
+        if share < threshold:
+            continue
+
+        rows.append({
+            "Supplier_name": supplier.get("name"),
+            "Supplier_ref_product": supplier.get("reference product"),
+            "Supplier_location": supplier.get("location"),
+            "Supplier_unit": supplier.get("unit"),
+            "Exchange_amount_per_FU": req_amount,   # already scaled to your FU
+            "Supplier_score_per_unit": sup_score,   # impact per 1 unit of supplier
+            "Impact_score": impact,
+            "Share_%": 100 * share,
+        })
+
+    df = (
+        pd.DataFrame(rows)
+        .sort_values("Share_%", ascending=False)
+        .reset_index(drop=True)
+    )
+
+    if top is not None:
+        df = df.head(top)
+
+    return df
+
+# def _infer_commodity_from_label(label: str):
+#     """
+#     Heuristic:
+#     - 'Gibraltar (Cu)' -> 'Cu'
+#     - 'Snow Lake (Zn)' -> 'Zn'
+#     - 'Goldex (Au)' -> 'Au'
+#     - 'LaRonde (Doré)' -> 'Doré'
+#     - If no parentheses, return None
+#     """
+#     m = re.search(r"\(([^)]+)\)\s*$", str(label))
+#     return m.group(1).strip() if m else None
+
+
+def direct_bio_and_first_tier_tech(
+    inventory_dict,
+    method_id,
+    amount=1.0,
+    threshold=0.0,          # share threshold (0–1)
+    top=None,               # top N per (lci_name, flow_type)
+    cache_supplier_scores=True,
+    supplier_score_cache=None,
+):
+    """
+    For each {lci_name: activity} in inventory_dict:
+      - Direct biosphere contributions (foreground activity only)
+      - First-tier technosphere contributions (direct inputs only)
+
+    Returns a single DataFrame with:
+      ['lci_name', 'activity_name', 'flow_type',
+       'name', 'reference_product', 'categories',
+       'unit', 'location',
+       'impact_score', 'share_%', 'total_score']
+    """
+
+    if not isinstance(inventory_dict, dict) or len(inventory_dict) == 0:
+        raise ValueError("inventory_dict must be a non-empty dict: {lci_name: bw_activity}")
+
+    if supplier_score_cache is None:
+        supplier_score_cache = {}
+
+    rows_all = []
+
+    # Preload CFs once
+    cfs = dict(bw.Method(method_id).load())
+
+    for lci_name, activity in inventory_dict.items():
+
+        # --- Foreground LCA once ---
+        lca_fg = bw.LCA({activity.key: amount}, method_id)
+        lca_fg.lci()
+        lca_fg.lcia()
+
+        total = float(lca_fg.score) if lca_fg.score else 1e-30
+
+        # Version-safe scaling
+        if hasattr(lca_fg, "activity_dict"):
+            idx = lca_fg.activity_dict[activity.key]
+            scale = float(lca_fg.supply_array[idx])
+        else:
+            ra, rp, rb = lca_fg.reverse_dict()
+            inv_ra = {v: k for k, v in ra.items()}
+            idx = inv_ra[activity.key]
+            scale = float(lca_fg.supply_array[idx])
+
+        activity_name = activity.get("name")
+
+        # =========================
+        # 1) Direct biosphere
+        # =========================
+        for exc in activity.biosphere():
+            flow = exc.input
+            cf = float(cfs.get(flow.key, 0.0))
+            if cf == 0.0:
+                continue
+
+            impact = float(exc["amount"]) * scale * cf
+            share = impact / total
+
+            if share < threshold:
+                continue
+
+            rows_all.append({
+                "lci_name": lci_name,
+                "activity_name": activity_name,
+                "flow_type": "Biosphere (direct)",
+                "name": flow.get("name"),
+                "reference_product": None,
+                "categories": flow.get("categories"),
+                "unit": flow.get("unit"),
+                "location": None,
+                "impact_score": impact,
+                "share_%": 100 * share,
+                "total_score": total,
+            })
+
+        # =========================
+        # 2) First-tier technosphere
+        # =========================
+        for exc in activity.technosphere():
+            supplier = exc.input
+            req_amount = float(exc["amount"]) * scale
+
+            sup_key = supplier.key
+            if cache_supplier_scores and sup_key in supplier_score_cache:
+                sup_score = supplier_score_cache[sup_key]
+            else:
+                lca_sup = bw.LCA({supplier.key: 1.0}, method_id)
+                lca_sup.lci()
+                lca_sup.lcia()
+                sup_score = float(lca_sup.score) if lca_sup.score else 0.0
+                if cache_supplier_scores:
+                    supplier_score_cache[sup_key] = sup_score
+
+            impact = req_amount * sup_score
+            share = impact / total
+
+            if share < threshold:
+                continue
+
+            rows_all.append({
+                "lci_name": lci_name,
+                "activity_name": activity_name,
+                "flow_type": "Technosphere (first-tier)",
+                "name": supplier.get("name"),
+                "reference_product": supplier.get("reference product"),
+                "categories": None,
+                "unit": supplier.get("unit"),
+                "location": supplier.get("location"),
+                "impact_score": impact,
+                "share_%": 100 * share,
+                "total_score": total,
+            })
+
+    df = pd.DataFrame(rows_all)
+
+    if df.empty:
+        return pd.DataFrame(columns=[
+            "lci_name","activity_name","flow_type","name",
+            "reference_product","categories","unit","location",
+            "impact_score","share_%","total_score"
+        ])
+
+    # Sort within each LCI
+    df = (
+        df.sort_values(["lci_name", "flow_type", "share_%"],
+                       ascending=[True, True, False])
+          .reset_index(drop=True)
+    )
+
+    # Optional: keep top N per LCI & flow type
+    if top is not None:
+        df = (
+            df.groupby(["lci_name", "flow_type"], group_keys=False)
+              .head(top)
+              .reset_index(drop=True)
+        )
+
+    return df
+
+
+def weighted_market_contributions(
+    contribution_df: pd.DataFrame,
+    market_shares_df: pd.DataFrame,
+    join_cols=("lci_name", "activity_name"),
+    market_refprod_col="reference_product",   # in market_shares_df: Doré, Cu concentrate, U concentrate...
+    share_col="market_share",
+    normalize_shares=True,
+    eps=1e-30,
+):
+    """
+    Build a market-level contribution analysis as a weighted mix of site-level LCAs.
+
+    contribution_df: output of your site contribution function, with at least:
+      ['lci_name','activity_name','flow_type','name','reference_product','categories','unit','location',
+       'impact_score','share_%','total_score']
+
+      NOTE: contribution_df['reference_product'] = supplier reference product (technosphere rows),
+            not the market reference product. We'll rename it to supplier_reference_product.
+
+    market_shares_df must contain:
+      [market_refprod_col, share_col] + join_cols
+
+    Returns:
+      df_market: market contribution table (same idea as site table)
+      df_market_total: market total score per reference product
+      df_joined: joined site rows (debug)
+    """
+
+    # Rename to avoid name collision: contribution reference_product = supplier reference product
+    dfc = contribution_df.copy().rename(columns={"reference_product": "supplier_reference_product"})
+    dfs = market_shares_df.copy()
+
+    # Normalize shares PER reference_product on the market_shares table (not after merge!)
+    if normalize_shares:
+        s = dfs.groupby(market_refprod_col)[share_col].transform("sum")
+        dfs["_share_norm"] = np.where(s > 0, dfs[share_col] / s, dfs[share_col])
+    else:
+        dfs["_share_norm"] = dfs[share_col]
+
+    # Join: attach market ref product + weights to each site-level contribution row
+    df = dfc.merge(
+        dfs[list(join_cols) + [market_refprod_col, "_share_norm"]],
+        on=list(join_cols),
+        how="inner",
+    )
+    if df.empty:
+        raise ValueError("Join produced 0 rows. Check that join_cols match in both dataframes.")
+
+    # Weighted impact for each contribution item
+    df["weighted_impact"] = df["impact_score"] * df["_share_norm"]
+
+    # --- Market total score per reference product: sum_i w_i * total_score_i ---
+    # total_score is repeated per contribution row => keep one per site
+    tot_site = df[[market_refprod_col] + list(join_cols) + ["total_score", "_share_norm"]].drop_duplicates()
+    tot_site["weighted_total"] = tot_site["total_score"] * tot_site["_share_norm"]
+
+    df_market_total = (
+        tot_site.groupby(market_refprod_col)
+        .agg(
+            total_score_market=("weighted_total", "sum"),
+            n_sites=(join_cols[0], "nunique"),
+            sum_shares=("_share_norm", "sum"),
+        )
+        .reset_index()
+        .rename(columns={market_refprod_col: "reference_product_market"})
+    )
+
+    # --- Market contributions: sum_i w_i * impact_score_{i,k} ---
+    df = df.rename(columns={market_refprod_col: "reference_product_market"})
+
+    item_cols = [
+        "reference_product_market",
+        "flow_type",
+        "name",
+        "supplier_reference_product",
+        "categories",
+        "unit",
+        "location",
+    ]
+
+    df_market = (
+        df.groupby(item_cols, dropna=False)
+        .agg(
+            impact_score_market=("weighted_impact", "sum"),
+            n_sites=("lci_name", "nunique"),
+        )
+        .reset_index()
+        .merge(
+            df_market_total[["reference_product_market", "total_score_market"]],
+            on="reference_product_market",
+            how="left",
+        )
+    )
+
+    # Recompute shares relative to the MARKET total (this is what you want)
+    df_market["share_%"] = 100 * df_market["impact_score_market"] / df_market["total_score_market"].replace(0, eps)
+
+    df_market = df_market.sort_values(
+        ["reference_product_market", "flow_type", "share_%"],
+        ascending=[True, True, False],
+    ).reset_index(drop=True)
+
+    return df_market, df_market_total, df
+
+
+def aggregate_electricity_market(
+    df,
+    activity_pattern="market for electricity, medium voltage",
+    location_value="CA",
+):
+    df = df.copy()
+
+    # 1) Filtrer les lignes électricité
+    mask = df["name"].str.contains(activity_pattern, case=False, na=False)
+    df_elec = df[mask]
+    df_other = df[~mask]
+
+    if df_elec.empty:
+        return df  # rien à agréger
+
+    # 2) Colonnes numériques à sommer (SAUF total_score_market)
+    num_cols = df.select_dtypes(include="number").columns.tolist()
+    sum_cols = [c for c in num_cols if c != "total_score_market"]
+
+    # 3) Agrégation par reference_product_market
+    agg_sum = df_elec.groupby("reference_product_market", as_index=False)[sum_cols].sum()
+
+    # total_score_market: on le garde tel quel (1 valeur par reference_product_market)
+    total = (
+        df_elec.groupby("reference_product_market", as_index=False)["total_score_market"]
+        .first()
+    )
+
+    df_elec_agg = agg_sum.merge(total, on="reference_product_market", how="left")
+
+    # 4) Remettre les colonnes non-numériques (valeurs constantes cohérentes)
+    df_elec_agg["flow_type"] = df_elec["flow_type"].dropna().iloc[0] if df_elec["flow_type"].notna().any() else None
+    df_elec_agg["supplier_reference_product"] = df_elec["supplier_reference_product"].dropna().iloc[0] if df_elec["supplier_reference_product"].notna().any() else None
+    df_elec_agg["unit"] = df_elec["unit"].dropna().iloc[0] if df_elec["unit"].notna().any() else None
+    df_elec_agg["categories"] = df_elec["categories"].dropna().iloc[0] if df_elec["categories"].notna().any() else None
+
+    df_elec_agg["name"] = activity_pattern
+    df_elec_agg["location"] = location_value
+
+    # 5) Réordonner SANS KeyError (reindex crée les colonnes manquantes si besoin)
+    df_elec_agg = df_elec_agg.reindex(columns=df.columns)
+
+    # 6) Recombiner
+    return pd.concat([df_other, df_elec_agg], ignore_index=True)
 
 
 def export_activity_exchanges(inventory_ds, output_folder="exports"):

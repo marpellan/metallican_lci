@@ -1,5 +1,6 @@
 import brightway2 as bw
 import pandas as pd
+import re
 from utils.constants import CA_provinces
 
 
@@ -278,33 +279,326 @@ class LCIDatabaseBuilder:
         print(f"🧮 Consolidation: {total_before} → {total_after} exchanges (summed duplicates).")
 
 
+    # def build_market_activities(
+    #     self,
+    #     market_df,
+    #     location="CA",
+    #     unit="kilogram",
+    #     market_prefix="Market for ",
+    #     code_prefix="market_",
+    #     strict=True,
+    #     epsilon=0.3,
+    # ):
+    #     """
+    #     Create market activities (ecoinvent-like) from a market share DataFrame.
+    #
+    #     Expected columns in market_df:
+    #         - reference_product
+    #         - site_id
+    #         - market_share
+    #     Optional columns:
+    #         - activity_name (only used for logs/checks)
+    #
+    #     Assumes your site-specific activities codes are: f"{site_id}_{reference_product}"
+    #     and are stored in self.lcis with key: (self.db_name, code)
+    #     """
+    #
+    #     required = {"reference_product", "site_id", "market_share"}
+    #     missing = required - set(market_df.columns)
+    #     if missing:
+    #         raise ValueError(f"Missing required columns in market_df: {missing}")
+    #
+    #     df = market_df.copy()
+    #     df["reference_product"] = df["reference_product"].astype(str).str.strip()
+    #     df["site_id"] = df["site_id"].astype(str).str.strip()
+    #     df["market_share"] = pd.to_numeric(df["market_share"], errors="coerce")
+    #
+    #     if df["market_share"].isna().any():
+    #         bad = df[df["market_share"].isna()]
+    #         raise ValueError(f"Some market_share values are not numeric:\n{bad}")
+    #
+    #     def safe_code(s: str) -> str:
+    #         """Make a simple Brightway-safe code."""
+    #         s = str(s).strip()
+    #         s = s.replace(" ", "_")
+    #         # keep letters/numbers/_/-
+    #         s = re.sub(r"[^A-Za-z0-9_\-]+", "", s)
+    #         return s
+    #
+    #     created = 0
+    #
+    #     for rp, grp in df.groupby("reference_product"):
+    #         share_sum = float(grp["market_share"].sum())
+    #         if abs(share_sum - 1.0) > epsilon:
+    #             print(f"⚠️ [{rp}] shares sum={share_sum:.6f}, renormalized to 1.0")
+    #             grp = grp.copy()
+    #             grp["market_share"] = grp["market_share"] / share_sum
+    #             #if strict:
+    #             #    raise ValueError(msg)
+    #             #else:
+    #             #    print("⚠️", msg)
+    #
+    #         # Market identifiers
+    #         market_name = f"{market_prefix}{rp}"
+    #         market_code = safe_code(f"{code_prefix}{rp}")
+    #         market_key = (self.db_name, market_code)
+    #
+    #         # Production exchange (self reference)
+    #         exchanges = [{
+    #             "input": market_key,
+    #             "amount": 1.0,
+    #             "unit": unit,
+    #             "type": "production",
+    #             "name": rp,
+    #             "product": rp,
+    #             "reference product": rp,
+    #         }]
+    #
+    #         # Technosphere inputs = market shares
+    #         missing_suppliers = []
+    #
+    #         for _, row in grp.iterrows():
+    #             site_id = row["site_id"]
+    #             share = float(row["market_share"])
+    #
+    #             supplier_code = f"{site_id}_{rp}"
+    #             supplier_key = (self.db_name, supplier_code)
+    #
+    #             if supplier_key not in self.lcis:
+    #                 missing_suppliers.append(site_id)
+    #                 continue
+    #
+    #             exchanges.append({
+    #                 "input": supplier_key,
+    #                 "amount": share,
+    #                 "unit": unit,
+    #                 "type": "technosphere",
+    #                 "name": self.lcis[supplier_key]["name"],
+    #                 "product": rp,
+    #                 "location": self.lcis[supplier_key].get("location", None),
+    #                 "comment": "market share",
+    #             })
+    #
+    #         if missing_suppliers:
+    #             msg = f"[{rp}] Missing site-specific activities for site_id: {missing_suppliers}"
+    #             if strict:
+    #                 raise KeyError(msg)
+    #             else:
+    #                 print("⚠️", msg)
+    #
+    #         # Add market activity to self.lcis
+    #         self.lcis[market_key] = {
+    #             "name": market_name,
+    #             "unit": unit,
+    #             "location": location,
+    #             "reference product": rp,
+    #             "exchanges": exchanges,
+    #             "type": "market activity",
+    #             "comment": f"Market activity built from site-specific LCIs (shares from market_df).",
+    #         }
+    #
+    #         created += 1
+    #
+    #     print(f"🧩 Created {created} market activities.")
+    #
+    #     return created
+
+    def build_market_activities(
+            self,
+            market_df,
+            location="CA",
+            unit="kilogram",
+            market_prefix="Market for ",
+            code_prefix="market_",
+            strict=True,
+            epsilon=0.3,
+    ):
+        required = {"reference_product", "site_id", "market_share"}
+        missing = required - set(market_df.columns)
+        if missing:
+            raise ValueError(f"Missing required columns in market_df: {missing}")
+
+        df = market_df.copy()
+        df["reference_product"] = df["reference_product"].astype(str).str.strip()
+        df["site_id"] = df["site_id"].astype(str).str.strip()
+        df["market_share"] = pd.to_numeric(df["market_share"], errors="coerce")
+
+        if df["market_share"].isna().any():
+            bad = df[df["market_share"].isna()]
+            raise ValueError(f"Some market_share values are not numeric:\n{bad}")
+
+        def safe_code(s: str) -> str:
+            s = str(s).strip().replace(" ", "_")
+            s = re.sub(r"[^A-Za-z0-9_\-]+", "", s)
+            return s
+
+        created = 0
+
+        for rp, grp in df.groupby("reference_product"):
+            share_sum = float(grp["market_share"].sum())
+            renorm = False
+            if abs(share_sum - 1.0) > epsilon:
+                print(f"⚠️ [{rp}] shares sum={share_sum:.6f}, renormalized to 1.0")
+                grp = grp.copy()
+                grp["market_share"] = grp["market_share"] / share_sum
+                renorm = True
+
+            market_name = f"{market_prefix}{rp}"
+            market_code = safe_code(f"{code_prefix}{rp}")
+            market_key = (self.db_name, market_code)
+
+            # Minimal production exchange
+            exchanges = [{
+                "input": market_key,
+                "amount": 1.0,
+                "type": "production",
+            }]
+
+            missing_suppliers = []
+            for _, row in grp.iterrows():
+                site_id = row["site_id"]
+                share = float(row["market_share"])
+
+                supplier_code = f"{site_id}_{rp}"
+                supplier_key = (self.db_name, supplier_code)
+
+                if supplier_key not in self.lcis:
+                    missing_suppliers.append(site_id)
+                    continue
+
+                # Minimal technosphere exchange
+                exchanges.append({
+                    "input": supplier_key,
+                    "amount": share,
+                    "type": "technosphere",
+                })
+
+            if missing_suppliers:
+                msg = f"[{rp}] Missing site-specific activities for site_id: {missing_suppliers}"
+                if strict:
+                    raise KeyError(msg)
+                else:
+                    print("⚠️", msg)
+
+            self.lcis[market_key] = {
+                "name": market_name,
+                "unit": unit,
+                "location": location,
+                "reference product": rp,
+                "exchanges": exchanges,
+                "type": "market activity",
+                "comment": (
+                    f"Market activity built from site-specific LCIs. "
+                    f"n_sites={len(grp)}; renormalized={renorm}; original_sum={share_sum:.6f}."
+                ),
+            }
+
+            created += 1
+
+        print(f"🧩 Created {created} market activities.")
+        return created
+
+    # def write_to_database(self, overwrite=True):
+    #     """
+    #     Write all activities and exchanges to the Brightway2 database.
+    #     """
+    #     print(f"🧱 Writing {len(self.lcis)} activities to database '{self.db_name}'...")
+    #
+    #     for key, act_data in self.lcis.items():
+    #         act_code = key[1]
+    #
+    #         # Handle overwrite safely
+    #         if overwrite and (self.db_name, act_code) in self.db:
+    #             print(f"♻️ Overwriting existing activity: {act_code}")
+    #             self.db.delete((self.db_name, act_code))
+    #
+    #         act = self.db.new_activity(
+    #             code=act_code,
+    #             **{k: v for k, v in act_data.items() if k != 'exchanges'}
+    #         )
+    #         act.save()
+    #
+    #         for exc in act_data['exchanges']:
+    #             try:
+    #                 act.new_exchange(**exc).save()
+    #             except Exception as e:
+    #                 print(f"⚠️ Failed to save exchange for {act_data['name']}: {e}")
+    #
+    #     # Only process after all exchanges exist
+    #     try:
+    #         self.db.process()
+    #         print(f"✅ Database '{self.db_name}' processed successfully with {len(self.db)} activities.")
+    #     except Exception as e:
+    #         print(f"⚠️ Processing failed: {e}")
+
     def write_to_database(self, overwrite=True):
-        """
-        Write all activities and exchanges to the Brightway2 database.
-        """
         print(f"🧱 Writing {len(self.lcis)} activities to database '{self.db_name}'...")
 
-        for key, act_data in self.lcis.items():
-            act_code = key[1]
+        # Split site-specific vs markets based on 'type'
+        site_keys = [k for k, v in self.lcis.items() if
+                     v.get("type") in ("process", "process activity", "processes", "process")]
+        market_keys = [k for k, v in self.lcis.items() if v.get("type") == "market activity"]
+        other_keys = [k for k in self.lcis if k not in set(site_keys) | set(market_keys)]
 
-            # Handle overwrite safely
+        # Helper: create activity only (no exchanges)
+        def _create_act(key):
+            act_code = key[1]
+            act_data = self.lcis[key]
+
             if overwrite and (self.db_name, act_code) in self.db:
-                print(f"♻️ Overwriting existing activity: {act_code}")
                 self.db.delete((self.db_name, act_code))
 
             act = self.db.new_activity(
                 code=act_code,
-                **{k: v for k, v in act_data.items() if k != 'exchanges'}
+                **{k: v for k, v in act_data.items() if k != "exchanges"}
             )
             act.save()
 
-            for exc in act_data['exchanges']:
-                try:
-                    act.new_exchange(**exc).save()
-                except Exception as e:
-                    print(f"⚠️ Failed to save exchange for {act_data['name']}: {e}")
+        # Helper: add exchanges for one activity
+        def _add_exchanges(key, act_obj):
+            for exc in self.lcis[key].get("exchanges", []):
+                act_obj.new_exchange(**exc).save()
 
-        # Only process after all exchanges exist
+        # -------------------------
+        # PASS A: create site acts
+        # -------------------------
+        for k in site_keys:
+            _create_act(k)
+        print(f"✅ Created {len(site_keys)} site-specific activities.")
+
+        # -------------------------
+        # PASS B: create markets
+        # -------------------------
+        for k in market_keys:
+            _create_act(k)
+        print(f"✅ Created {len(market_keys)} market activities.")
+
+        # Create any remaining (optional)
+        for k in other_keys:
+            _create_act(k)
+
+        # Build lookup of actual BW activity objects
+        act_obj = {act.key: act for act in self.db}
+
+        # -------------------------
+        # PASS C: add exchanges
+        # -------------------------
+        exch_ok, exch_fail = 0, 0
+
+        for k in site_keys + market_keys + other_keys:
+            act = act_obj.get(k)
+            if act is None:
+                print(f"⚠️ Missing activity in DB for key={k}")
+                continue
+            try:
+                _add_exchanges(k, act)
+                exch_ok += len(self.lcis[k].get("exchanges", []))
+            except Exception as e:
+                exch_fail += 1
+                print(f"⚠️ Failed exchanges for {self.lcis[k].get('name')} ({k}): {e}")
+
+        print(f"✅ Saved exchanges: approx {exch_ok} (failures: {exch_fail})")
+
         try:
             self.db.process()
             print(f"✅ Database '{self.db_name}' processed successfully with {len(self.db)} activities.")

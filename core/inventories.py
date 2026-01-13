@@ -67,7 +67,7 @@ INVENTORIES_metallican = {
 "Highland Valley (Cu)": ("Open-pit mining and beneficiation at Highland Valley", "Cu concentrate", "CA-BC"),
 "Mount Milligan": ("Open-pit mining and beneficiation at Mount Milligan", "Cu concentrate", "CA-BC"),
 "Mount Polley": ("Open-pit mining and beneficiation at Mount Polley", "Cu concentrate", "CA-BC"),
-"Red Chris": ("Open-pit mining and beneficiation at Red Chris", "Cu concentrate", "CA-BC"),
+#"Red Chris": ("Open-pit mining and beneficiation at Red Chris", "Cu concentrate", "CA-BC"),
 "Goldex (Cu)": ("Underground mining and beneficiation at Goldex", "Cu concentrate", "CA-QC"),
 "Kidd Creek": ("Underground mining and beneficiation at Kidd Creek", "Cu concentrate", "CA-ON"),
 "LaRonde (Cu)": ("Underground mining and beneficiation at LaRonde", "Cu concentrate", "CA-QC"),
@@ -77,7 +77,7 @@ INVENTORIES_metallican = {
 
 # Dore
 "Casa Berardi": ("Open-pit and underground mining and beneficiation at Casa Berardi", "Doré", "CA-QC"),
-"Fox Complex": ("Open-pit and underground mining and beneficiation at Fox Complex", "Doré", "CA-ON"), # No GHGs data
+#"Fox Complex": ("Open-pit and underground mining and beneficiation at Fox Complex", "Doré", "CA-ON"), # No GHGs data
 "Hemlo": ("Open-pit and underground mining and beneficiation at Hemlo (Williams)", "Doré", "CA-ON"),
 "Meliadine": ("Open-pit and underground mining and beneficiation at Meliadine", "Doré", "CA-NU"),
 "Rainy River": ("Open-pit and underground mining and beneficiation at Rainy River", "Doré", "CA-ON"),
@@ -86,15 +86,15 @@ INVENTORIES_metallican = {
 "Canadian Malartic": ("Open-pit mining and beneficiation at Canadian Malartic", "Doré", "CA-QC"),
 "Detour Lake": ("Open-pit mining and beneficiation at Detour Lake", "Doré", "CA-ON"),
 "Kiena": ("Open-pit mining and beneficiation at Kiena", "Doré", "CA-QC"), # No NPRI data but still some extracted
-"Magino": ("Open-pit mining and beneficiation at Magino", "Doré", "CA-ON"),
-"Elk": ("Open-pit mining at Elk", "Doré", "CA-BC"),
+#"Magino": ("Open-pit mining and beneficiation at Magino", "Doré", "CA-ON"), No NPRI
+#"Elk": ("Open-pit mining at Elk", "Doré", "CA-BC"),
 "Brucejack": ("Underground mining and beneficiation at Brucejack", "Doré", "CA-BC"),
 "Eagle River": ("Underground mining and beneficiation at Eagle River", "Doré", "CA-ON"),
 "Éléonore": ("Underground mining and beneficiation at Éléonore", "Doré", "CA-QC"),
 "Goldex (Au)": ("Underground mining and beneficiation at Goldex", "Doré", "CA-QC"),
 "Island": ("Underground mining and beneficiation at Island", "Doré", "CA-ON"),
 "LaRonde (Doré)": ("Underground mining and beneficiation at LaRonde", "Doré", "CA-QC"),
-"Lamaque": ("Underground mining and beneficiation at Lamaque", "Doré", "CA-QC"), # No NPRI data but still some extracted
+#"Lamaque": ("Underground mining and beneficiation at Lamaque", "Doré", "CA-QC"), # No NPRI
 "Macassa": ("Underground mining and beneficiation at Macassa", "Doré", "CA-ON"),
 "Musselwhite": ("Underground mining and beneficiation at Musselwhite", "Doré", "CA-ON"),
 "Red Lake": ("Underground mining and beneficiation at Red Lake", "Doré", "CA-ON"),
@@ -124,6 +124,13 @@ INVENTORIES_metallican = {
 "Key Lake + McArthur River": ("Underground mining and beneficiation at Key Lake + McArthur River", "U concentrate", "CA-SK"),
 "Cigar Lake + McClean Lake": ("Underground mining and beneficiation at Cigar Lake + McClean Lake", "U concentrate", "CA-SK"),
 
+}
 
-
+INVENTORIES_market_metallican = {
+"Market for Doré": ("Market for Doré", "Doré", "CA"),
+"Market for Cu concentrate": ("Market for Cu concentrate", "Cu concentrate", "CA"),
+"Market for Ni concentrate": ("Market for Ni concentrate", "Ni concentrate", "CA"),
+"Market for U concentrate": ("Market for U concentrate", "U concentrate", "CA"),
+"Market for Mo concentrate": ("Market for Mo concentrate", "Mo concentrate", "CA"),
+"Market for Zn concentrate": ("Market for Zn concentrate", "Zn concentrate", "CA"),
 }
