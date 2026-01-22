@@ -612,3 +612,66 @@ class LCIDatabaseBuilder:
         """
         for act in self.db:
             print(act.key, act.as_dict())
+
+
+def export_bw_database_to_excel(db_name, out_xlsx):
+    db = bd.Database(db_name)
+
+    # ---------- Activities ----------
+    acts_rows = []
+    for act in db:
+        d = act.as_dict()
+        acts_rows.append({
+            "database": act.key[0],
+            "code": act.key[1],
+            "name": d.get("name"),
+            "reference_product": d.get("reference product") or d.get("product"),
+            "location": d.get("location"),
+            "unit": d.get("unit"),
+            "type": d.get("type"),
+            "comment": d.get("comment"),
+        })
+    activities_df = pd.DataFrame(acts_rows)
+
+    # ---------- Exchanges ----------
+    exc_rows = []
+    for act in db:
+        act_d = act.as_dict()
+        act_name = act_d.get("name")
+        act_rp = act_d.get("reference product") or act_d.get("product")
+
+        for exc in act.exchanges():
+            e = exc.as_dict()
+            inp = e.get("input")
+            out = e.get("output")
+
+            # input/output sont des tuples (db, code)
+            in_db, in_code = (inp if isinstance(inp, (tuple, list)) else (None, None))
+            out_db, out_code = (out if isinstance(out, (tuple, list)) else (None, None))
+
+            exc_rows.append({
+                "output_db": out_db,
+                "output_code": out_code,
+                "output_name": act_name,
+                "output_reference_product": act_rp,
+                "type": e.get("type"),
+                "amount": e.get("amount"),
+                "unit": e.get("unit"),
+                "input_db": in_db,
+                "input_code": in_code,
+                # champs optionnels
+                "name": e.get("name"),
+                "product": e.get("product"),
+                "location": e.get("location"),
+                "comment": e.get("comment"),
+            })
+
+    exchanges_df = pd.DataFrame(exc_rows)
+
+    # ---------- Write ----------
+    with pd.ExcelWriter(out_xlsx, engine="openpyxl") as writer:
+        activities_df.to_excel(writer, sheet_name="activities", index=False)
+        exchanges_df.to_excel(writer, sheet_name="exchanges", index=False)
+
+    #print("Wrote:", out_xlsx)
+    return activities_df, exchanges_df

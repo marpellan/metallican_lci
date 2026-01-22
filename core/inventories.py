@@ -124,13 +124,21 @@ INVENTORIES_metallican = {
 "Key Lake + McArthur River": ("Underground mining and beneficiation at Key Lake + McArthur River", "U concentrate", "CA-SK"),
 "Cigar Lake + McClean Lake": ("Underground mining and beneficiation at Cigar Lake + McClean Lake", "U concentrate", "CA-SK"),
 
-}
-
-INVENTORIES_market_metallican = {
+# Markets
 "Market for Doré": ("Market for Doré", "Doré", "CA"),
 "Market for Cu concentrate": ("Market for Cu concentrate", "Cu concentrate", "CA"),
 "Market for Ni concentrate": ("Market for Ni concentrate", "Ni concentrate", "CA"),
 "Market for U concentrate": ("Market for U concentrate", "U concentrate", "CA"),
 "Market for Mo concentrate": ("Market for Mo concentrate", "Mo concentrate", "CA"),
-"Market for Zn concentrate": ("Market for Zn concentrate", "Zn concentrate", "CA"),
+"Market for Zn concentrate": ("Market for Zn concentrate", "Zn concentrate", "CA")
+
 }
+
+# INVENTORIES_market_metallican = {
+# "Market for Doré": ("Market for Doré", "Doré", "CA"),
+# "Market for Cu concentrate": ("Market for Cu concentrate", "Cu concentrate", "CA"),
+# "Market for Ni concentrate": ("Market for Ni concentrate", "Ni concentrate", "CA"),
+# "Market for U concentrate": ("Market for U concentrate", "U concentrate", "CA"),
+# "Market for Mo concentrate": ("Market for Mo concentrate", "Mo concentrate", "CA"),
+# "Market for Zn concentrate": ("Market for Zn concentrate", "Zn concentrate", "CA"),
+# }
