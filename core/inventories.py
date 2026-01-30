@@ -7,7 +7,7 @@ INVENTORIES_CA_ei = {
     "Au-Ag ingot": ("gold-silver mine operation and beneficiation", "gold-silver, ingot", "CA-QC"),
     "Pb concentrate": ("gold-silver mine operation and beneficiation", "lead concentrate", "CA-QC"),
     "Zn concentrate": ("gold-silver mine operation and beneficiation", "zinc concentrate", "CA-QC"),
-    "Fe concentrate": ("iron ore mine operation and beneficiation", "iron ore concentrate", "CA-QC"),
+    #"Fe concentrate": ("iron ore mine operation and beneficiation", "iron ore concentrate", "CA-QC"),
     "Ni concentrate": ("nickel mine operation and benefication to nickel concentrate, 16% Ni", "nickel concentrate, 16% Ni", "CA-QC"), #typo in EI
     "U yellowcake": ("uranium production, in yellowcake", "uranium, in yellowcake", "RoW")
 }
@@ -22,7 +22,7 @@ INVENTORIES_CA_reg = {
     "Au-Ag ingot": ("gold-silver mine operation and beneficiation", "gold-silver, ingot", "CA"),
     "Pb concentrate": ("gold-silver mine operation and beneficiation", "lead concentrate", "CA"),
     "Zn concentrate": ("gold-silver mine operation and beneficiation", "zinc concentrate", "CA"),
-    "Fe concentrate": ("iron ore mine operation and beneficiation", "iron ore concentrate", "CA"),
+    #"Fe concentrate": ("iron ore mine operation and beneficiation", "iron ore concentrate", "CA"),
     "Ni concentrate": ("nickel mine operation and benefication to nickel concentrate, 16% Ni", "nickel concentrate, 16% Ni", "CA"), #typo in EI
     "U yellowcake": ("uranium production, in yellowcake", "uranium, in yellowcake", "CA")
 

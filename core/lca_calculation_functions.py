@@ -10,7 +10,6 @@ import math # for pedigree matrix
 import re
 
 
-
 def get_inventory_dataset(inventories, database_names):
     """
     Function from Istrate et al (2024) to find the dataset in the specified databases.

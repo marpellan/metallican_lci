@@ -1,134 +1,138 @@
 reference_product_market,flow_type,name,supplier_reference_product,categories,unit,location,impact_score_market,n_sites,total_score_market,share_%
-Cu concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.541409488199737,9,1.3460608927369742,40.22176790968777
-Cu concentrate,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,0.10907840297842795,8,1.3460608927369742,8.103526635904007
-Cu concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'lower stratosphere + upper troposphere')",kilogram,,0.021487575788594362,6,1.3460608927369742,1.596330144092012
-Cu concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air',)",kilogram,,0.014647655248974613,7,1.3460608927369742,1.088186673278296
-Cu concentrate,Biosphere (direct),"Methane, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.0008078301269195415,7,1.3460608927369742,0.06001438205941511
-Cu concentrate,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,0.21619367313807006,9,1.3460608927369742,16.061210477519996
-Cu concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,0.14289850455472738,9,1.3460608927369742,10.616050531277885
-Cu concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-BC,0.08709884471638231,6,1.3460608927369742,6.47064669855183
-Cu concentrate,Technosphere (first-tier),"market for explosive, tovex","explosive, tovex",,kilogram,GLO,0.07345532563577273,9,1.3460608927369742,5.457058148863864
-Cu concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-MB,0.06497739266617852,1,1.3460608927369742,4.827225351897611
-Cu concentrate,Technosphere (first-tier),market for polyacrylamide,polyacrylamide,,kilogram,GLO,0.044050574615076325,9,1.3460608927369742,3.272554373488064
-Cu concentrate,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,0.008068754630052268,4,1.3460608927369742,0.5994345927134023
-Cu concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.006727009930532336,9,1.3460608927369742,0.4997552463510149
-Cu concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.004778064770371105,8,1.3460608927369742,0.3549664651987448
-Cu concentrate,Technosphere (first-tier),"market for chemical, organic","chemical, organic",,kilogram,GLO,0.004465806435089589,5,1.3460608927369742,0.3317685298775132
-Cu concentrate,Technosphere (first-tier),market for sodium cyanide,sodium cyanide,,kilogram,RoW,0.0014454866480414488,3,1.3460608927369742,0.10738642329191439
-Cu concentrate,Technosphere (first-tier),market for sodium bicarbonate,sodium bicarbonate,,kilogram,RoW,0.0014148337485205588,9,1.3460608927369742,0.10510919351083346
-Cu concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-QC,0.0012197448326702301,2,1.3460608927369742,0.09061587326782053
-Cu concentrate,Technosphere (first-tier),market for propane,propane,,kilogram,GLO,0.0007875591115896507,4,1.3460608927369742,0.058508431218760835
-Cu concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.0004177599605557521,4,1.3460608927369742,0.031035740122150927
-Cu concentrate,Technosphere (first-tier),market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,,kilogram,RoW,0.00038204657479220253,1,1.3460608927369742,0.028382562546288608
-Cu concentrate,Technosphere (first-tier),"market for sulfur dioxide, liquid","sulfur dioxide, liquid",,kilogram,RoW,0.00011196378318950386,3,1.3460608927369742,0.008317883967481258
-Cu concentrate,Technosphere (first-tier),"market for activated carbon, granular","activated carbon, granular",,kilogram,GLO,9.005592999528996e-05,3,1.3460608927369742,0.006690331060148202
-Cu concentrate,Technosphere (first-tier),"market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",,kilogram,RoW,3.016097592517655e-05,3,1.3460608927369742,0.002240684361897596
-Cu concentrate,Technosphere (first-tier),market for light fuel oil,light fuel oil,,kilogram,RoW,1.6356983071973538e-05,2,1.3460608927369742,0.0012151740801795777
-Cu concentrate,Technosphere (first-tier),"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",,kilogram,CA,0.0,6,1.3460608927369742,0.0
-Cu concentrate,Technosphere (first-tier),"market for sulfidic tailings, from gold mine operation","sulfidic tailings, from gold mine operation",,kilogram,CA,0.0,3,1.3460608927369742,0.0
-Doré,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,7442.111780503062,21,20310.20537911191,36.6422280897116
-Doré,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'lower stratosphere + upper troposphere')",kilogram,,260.6023023064855,19,20310.20537911191,1.2831101283421915
-Doré,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,255.01558355065237,16,20310.20537911191,1.2556031748104521
-Doré,Biosphere (direct),Dinitrogen monoxide,,"('air',)",kilogram,,92.13028596504378,18,20310.20537911191,0.4536157278832613
-Doré,Biosphere (direct),"Methane, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,29.8243526563586,18,20310.20537911191,0.14684417069967956
-Doré,Technosphere (first-tier),"market for explosive, tovex","explosive, tovex",,kilogram,GLO,3950.129109506206,21,20310.20537911191,19.448986535452406
-Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-MB,1790.609710979215,1,20310.20537911191,8.8163052886741
-Doré,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,1662.0362169612813,20,20310.20537911191,8.183256574404744
-Doré,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,1419.945880006739,16,20310.20537911191,6.9912925718963255
-Doré,Technosphere (first-tier),market for sodium cyanide,sodium cyanide,,kilogram,RoW,1013.9660952782026,18,20310.20537911191,4.992397055329725
-Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-ON,1001.6917857392006,10,20310.20537911191,4.931962858284995
-Doré,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,460.8375918946573,18,20310.20537911191,2.268995233148194
-Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-SK,202.94628193060484,1,20310.20537911191,0.9992330365074769
-Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-QC,192.75018769267544,6,20310.20537911191,0.9490312091620202
-Doré,Technosphere (first-tier),market for propane,propane,,kilogram,GLO,104.01381796961519,13,20310.20537911191,0.5121258797145818
-Doré,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,70.4150010515999,11,20310.20537911191,0.3466976317433915
-Doré,Technosphere (first-tier),"market for sulfur dioxide, liquid","sulfur dioxide, liquid",,kilogram,RoW,66.52885282032356,13,20310.20537911191,0.3275636635794208
-Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-BC,56.550123690835846,1,20310.20537911191,0.2784320622823193
-Doré,Technosphere (first-tier),"market for activated carbon, granular","activated carbon, granular",,kilogram,GLO,53.511211764913405,13,20310.20537911191,0.2634695748569198
-Doré,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,49.770945425770726,17,20310.20537911191,0.24505387560953862
-Doré,Technosphere (first-tier),market for polyacrylamide,polyacrylamide,,kilogram,GLO,36.90265360807877,14,20310.20537911191,0.18169512774120647
-Doré,Technosphere (first-tier),"market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",,kilogram,RoW,17.932518670052964,14,20310.20537911191,0.08829314295608115
-Doré,Technosphere (first-tier),market for light fuel oil,light fuel oil,,kilogram,RoW,15.787899424015626,5,20310.20537911191,0.07773382459368301
-Doré,Technosphere (first-tier),market for synthetic rubber,synthetic rubber,,kilogram,GLO,15.517516319985642,3,20310.20537911191,0.07640255738597639
-Doré,Technosphere (first-tier),market for lubricating oil,lubricating oil,,kilogram,RoW,13.522784388887496,5,20310.20537911191,0.06658122917257668
-Doré,Technosphere (first-tier),market for sodium bicarbonate,sodium bicarbonate,,kilogram,RoW,11.878032367875216,14,20310.20537911191,0.05848307363790232
-Doré,Technosphere (first-tier),market for kerosene,kerosene,,kilogram,RoW,11.387889610457522,3,20310.20537911191,0.05606979052102266
-Doré,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,7.006747018387301,6,20310.20537911191,0.03449865172507517
-Doré,Technosphere (first-tier),"market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",,kilogram,RoW,4.394000381960634,2,20310.20537911191,0.021634445836178774
-Doré,Technosphere (first-tier),"market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",,kilogram,RoW,0.3899976164328099,2,20310.20537911191,0.001920205183320815
-Doré,Technosphere (first-tier),market for ammonium nitrate,ammonium nitrate,,kilogram,RoW,0.08456731193071854,1,20310.20537911191,0.00041637841839695046
-Doré,Technosphere (first-tier),market for acetylene,acetylene,,kilogram,RoW,0.011190445324968068,1,20310.20537911191,5.509764729645183e-05
-Doré,Technosphere (first-tier),market for biogas,biogas,,cubic meter,RoW,0.0021557168492216776,2,20310.20537911191,1.0613958889055504e-05
-Doré,Technosphere (first-tier),market for sulfuric acid,sulfuric acid,,kilogram,RoW,0.00012637092014202564,2,20310.20537911191,6.222040485715234e-07
-Doré,Technosphere (first-tier),"market for sulfidic tailings, from gold mine operation","sulfidic tailings, from gold mine operation",,kilogram,CA,0.0,21,20310.20537911191,0.0
-Mo concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,2.391593879725949,2,5.83537215835819,40.98442763929619
-Mo concentrate,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,0.5801472439826477,2,5.83537215835819,9.941906501227763
-Mo concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'lower stratosphere + upper troposphere')",kilogram,,0.11352409469128558,2,5.83537215835819,1.9454473786848605
-Mo concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air',)",kilogram,,0.09173050485652468,2,5.83537215835819,1.5719735154361345
-Mo concentrate,Biosphere (direct),"Methane, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.003363035129480718,2,5.83537215835819,0.057631887705118096
-Mo concentrate,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,0.9381462870006132,2,5.83537215835819,16.076888697782135
-Mo concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,0.6272743714265231,2,5.83537215835819,10.749517844000025
-Mo concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-BC,0.4620039734206919,2,5.83537215835819,7.917300917285092
-Mo concentrate,Technosphere (first-tier),"market for explosive, tovex","explosive, tovex",,kilogram,GLO,0.35192806523674763,2,5.83537215835819,6.030944654192617
-Mo concentrate,Technosphere (first-tier),market for polyacrylamide,polyacrylamide,,kilogram,GLO,0.19275726324802417,2,5.83537215835819,3.3032556967584625
-Mo concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.02862497165010152,2,5.83537215835819,0.49054234885603754
-Mo concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.02598650900924963,2,5.83537215835819,0.44532736394590233
-Mo concentrate,Technosphere (first-tier),"market for chemical, organic","chemical, organic",,kilogram,GLO,0.01993786128400122,2,5.83537215835819,0.3416724887965129
-Mo concentrate,Technosphere (first-tier),market for sodium bicarbonate,sodium bicarbonate,,kilogram,RoW,0.006010121282385095,2,5.83537215835819,0.10299465259943372
-Mo concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.0022504136724048915,1,5.83537215835819,0.03856504112049738
-Mo concentrate,Technosphere (first-tier),market for propane,propane,,kilogram,GLO,9.357361859315452e-05,1,5.83537215835819,0.001603558711488967
-Mo concentrate,Technosphere (first-tier),"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",,kilogram,CA,0.0,2,5.83537215835819,0.0
-Ni concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.465299147197709,3,1.1627670657071596,40.016539934825914
-Ni concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'lower stratosphere + upper troposphere')",kilogram,,0.014935300603092581,3,1.1627670657071596,1.2844619566180595
-Ni concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air',)",kilogram,,0.013123544244013421,3,1.1627670657071596,1.1286477430483535
-Ni concentrate,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,0.01113076175277618,3,1.1627670657071596,0.9572649657054733
-Ni concentrate,Biosphere (direct),"Methane, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.0017831690284965105,3,1.1627670657071596,0.1533556531730662
-Ni concentrate,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,0.46018130611257085,3,1.1627670657071596,39.5763966562557
-Ni concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,0.07558537535377233,3,1.1627670657071596,6.500474392762715
-Ni concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-QC,0.031139979893613556,2,1.1627670657071596,2.678092699045889
-Ni concentrate,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,0.029405225357778276,3,1.1627670657071596,2.5289007768632414
-Ni concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.027511984296489166,3,1.1627670657071596,2.3660787364799685
-Ni concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-MB,0.011666672745126212,1,1.1627670657071596,1.0033542477427235
-Ni concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.009908239630142503,3,1.1627670657071596,0.8521259263665688
-Ni concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.006672194676890203,3,1.1627670657071596,0.5738204042468623
-Ni concentrate,Technosphere (first-tier),"market for ammonia, anhydrous, liquid","ammonia, anhydrous, liquid",,kilogram,RoW,0.003978204480649627,3,1.1627670657071596,0.3421325386637266
-Ni concentrate,Technosphere (first-tier),market for sulfuric acid,sulfuric acid,,kilogram,RoW,0.00044593458564379625,3,1.1627670657071596,0.03835115379472778
-Ni concentrate,Technosphere (first-tier),"market for sulfidic tailings, from nickel mine operation","sulfidic tailings, from nickel mine operation",,kilogram,CA,0.0,3,1.1627670657071596,0.0
-U concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,5.927461128272097,2,21.26401778657104,27.875546323214106
-U concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air',)",kilogram,,0.18159861696561372,2,21.26401778657104,0.8540183646775329
-U concentrate,Biosphere (direct),"Methane, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.15193640157912702,2,21.26401778657104,0.7145234880074268
-U concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'lower stratosphere + upper troposphere')",kilogram,,0.04078177801629715,1,21.26401778657104,0.19178773468696142
-U concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-SK,13.530488810009434,2,21.26401778657104,63.63091371450227
-U concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,1.129262585217245,2,21.26401778657104,5.3106736297521975
-U concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.19424421607069378,2,21.26401778657104,0.9134878366842116
-U concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.08739412661840484,2,21.26401778657104,0.4109953607807705
-U concentrate,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,0.018318117910767626,2,21.26401778657104,0.08614608064491062
-U concentrate,Technosphere (first-tier),"market for ammonia, anhydrous, liquid","ammonia, anhydrous, liquid",,kilogram,RoW,0.0016554657640149473,2,21.26401778657104,0.007785291475162474
-U concentrate,Technosphere (first-tier),"market for hydrogen peroxide, without water, in 50% solution state","hydrogen peroxide, without water, in 50% solution state",,kilogram,RoW,0.0005671657288083418,2,21.26401778657104,0.0026672557110374814
-U concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.0003093641562577821,2,21.26401778657104,0.0014548716021727383
-U concentrate,Technosphere (first-tier),"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",,kilogram,CA,0.0,2,21.26401778657104,0.0
-Zn concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.07821270967120166,3,0.39723503138228344,19.689278007289545
-Zn concentrate,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,0.00976109519221928,2,0.39723503138228344,2.4572594109469628
-Zn concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air',)",kilogram,,0.0019908471318678764,3,0.39723503138228344,0.5011761236012348
-Zn concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'lower stratosphere + upper troposphere')",kilogram,,0.0011347874841558564,2,0.39723503138228344,0.28567155323815874
-Zn concentrate,Biosphere (direct),"Methane, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.00010169740217415245,3,0.39723503138228344,0.025601317643177055
-Zn concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-MB,0.24090594464949758,1,0.39723503138228344,60.645694769467376
-Zn concentrate,Technosphere (first-tier),"market for explosive, tovex","explosive, tovex",,kilogram,GLO,0.018251256839862923,3,0.39723503138228344,4.594573841172288
-Zn concentrate,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,0.013224610403444838,3,0.39723503138228344,3.3291651940732265
-Zn concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,0.00952624148114117,2,0.39723503138228344,2.3981373062673037
-Zn concentrate,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,0.008626743265235774,3,0.39723503138228344,2.1716975049297034
-Zn concentrate,Technosphere (first-tier),market for sodium cyanide,sodium cyanide,,kilogram,RoW,0.005308809651322611,2,0.39723503138228344,1.336440452607922
-Zn concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-QC,0.00467015452732437,1,0.39723503138228344,1.1756653261605208
-Zn concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.0018667322294127037,2,0.39723503138228344,0.46993142143504296
-Zn concentrate,Technosphere (first-tier),market for polyacrylamide,polyacrylamide,,kilogram,GLO,0.0013586949453962072,3,0.39723503138228344,0.34203804751768035
-Zn concentrate,Technosphere (first-tier),market for propane,propane,,kilogram,GLO,0.0006051372250621259,1,0.39723503138228344,0.15233732608032888
-Zn concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.0004360476509079911,3,0.39723503138228344,0.10977069403739367
-Zn concentrate,Technosphere (first-tier),"market for sulfur dioxide, liquid","sulfur dioxide, liquid",,kilogram,RoW,0.0004112071277866084,2,0.39723503138228344,0.10351733742004209
-Zn concentrate,Technosphere (first-tier),"market for activated carbon, granular","activated carbon, granular",,kilogram,GLO,0.0003307465973245717,2,0.39723503138228344,0.08326219270582763
-Zn concentrate,Technosphere (first-tier),"market for chemical, organic","chemical, organic",,kilogram,GLO,0.00011895332888372747,1,0.39723503138228344,0.029945326944050773
-Zn concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.00011821866032522691,1,0.39723503138228344,0.02976038138274313
-Zn concentrate,Technosphere (first-tier),"market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",,kilogram,RoW,0.00011077160781926825,2,0.39723503138228344,0.027885659387544295
-Zn concentrate,Technosphere (first-tier),market for sodium bicarbonate,sodium bicarbonate,,kilogram,RoW,0.00010046105537707569,3,0.39723503138228344,0.025290079534902827
-Zn concentrate,Technosphere (first-tier),market for light fuel oil,light fuel oil,,kilogram,RoW,6.316722437606803e-05,1,0.39723503138228344,0.015901725524121352
-Zn concentrate,Technosphere (first-tier),"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",,kilogram,CA,0.0,1,0.39723503138228344,0.0
-Zn concentrate,Technosphere (first-tier),"market for sulfidic tailings, from gold mine operation","sulfidic tailings, from gold mine operation",,kilogram,CA,0.0,2,0.39723503138228344,0.0
+Cu concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.54920894365141,9,1.3879451220739076,39.56993219088995
+Cu concentrate,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,0.11064976839279989,8,1.3879451220739076,7.972200531060177
+Cu concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'low population density, long-term')",kilogram,,0.021797122247938547,6,1.3879451220739076,1.5704599483997361
+Cu concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air', 'non-urban air or from high stacks')",kilogram,,0.014858666945436916,7,1.3879451220739076,1.0705514727581351
+Cu concentrate,Biosphere (direct),"Methane, fossil",,"('air',)",kilogram,,0.0008194675939841839,7,1.3879451220739076,0.0590417863755097
+Cu concentrate,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,0.21930812340044126,9,1.3879451220739076,15.800921802494955
+Cu concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,0.14495707675317784,9,1.3879451220739076,10.444006354990377
+Cu concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-BC,0.08835357625334972,6,1.3879451220739076,6.365783116938316
+Cu concentrate,Technosphere (first-tier),"market for explosive, tovex","explosive, tovex",,kilogram,GLO,0.07451351089567522,9,1.3879451220739076,5.368620827337538
+Cu concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-MB,0.06591344622732108,1,1.3879451220739076,4.748995128051699
+Cu concentrate,Technosphere (first-tier),market for polyacrylamide,polyacrylamide,,kilogram,GLO,0.04468515990000231,9,1.3879451220739076,3.219519215084848
+Cu concentrate,Technosphere (first-tier),"market for chemical, organic","chemical, organic",,kilogram,GLO,0.02702217215257665,8,1.3879451220739076,1.946919350254954
+Cu concentrate,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,0.008184991773396079,4,1.3879451220739076,0.5897201296522321
+Cu concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.006823918121873021,9,1.3879451220739076,0.4916561911090927
+Cu concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.004846896780400335,8,1.3879451220739076,0.3492138632367512
+Cu concentrate,Technosphere (first-tier),market for sodium cyanide,sodium cyanide,,kilogram,RoW,0.0014663100893794888,3,1.3879451220739076,0.10564611424899034
+Cu concentrate,Technosphere (first-tier),market for sodium bicarbonate,sodium bicarbonate,,kilogram,RoW,0.0014352156092629314,9,1.3879451220739076,0.10340578935270804
+Cu concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-QC,0.0012373162747896741,2,1.3879451220739076,0.08914734848744166
+Cu concentrate,Technosphere (first-tier),market for propane,propane,,kilogram,GLO,0.0007989045577635324,4,1.3879451220739076,0.05756024103963031
+Cu concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.00042377814138349083,4,1.3879451220739076,0.030532773568905183
+Cu concentrate,Technosphere (first-tier),market for dipropylene glycol monomethyl ether,dipropylene glycol monomethyl ether,,kilogram,RoW,0.0003875502744973262,1,1.3879451220739076,0.02792259350414643
+Cu concentrate,Technosphere (first-tier),"market for sulfur dioxide, liquid","sulfur dioxide, liquid",,kilogram,RoW,0.00011357671491349127,3,1.3879451220739076,0.008183083978405548
+Cu concentrate,Technosphere (first-tier),"market for activated carbon, granular","activated carbon, granular",,kilogram,GLO,9.135326081321094e-05,3,1.3879451220739076,0.006581907264222974
+Cu concentrate,Technosphere (first-tier),"market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",,kilogram,RoW,3.059546995092206e-05,3,1.3879451220739076,0.0022043717337473273
+Cu concentrate,Technosphere (first-tier),market for light fuel oil,light fuel oil,,kilogram,RoW,1.6592619062058356e-05,2,1.3879451220739076,0.0011954809162242081
+Cu concentrate,Technosphere (first-tier),market for sulfuric acid,sulfuric acid,,kilogram,RoW,1.0670688427715045e-06,3,1.3879451220739076,7.688119838463494e-05
+Cu concentrate,Technosphere (first-tier),"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",,kilogram,CA,0.0,6,1.3879451220739076,0.0
+Cu concentrate,Technosphere (first-tier),"market for sulfidic tailings, from gold mine operation","sulfidic tailings, from gold mine operation",,kilogram,CA,0.0,3,1.3879451220739076,0.0
+Doré,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,7839.717165886241,21,21404.452354894005,36.62657206033928
+Doré,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'low population density, long-term')",kilogram,,274.5253502122924,19,21404.452354894005,1.2825618972191257
+Doré,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,268.64015307700794,16,21404.452354894005,1.2550666965117885
+Doré,Biosphere (direct),Dinitrogen monoxide,,"('air', 'non-urban air or from high stacks')",kilogram,,97.05247726463719,18,21404.452354894005,0.45342191267251314
+Doré,Biosphere (direct),"Methane, fossil",,"('air',)",kilogram,,31.41776103041741,18,21404.452354894005,0.14678142897327584
+Doré,Technosphere (first-tier),"market for explosive, tovex","explosive, tovex",,kilogram,GLO,4161.170364088432,21,21404.452354894005,19.44067661762439
+Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-MB,1886.275576422132,1,21404.452354894005,8.8125383688728
+Doré,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,1750.8328609860262,20,21404.452354894005,8.179760135679006
+Doré,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,1495.8085041509266,16,21404.452354894005,6.988305420525831
+Doré,Technosphere (first-tier),market for sodium cyanide,sodium cyanide,,kilogram,RoW,1068.1386731659422,18,21404.452354894005,4.990263966841079
+Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-ON,1055.2085912173734,10,21404.452354894005,4.929855591358337
+Doré,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,485.45849436542693,18,21404.452354894005,2.2680257654638365
+Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-SK,213.78897510950884,1,21404.452354894005,0.9988060968101676
+Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-QC,203.0481400643403,6,21404.452354894005,0.9486257190687456
+Doré,Technosphere (first-tier),market for propane,propane,,kilogram,GLO,109.57090383431974,13,21404.452354894005,0.5119070650236327
+Doré,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,74.17702243150262,11,21404.452354894005,0.34654949914914535
+Doré,Technosphere (first-tier),"market for sulfur dioxide, liquid","sulfur dioxide, liquid",,kilogram,RoW,70.08325121487947,13,21404.452354894005,0.32742370630592343
+Doré,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-BC,59.571394317604295,1,21404.452354894005,0.27831309734015985
+Doré,Technosphere (first-tier),"market for activated carbon, granular","activated carbon, granular",,kilogram,GLO,56.370124208535834,13,21404.452354894005,0.26335700289779723
+Doré,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,52.43002883120179,17,21404.452354894005,0.2449491720782754
+Doré,Technosphere (first-tier),market for polyacrylamide,polyacrylamide,,kilogram,GLO,38.87423025759132,14,21404.452354894005,0.1816174953371463
+Doré,Technosphere (first-tier),"market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",,kilogram,RoW,18.890588933842455,14,21404.452354894005,0.088255418174823
+Doré,Technosphere (first-tier),market for light fuel oil,light fuel oil,,kilogram,RoW,16.631390360462202,5,21404.452354894005,0.07770061146488305
+Doré,Technosphere (first-tier),market for synthetic rubber,synthetic rubber,,kilogram,GLO,16.346561655311227,3,21404.452354894005,0.07636991306424937
+Doré,Technosphere (first-tier),market for lubricating oil,lubricating oil,,kilogram,RoW,14.245258339424396,5,21404.452354894005,0.06655278118417872
+Doré,Technosphere (first-tier),market for sodium bicarbonate,sodium bicarbonate,,kilogram,RoW,12.512633107089544,14,21404.452354894005,0.058458085727330474
+Doré,Technosphere (first-tier),market for kerosene,kerosene,,kilogram,RoW,11.996303777136568,3,21404.452354894005,0.056045833727643504
+Doré,Technosphere (first-tier),"market for chemical, organic","chemical, organic",,kilogram,GLO,8.498947418138679,3,21404.452354894005,0.03970644647769016
+Doré,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,7.381092423387386,6,21404.452354894005,0.03448391157599387
+Doré,Technosphere (first-tier),"market for sodium hydroxide, without water, in 50% solution state","sodium hydroxide, without water, in 50% solution state",,kilogram,RoW,4.628756089315139,2,21404.452354894005,0.021625202142846703
+Doré,Technosphere (first-tier),market for sulfuric acid,sulfuric acid,,kilogram,RoW,0.6466103832473094,14,21404.452354894005,0.003020915333530903
+Doré,Technosphere (first-tier),"market for nitric acid, without water, in 50% solution state","nitric acid, without water, in 50% solution state",,kilogram,RoW,0.41083379266259057,2,21404.452354894005,0.0019193847422527294
+Doré,Technosphere (first-tier),market for ammonium nitrate,ammonium nitrate,,kilogram,RoW,0.08908544060746357,1,21404.452354894005,0.0004162005134744533
+Doré,Technosphere (first-tier),market for acetylene,acetylene,,kilogram,RoW,0.011788310750437745,1,21404.452354894005,5.5074105868176606e-05
+Doré,Technosphere (first-tier),market for biogas,biogas,,cubic meter,RoW,0.0022708890817669195,2,21404.452354894005,1.0609423890481802e-05
+Doré,Technosphere (first-tier),"market for sulfidic tailings, from gold mine operation","sulfidic tailings, from gold mine operation",,kilogram,CA,0.0,21,21404.452354894005,0.0
+Mo concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,2.391593879725949,2,6.006478887329923,39.81690312390477
+Mo concentrate,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,0.5801472439826477,2,6.006478887329923,9.658691137771438
+Mo concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'low population density, long-term')",kilogram,,0.11352409469128553,2,6.006478887329923,1.8900273657958484
+Mo concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air', 'non-urban air or from high stacks')",kilogram,,0.09173050485652465,2,6.006478887329923,1.5271926627432442
+Mo concentrate,Biosphere (direct),"Methane, fossil",,"('air',)",kilogram,,0.003363035129480674,2,6.006478887329923,0.0559901265377735
+Mo concentrate,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,0.9381462870006132,2,6.006478887329923,15.61890592805613
+Mo concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,0.6272743714265231,2,6.006478887329923,10.443296034049112
+Mo concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-BC,0.4620039734206919,2,6.006478887329923,7.691760548684253
+Mo concentrate,Technosphere (first-tier),"market for explosive, tovex","explosive, tovex",,kilogram,GLO,0.3519280652367476,2,6.006478887329923,5.859140968248557
+Mo concentrate,Technosphere (first-tier),market for polyacrylamide,polyacrylamide,,kilogram,GLO,0.1927572632480241,2,6.006478887329923,3.20915576103375
+Mo concentrate,Technosphere (first-tier),"market for chemical, organic","chemical, organic",,kilogram,GLO,0.19104458682330205,2,6.006478887329923,3.180641943590143
+Mo concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.02862497165010149,2,6.006478887329923,0.4765682554962951
+Mo concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.025986509009249557,2,6.006478887329923,0.43264131110267523
+Mo concentrate,Technosphere (first-tier),market for sodium bicarbonate,sodium bicarbonate,,kilogram,RoW,0.006010121282385084,2,6.006478887329923,0.10006064110310693
+Mo concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.0022504136724048334,1,6.006478887329923,0.03746643773529047
+Mo concentrate,Technosphere (first-tier),market for propane,propane,,kilogram,GLO,9.357361859314793e-05,1,6.006478887329923,0.0015578780904488365
+Mo concentrate,Technosphere (first-tier),"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",,kilogram,CA,0.0,2,6.006478887329923,0.0
+Ni concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.46529914719770893,3,1.1743277408427626,39.62259691351449
+Ni concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'low population density, long-term')",kilogram,,0.014935300603092512,3,1.1743277408427626,1.2718170646615325
+Ni concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air', 'non-urban air or from high stacks')",kilogram,,0.013123544244013383,3,1.1743277408427626,1.1175367648724028
+Ni concentrate,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,0.011130761752776143,3,1.1743277408427626,0.9478411661116081
+Ni concentrate,Biosphere (direct),"Methane, fossil",,"('air',)",kilogram,,0.0017831690284964704,3,1.1743277408427626,0.15184594270222807
+Ni concentrate,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,0.4601813061125708,3,1.1743277408427626,39.18678662758313
+Ni concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,0.07558537535377229,3,1.1743277408427626,6.436480441101394
+Ni concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-QC,0.0311399798936135,2,1.1743277408427626,2.651728202491898
+Ni concentrate,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,0.02940522535777825,3,1.1743277408427626,2.504005000910175
+Ni concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.027511984296489107,3,1.1743277408427626,2.3427858628924993
+Ni concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-MB,0.011666672745126212,1,1.1743277408427626,0.9934767219884938
+Ni concentrate,Technosphere (first-tier),"market for soda ash, light","soda ash, light",,kilogram,RoW,0.011560675006655655,3,1.1743277408427626,0.9844504736266448
+Ni concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.00990823963014245,3,1.1743277408427626,0.8437371685549852
+Ni concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.006672194676890184,3,1.1743277408427626,0.5681714264964777
+Ni concentrate,Technosphere (first-tier),"market for ammonia, anhydrous, liquid","ammonia, anhydrous, liquid",,kilogram,RoW,0.003978204480649599,3,1.1743277408427626,0.33876441322885037
+Ni concentrate,Technosphere (first-tier),market for sulfuric acid,sulfuric acid,,kilogram,RoW,0.00044593458564376915,3,1.1743277408427626,0.03797360567534084
+Ni concentrate,Technosphere (first-tier),"market for sulfidic tailings, from nickel mine operation","sulfidic tailings, from nickel mine operation",,kilogram,CA,0.0,3,1.1743277408427626,0.0
+U concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,5.927461128272097,2,21.26401778657103,27.875546323214117
+U concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air', 'non-urban air or from high stacks')",kilogram,,0.1815986169656137,2,21.26401778657103,0.854018364677533
+U concentrate,Biosphere (direct),"Methane, fossil",,"('air',)",kilogram,,0.15193640157912694,2,21.26401778657103,0.7145234880074267
+U concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'low population density, long-term')",kilogram,,0.040781778016297114,1,21.26401778657103,0.1917877346869613
+U concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-SK,13.530488810009432,2,21.26401778657103,63.63091371450229
+U concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,1.129262585217245,2,21.26401778657103,5.310673629752199
+U concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.19424421607069375,2,21.26401778657103,0.913487836684212
+U concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.08739412661840482,2,21.26401778657103,0.4109953607807704
+U concentrate,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,0.018318117910767574,2,21.26401778657103,0.08614608064491042
+U concentrate,Technosphere (first-tier),"market for ammonia, anhydrous, liquid","ammonia, anhydrous, liquid",,kilogram,RoW,0.0016554657640149002,2,21.26401778657103,0.0077852914751622565
+U concentrate,Technosphere (first-tier),"market for hydrogen peroxide, without water, in 50% solution state","hydrogen peroxide, without water, in 50% solution state",,kilogram,RoW,0.0005671657288082571,2,21.26401778657103,0.0026672557110370837
+U concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.00030936415625774287,2,21.26401778657103,0.0014548716021725544
+U concentrate,Technosphere (first-tier),"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",,kilogram,CA,0.0,2,21.26401778657103,0.0
+Zn concentrate,Biosphere (direct),"Carbon dioxide, fossil",,"('air', 'non-urban air or from high stacks')",kilogram,,0.07821270967120163,3,0.39901206491865243,19.60159016423402
+Zn concentrate,Biosphere (direct),"Carbon dioxide, from soil or biomass stock",,"('air', 'low population density, long-term')",kilogram,,0.009761095192219255,2,0.39901206491865243,2.4463158010546056
+Zn concentrate,Biosphere (direct),Dinitrogen monoxide,,"('air', 'non-urban air or from high stacks')",kilogram,,0.001990847131867817,3,0.39901206491865243,0.4989440939019465
+Zn concentrate,Biosphere (direct),"Carbon monoxide, fossil",,"('air', 'low population density, long-term')",kilogram,,0.001134787484155844,2,0.39901206491865243,0.28439929113100776
+Zn concentrate,Biosphere (direct),"Methane, fossil",,"('air',)",kilogram,,0.00010169740217411142,3,0.39901206491865243,0.02548730003811908
+Zn concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-MB,0.24090594464949755,1,0.39901206491865243,60.37560410575847
+Zn concentrate,Technosphere (first-tier),"market for explosive, tovex","explosive, tovex",,kilogram,GLO,0.018251256839862853,3,0.39901206491865243,4.574111523064793
+Zn concentrate,Technosphere (first-tier),"market for steel, low-alloyed","steel, low-alloyed",,kilogram,GLO,0.013224610403444807,3,0.39901206491865243,3.3143384789983585
+Zn concentrate,Technosphere (first-tier),market for diesel,diesel,,kilogram,RoW,0.009526241481141144,2,0.39901206491865243,2.387457001603017
+Zn concentrate,Technosphere (first-tier),"market for cement, unspecified","cement, unspecified",,kilogram,RoW,0.00862674326523574,3,0.39901206491865243,2.1620256688214416
+Zn concentrate,Technosphere (first-tier),market for sodium cyanide,sodium cyanide,,kilogram,RoW,0.005308809651322596,2,0.39901206491865243,1.3304885035004934
+Zn concentrate,Technosphere (first-tier),"market for electricity, medium voltage","electricity, medium voltage",,kilowatt hour,CA-QC,0.004670154527324363,1,0.39901206491865243,1.1704294024985131
+Zn concentrate,Technosphere (first-tier),"market for chemical, organic","chemical, organic",,kilogram,GLO,0.0018921234659925175,3,0.39901206491865243,0.4742020686462875
+Zn concentrate,Technosphere (first-tier),"market for natural gas, high pressure","natural gas, high pressure",,cubic meter,CA,0.001866732229412691,2,0.39901206491865243,0.4678385426248367
+Zn concentrate,Technosphere (first-tier),market for polyacrylamide,polyacrylamide,,kilogram,GLO,0.0013586949453961638,3,0.39901206491865243,0.34051475252337654
+Zn concentrate,Technosphere (first-tier),market for propane,propane,,kilogram,GLO,0.000605137225062093,1,0.39901206491865243,0.15165887908313344
+Zn concentrate,Technosphere (first-tier),market for lime,lime,,kilogram,RoW,0.0004360476509079493,3,0.39901206491865243,0.10928182108900578
+Zn concentrate,Technosphere (first-tier),"market for sulfur dioxide, liquid","sulfur dioxide, liquid",,kilogram,RoW,0.0004112071277865898,2,0.39901206491865243,0.10305631431731861
+Zn concentrate,Technosphere (first-tier),"market for activated carbon, granular","activated carbon, granular",,kilogram,GLO,0.000330746597324522,2,0.39901206491865243,0.08289137758076366
+Zn concentrate,Technosphere (first-tier),market for liquefied petroleum gas,liquefied petroleum gas,,kilogram,RoW,0.00011821866032519066,1,0.39901206491865243,0.029627841040168093
+Zn concentrate,Technosphere (first-tier),"market for hydrochloric acid, without water, in 30% solution state","hydrochloric acid, without water, in 30% solution state",,kilogram,RoW,0.00011077160781924967,2,0.39901206491865243,0.02776146827586102
+Zn concentrate,Technosphere (first-tier),market for sodium bicarbonate,sodium bicarbonate,,kilogram,RoW,0.00010046105537707468,3,0.39901206491865243,0.0251774480547489
+Zn concentrate,Technosphere (first-tier),market for light fuel oil,light fuel oil,,kilogram,RoW,6.316722437606782e-05,1,0.39901206491865243,0.015830905862193885
+Zn concentrate,Technosphere (first-tier),market for sulfuric acid,sulfuric acid,,kilogram,RoW,3.863347468016739e-06,2,0.39901206491865243,0.0009682282336009988
+Zn concentrate,Technosphere (first-tier),"market for sulfidic tailings, from copper mine operation","sulfidic tailings, from copper mine operation",,kilogram,CA,0.0,1,0.39901206491865243,0.0
+Zn concentrate,Technosphere (first-tier),"market for sulfidic tailings, from gold mine operation","sulfidic tailings, from gold mine operation",,kilogram,CA,0.0,2,0.39901206491865243,0.0

@@ -6970,28 +6970,28 @@ GRP-de097f20,,,,Water,Thallium (and its compounds),Emission,Direct Discharge,kg,
 GRP-de097f20,,,,Water,Thallium (and its compounds),Emission,Waterbody,kg,0.0,MetalliCan,,,Ore processed,1,ore
 GRP-de097f20,,,,Water,Vanadium (and its compounds),Emission,Direct Discharge,tonnes,0.007037,MetalliCan,,,Ore processed,1,ore
 GRP-de097f20,,,,Water,Vanadium (and its compounds),Emission,Waterbody,tonnes,0.0,MetalliCan,,,Ore processed,1,ore
-BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,103540.32993788196,,166000.0,0.6237369273366383,Ore processed,1,ore
-QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,"Open-pit, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,10811169.787833218,,17332900.0,0.6237369273366383,Ore processed,1,ore
+BC-MAIN-857b7b89,Underground mining and beneficiation at Brucejack,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,103540.32993788196,,166000.0,0.6237369273366383,Ore processed,1,ore
+QC-MAIN-e7e6a960,Open-pit mining and beneficiation at Canadian Malartic,"Open-pit, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,10811169.787833218,,17332900.0,0.6237369273366383,Ore processed,1,ore
 ON-MAIN-f080c409,Underground mining at Copper Cliff Complex (mine),Underground,Ni–Cu sulfide,Water,Water,Consumption,,m3,690754.5742088801,,748000.0,0.9234686820974333,Ore processed,1,ore
 BC-MAIN-599152a0,Open-pit mining and beneficiation at Copper Mountain,"Open-pit, concentrator",Cu Porphyry,Water,Water,Consumption,,m3,6336982.463792266,,6862152.0,0.9234686820974334,Ore processed,1,ore
 ON-MAIN-52224e1e,Underground mining at Creighton,Underground,Ni–Cu sulfide,Water,Water,Consumption,,m3,399861.9393481886,,433000.0,0.9234686820974332,Ore processed,1,ore
-ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,"Open-pit, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,15864657.370854737,,25434853.5024164,0.6237369273366383,Ore processed,1,ore
-BC-MAIN-4724f4ba,Open-pit mining at Elk,Open-pit,Au–Ag free-milling,Water,Water,Consumption,,kg,20736.13414930654,,33245.0,0.6237369273366383,Ore processed,1,ore
-ON-MAIN-4e0734b5,Open-pit and underground mining and beneficiation at Fox Complex,"Open-pit, underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,285047.7757928437,,457000.0,0.6237369273366383,Ore processed,1,ore
+ON-MAIN-aeafbb59,Open-pit mining and beneficiation at Detour Lake,"Open-pit, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,15864657.370854737,,25434853.5024164,0.6237369273366383,Ore processed,1,ore
+BC-MAIN-4724f4ba,Open-pit mining at Elk,Open-pit,Au–Ag free-milling,Water,Water,Consumption,,m3,20736.13414930654,,33245.0,0.6237369273366383,Ore processed,1,ore
+ON-MAIN-4e0734b5,Open-pit and underground mining and beneficiation at Fox Complex,"Open-pit, underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,285047.7757928437,,457000.0,0.6237369273366383,Ore processed,1,ore
 ON-MAIN-206041d1,Underground mining at Fraser,Underground,Ni–Cu sulfide,Water,Water,Consumption,,m3,510708.6556663898,,553033.0,0.9234686820974333,Ore processed,1,ore
 ON-MAIN-48fe2205,Underground mining at Garson,Underground,Ni–Cu sulfide,Water,Water,Consumption,,m3,568856.7081720189,,616000.0,0.9234686820974333,Ore processed,1,ore
 BC-MAIN-6b4800fe,Open-pit mining and beneficiation at Gibraltar,"Open-pit, concentrator",Cu polymetallic,Water,Water,Consumption,,m3,6139999.9999999795,,30000000.0,0.204666666666666,Ore processed,1,ore
 QC-MAIN-c0660aec,Underground mining and beneficiation at Goldex,"Underground, concentrator",Au–Ag polymetallic,Water,Water,Consumption,,m3,1800683.181462477,,2886927.328724,0.6237369273366383,Ore processed,1,ore
-ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),"Open-pit, underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,789656.5636405301,,1266009.0,0.6237369273366383,Ore processed,1,ore
+ON-MAIN-6e9be24e,Open-pit and underground mining and beneficiation at Hemlo (Williams),"Open-pit, underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,789656.5636405301,,1266009.0,0.6237369273366383,Ore processed,1,ore
 BC-MAIN-bf503b6b,Open-pit mining and beneficiation at Highland Valley,"Open-pit, concentrator",Cu polymetallic,Water,Water,Consumption,,m3,3562837.333333322,,17408000.0,0.204666666666666,Ore processed,1,ore
 ON-MAIN-f8313ebd,Underground mining and beneficiation at Kidd Creek,"Underground, concentrator",Cu polymetallic,Water,Water,Consumption,,m3,274253.33333333244,,1340000.0,0.204666666666666,Ore processed,1,ore
 ON-MAIN-a3c56a83,Open-pit and underground mining and beneficiation at Lac des Iles,"Open-pit, underground, concentrator",Ni–Cu sulfide,Water,Water,Consumption,,m3,3507334.0546060516,,3798000.0,0.9234686820974333,Ore processed,1,ore
-QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,522952.89088065695,,838419.0,0.6237369273366383,Ore processed,1,ore
+QC-MAIN-f9e41c2a,Underground mining and beneficiation at Lamaque,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,522952.89088065695,,838419.0,0.6237369273366383,Ore processed,1,ore
 QC-MAIN-e51eda66,Underground mining and beneficiation at LaRonde,"Underground, concentrator",Au–Ag polymetallic,Water,Water,Consumption,,m3,936540.9963959624,,1501500.0,0.6237369273366383,Ore processed,1,ore
-ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,275434.74226873147,,441588.0,0.6237369273366383,Ore processed,1,ore
-ON-MAIN-8825d90d,Open-pit mining and beneficiation at Magino,"Open-pit, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,726997.1993941461,,1165551.0,0.6237369273366383,Ore processed,1,ore
+ON-MAIN-1f126a43,Underground mining and beneficiation at Macassa,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,275434.74226873147,,441588.0,0.6237369273366383,Ore processed,1,ore
+ON-MAIN-8825d90d,Open-pit mining and beneficiation at Magino,"Open-pit, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,726997.1993941461,,1165551.0,0.6237369273366383,Ore processed,1,ore
 ON-MAIN-7001a391,Underground mining at McCreedy West,Underground,Ni–Cu sulfide,Water,Water,Consumption,,m3,293349.0615550706,,317660.0,0.9234686820974332,Ore processed,1,ore
-NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,"Open-pit, underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,1196416.6210122814,,1918143.0,0.6237369273366383,Ore processed,1,ore
+NU-MAIN-8b0264c9,Open-pit and underground mining and beneficiation at Meliadine,"Open-pit, underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,1196416.6210122814,,1918143.0,0.6237369273366383,Ore processed,1,ore
 BC-MAIN-ed23117f,Open-pit mining and beneficiation at Mount Milligan,"Open-pit, concentrator",Cu Porphyry,Water,Water,Consumption,,m3,20020801.027872354,,21680000.0,0.9234686820974333,Ore processed,1,ore
 BC-MAIN-3f490561,Open-pit mining and beneficiation at Mount Polley,"Open-pit, concentrator",Cu Porphyry,Water,Water,Consumption,,m3,5493012.430130554,,5948239.0,0.9234686820974333,Ore processed,1,ore
 ON-MAIN-fcb287a4,Underground mining at Nickel Rim South,Underground,Ni–Cu sulfide,Water,Water,Consumption,,m3,295657.7332603142,,320160.0,0.9234686820974332,Ore processed,1,ore
@@ -7000,13 +7000,13 @@ QC-MAIN-a97821c0,Underground mining and beneficiation at Raglan,"Underground, co
 BC-MAIN-8eb8be0d,Open-pit mining and beneficiation at Red Chris,"Open-pit, concentrator",Au–Ag polymetallic,Water,Water,Consumption,,m3,710436.360236431,,1139000.0,0.6237369273366383,Ore processed,1,ore
 ON-MAIN-7f050560,Underground mining and beneficiation at Red Lake,"Underground, concentrator",Au–Ag refractory,Water,Water,Consumption,,m3,524562.7558901128,,841000.0,0.6237369273366383,Ore processed,1,ore
 ON-MAIN-ed85ac94,and beneficiation at Strathcona,Concentrator,Ni–Cu sulfide,Water,Water,Consumption,,m3,947476.0974259202,,1025997.0,0.9234686820974333,Ore processed,1,ore
-ON-MAIN-f4fc3276,Underground mining and beneficiation at Sugar Zone,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,146372.96847501624,,234671.0,0.6237369273366383,Ore processed,1,ore
+ON-MAIN-f4fc3276,Underground mining and beneficiation at Sugar Zone,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,146372.96847501624,,234671.0,0.6237369273366383,Ore processed,1,ore
 MB-MAIN-e0a6250e,Open-pit and underground mining and beneficiation at Thompson (T-1 and T-3),"Open-pit, underground, concentrator",Ni–Cu sulfide,Water,Water,Consumption,,m3,429141.32873939525,,464705.882352941,0.9234686820974333,Ore processed,1,ore
 ON-MAIN-28f3f0fc,Underground mining at Totten,Underground,Ni–Cu sulfide,Water,Water,Consumption,,m3,382316.0343883374,,414000.0,0.9234686820974334,Ore processed,1,ore
 NL-MAIN-2d8801d6,Open-pit and underground mining and beneficiation at Voisey’s Bay,"Open-pit, underground, concentrator",Ni–Cu sulfide,Water,Water,Consumption,,m3,733342.776959726,,794117.647058823,0.9234686820974334,Ore processed,1,ore
 GRP-91aaa60b,Underground mining and beneficiation at Cigar Lake + McClean Lake,"Underground, concentrator",High-grade U mine + mill,Water,Water,Consumption,,m3,18011092.063747406,,43726.856187782,411.9,Ore processed,1,ore
 GRP-21eee27d,Underground mining and beneficiation at Key Lake + McArthur River,"Underground, concentrator",High-grade U mine + mill,Water,Water,Consumption,,m3,40534613.97830454,,98408.8710325432,411.9,Ore processed,1,ore
-GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,"Open-pit, underground",Au–Ag free-milling,Water,Water,Consumption,,kg,2396802.0836659707,,3842649.005728,0.6237369273366382,Ore processed,1,ore
-GRP-147b3123,Underground mining and beneficiation at Timmins Operation,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,981761.9236278688,,1574000.0,0.6237369273366383,Ore processed,1,ore
-GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,kg,76095.90513506987,,122000.0,0.6237369273366383,Ore processed,1,ore
+GRP-0a2c0d69,Open-pit and underground mining at Meadowbank complex,"Open-pit, underground",Au–Ag free-milling,Water,Water,Consumption,,m3,2396802.0836659707,,3842649.005728,0.6237369273366382,Ore processed,1,ore
+GRP-147b3123,Underground mining and beneficiation at Timmins Operation,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,981761.9236278688,,1574000.0,0.6237369273366383,Ore processed,1,ore
+GRP-14bfbb82,Underground mining and beneficiation at Seabee Gold Operation,"Underground, concentrator",Au–Ag free-milling,Water,Water,Consumption,,m3,76095.90513506987,,122000.0,0.6237369273366383,Ore processed,1,ore
 GRP-a13779f8,Underground mining and beneficiation at Snow Lake,"Underground, concentrator",Au–Ag polymetallic,Water,Water,Consumption,,m3,1324593.312106106,,2123641.0,0.6237369273366383,Ore processed,1,ore

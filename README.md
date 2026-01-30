@@ -41,3 +41,5 @@ This repository is licensed under the BSD 3-Clause License. See the LICENSE file
 For questions, feel free to open an issue or reach out via email at: [marin.pellan@polymtl.ca](mailto:marin.pellan@polymtl.ca)
 
 # 📄 Citation
+Zenodo: https://zenodo.org/records/18428434
+

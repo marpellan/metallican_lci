@@ -553,7 +553,7 @@ def plot_relative_difference_heatmap(df_ei, df_ri, title, output_png=None, outpu
 
 
     plt.title(title, fontsize=16)
-    plt.xticks(rotation=45, ha='right', fontsize=16)
+    plt.xticks(rotation=90, ha='right', fontsize=16)
     ax.set_ylabel('')
     plt.yticks(fontsize=14)
     plt.tight_layout()
@@ -1267,7 +1267,7 @@ def plot_sankey_hierarchy(
     fig.update_layout(
         width=2000,
         height=1100,
-        font=dict(color="black", size=14),
+        font=dict(color="black", size=8),
         paper_bgcolor="white",
         plot_bgcolor="white",
         margin=dict(l=10, r=10, t=10, b=10)

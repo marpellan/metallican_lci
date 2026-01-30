@@ -1,14 +1,14 @@
 # ======================================================
-# LCA stuff
+# IW+2.1 (ecoinvent v3.10)
 # ======================================================
 # Total endpoints
-IMPACT_METHODS_EP = {
+IMPACT_METHODS_EP_21 = {
 'Total HH': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10','Human health', 'Total human health'),
 'Total EQ': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10','Ecosystem quality', 'Total ecosystem quality'),
 }
 
 # Damages for ecosystem quality
-IMPACT_METHODS_EQ_damages = {
+IMPACT_METHODS_EQ_damages_21 = {
     'Climate change EQ LT': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Ecosystem quality', 'Climate change, ecosystem quality, long term'),
     'Climate change EQ ST': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Ecosystem quality', 'Climate change, ecosystem quality, short term'),
     'Fisheries impact': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Ecosystem quality', 'Fisheries impact'),
@@ -33,8 +33,33 @@ IMPACT_METHODS_EQ_damages = {
     'Water availability terrestrial': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Ecosystem quality', 'Water availability, terrestrial ecosystem'),
 }
 
+agg_st_lt_eq_21 = {
+ 'Freshwater ecotoxicity LT': 'Freshwater ecotoxicity',
+ 'Freshwater ecotoxicity ST': 'Freshwater ecotoxicity',
+ 'Terrestrial acidification': 'Terrestrial acidification',
+ 'Climate change EQ LT': 'Climate change',
+ 'Climate change EQ ST': 'Climate change',
+ 'Freshwater acidification': 'Freshwater acidification',
+ 'Terrestrial ecotoxicity LT': 'Terrestrial ecotoxicity',
+ 'Marine ecotoxicity LT': 'Marine ecotoxicity',
+ 'Terrestrial ecotoxicity ST': 'Terrestrial ecotoxicity',
+ 'Marine ecotoxicity ST': 'Marine ecotoxicity',
+ 'Land occupation biodiversity': 'Land occupation',
+ 'Land transformation biodiversity': 'Land transformation',
+ 'Water availability freshwater ecosystem': 'Water availability',
+ 'Thermally polluted water': 'Thermally polluted water',
+ 'Water availability terrestrial ecosystem': 'Water availability',
+ 'Marine eutrophication': 'Marine eutrophication',
+ 'Freshwater eutrophication': 'Freshwater eutrophication',
+ 'Marine acidification LT': 'Marine acidification',
+ 'Marine acidification ST': 'Marine acidification',
+ 'Photochemical ozone EQ': 'Photochemical ozone',
+ 'Fisheries impact': 'Fisheries impact',
+ 'Ionizing radiations EQ': 'Ionizing radiations'
+}
+
 # Damages for human health
-IMPACT_METHODS_HH_damages = {
+IMPACT_METHODS_HH_damages_21 = {
     'Climate change HH LT': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Human health', 'Climate change, human health, long term'),
     'Climate change HH ST': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Human health', 'Climate change, human health, short term'),
     'Human toxicity cancer LT': ('IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10', 'Human health', 'Human toxicity cancer, long term'),
@@ -49,7 +74,7 @@ IMPACT_METHODS_HH_damages = {
 }
 
 # Selected MPs
-IMPACT_METHODS_MIDPOINT = { # 10 indicators?
+IMPACT_METHODS_MIDPOINT_21 = { # 10 indicators?
 #'Climate change LT': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Climate change, long term'),
 'Climate change ST': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Climate change, short term'),
 #'Fossil and nuclear energy use': ('IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10','Midpoint','Fossil and nuclear energy use'),
@@ -71,7 +96,128 @@ IMPACT_METHODS_MIDPOINT = { # 10 indicators?
 }
 
 
-agg_mapping_eq = {
+# =========================
+# IMPACT World+ 2.2 (ecoinvent v3.10.1)
+# =========================
+IW22_DAMAGE = "IMPACT World+ Damage 2.2 for ecoinvent v3.10.1"
+IW22_MIDPOINT = "IMPACT World+ Midpoint 2.2 for ecoinvent v3.10.1"
+
+# Total endpoints
+IMPACT_METHODS_EP_22 = {
+    "Total HH": (IW22_DAMAGE, "Human health", "Total human health"),
+    "Total EQ": (IW22_DAMAGE, "Ecosystem quality", "Total ecosystem quality"),
+}
+
+# Damages for ecosystem quality
+IMPACT_METHODS_EQ_damages_22 = {
+    # Climate change now split into marine vs terrestrial
+    "Climate change EQ marine LT": (IW22_DAMAGE, "Ecosystem quality", "Climate change, ecosystem quality, marine ecosystem, long term"),
+    "Climate change EQ marine ST": (IW22_DAMAGE, "Ecosystem quality", "Climate change, ecosystem quality, marine ecosystem, short term"),
+    "Climate change EQ terrestrial LT": (IW22_DAMAGE, "Ecosystem quality", "Climate change, ecosystem quality, terrestrial ecosystem, long term"),
+    "Climate change EQ terrestrial ST": (IW22_DAMAGE, "Ecosystem quality", "Climate change, ecosystem quality, terrestrial ecosystem, short term"),
+    "Fisheries impact": (IW22_DAMAGE, "Ecosystem quality", "Fisheries impact"),
+    "Freshwater acidification": (IW22_DAMAGE, "Ecosystem quality", "Freshwater acidification"),
+    "Freshwater ecotoxicity LT": (IW22_DAMAGE, "Ecosystem quality", "Freshwater ecotoxicity, long term"),
+    "Freshwater ecotoxicity ST": (IW22_DAMAGE, "Ecosystem quality", "Freshwater ecotoxicity, short term"),
+    "Freshwater eutrophication": (IW22_DAMAGE, "Ecosystem quality", "Freshwater eutrophication"),
+    "Ionizing radiations EQ": (IW22_DAMAGE, "Ecosystem quality", "Ionizing radiations, ecosystem quality"),
+    "Land occupation biodiversity": (IW22_DAMAGE, "Ecosystem quality", "Land occupation, biodiversity"),
+    "Land transformation biodiversity": (IW22_DAMAGE, "Ecosystem quality", "Land transformation, biodiversity"),
+    "Marine acidification LT": (IW22_DAMAGE, "Ecosystem quality", "Marine acidification, long term"),
+    "Marine acidification ST": (IW22_DAMAGE, "Ecosystem quality", "Marine acidification, short term"),
+    "Marine ecotoxicity LT": (IW22_DAMAGE, "Ecosystem quality", "Marine ecotoxicity, long term"),
+    "Marine ecotoxicity ST": (IW22_DAMAGE, "Ecosystem quality", "Marine ecotoxicity, short term"),
+    "Marine eutrophication": (IW22_DAMAGE, "Ecosystem quality", "Marine eutrophication"),
+    "Photochemical ozone EQ": (IW22_DAMAGE, "Ecosystem quality", "Photochemical ozone formation, ecosystem quality"),
+    "Terrestrial acidification": (IW22_DAMAGE, "Ecosystem quality", "Terrestrial acidification"),
+    "Terrestrial ecotoxicity LT": (IW22_DAMAGE, "Ecosystem quality", "Terrestrial ecotoxicity, long term"),
+    "Terrestrial ecotoxicity ST": (IW22_DAMAGE, "Ecosystem quality", "Terrestrial ecotoxicity, short term"),
+    "Thermally polluted water": (IW22_DAMAGE, "Ecosystem quality", "Thermally polluted water"),
+    "Water availability freshwater": (IW22_DAMAGE, "Ecosystem quality", "Water availability, freshwater ecosystem"),
+    "Water availability terrestrial": (IW22_DAMAGE, "Ecosystem quality", "Water availability, terrestrial ecosystem"),
+}
+
+agg_st_lt_eq_22 = {
+    # Freshwater
+    "Freshwater ecotoxicity LT": "Freshwater ecotoxicity",
+    "Freshwater ecotoxicity ST": "Freshwater ecotoxicity",
+    "Freshwater acidification": "Freshwater acidification",
+    "Freshwater eutrophication": "Freshwater eutrophication",
+
+    # Terrestrial
+    "Terrestrial acidification": "Terrestrial acidification",
+    "Terrestrial ecotoxicity LT": "Terrestrial ecotoxicity",
+    "Terrestrial ecotoxicity ST": "Terrestrial ecotoxicity",
+    "Land occupation biodiversity": "Land occupation",
+    "Land transformation biodiversity": "Land transformation",
+    "Water availability terrestrial": "Water availability",
+
+    # Marine
+    "Marine ecotoxicity LT": "Marine ecotoxicity",
+    "Marine ecotoxicity ST": "Marine ecotoxicity",
+    "Marine eutrophication": "Marine eutrophication",
+    "Marine acidification LT": "Marine acidification",
+    "Marine acidification ST": "Marine acidification",
+
+    # Climate change (new IW+2.2 split)
+    "Climate change EQ terrestrial LT": "Climate change",
+    "Climate change EQ terrestrial ST": "Climate change",
+    "Climate change EQ marine LT": "Climate change",
+    "Climate change EQ marine ST": "Climate change",
+
+    # Other EQ damages
+    "Photochemical ozone EQ": "Photochemical ozone",
+    "Fisheries impact": "Fisheries impact",
+    "Ionizing radiations EQ": "Ionizing radiations",
+    "Thermally polluted water": "Thermally polluted water",
+    "Water availability freshwater": "Water availability",
+}
+
+# Damages for human health
+IMPACT_METHODS_HH_damages_22 = {
+    "Climate change HH LT": (IW22_DAMAGE, "Human health", "Climate change, human health, long term"),
+    "Climate change HH ST": (IW22_DAMAGE, "Human health", "Climate change, human health, short term"),
+    "Human toxicity cancer LT": (IW22_DAMAGE, "Human health", "Human toxicity cancer, long term"),
+    "Human toxicity cancer ST": (IW22_DAMAGE, "Human health", "Human toxicity cancer, short term"),
+    "Human toxicity non-cancer LT": (IW22_DAMAGE, "Human health", "Human toxicity non-cancer, long term"),
+    "Human toxicity non-cancer ST": (IW22_DAMAGE, "Human health", "Human toxicity non-cancer, short term"),
+    "Ionizing radiations HH": (IW22_DAMAGE, "Human health", "Ionizing radiations, human health"),
+    "Ozone layer depletion": (IW22_DAMAGE, "Human health", "Ozone layer depletion"),
+    "Particulate matter formation": (IW22_DAMAGE, "Human health", "Particulate matter formation"),
+    "Photochemical ozone HH": (IW22_DAMAGE, "Human health", "Photochemical ozone formation, human health"),
+    "Water availability HH": (IW22_DAMAGE, "Human health", "Water availability, human health"),
+}
+
+agg_st_lt_hh = {
+ 'Climate change HH LT': 'Climate change',
+ 'Climate change HH ST': 'Climate change',
+ 'Human toxicity cancer LT': 'Human toxicity, cancer',
+ 'Human toxicity cancer ST': 'Human toxicity, cancer',
+ 'Human toxicity non-cancer LT': 'Human toxicity non-cancer',
+ 'Human toxicity non-cancer ST': 'Human toxicity non-cancer',
+ 'Ionizing radiations HH': 'Ionizing radiations',
+ 'Ozone layer depletion': 'Ozone layer depletion',
+ 'Particulate matter formation': 'Particulate matter formation',
+ 'Photochemical ozone HH': 'Photochemical ozone',
+ 'Water availability HH': 'Water availability'
+}
+
+# Selected midpoints (your previous selection, adapted to IW+ 2.2 names)
+IMPACT_METHODS_MIDPOINT_22 = {
+    # you had only ST before; 2.2 has both LT and ST available
+    "Climate change ST": (IW22_MIDPOINT, "Midpoint", "Climate change, short term"),
+    "Land occupation biodiversity": (IW22_MIDPOINT, "Midpoint", "Land occupation, biodiversity"),
+    "Land transformation biodiversity": (IW22_MIDPOINT, "Midpoint", "Land transformation, biodiversity"),
+    "Particulate matter formation": (IW22_MIDPOINT, "Midpoint", "Particulate matter formation"),
+    #"Water scarcity": (IW22_MIDPOINT, "Midpoint", "Water scarcity"),
+}
+
+
+# =========================
+# Mapping for aggregation
+# =========================
+
+agg_mapping_eq_22 = {
  'Freshwater ecotoxicity LT': 'Freshwater ecotoxicity',
  'Freshwater ecotoxicity ST': 'Freshwater ecotoxicity',
  'Terrestrial acidification': 'Terrestrial acidification',
@@ -111,42 +257,4 @@ agg_mapping_hh = {
 }
 
 
-agg_st_lt_eq = {
- 'Freshwater ecotoxicity LT': 'Freshwater ecotoxicity',
- 'Freshwater ecotoxicity ST': 'Freshwater ecotoxicity',
- 'Terrestrial acidification': 'Terrestrial acidification',
- 'Climate change EQ LT': 'Climate change',
- 'Climate change EQ ST': 'Climate change',
- 'Freshwater acidification': 'Freshwater acidification',
- 'Terrestrial ecotoxicity LT': 'Terrestrial ecotoxicity',
- 'Marine ecotoxicity LT': 'Marine ecotoxicity',
- 'Terrestrial ecotoxicity ST': 'Terrestrial ecotoxicity',
- 'Marine ecotoxicity ST': 'Marine ecotoxicity',
- 'Land occupation biodiversity': 'Land occupation',
- 'Land transformation biodiversity': 'Land transformation',
- 'Water availability freshwater ecosystem': 'Water availability',
- 'Thermally polluted water': 'Thermally polluted water',
- 'Water availability terrestrial ecosystem': 'Water availability',
- 'Marine eutrophication': 'Marine eutrophication',
- 'Freshwater eutrophication': 'Freshwater eutrophication',
- 'Marine acidification LT': 'Marine acidification',
- 'Marine acidification ST': 'Marine acidification',
- 'Photochemical ozone EQ': 'Photochemical ozone',
- 'Fisheries impact': 'Fisheries impact',
- 'Ionizing radiations EQ': 'Ionizing radiations'
-}
 
-
-agg_st_lt_hh = {
- 'Climate change HH LT': 'Climate change',
- 'Climate change HH ST': 'Climate change',
- 'Human toxicity cancer LT': 'Human toxicity, cancer',
- 'Human toxicity cancer ST': 'Human toxicity, cancer',
- 'Human toxicity non-cancer LT': 'Human toxicity non-cancer',
- 'Human toxicity non-cancer ST': 'Human toxicity non-cancer',
- 'Ionizing radiations HH': 'Ionizing radiations',
- 'Ozone layer depletion': 'Ozone layer depletion',
- 'Particulate matter formation': 'Particulate matter formation',
- 'Photochemical ozone HH': 'Photochemical ozone',
- 'Water availability HH': 'Water availability'
-}
