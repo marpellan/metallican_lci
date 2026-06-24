@@ -76,32 +76,32 @@ INVENTORIES_metallican = {
 
 
 # Dore
-"Casa Berardi": ("Open-pit and underground mining and beneficiation at Casa Berardi", "Doré", "CA-QC"),
+"Casa Berardi": ("Open-pit and underground mining and beneficiation at Casa Berardi", "Au-Ag doré", "CA-QC"),
 #"Fox Complex": ("Open-pit and underground mining and beneficiation at Fox Complex", "Doré", "CA-ON"), # No GHGs data
-"Hemlo": ("Open-pit and underground mining and beneficiation at Hemlo (Williams)", "Doré", "CA-ON"),
-"Meliadine": ("Open-pit and underground mining and beneficiation at Meliadine", "Doré", "CA-NU"),
-"Rainy River": ("Open-pit and underground mining and beneficiation at Rainy River", "Doré", "CA-ON"),
-"Meadowbank complex": ("Open-pit and underground mining at Meadowbank complex", "Doré", "CA-NU"),
-"Porcupine complex": ("Open-pit and underground mining at Porcupine complex", "Doré", "CA-ON"),
-"Canadian Malartic": ("Open-pit mining and beneficiation at Canadian Malartic", "Doré", "CA-QC"),
-"Detour Lake": ("Open-pit mining and beneficiation at Detour Lake", "Doré", "CA-ON"),
-"Kiena": ("Open-pit mining and beneficiation at Kiena", "Doré", "CA-QC"), # No NPRI data but still some extracted
+"Hemlo": ("Open-pit and underground mining and beneficiation at Hemlo (Williams)", "Au-Ag doré", "CA-ON"),
+"Meliadine": ("Open-pit and underground mining and beneficiation at Meliadine", "Au-Ag doré", "CA-NU"),
+"Rainy River": ("Open-pit and underground mining and beneficiation at Rainy River", "Au-Ag doré", "CA-ON"),
+"Meadowbank complex": ("Open-pit and underground mining at Meadowbank complex", "Au-Ag doré", "CA-NU"),
+"Porcupine complex": ("Open-pit and underground mining at Porcupine complex", "Au-Ag doré", "CA-ON"),
+"Canadian Malartic": ("Open-pit mining and beneficiation at Canadian Malartic", "Au-Ag doré", "CA-QC"),
+"Detour Lake": ("Open-pit mining and beneficiation at Detour Lake", "Au-Ag doré", "CA-ON"),
+"Kiena": ("Open-pit mining and beneficiation at Kiena", "Au-Ag doré", "CA-QC"), # No NPRI data but still some extracted
 #"Magino": ("Open-pit mining and beneficiation at Magino", "Doré", "CA-ON"), No NPRI
 #"Elk": ("Open-pit mining at Elk", "Doré", "CA-BC"),
-"Brucejack": ("Underground mining and beneficiation at Brucejack", "Doré", "CA-BC"),
-"Eagle River": ("Underground mining and beneficiation at Eagle River", "Doré", "CA-ON"),
-"Éléonore": ("Underground mining and beneficiation at Éléonore", "Doré", "CA-QC"),
-"Goldex (Au)": ("Underground mining and beneficiation at Goldex", "Doré", "CA-QC"),
-"Island": ("Underground mining and beneficiation at Island", "Doré", "CA-ON"),
-"LaRonde (Doré)": ("Underground mining and beneficiation at LaRonde", "Doré", "CA-QC"),
+"Brucejack": ("Underground mining and beneficiation at Brucejack", "Au-Ag doré", "CA-BC"),
+"Eagle River": ("Underground mining and beneficiation at Eagle River", "Au-Ag doré", "CA-ON"),
+"Éléonore": ("Underground mining and beneficiation at Éléonore", "Au-Ag doré", "CA-QC"),
+"Goldex (Au)": ("Underground mining and beneficiation at Goldex", "Au-Ag doré", "CA-QC"),
+"Island": ("Underground mining and beneficiation at Island", "Au-Ag doré", "CA-ON"),
+"LaRonde (Doré)": ("Underground mining and beneficiation at LaRonde", "Au-Ag doré", "CA-QC"),
 #"Lamaque": ("Underground mining and beneficiation at Lamaque", "Doré", "CA-QC"), # No NPRI
-"Macassa": ("Underground mining and beneficiation at Macassa", "Doré", "CA-ON"),
-"Musselwhite": ("Underground mining and beneficiation at Musselwhite", "Doré", "CA-ON"),
-"Red Lake": ("Underground mining and beneficiation at Red Lake", "Doré", "CA-ON"),
-"Seabee Gold Operation": ("Underground mining and beneficiation at Seabee Gold Operation", "Doré", "CA-SK"),
-"Snow Lake (Doré)": ("Underground mining and beneficiation at Snow Lake", "Doré", "CA-MB"),
-"Timmins Operation": ("Underground mining and beneficiation at Timmins Operation", "Doré", "CA-ON"),
-"Westwood-Doyon": ("Underground mining and beneficiation at Westwood-Doyon", "Doré", "CA-QC"),
+"Macassa": ("Underground mining and beneficiation at Macassa", "Au-Ag doré", "CA-ON"),
+"Musselwhite": ("Underground mining and beneficiation at Musselwhite", "Au-Ag doré", "CA-ON"),
+"Red Lake": ("Underground mining and beneficiation at Red Lake", "Au-Ag doré", "CA-ON"),
+"Seabee Gold Operation": ("Underground mining and beneficiation at Seabee Gold Operation", "Au-Ag doré", "CA-SK"),
+"Snow Lake (Doré)": ("Underground mining and beneficiation at Snow Lake", "Au-Ag doré", "CA-MB"),
+"Timmins Operation": ("Underground mining and beneficiation at Timmins Operation", "Au-Ag doré", "CA-ON"),
+"Westwood-Doyon": ("Underground mining and beneficiation at Westwood-Doyon", "Au-Ag doré", "CA-QC"),
 
 # Ni
 "Nunavik Nickel": ("Open-pit and underground mining and beneficiation at Nunavik Nickel", "Ni concentrate", "CA-QC"),
@@ -125,7 +125,7 @@ INVENTORIES_metallican = {
 "Cigar Lake + McClean Lake": ("Underground mining and beneficiation at Cigar Lake + McClean Lake", "U concentrate", "CA-SK"),
 
 # Markets
-"Market for Doré": ("Market for Doré", "Doré", "CA"),
+"Market for Doré": ("Market for Doré", "Au-Ag doré", "CA"),
 "Market for Cu concentrate": ("Market for Cu concentrate", "Cu concentrate", "CA"),
 "Market for Ni concentrate": ("Market for Ni concentrate", "Ni concentrate", "CA"),
 "Market for U concentrate": ("Market for U concentrate", "U concentrate", "CA"),

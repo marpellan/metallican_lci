@@ -3,6 +3,10 @@ import pandas as pd
 import re
 from utils.constants import CA_provinces
 
+from __future__ import annotations
+from pathlib import Path
+from typing import Optional, Dict, Any, List
+
 
 class LCIDatabaseBuilder:
     """
@@ -614,64 +618,142 @@ class LCIDatabaseBuilder:
             print(act.key, act.as_dict())
 
 
-def export_bw_database_to_excel(db_name, out_xlsx):
-    db = bd.Database(db_name)
+def bw_db_to_excel_importer_format(
+    db_name: str,
+    out_xlsx: str | Path,
+    *,
+    ei_database_label: str = "ecoinvent-3.10-cutoff",   # what YOU want written in the column
+    biosphere_database_label: str = "biosphere3",
+    database_metadata: Optional[Dict[str, Any]] = None,
+    include_activity_fields: Optional[List[str]] = None,
+    sheet_name: str = "data",
+) -> Path:
+    """
+    Export a Brightway database to a bw2io.ExcelImporter-compatible Excel file.
 
-    # ---------- Activities ----------
-    acts_rows = []
-    for act in db:
-        d = act.as_dict()
-        acts_rows.append({
-            "database": act.key[0],
-            "code": act.key[1],
-            "name": d.get("name"),
-            "reference_product": d.get("reference product") or d.get("product"),
-            "location": d.get("location"),
-            "unit": d.get("unit"),
-            "type": d.get("type"),
-            "comment": d.get("comment"),
-        })
-    activities_df = pd.DataFrame(acts_rows)
+    Key behavior:
+    - Technosphere + production exchanges: pull name/ref product/location/unit from the INPUT activity.
+    - Biosphere exchanges: pull name/unit/categories from the INPUT biosphere flow.
+    - Column order (EXACT):
+        name | reference product | location | amount | unit | database | type | categories
+    """
 
-    # ---------- Exchanges ----------
-    exc_rows = []
+    out_xlsx = Path(out_xlsx)
+    out_xlsx.parent.mkdir(parents=True, exist_ok=True)
+
+    db = bw.Database(db_name)
+
+    if database_metadata is None:
+        database_metadata = {"source": "brightway export", "ecoinvent_version": "3.10"}
+
+    if include_activity_fields is None:
+        include_activity_fields = [
+            "name",
+            "reference product",
+            "location",
+            "unit",
+            "type",
+            "comment",
+        ]
+
+    # EXACT column order requested
+    exchange_cols = [
+        "name",
+        "reference product",
+        "location",
+        "amount",
+        "unit",
+        "database",
+        "type",
+        "categories",
+    ]
+
+    def _to_excel_value(val: Any) -> Any:
+        # ExcelImporter restores tuples split by ::
+        if isinstance(val, (tuple, list)):
+            return "::".join(map(str, val))
+        return val
+
+    def _safe_get(dct: Dict[str, Any], key: str, default: Any = None) -> Any:
+        val = dct.get(key, default)
+        return default if val in ("", None) else val
+
+    rows: List[List[Any]] = []
+
+    # ------------------------
+    # Database section
+    # ------------------------
+    rows.append(["Database", db_name])
+    for k, v in database_metadata.items():
+        rows.append([k, _to_excel_value(v)])
+    rows.append([""])
+
+    # ------------------------
+    # Activities
+    # ------------------------
     for act in db:
-        act_d = act.as_dict()
-        act_name = act_d.get("name")
-        act_rp = act_d.get("reference product") or act_d.get("product")
+        a = act.as_dict()
+        rows.append(["Activity", a.get("name", "")])
+
+        for field in include_activity_fields:
+            if field in a and a[field] not in (None, "", [], {}, ()):
+                rows.append([field, _to_excel_value(a[field])])
+
+        rows.append(["Exchanges"])
+        rows.append(exchange_cols)
 
         for exc in act.exchanges():
             e = exc.as_dict()
-            inp = e.get("input")
-            out = e.get("output")
+            exc_type = (e.get("type") or "technosphere").lower()
 
-            # input/output sont des tuples (db, code)
-            in_db, in_code = (inp if isinstance(inp, (tuple, list)) else (None, None))
-            out_db, out_code = (out if isinstance(out, (tuple, list)) else (None, None))
+            # ---- Resolve the INPUT object (provider activity or biosphere flow)
+            input_key = getattr(exc, "input", None)  # usually tuple (db, code)
+            inp = bw.get_activity(input_key) if input_key else None
+            inp_dict = inp.as_dict() if inp is not None else {}
 
-            exc_rows.append({
-                "output_db": out_db,
-                "output_code": out_code,
-                "output_name": act_name,
-                "output_reference_product": act_rp,
-                "type": e.get("type"),
-                "amount": e.get("amount"),
-                "unit": e.get("unit"),
-                "input_db": in_db,
-                "input_code": in_code,
-                # champs optionnels
-                "name": e.get("name"),
-                "product": e.get("product"),
-                "location": e.get("location"),
-                "comment": e.get("comment"),
-            })
+            # Determine if biosphere from the input database name
+            inp_db_name = None
+            if isinstance(input_key, tuple) and len(input_key) >= 1:
+                inp_db_name = input_key[0]
 
-    exchanges_df = pd.DataFrame(exc_rows)
+            is_bio = (exc_type == "biosphere") or (inp_db_name == biosphere_database_label)
 
-    # ---------- Write ----------
+            # Pull identifiers from the INPUT object (this is the core fix)
+            name = _safe_get(inp_dict, "name", _safe_get(e, "name", ""))
+            ref_prod = _safe_get(inp_dict, "reference product", _safe_get(e, "reference product", ""))
+            location = _safe_get(inp_dict, "location", _safe_get(e, "location", ""))
+            unit = _safe_get(inp_dict, "unit", _safe_get(e, "unit", ""))
+            categories = _safe_get(inp_dict, "categories", _safe_get(e, "categories", ""))
+
+            # For biosphere flows, reference product & location are usually irrelevant → keep blank
+            if is_bio:
+                ref_prod = ""
+                location = ""
+                db_label = biosphere_database_label
+                exc_type = "biosphere"  # force consistency
+            else:
+                # For technosphere/production, store EI label you want
+                db_label = ei_database_label
+                if exc_type not in {"production", "technosphere"}:
+                    exc_type = "technosphere"
+
+            amount = e.get("amount", "")
+
+            rows.append([
+                _to_excel_value(name),
+                _to_excel_value(ref_prod),
+                _to_excel_value(location),
+                _to_excel_value(amount),
+                _to_excel_value(unit),
+                _to_excel_value(db_label),
+                _to_excel_value(exc_type),
+                _to_excel_value(categories),
+            ])
+
+        rows.append([""])  # end activity
+
+    df = pd.DataFrame(rows)
     with pd.ExcelWriter(out_xlsx, engine="openpyxl") as writer:
-        activities_df.to_excel(writer, sheet_name="activities", index=False)
-        exchanges_df.to_excel(writer, sheet_name="exchanges", index=False)
+        df.to_excel(writer, sheet_name=sheet_name, header=False, index=False)
 
-    #print("Wrote:", out_xlsx)
-    return activities_df, exchanges_df
+    return out_xlsx
